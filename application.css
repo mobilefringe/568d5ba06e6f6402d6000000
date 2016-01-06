@@ -15,8 +15,11 @@ body{
     text-align:center;
 }
 
-
-/* Small devices (tablets, 768px and up) */
+/* Mobile devices (768px)*/
+@media (max-width: 768px){
+    
+}
+/* Small devices (tablets, 769px and up) */
 @media (min-width: 769px) {
   body{
       padding:10px;
