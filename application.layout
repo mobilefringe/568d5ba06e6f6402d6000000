@@ -33,11 +33,11 @@
                 </a>
                 
                 <ul class="custom_nav" id="menu">
-                    <li><a href="#" class="scroll">How it works</a></li>
                     <li><a href="#" class="scroll">Features</a></li>
+                    <li><a href="#" class="scroll">iBeacons</a></li>
+                    <li><a href="#" class="scroll">Digital Directory Board</a></li>
+                    <li><a href="#" class="scroll">FAQ</a></li>
                     <li><a href="#" class="scroll">Contact</a></li>
-                    <li><a href="#" class="scroll">Login</a></li>
-                    <li><a href="#" class="scroll">Sign Up!</a></li>
                 </ul>
             </div>
         </section>
