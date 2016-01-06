@@ -35,6 +35,14 @@ body{
         margin-top: 10px;
     }
     
+    #header{
+        padding: 15.5px 0;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        top:0;
+    }
+    
     .custom_nav{
         float:right;
         list-style:none;
