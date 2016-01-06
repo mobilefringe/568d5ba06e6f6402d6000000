@@ -52,11 +52,17 @@ body{
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .main_container{
+        width:960px;
+    }
     
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    .main_container{
+        width:1140px;
+    }
     
     
 }
