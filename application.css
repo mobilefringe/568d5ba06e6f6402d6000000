@@ -20,6 +20,11 @@ body{
 }
 /* Small devices (tablets, 769px and up) */
 @media (min-width: 769px) {
+    .main_container{
+        width:750px;
+        margin:0 auto;
+        padding: 0 20px;
+    }
     .custom_nav{
         float:right;
         list-style:none;
