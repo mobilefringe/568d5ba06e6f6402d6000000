@@ -20,17 +20,17 @@ body{
 }
 /* Small devices (tablets, 769px and up) */
 @media (min-width: 769px) {
-  body{
-      padding:10px;
-  }
+    body{
+        padding:10px;
+    }
     
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
- body{
-      padding:30px;
-  }
+    body{
+        padding:30px;
+    }
     
     
 }
