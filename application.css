@@ -29,6 +29,12 @@ body{
         margin:0 auto;
         padding: 0 20px;
     }
+    
+    .main_logo {
+        width: 185px;
+        margin-top: 10px;
+    }
+    
     .custom_nav{
         float:right;
         list-style:none;
