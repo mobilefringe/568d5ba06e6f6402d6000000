@@ -20,26 +20,38 @@ body{
 }
 /* Small devices (tablets, 769px and up) */
 @media (min-width: 769px) {
-    body{
-        padding:10px;
+    .custom_nav{
+        float:right;
+        list-style:none;
+        margin: 0;
+        padding: 0;
+        li{
+            float:left;
+            padding: 17px;
+            a{
+                color: #fff;
+                &:hover, &:focus{
+                    text-decoration:none;
+                    color: #FFBE1D;
+                }
+            }
+            .sign_up{
+                border: 1px solid;
+                padding: 7px 22px;
+                border-radius: 4px;
+            }
+        }
     }
     
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    body{
-        padding:30px;
-    }
-    
     
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-   body{
-      padding:50px;
-  }
     
     
 }
