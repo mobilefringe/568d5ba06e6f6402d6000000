@@ -65,6 +65,10 @@ body{
     .main_container{
         width:960px;
     }
+    .main_logo{
+        width:257px;
+        margin-top: 0px;
+    }
     
 }
 
