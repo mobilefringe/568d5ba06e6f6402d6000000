@@ -13,9 +13,11 @@
                 </div>
             </div>
             <div class="scroll_hero">
-                <i class="fa fa-chevron-down"></i>
-                <br />
-                <span>SCROLL DOWN</span>
+                <a href="/#how_it_works" class="scroll">
+                    <i class="fa fa-chevron-down"></i>
+                    <br />
+                    <span>SCROLL DOWN</span>
+                </a>
             </div>
         </div>
     </div>
