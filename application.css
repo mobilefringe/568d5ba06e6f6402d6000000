@@ -77,7 +77,10 @@ body{
     
     .features{
         position:absolute;
-        
+        img{
+            max-width:282px;
+            
+        }
     }
     
 }
