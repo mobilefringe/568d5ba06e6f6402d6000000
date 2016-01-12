@@ -99,6 +99,7 @@ body{
         width: 100%;
         i, span{
             display:block;
+            margin:5px 0;
         }
     }
     
