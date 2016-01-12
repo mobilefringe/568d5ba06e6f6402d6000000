@@ -92,6 +92,13 @@ body{
         }
     }
     
+    .scroll_hero{
+        position: absolute;
+        bottom: 80px;
+        text-align: center;
+        width: 100%;
+    }
+    
 }
 
 /* Medium devices (desktops, 992px and up) */
