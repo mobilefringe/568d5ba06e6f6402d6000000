@@ -98,7 +98,7 @@ body{
         text-align: center;
         width: 100%;
         i, span{
-            display:block;
+            display:inline-block;
             margin:5px 0;
             color:#fff;
             font-size:12px;
