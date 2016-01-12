@@ -112,6 +112,18 @@ body{
         }
     }
     
+    #contact{
+        padding:60px 0;
+    }
+    
+    .heading {
+        color: #FFBE1D;
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    
 }
 
 /* Medium devices (desktops, 992px and up) */
