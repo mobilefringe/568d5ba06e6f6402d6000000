@@ -97,6 +97,9 @@ body{
         bottom: 80px;
         text-align: center;
         width: 100%;
+        i, span{
+            display:block;
+        }
     }
     
 }
