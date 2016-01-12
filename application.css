@@ -79,7 +79,7 @@ body{
         position:absolute;
         img{
             max-width:282px;
-            
+            display:inline-block;
         }
     }
     
