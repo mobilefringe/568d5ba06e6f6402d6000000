@@ -102,6 +102,7 @@ body{
             margin:5px 0;
             color:#fff;
             font-size:12px;
+            cursor:pointer;
         }
         i{
             background: #979797;
