@@ -98,7 +98,7 @@ body{
 @media (min-width: 992px) {
     .features{
         img{
-            max-width: 262px;
+            // max-width: 262px;
         }
     }
     .main_container{
