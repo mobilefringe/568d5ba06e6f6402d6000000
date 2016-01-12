@@ -86,7 +86,7 @@ body{
         transform: translate(-50%, -50%);
         text-align: center;
         img{
-            max-width: 262px;
+            // max-width: 262px;
             display: inline-block;
             margin: 0 26px;
         }
