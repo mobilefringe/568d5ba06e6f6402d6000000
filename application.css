@@ -96,6 +96,11 @@ body{
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .features{
+        img{
+            max-width: 262px;
+        }
+    }
     .main_container{
         width:960px;
     }
