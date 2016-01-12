@@ -103,6 +103,9 @@ body{
             color:#fff;
             font-size:12px;
         }
+        i{
+            background: #D8D8D8;
+        }
     }
     
 }
