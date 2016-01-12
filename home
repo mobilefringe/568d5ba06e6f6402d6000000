@@ -1,6 +1,6 @@
 <div id="wrapper">
     <div id="hero">
-        <div class="main_container">
+        <div class="main_container hero_container">
             <div class="features">
                 <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452631524000/feat1.png" class="" alt="responsive website">
                 <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452631532000/feat2.png" class="" alt="apps for all devices">
