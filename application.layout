@@ -41,7 +41,7 @@
                 </ul>
             </div>
             <div id="features_menu">
-                <div class="main_container">
+                <div class="main_container" id="feature_insider">
                 yo
                 </div>
             </div>
