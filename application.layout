@@ -40,6 +40,9 @@
                     <li><a href="#" class="scroll">Contact</a></li>
                 </ul>
             </div>
+            <div id="features_menu">
+                
+            </div>
         </section>
         {{yield}}
         
