@@ -11,6 +11,7 @@ function init(){
         }
     });
     $('#open_features').click(function(e){
-        e.preventDefault()
+        e.preventDefault();
+        
     });
 }
