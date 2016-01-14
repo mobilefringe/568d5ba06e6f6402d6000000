@@ -160,24 +160,32 @@
                     </div>
                 </div>
                 <div>
-                    <img src="http://placehold.it/300x300" />
-                    <h3 class="products_heading">Heartland Town Centre</h3>
-                    <h5 class="products_subheading">Responsive Website, APP</h5>
+                    <div class="slick_insider">
+                        <img src="http://placehold.it/300x300" />
+                        <h3 class="products_heading">Heartland Town Centre</h3>
+                        <h5 class="products_subheading">Responsive Website, APP</h5>
+                    </div>
                 </div>
                 <div>
-                    <img src="http://placehold.it/300x300" />
-                    <h3 class="products_heading">NorthPark Centre</h3>
-                    <h5 class="products_subheading">Responsive Website, APP</h5>
+                    <div class="slick_insider">
+                        <img src="http://placehold.it/300x300" />
+                        <h3 class="products_heading">NorthPark Centre</h3>
+                        <h5 class="products_subheading">Responsive Website, APP</h5>
+                    </div>
                 </div>
                 <div>
-                    <img src="http://placehold.it/300x300" />
-                    <h3 class="products_heading">NorthPark Centre</h3>
-                    <h5 class="products_subheading">Responsive Website, APP</h5>
+                    <div class="slick_insider">
+                        <img src="http://placehold.it/300x300" />
+                        <h3 class="products_heading">NorthPark Centre</h3>
+                        <h5 class="products_subheading">Responsive Website, APP</h5>
+                    </div>
                 </div>
                 <div>
-                    <img src="http://placehold.it/300x300" />
-                    <h3 class="products_heading">NorthPark Centre</h3>
-                    <h5 class="products_subheading">Responsive Website, APP</h5>
+                    <div class="slick_insider">
+                        <img src="http://placehold.it/300x300" />
+                        <h3 class="products_heading">NorthPark Centre</h3>
+                        <h5 class="products_subheading">Responsive Website, APP</h5>
+                    </div>
                 </div>
             </div>
         </div>
