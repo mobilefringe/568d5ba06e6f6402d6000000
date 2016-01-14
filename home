@@ -110,7 +110,7 @@
             </div>
         </div>
     </div>
-    <div class="more_features">
+    <div id="more_features">
         
     </div>
 </div>
