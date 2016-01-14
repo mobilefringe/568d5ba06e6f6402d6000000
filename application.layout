@@ -42,7 +42,10 @@
             </div>
             <div id="features_menu">
                 <div class="main_container" id="feature_insider">
-                yo
+                    <div class="row">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6"></div>
+                    </div>
                 </div>
             </div>
         </section>
