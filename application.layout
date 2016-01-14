@@ -44,7 +44,7 @@
                 <div class="main_container" id="feature_insider">
                     <div class="row">
                         <div class="col-md-6">
-                            image
+                            <img src="http://placehold.it/350x150" />
                         </div>
                         <div class="col-md-3">
                             <ul>
