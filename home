@@ -159,9 +159,13 @@
                 </div>
                 <div>
                     <img src="http://placehold.it/300x300" />
+                    <h3 class="products_heading"></h3>
+                    <h5 class="products_subheading"></h5>
                 </div>
                 <div>
                     <img src="http://placehold.it/300x300" />
+                    <h3 class="products_heading"></h3>
+                    <h5 class="products_subheading"></h5>
                 </div>
             </div>
         </div>
