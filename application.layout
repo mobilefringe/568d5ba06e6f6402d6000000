@@ -59,11 +59,13 @@
                         </div>
                         <div class="col-md-3">
                             <ul>
-                                <li><a href="#">iBeacons Page</a></li>
-                                <li><a href="#">Retailer Login</a></li>
-                                <li><a href="#">Analytics</a></li>
-                                <li><a href="#">Multi Centres</a></li>
-                                <li><a href="#">Loyalty Program</a></li>
+                                <li><a href="#">Live Chat</a></li>
+                                <li><a href="#">Routing Way Point Finding</a></li>
+                                <li><a href="#">Push Notifications</a></li>
+                                <li><a href="#">Social Media Integration</a></li>
+                                <li><a href="#">Email Newsletter</a></li>
+                                <li><a href="#">Cmpaign and Contest</a></li>
+                                <li><a href="#">Digital Directory Board</a></li>
                             </ul>
                         </div>
                     </div>
