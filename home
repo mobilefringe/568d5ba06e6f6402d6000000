@@ -162,7 +162,11 @@
 <script>
     $(document).ready(function(){
         init();
-        
+        $('.products_list').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
     });
     
 </script>
