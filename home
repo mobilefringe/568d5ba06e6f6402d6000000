@@ -85,6 +85,35 @@
                 </div>
             </div>
             
+            <div class="row margin_100">
+                <div class="col-md-6">
+                    <h3 class="subheading">Contests, Gift Cards, Loyalty Programs</h3>
+                    <p class="desc2">
+                        Create custom contests, loyalty programs and gift card programs in a snap with our online tools. Collect customer information in one place with amazing levels of demographic detail.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452791120000/envelope.png" class="mm_img" alt="envelope">
+                </div>
+            </div>
+            
+            <div class="row margin_100">
+                <div class="col-md-6 text-center">
+                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452789944000/data.png" class="mm_img" alt="data">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="subheading">Amazing Analytics</h3>
+                    <p class="desc2">
+                        Experience an unprecedented level of analytics about who your shoppers are and what they like. Helping you understand the most successful ways to engage your users.
+                    </p>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
         </div>
     </div>
 </div>
