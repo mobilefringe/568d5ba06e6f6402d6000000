@@ -150,7 +150,7 @@
     </div>
     <div id="products">
         <div class="main_container">
-            <h3>OUR LATEST PRODUCTS</h3>
+            <h3 class="text-center">OUR LATEST PRODUCTS</h3>
         </div>
     </div>
 </div>
