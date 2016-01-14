@@ -153,13 +153,13 @@
             <h3 class="text-center">OUR LATEST PRODUCTS</h3>
             <div class="products_list">
                 <div>
-                    <img src="http://placehold.it/300x200" />
+                    <img src="http://placehold.it/300x300" />
                 </div>
                 <div>
-                    <img src="http://placehold.it/300x200" />
+                    <img src="http://placehold.it/300x300" />
                 </div>
                 <div>
-                    <img src="http://placehold.it/300x200" />
+                    <img src="http://placehold.it/300x300" />
                 </div>
             </div>
         </div>
