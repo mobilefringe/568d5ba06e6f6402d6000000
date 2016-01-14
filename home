@@ -150,7 +150,7 @@
     </div>
     <div id="products">
         <div class="main_container">
-            <h3 class="text-center">OUR LATEST PRODUCTS</h3>
+            <h3 class="main_heading text-center">OUR LATEST PRODUCTS</h3>
             <div class="products_list">
                 <div>
                     <img src="http://placehold.it/300x300" />
