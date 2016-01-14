@@ -46,7 +46,16 @@
                         <div class="col-md-6">
                             image
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-3">
+                            <ul>
+                                <li><a href="#">iBeacons Page</a></li>
+                                <li><a href="#">Retailer Login</a></li>
+                                <li><a href="#">Analytics</a></li>
+                                <li><a href="#">Multi Centres</a></li>
+                                <li><a href="#">Loyalty Program</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
                             <ul>
                                 <li><a href="#">iBeacons Page</a></li>
                                 <li><a href="#">Retailer Login</a></li>
