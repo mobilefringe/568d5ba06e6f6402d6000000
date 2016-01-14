@@ -10,4 +10,7 @@ function init(){
             $('html,body').animate( { scrollTop:$(this.hash).offset().top } , 500);
         }
     });
+    $('#open_features').click(function(e){
+        e.preventDefault()
+    });
 }
