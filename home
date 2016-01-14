@@ -116,7 +116,17 @@
             <p class="desc">We have so much great features for your website!</p>
             <div class="row">
                 <div class="col-md-8 middle_align">
-                    
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="features_list">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
