@@ -119,11 +119,29 @@
                     <div class="row">
                         <div class="col-md-4">
                             <ul class="features_list">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Update Once</li>
+                                <li>Retailer Login</li>
+                                <li>Analytics</li>
+                                <li>Multi-Centre</li>
+                                <li>Loyalty & Gift Card Programs</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="features_list">
+                                <li>Live Chat</li>
+                                <li>Routing & Waypoint Finding</li>
+                                <li>Advanced Push Notifications</li>
+                                <li>Social Media Integration</li>
+                                <li>Email Newsletter & Marketing</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="features_list">
+                                <li>Update Once</li>
+                                <li>Retailer Login</li>
+                                <li>Analytics</li>
+                                <li>Multi-Centre</li>
+                                <li>Loyalty & Gift Card Programs</li>
                             </ul>
                         </div>
                     </div>
