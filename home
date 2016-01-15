@@ -239,6 +239,7 @@
             else{
                 $("#agree_terms").focus();
                 alert("Please agree to receive newsletter before continuing.")
+                $('.submit_btn').prop('disabled', false);
             }
         });
     });
