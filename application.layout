@@ -87,10 +87,18 @@
                     </div>
                     <div class="clearfix"></div>
                     <div class="row">
-                        <div class="col-md-6"></div>
-                        <div class="col-md-2"></div>
-                        <div class="col-md-2"></div>
-                        <div class="col-md-2"></div>
+                        <div class="col-md-6">
+                            yo
+                        </div>
+                        <div class="col-md-2">
+                            yo
+                        </div>
+                        <div class="col-md-2">
+                            yo
+                        </div>
+                        <div class="col-md-2">
+                            yo
+                        </div>
                     </div>
                 </div>
             </div>
