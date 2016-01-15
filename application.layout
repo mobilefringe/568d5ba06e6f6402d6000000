@@ -90,7 +90,15 @@
                 <div class="main_container">
                     <div class="row">
                         <div class="col-md-6">
-                            yo
+                            <ul>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
                         </div>
                         <div class="col-md-3">
                             yo
