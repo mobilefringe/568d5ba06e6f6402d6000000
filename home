@@ -219,6 +219,7 @@
                         <label for="agree_terms" class="confirm_label checkbox-custom-label">
                             I agree to receive email messaging from Mall Maverick
                         </label>
+                        <span id="success_subscribe">Thank you for subscribing our newsletter.</span>
                     </form>
                 </div>
             </div>
