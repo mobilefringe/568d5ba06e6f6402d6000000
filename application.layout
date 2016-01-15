@@ -80,20 +80,10 @@
             <div id="site_map">
                 <div class="footer_menu">
                     <div class="main_container">
-                        <div id="menu_features" class="footer_menu_options">
-                            <a href="#">Features</a>
-                        </div>
-                        <div class="footer_menu_options">
-                            <a href="#">About Us</a>
-                        </div>
-                        
-                        <div class="footer_menu_options">
-                            <a href="#">FAQ</a>
-                        </div>
-                        
-                        <div class="footer_menu_options">
-                            <a href="#">Contact</a>
-                        </div>
+                        <a id="menu_features" class="footer_menu_options" href="#">Features</a>
+                        <a class="footer_menu_options" href="#">About Us</a>
+                        <a class="footer_menu_options" href="#">FAQ</a>
+                        <a class="footer_menu_options" href="#">Contact</a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
