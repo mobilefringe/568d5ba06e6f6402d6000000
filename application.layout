@@ -77,6 +77,9 @@
         </section>
         {{yield}}
         <section id="footer">
+            <div id="site_map">
+                
+            </div>
             <div class="main_container">
                 <p class="pull-left">
                     @2016 Mall Maverick. All right reserved.
