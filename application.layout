@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main_container">
+            <div class="main_container footer_padding">
                 <p class="pull-left">
                     @2016 Mall Maverick. All right reserved.
                     <a href="#">Privacy Policy</a>
