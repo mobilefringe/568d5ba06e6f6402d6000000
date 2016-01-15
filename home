@@ -199,6 +199,10 @@
                 <div class="col-md-5 middle_align">
                     <input type="text" name="" class="form-control custom_form_control" placeholder="Enter Email" required="">
                     <input type="submit" value="SUBMIT" class="submit_btn hidden_phone">
+                    <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
+                    <label for="agree_terms" class="confirm_label checkbox-custom-label">
+                        I agree to receive email messaging from Retail Maverick
+                    </label>
                 </div>
             </div>
         </div>
