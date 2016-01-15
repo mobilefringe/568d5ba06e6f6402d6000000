@@ -80,6 +80,9 @@
             <div class="main_container">
                 <p class="pull-left">
                     @2016 Mall Maverick. All right reserved.
+                    <a href="#">Privacy Policy</a>
+                    |
+                    <a href="#">Terms & Conditions</a>
                 </p>
                 <p class="pull-right">
                     Powered by <a href="http://mobilefringe.com" target="_blank" class="mm_link">Mobile Fringe</a>
