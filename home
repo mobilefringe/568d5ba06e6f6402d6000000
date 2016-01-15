@@ -192,7 +192,7 @@
     </div>
     
     <div id="subscribe">
-        <div class="main_container">
+        <div class="main_container text-center">
             <h2 class="heading text-center">Subscribe & Get Updates!</h2>
             <p class="desc">Subscribe to our newsletter and get information catered to the retail property management industry and updated Mall Maverick features.</p>
             <input type="text" name="" class="form-control custom_form_control" placeholder="Enter Email" required="">
