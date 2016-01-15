@@ -14,4 +14,13 @@ function init(){
         e.preventDefault();
         $('#feature_insider').slideToggle()
     });
+    $(window).scroll(function(event){
+        var scroller = $(this).scrollTop();
+        if (scroller-senseSpeed > previousScroll){
+        $("div.button").filter(':not(:animated)').slideUp();
+        } else if (scroller+senseSpeed < previousScroll) {
+        $("div.button").filter(':not(:animated)').slideDown();
+        }
+        previousScroll = scroller;
+    });
 }
