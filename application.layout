@@ -97,6 +97,7 @@
                     </div>
                 </div>
             </div>
+            <div class="clearfix"></div>
             <div class="main_container">
                 <p class="pull-left">
                     @2016 Mall Maverick. All right reserved.
