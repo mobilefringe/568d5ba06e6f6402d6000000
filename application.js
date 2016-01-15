@@ -15,7 +15,7 @@ function init(){
         $('#feature_insider').slideToggle()
     });
     $(window).scroll(function(event){
-        var scroller = $(this).scrollTop();
+        
         
         }
     });
