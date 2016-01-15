@@ -18,7 +18,7 @@ function init(){
     var previousScroll = 0;
     $(window).scroll(function(event){
         var scroller = $(this).scrollTop();
-        if(scroller > (previousScroll + 100) || scroller < (previousScroll - 100)){
+        if(scroller > (previousScroll + 20) || scroller < (previousScroll - 20)){
             $('#feature_insider').slideUp()
         }
         previousScroll = scroller;
