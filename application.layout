@@ -90,7 +90,7 @@
                 <div class="main_container">
                     <div class="row">
                         <div class="col-md-6">
-                            <ul>
+                            <ul class="bottom_menu_footer">
                                 <li><a href="#"></a></li>
                                 <li><a href="#"></a></li>
                                 <li><a href="#"></a></li>
