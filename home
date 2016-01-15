@@ -214,10 +214,10 @@
 <script>
     $(document).ready(function(){
         init();
-        // $('.products_list').slick({
-        //     infinite: true,
-        //     slidesToShow: 3,
-        // });
+        $('.products_list').slick({
+            infinite: true,
+            slidesToShow: 3,
+        });
     });
     
 </script>
