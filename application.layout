@@ -78,7 +78,9 @@
         {{yield}}
         <section id="footer">
             <div id="site_map">
-                
+                <div class="footer_menu">
+                    
+                </div>
             </div>
             <div class="main_container">
                 <p class="pull-left">
