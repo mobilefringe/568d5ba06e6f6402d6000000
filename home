@@ -197,12 +197,29 @@
             <p class="desc">Subscribe to our newsletter and get information catered to the retail property management industry and updated Mall Maverick features.</p>
             <div class="row">
                 <div class="col-md-5 text-left middle_align">
-                    <input type="text" name="" class="form-control custom_form_control" placeholder="Enter Email" required="">
-                    <input type="submit" value="SUBMIT" class="submit_btn hidden_phone">
-                    <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
-                    <label for="agree_terms" class="confirm_label checkbox-custom-label">
-                        I agree to receive email messaging from Mall Maverick
-                    </label>
+                    <form action="http://mobilefringe.createsend.com/t/d/s/yuxz/" method="post" id="subForm">
+                        <h3><span class="slash"></span> Subscribe and get updates</h3>
+        				<p>
+        				 Subscribe to our newsletter and get information catered to the retail property management industry and updated Mall Maverick features.   
+    					</p>
+                        <label for="subscribe_email" style="display:none"> subscribe email </label>
+                        <input id="subscribe_email" name="cm-yuxz-yuxz" type="email" required="" placeholder="Your Email">     
+                        <br>    					
+                        <span>
+                            <input type="checkbox" class="info_check" id="agree_terms"> I agree to receive newsletters from Mall Maverick
+                        </span>
+            			<br>    					
+                        <button style="margin-top:10px" class="btn">Subscribe</button>                          
+                        <br>
+    				    <span id="success_subscribe">Thank you for subscribing our newsletter.</span>
+                    
+                        <input type="text" name="" class="form-control custom_form_control" placeholder="Enter Email" required="">
+                        <input type="submit" value="SUBMIT" class="submit_btn hidden_phone">
+                        <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
+                        <label for="agree_terms" class="confirm_label checkbox-custom-label">
+                            I agree to receive email messaging from Mall Maverick
+                        </label>
+                    </form>
                 </div>
             </div>
         </div>
