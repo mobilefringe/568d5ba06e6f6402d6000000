@@ -80,7 +80,7 @@
             <div id="site_map">
                 <div class="footer_menu">
                     <div class="main_container">
-                        <div id="menu_features footer_menu_options">
+                        <div id="menu_features" class="footer_menu_options">
                             <a href="#">Features</a>
                         </div>
                         <div class="footer_menu_options">
