@@ -86,19 +86,19 @@
                         <a class="footer_menu_options" href="#">Contact</a>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            yo
-                        </div>
-                        <div class="col-md-2">
-                            yo
-                        </div>
-                        <div class="col-md-2">
-                            yo
-                        </div>
-                        <div class="col-md-2">
-                            yo
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        yo
+                    </div>
+                    <div class="col-md-2">
+                        yo
+                    </div>
+                    <div class="col-md-2">
+                        yo
+                    </div>
+                    <div class="col-md-2">
+                        yo
                     </div>
                 </div>
             </div>
