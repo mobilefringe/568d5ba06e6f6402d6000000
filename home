@@ -190,6 +190,10 @@
             </div>
         </div>
     </div>
+    
+    <div id="subscribe">
+        
+    </div>
 </div>
 <script>
     $(document).ready(function(){
