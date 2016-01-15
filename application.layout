@@ -80,7 +80,9 @@
             <div id="site_map">
                 <div class="footer_menu">
                     <div class="main_container">
-                        
+                        <div id="menu_features">
+                            
+                        </div>
                     </div>
                 </div>
             </div>
