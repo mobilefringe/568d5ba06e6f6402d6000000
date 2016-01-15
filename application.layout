@@ -118,8 +118,8 @@
                         <div class="col-md-3">
                             <div class="stay_connected">
                                 <p>Stay Connected:</p>
-                                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452876077000/facebook.png" class="" alt="">
-                                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452876062000/twitter.png" class="" alt="">
+                                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452876077000/facebook.png" class="" alt="facebook">
+                                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452876062000/twitter.png" class="" alt="twiiter">
                             </div>
                         </div>
                         <div class="col-md-3">
