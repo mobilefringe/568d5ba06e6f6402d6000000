@@ -5,8 +5,7 @@ function init(){
     $('.menu_toggler').click(function(){
         if ($('#header').hasClass('darken')){
             $('#header').hasClass('darken')
-        }else
-        {
+        }else{
             $('#header').hasClass('darken')   
         }
         $('.custom_mobile_menu').slideToggle();
