@@ -223,15 +223,7 @@
         });
         $('#view_more').click(function(){
             $('.mobile_features').animate({ "height": "520px" }, "slow" );
-        }
-        
-            function(){
-                
-            },
-            function(){
-                $('.mobile_features').animate({ "height": "180px" }, "slow" );
-            }
-        );
+        });
         $('#subForm').submit(function(e){
             e.preventDefault();
             $('.submit_btn').prop('disabled', true);
