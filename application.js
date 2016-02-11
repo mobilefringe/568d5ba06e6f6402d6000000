@@ -17,7 +17,7 @@ function init(){
     
     var previousScroll = 0;
     $(window).scroll(function(event){
-        if(window.screen.width > 768)){
+        if(window.screen.width > 768){
             var scroller = $(this).scrollTop();
             if(scroller > (previousScroll + 10) || scroller < (previousScroll - 20)){
                 $('#feature_insider').slideUp()
