@@ -4,9 +4,9 @@ function init(){
     
     $('.menu_toggler').click(function(){
         if ($('#header').hasClass('darken')){
-            $('#header').removeClass('darken')
+            $('#header').removeClass('lighten')
         }else{
-            $('#header').addClass('darken')   
+            $('#header').addClass('darken');
         }
         $('.custom_mobile_menu').slideToggle();
         
