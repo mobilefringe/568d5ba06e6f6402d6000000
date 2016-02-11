@@ -142,6 +142,10 @@
                         |
                         <a href="#">Terms & Conditions</a>
                     </p>
+                    <br />
+                    <p>
+                        Powered by <a href="http://mobilefringe.com" target="_blank" class="mm_link">Mobile Fringe</a>
+                    </p>
                 </div>
                 <p class="pull-left hidden_phone">
                     @2016 Mall Maverick. All right reserved.
