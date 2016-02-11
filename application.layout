@@ -93,7 +93,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 hidden_phone">
                                     <ul class="bottom_menu_footer">
                                         <li><a href="#">iBeacons Page</a></li>
                                         <li><a href="#">Retailer Login</a></li>
