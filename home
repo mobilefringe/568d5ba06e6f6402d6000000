@@ -147,6 +147,7 @@
                 </div>
             </div>
             <div class="text-center">
+                <div class="overlay_features"></div>
                 <a href="#" class="contact_us">View More</a>
             </div>
         </div>
