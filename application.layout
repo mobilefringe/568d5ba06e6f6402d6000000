@@ -35,7 +35,15 @@
                     <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452108361000/mm_logo.png" class="main_logo" alt="logo">
                 </a>
                 <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1455216554000/ic_menu_black_24px.png" class="menu_toggler show_phone" alt="toggler">
-                <div class="custom_mobile_menu">
+                <ul class="custom_nav" id="menu">
+                    <li><a href="#" class="" id="open_features">Features <i class="fa fa-chevron-down"></i></a></li>
+                    <li><a href="#" class="scroll">iBeacons</a></li>
+                    <li><a href="#" class="scroll">Digital Directory Board</a></li>
+                    <li><a href="#" class="scroll">FAQ</a></li>
+                    <li><a href="#" class="scroll">Contact</a></li>
+                </ul>
+            </div>
+            <div class="custom_mobile_menu">
                     <div class="col-xs-4">
                         <a href="#">Features <i class="fa caret-down"></i></a>
                     </div>
@@ -46,14 +54,6 @@
                         <a href="#">Contact</a>
                     </div>
                 </div>
-                <ul class="custom_nav" id="menu">
-                    <li><a href="#" class="" id="open_features">Features <i class="fa fa-chevron-down"></i></a></li>
-                    <li><a href="#" class="scroll">iBeacons</a></li>
-                    <li><a href="#" class="scroll">Digital Directory Board</a></li>
-                    <li><a href="#" class="scroll">FAQ</a></li>
-                    <li><a href="#" class="scroll">Contact</a></li>
-                </ul>
-            </div>
             <div id="features_menu">
                 <div class="main_container" id="feature_insider">
                     <div class="row">
