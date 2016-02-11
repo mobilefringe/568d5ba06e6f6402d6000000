@@ -227,10 +227,10 @@
             $(this).attr("id", "view_less")
         });
         
-        $('#view_more').click(function(e){
+        $('#view_less').click(function(e){
             e.preventDefault();
             $('.mobile_features').animate({ "height": "520px" }, "slow" );
-            $(this).attr("id", "view_less")
+            $(this).attr("id", "view_more")
         });
         
         
