@@ -1,6 +1,11 @@
 /*Created 2015-02-28 by CodeCloud Team*/
 
 function init(){
+    
+    $('.menu_toggler').click(function(){
+        
+    })
+    
     $(".scroll").click(function(e) {
         e.preventDefault();
         if(window.screen.width > 768){
