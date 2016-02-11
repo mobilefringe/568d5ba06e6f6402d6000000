@@ -17,10 +17,12 @@ function init(){
     
     var previousScroll = 0;
     $(window).scroll(function(event){
-        var scroller = $(this).scrollTop();
-        if(scroller > (previousScroll + 10) || scroller < (previousScroll - 20)){
-            $('#feature_insider').slideUp()
+        if(window.screen.width > 768)){
+            var scroller = $(this).scrollTop();
+            if(scroller > (previousScroll + 10) || scroller < (previousScroll - 20)){
+                $('#feature_insider').slideUp()
+            }
+            previousScroll = scroller;
         }
-        previousScroll = scroller;
     });
 }
