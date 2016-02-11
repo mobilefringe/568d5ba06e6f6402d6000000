@@ -135,6 +135,9 @@
                 </div>
             </div>
             <div class="main_container bottom_menu_footer">
+                <div class="show_phone>
+                    
+                </div>
                 <p class="pull-left hidden_phone">
                     @2016 Mall Maverick. All right reserved.
                     <a href="#">Privacy Policy</a>
