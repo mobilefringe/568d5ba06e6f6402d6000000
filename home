@@ -226,6 +226,11 @@
             $('.mobile_features').animate({ "height": "520px" }, "slow" );
         });
         
+        $('#view_more').click(function(e){
+            e.preventDefault();
+            $('.mobile_features').animate({ "height": "520px" }, "slow" );
+        });
+        
         
         $('#subForm').submit(function(e){
             e.preventDefault();
