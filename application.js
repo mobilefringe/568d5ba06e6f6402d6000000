@@ -3,7 +3,7 @@
 function init(){
     
     $('.menu_toggler').click(function(){
-        
+        $('.custom_mobile_menu').slideToggle();
     })
     
     $(".scroll").click(function(e) {
