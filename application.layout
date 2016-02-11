@@ -137,6 +137,11 @@
             <div class="main_container bottom_menu_footer">
                 <div class="show_phone">
                     <p>@2016 Mall Maverick. All right reserved.</p>
+                    <p>
+                        <a href="#">Privacy Policy</a>
+                        |
+                        <a href="#">Terms & Conditions</a>
+                    </p>
                 </div>
                 <p class="pull-left hidden_phone">
                     @2016 Mall Maverick. All right reserved.
