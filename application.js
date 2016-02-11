@@ -6,7 +6,7 @@ function init(){
         if ($('#header').hasClass('darken')){
             $('#header').animate(backgroundColor: "#000");
         }else{
-            $('#header').animate(backgroundColor: "#000");
+            $('#header').animate(backgroundColor: "rgba(0,0,0,0.9)");
         }
         $('.custom_mobile_menu').slideToggle();
         
