@@ -4,9 +4,9 @@ function init(){
     
     $('.menu_toggler').click(function(){
         if ($('#header').hasClass('darken')){
-            $('#header').animate({backgroundColor: "#000"});
+            $('#header').removeClass('darken')
         }else{
-            $('#header').animate({backgroundColor: "rgba(0,0,0,0.9)"});
+            $('#header').addClass('darken');
         }
         $('.custom_mobile_menu').slideToggle();
         
