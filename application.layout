@@ -135,13 +135,13 @@
                 </div>
             </div>
             <div class="main_container bottom_menu_footer">
-                <p class="pull-left">
+                <p class="pull-left hidden_phone">
                     @2016 Mall Maverick. All right reserved.
                     <a href="#">Privacy Policy</a>
                     |
                     <a href="#">Terms & Conditions</a>
                 </p>
-                <p class="pull-right">
+                <p class="pull-right hidden_phone">
                     Powered by <a href="http://mobilefringe.com" target="_blank" class="mm_link">Mobile Fringe</a>
                 </p>
             </div>
