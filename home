@@ -224,7 +224,7 @@
         $('#view_more').click(function(e){
             e.preventDefault();
             $('.mobile_features').animate({ "height": "520px" }, "slow" );
-            $(this).attr("id", "view_less")
+            $(this).hide()
         });
         
         $('#view_less').click(function(e){
