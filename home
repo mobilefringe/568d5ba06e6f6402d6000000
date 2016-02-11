@@ -222,14 +222,7 @@
             infinite: true,
             slidesToShow: 3,
         });
-        $('#view_more').toggle(
-            function(){
-                
-            },
-            function(){
-                
-            }
-        );
+        
         $('#subForm').submit(function(e){
             e.preventDefault();
             $('.submit_btn').prop('disabled', true);
