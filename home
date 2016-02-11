@@ -225,12 +225,14 @@
             e.preventDefault();
             $('.mobile_features').animate({ "height": "520px" }, "slow" );
             $(this).hide()
+            
         });
         
         $('#view_less').click(function(e){
             e.preventDefault();
             $('.mobile_features').animate({ "height": "180px" }, "slow" );
-            $(this).hide()
+            $(this).hide();
+            $('#view_more').show();
         });
         
         
