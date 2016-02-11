@@ -221,7 +221,7 @@
             infinite: true,
             slidesToShow: 3,
         });
-        $('#view_more').toggle(
+        $('#view_more').clickToggle(
             function(){
                 $('.mobile_features').animate({ "height": "520px" }, "slow" );
             },
