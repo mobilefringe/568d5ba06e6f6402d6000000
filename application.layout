@@ -40,10 +40,10 @@
                         Features <i class="fa caret-down"></i>
                     </div>
                     <div class="col-xs-4">
-                        
+                        <a href="#">FAQ</a>
                     </div>
                     <div class="col-xs-4">
-                        
+                        <a href="#">FAQ</a>
                     </div>
                 </div>
                 <ul class="custom_nav" id="menu">
