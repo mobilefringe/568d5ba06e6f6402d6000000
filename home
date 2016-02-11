@@ -146,7 +146,9 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="contact_us">View More</a>
+            <div>
+                <a href="#" class="contact_us">View More</a>
+            </div>
         </div>
     </div>
     <div id="products">
