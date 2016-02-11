@@ -39,10 +39,10 @@
                     <div class="col-xs-4">
                         <a href="#">Features <i class="fa caret-down"></i></a>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-xs-4 text-center">
                         <a href="#">FAQ</a>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-xs-4 text-right">
                         <a href="#">Contact</a>
                     </div>
                 </div>
