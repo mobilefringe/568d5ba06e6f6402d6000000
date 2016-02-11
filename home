@@ -229,7 +229,7 @@
         
         $('#view_less').click(function(e){
             e.preventDefault();
-            $('.mobile_features').animate({ "height": "520px" }, "slow" );
+            $('.mobile_features').animate({ "height": "180px" }, "slow" );
             $(this).attr("id", "view_more")
         });
         
