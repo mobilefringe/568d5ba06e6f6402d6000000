@@ -221,9 +221,12 @@
             infinite: true,
             slidesToShow: 3,
         });
-        $('#view_more').click(
+        $('#view_more').click(function(){
+            $('.mobile_features').animate({ "height": "520px" }, "slow" );
+        }
+        
             function(){
-                $('.mobile_features').animate({ "height": "520px" }, "slow" );
+                
             },
             function(){
                 $('.mobile_features').animate({ "height": "180px" }, "slow" );
