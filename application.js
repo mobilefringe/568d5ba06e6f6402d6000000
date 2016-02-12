@@ -5,7 +5,7 @@ function init(){
     $('.menu_toggler').click(function(){
         if ($('#header').hasClass('darken')){
             $('#header').addClass('lighten');
-            // $('#header').removeClass('darken')
+            $('#header').removeClass('darken')
         }else{
             $('#header').addClass('darken');
         }
