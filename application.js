@@ -12,6 +12,7 @@ function init(){
             $('#header').removeClass('lighten');
             $('#header').addClass('darken');
             $('body').addClass('no_scroll');
+            $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
         }
         $('.custom_mobile_menu').slideToggle();
         
