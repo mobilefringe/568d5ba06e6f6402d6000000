@@ -7,7 +7,7 @@ function init(){
             $('#header').addClass('lighten');
             $('#header').removeClass('darken');
             $('body').removeClass('no_scroll');
-            
+            $(".modal-backdrop").remove();
         }else{
             $('#header').removeClass('lighten');
             $('#header').addClass('darken');
