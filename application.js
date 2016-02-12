@@ -7,7 +7,7 @@ function init(){
             $('#header').addClass('lighten');
             $('#header').removeClass('darken')
         }else{
-            $('#header').addClass('lighten');
+            $('#header').removeClass('lighten');
             $('#header').addClass('darken');
         }
         $('.custom_mobile_menu').slideToggle();
