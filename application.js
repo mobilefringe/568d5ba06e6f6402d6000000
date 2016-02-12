@@ -5,10 +5,12 @@ function init(){
     $('.menu_toggler').click(function(){
         if ($('#header').hasClass('darken')){
             $('#header').addClass('lighten');
-            $('#header').removeClass('darken')
+            $('#header').removeClass('darken');
+            $(body).addClass('no_scroll');
         }else{
             $('#header').removeClass('lighten');
             $('#header').addClass('darken');
+            $(body).addClass('no_scroll');
         }
         $('.custom_mobile_menu').slideToggle();
         
