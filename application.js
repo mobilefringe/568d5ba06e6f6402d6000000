@@ -12,7 +12,7 @@ function init(){
             $('#header').removeClass('lighten');
             $('#header').addClass('darken');
             $('body').addClass('no_scroll');
-            setTimeout(function() {$('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body); }, 500);
+            setTimeout(function() {$('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body); }, 300);
             
         }
         $('.custom_mobile_menu').slideToggle();
