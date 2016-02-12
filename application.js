@@ -6,7 +6,7 @@ function init(){
         if ($('#header').hasClass('darken')){
             $('#header').addClass('lighten');
             $('#header').removeClass('darken');
-            $(body).addClass('no_scroll');
+            $('body').addClass('no_scroll');
         }else{
             $('#header').removeClass('lighten');
             $('#header').addClass('darken');
