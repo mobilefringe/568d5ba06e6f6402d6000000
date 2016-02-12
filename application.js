@@ -6,11 +6,11 @@ function init(){
         if ($('#header').hasClass('darken')){
             $('#header').addClass('lighten');
             $('#header').removeClass('darken');
-            $('body').addClass('no_scroll');
+            $('body').removeClass('no_scroll');
         }else{
             $('#header').removeClass('lighten');
             $('#header').addClass('darken');
-            $('body').removeClass('no_scroll');
+            $('body').addClass('no_scroll');
         }
         $('.custom_mobile_menu').slideToggle();
         
