@@ -10,7 +10,7 @@ function init(){
         }else{
             $('#header').removeClass('lighten');
             $('#header').addClass('darken');
-            $(body).addClass('no_scroll');
+            $(body).removeClass('no_scroll');
         }
         $('.custom_mobile_menu').slideToggle();
         
