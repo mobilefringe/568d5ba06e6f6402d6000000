@@ -7,7 +7,7 @@ function init(){
             $('#header').addClass('lighten');
             $('#header').removeClass('darken');
             $('body').removeClass('no_scroll');
-            $('<div class="modal-backdrop"></div>').appendTo(document.body);
+            
         }else{
             $('#header').removeClass('lighten');
             $('#header').addClass('darken');
