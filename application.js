@@ -4,7 +4,8 @@ function init(){
     
     $('.menu_toggler').click(function(){
         if ($('#header').hasClass('darken')){
-            $('#header').removeClass('darken')
+            $('#header').addClass('darken');
+            // $('#header').removeClass('darken')
         }else{
             $('#header').addClass('darken');
         }
