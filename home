@@ -210,7 +210,7 @@
                     <form action="http://mobilefringe.createsend.com/t/d/s/yuxz/" method="post" id="subForm">
                         <div>
                             <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
-                            <input type="submit" value="SUBMIT" class="submit_btn"
+                            <input type="submit" value="SUBMIT" class="submit_btn">
                         </div>
                         <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
                         <label for="agree_terms" class="confirm_label checkbox-custom-label">
