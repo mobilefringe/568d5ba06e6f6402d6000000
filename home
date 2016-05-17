@@ -208,9 +208,11 @@
             <div class="row">
                 <div class="col-md-5 text-left middle_align">
                     <form action="http://mobilefringe.createsend.com/t/d/s/yuxz/" method="post" id="subForm">
-                        <div>
-                            <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="" style="display: inline-block">
-                            <input type="submit" value="SUBMIT" class="submit_btn">
+                        <div class="input-group">
+                            <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
+                            <span class="agree_terms_label">
+                                <input type="submit" value="SUBMIT" class="submit_btn">
+                            </span>
                         </div>
                         <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
                         <label for="agree_terms" class="confirm_label checkbox-custom-label">
