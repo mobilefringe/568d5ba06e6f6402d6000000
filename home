@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="/cbpscroller.css">
 <div id="wrapper">
     <div id="hero">
         <div class="main_container hero_container">
@@ -223,4 +222,3 @@
     </div>
 </div>
 <script src="/home.js"></script>
-<script src="/cbpscroller.js"></script>
