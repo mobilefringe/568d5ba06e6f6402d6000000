@@ -208,9 +208,9 @@
             <div class="row">
                 <div class="col-md-5 text-left middle_align">
                     <form action="http://mobilefringe.createsend.com/t/d/s/yuxz/" method="post" id="subForm">
-                        <div class="input-group">
-                            <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
-                            <span class="agree_terms_label">
+                        <div style="overflow: hidden">
+                            <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="" style="float: left">
+                            <span class="agree_terms_label" style="float: right">
                                 <input type="submit" value="SUBMIT" class="submit_btn">
                             </span>
                         </div>
