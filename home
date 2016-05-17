@@ -47,9 +47,11 @@
                             </p>
                         </div>
                     </article>
-                    <div class="col-md-6 text-center">
-                        <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452789961000/setting.png" class="mm_img" alt="setting">
-                    </div>
+                    <figure class="cbp-so-side cbp-so-side-right">
+                        <div class="col-md-6 text-center">
+                            <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452789961000/setting.png" class="mm_img" alt="setting">
+                        </div>
+                    </figure>
                 </section>
             </div>
             
