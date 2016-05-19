@@ -63,5 +63,7 @@ $(document).ready(function(){
 	    offset: 100
 	});
 	
-	$("div.navbar-fixed-top").autoHidingNavbar('setShowOnBottom', false);
+	$("div.navbar-fixed-top").autoHidingNavbar({
+	    showOnBottom: 'false'
+	}
 });
