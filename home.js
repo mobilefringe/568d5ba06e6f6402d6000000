@@ -53,4 +53,13 @@ $(document).ready(function(){
             $('.submit_btn').prop('disabled', false);
         }
     });
+    
+	jQuery('.dynpost-left').addClass("hiddenAnimate").viewportChecker({
+	    classToAdd: 'visibleAnimate animated bounceInLeft', // Class to add to the elements when they are visible
+	    offset: 100    
+	   });
+	jQuery('.dynpost-right').addClass("hiddenAnimate").viewportChecker({
+	    classToAdd: 'visibleAnimate animated bounceInRight',
+	    offset: 100
+	});
 });
