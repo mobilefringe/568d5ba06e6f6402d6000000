@@ -37,17 +37,17 @@
         <div class="main_container">
             <h2 class="heading2 text-center">WHY MALL MAVERICK?</h2>
             <div class="margin_100 hidden_phone"></div>
-                    <div class="row margin_100">
-                        <div class="col-md-6 dynpost-left">
-                            <h3 class="subheading">Custom Content Management System</h3>
-                            <p class="desc2">
-                                Manage your website, mobile apps, directory boards and more all in one place with our custom built CMS. We take care of everything from hosting, 24/7 support and app store management.
-                            </p>
-                        </div>
-                        <div class="col-md-6 text-center dynpost-right">
-                            <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452789961000/setting.png" class="mm_img" alt="setting">
-                        </div>
-                    </div>
+            <div class="row margin_100">
+                <div class="col-md-6 dynpost-left">
+                    <h3 class="subheading">Custom Content Management System</h3>
+                    <p class="desc2">
+                        Manage your website, mobile apps, directory boards and more all in one place with our custom built CMS. We take care of everything from hosting, 24/7 support and app store management.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center dynpost-right">
+                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452789961000/setting.png" class="mm_img" alt="setting">
+                </div>
+            </div>
 
             <div class="row margin_100">
                 <div class="col-md-6 text-center">
