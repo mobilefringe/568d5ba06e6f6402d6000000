@@ -34,8 +34,8 @@
         <![endif]-->
     </head>
     <body id="top">
+    <div class="dyn-navbar">
         <section id="header">
-            <div class="dyn-navbar">
                 <div class="main_container">
                     <a href="/">
                         <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452108361000/mm_logo.png" class="main_logo" alt="logo">
@@ -108,8 +108,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
+        </div>
         {{yield}}
         <section id="footer">
             <div id="site_map">
