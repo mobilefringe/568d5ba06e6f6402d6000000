@@ -63,7 +63,3 @@ $(document).ready(function(){
 	    offset: 100
 	});
 });
-
-$("div.dyn-navbar").autoHidingNavbar({
-    showOnBottom:false
-});
