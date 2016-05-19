@@ -227,7 +227,8 @@ jQuery(document).ready(function() {
 	    offset: 100    
 	   });
 	jQuery('.dynpost-right').addClass("hiddenAnimate").viewportChecker({
-	    classToAdd: 'visibleAnimate animated bounceInRight'
+	    classToAdd: 'visibleAnimate animated bounceInRight',
+	    offset: 100
 	})
 });            
 </script>
