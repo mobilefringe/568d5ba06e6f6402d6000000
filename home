@@ -237,6 +237,7 @@
     </div>
 </div>
 <script src="/home.js"></script>
+<script src"/modernizr.custom.js"></script>
 <script src="/classie.js"></script>
 <script src="/cbpscroller.js"></script>
 <script>
