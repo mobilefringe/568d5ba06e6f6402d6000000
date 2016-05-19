@@ -62,4 +62,8 @@ $(document).ready(function(){
 	    classToAdd: 'visibleAnimate animated bounceInRight',
 	    offset: 100
 	});
+	
+	$("div.navbar-fixed-top").autoHidingNavbar({
+	    'showOnBottom': false
+	});
 });
