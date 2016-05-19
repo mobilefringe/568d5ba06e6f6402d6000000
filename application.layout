@@ -107,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            <!--</section>-->
         {{yield}}
         <section id="footer">
             <div id="site_map">
