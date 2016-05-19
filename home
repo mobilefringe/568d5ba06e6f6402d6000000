@@ -237,8 +237,3 @@
     </div>
 </div>
 <script src="/home.js"></script>
-<script src="/classie.js"></script>
-<script src="/cbpscroller.js"></script>
-<script>
-    new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
-</script>
