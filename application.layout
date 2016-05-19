@@ -18,7 +18,6 @@
         <link href="../application.css" rel="stylesheet">
         <link href="../modal.css" rel="stylesheet">        
         <link href="../cbpscroller.css" rel="stylesheet">
-        <script src="../cbpscroller.js"></script>
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="../application.js"></script>
