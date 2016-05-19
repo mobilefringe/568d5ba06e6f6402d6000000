@@ -34,81 +34,81 @@
         <![endif]-->
     </head>
     <body id="top">
-    <div class="navbar-fixed-top">
-        <section id="header">
-            <div class="main_container">
-                <a href="/">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452108361000/mm_logo.png" class="main_logo" alt="logo">
-                </a>
-                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1455216554000/ic_menu_black_24px.png" class="menu_toggler show_phone" alt="toggler">
-                <ul class="custom_nav" id="menu">
-                    <li><a href="#" class="" id="open_features">Features <i class="fa fa-chevron-down"></i></a></li>
-                    <li><a href="#" class="scroll">iBeacons</a></li>
-                    <li><a href="#" class="scroll">Digital Directory Board</a></li>
-                    <li><a href="#" class="scroll">FAQ</a></li>
-                    <li><a href="#" class="scroll">Contact</a></li>
-                </ul>
-            </div>
-            <div class="custom_mobile_menu show_phone">
-                    <div class="col-xs-4">
-                        <a class="active" href="#">Features <i class="fa fa-chevron-down"></i></a>
-                    </div>
-                    <div class="col-xs-4 text-center">
-                        <a href="#">FAQ</a>
-                    </div>
-                    <div class="col-xs-4 text-right">
-                        <a href="#">Contact</a>
-                    </div>
-                    <div class="col-xs-12">
-                        <ul class="mobile_submenu">
-                            <li><a href="#">Retailer Login</a></li>
-                            <li><a href="#">Analytics</a></li>
-                            <li><a href="#">Multi Centres</a></li>
-                            <li><a href="#">Live Chat</a></li>
-                            <li><a href="#">Routing Way Point Finding</a></li>
-                            <li><a href="#">Push Notifications</a></li>
-                            <li><a href="#">Social Media Integration</a></li>
-                            <li><a href="#">3rd Party Integration</a></li>
-                            <li><a href="#">Marketing Intern</a></li>
-                            <li><a href="#">Campaign and Contest</a></li>
-                            <li><a href="#">Digital Directory Board</a></li>
-                            <li><a href="#">Loyalty Program</a></li>
-                            <li><a href="#">Email Newsletter</a></li>
-                        </ul>
-                    </div>
+        <div class="navbar-fixed-top">
+            <section id="header">
+                <div class="main_container">
+                    <a href="/">
+                        <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452108361000/mm_logo.png" class="main_logo" alt="logo">
+                    </a>
+                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1455216554000/ic_menu_black_24px.png" class="menu_toggler show_phone" alt="toggler">
+                    <ul class="custom_nav" id="menu">
+                        <li><a href="#" class="" id="open_features">Features <i class="fa fa-chevron-down"></i></a></li>
+                        <li><a href="#" class="scroll">iBeacons</a></li>
+                        <li><a href="#" class="scroll">Digital Directory Board</a></li>
+                        <li><a href="#" class="scroll">FAQ</a></li>
+                        <li><a href="#" class="scroll">Contact</a></li>
+                    </ul>
                 </div>
-            <div id="features_menu">
-                <div class="main_container" id="feature_insider">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="http://placehold.it/350x250" />
+                <div class="custom_mobile_menu show_phone">
+                        <div class="col-xs-4">
+                            <a class="active" href="#">Features <i class="fa fa-chevron-down"></i></a>
                         </div>
-                        <div class="col-md-3">
-                            <ul>
-                                <li><a href="/ibeacons">iBeacons Page</a></li>
+                        <div class="col-xs-4 text-center">
+                            <a href="#">FAQ</a>
+                        </div>
+                        <div class="col-xs-4 text-right">
+                            <a href="#">Contact</a>
+                        </div>
+                        <div class="col-xs-12">
+                            <ul class="mobile_submenu">
                                 <li><a href="#">Retailer Login</a></li>
                                 <li><a href="#">Analytics</a></li>
                                 <li><a href="#">Multi Centres</a></li>
-                                <li><a href="#">Loyalty Program</a></li>
-                                <li><a href="#">3rd Party Integration</a></li>
-                                <li><a href="#">Marketing Intern</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <ul>
                                 <li><a href="#">Live Chat</a></li>
                                 <li><a href="#">Routing Way Point Finding</a></li>
                                 <li><a href="#">Push Notifications</a></li>
                                 <li><a href="#">Social Media Integration</a></li>
-                                <li><a href="#">Email Newsletter</a></li>
-                                <li><a href="#">Cmpaign and Contest</a></li>
+                                <li><a href="#">3rd Party Integration</a></li>
+                                <li><a href="#">Marketing Intern</a></li>
+                                <li><a href="#">Campaign and Contest</a></li>
                                 <li><a href="#">Digital Directory Board</a></li>
+                                <li><a href="#">Loyalty Program</a></li>
+                                <li><a href="#">Email Newsletter</a></li>
                             </ul>
                         </div>
                     </div>
+                <div id="features_menu">
+                    <div class="main_container" id="feature_insider">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="http://placehold.it/350x250" />
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li><a href="/ibeacons">iBeacons Page</a></li>
+                                    <li><a href="#">Retailer Login</a></li>
+                                    <li><a href="#">Analytics</a></li>
+                                    <li><a href="#">Multi Centres</a></li>
+                                    <li><a href="#">Loyalty Program</a></li>
+                                    <li><a href="#">3rd Party Integration</a></li>
+                                    <li><a href="#">Marketing Intern</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li><a href="#">Live Chat</a></li>
+                                    <li><a href="#">Routing Way Point Finding</a></li>
+                                    <li><a href="#">Push Notifications</a></li>
+                                    <li><a href="#">Social Media Integration</a></li>
+                                    <li><a href="#">Email Newsletter</a></li>
+                                    <li><a href="#">Cmpaign and Contest</a></li>
+                                    <li><a href="#">Digital Directory Board</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </div>
         {{yield}}
         <section id="footer">
