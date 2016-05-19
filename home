@@ -219,7 +219,7 @@
     </div>
 </div>
 <script src="/home.js"></script>
-<script src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/application/x-javascript/undefined/viewportchecker.js"></script>
+<script src="//s3.amazonaws.com/kodekloud/sites/568d5ba06e6f6402d6000000/application/x-javascript/undefined/viewportchecker.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
 	jQuery('.dynpost-left').addClass("hiddenAnimate").viewportChecker({
