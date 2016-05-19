@@ -17,6 +17,7 @@
         <link href="../application.css" rel="stylesheet">
         <link href="../modal.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/text/css/undefined/animate.css" />
+        <link rel="stylesheet" type="text/css" href="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/text/css/undefined/demo.css" />
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="../application.js"></script>
