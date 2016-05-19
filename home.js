@@ -64,4 +64,6 @@ $(document).ready(function(){
 	});
 });
 
-$("div.navbar-fixed-top").autoHidingNavbar();
+$("div.navbar-fixed-top").autoHidingNavbar({
+    showOnBottom: false
+});
