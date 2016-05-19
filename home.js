@@ -63,3 +63,5 @@ $(document).ready(function(){
 	    offset: 100
 	});
 });
+
+$("div.navbar-fixed-top").autoHidingNavbar();
