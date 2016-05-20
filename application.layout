@@ -58,6 +58,7 @@
                         </div>
                         <div class="col-xs-12">
                             <ul class="mobile_submenu">
+                                <li><a href="#">Update Once</a></li>
                                 <li><a href="#">Retailer Login</a></li>
                                 <li><a href="#">Analytics</a></li>
                                 <li><a href="#">Multi Centres</a></li>
