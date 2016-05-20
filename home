@@ -231,10 +231,10 @@
                         <!--<input type="submit" value="SUBMIT" class="submit_btn">-->
                         <button type="submit" class="submit_btn button--ujarak">SUBMIT</button>
                         <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
-                        </span>
                         <label for="agree_terms" class="confirm_label checkbox-custom-label">
                             I agree to receive electronic mail messaging from Mall Maverick
                         </label>
+                        </span>
                         <p id="success_subscribe">Thank you for subscribing our newsletter.</p>
                     </form>
                 </div>
