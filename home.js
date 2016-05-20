@@ -66,4 +66,5 @@ $(document).ready(function(){
 	var navbar = document.getElementById("header");
 	var headroom = new Headroom(navbar);
 	headroom.init();
+	
 });
