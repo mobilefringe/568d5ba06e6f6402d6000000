@@ -35,7 +35,6 @@
     </head>
     <body id="top">
             <section id="header">
-            <div>
                 <div class="main_container navbar-fixed-top">
                     <a href="/">
                         <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452108361000/mm_logo.png" class="main_logo" alt="logo">
@@ -107,7 +106,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </section>
         {{yield}}
