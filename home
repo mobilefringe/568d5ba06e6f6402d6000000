@@ -208,7 +208,7 @@
                     </div>
                         <span class="agree_terms_label">
                         <!--<input type="submit" value="SUBMIT" class="submit_btn button button--ujarak">-->
-                        <button class="submit_btn button button--ujarak" type="submit">SUBMIT</button>
+                        <button class="submit_btn button button--ujarak" >SUBMIT</button>
                         </span>
                         <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
                         <label for="agree_terms" class="confirm_label checkbox-custom-label">
