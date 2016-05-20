@@ -147,10 +147,6 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center show_phone">
-                <a href="#" class="contact_us" id="view_more">View More</a>
-                <a href="#" class="contact_us" id="view_less" style="display:none">View Less</a>
-            </div>
         </div>
     </div>
     <div id="products">
