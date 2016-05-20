@@ -14,19 +14,6 @@ $(document).ready(function(){
             }
         ]
     });
-    $('#view_more').click(function(e){
-        e.preventDefault();
-        $('.mobile_features').animate({ "height": "520px" }, "slow" );
-        $(this).hide()
-        $('#view_less').show();
-    });
-    
-    $('#view_less').click(function(e){
-        e.preventDefault();
-        $('.mobile_features').animate({ "height": "180px" }, "slow" );
-        $(this).hide();
-        $('#view_more').show();
-    });
     
     
     $('#subForm').submit(function(e){
