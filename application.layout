@@ -35,7 +35,7 @@
         <![endif]-->
     </head>
     <body id="top">
-            <section id="header" class="headroom--unpinned">
+            <section id="header" class="headroom">
                 <div class="main_container">
                     <a href="/">
                         <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452108361000/mm_logo.png" class="main_logo" alt="logo">
