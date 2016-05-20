@@ -206,7 +206,7 @@
                     <div class="col-md-8">
                         <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
                     </div>
-                        <span class="agree_terms_label"><input type="submit" value="SUBMIT" class="submit_btn button--ujarak"></span>
+                        <span class="agree_terms_label"><input type="submit" value="SUBMIT" class="submit_btn button button--ujarak"></span>
                         <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
                         <label for="agree_terms" class="confirm_label checkbox-custom-label">
                             I agree to receive email messaging from Mall Maverick
