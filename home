@@ -197,22 +197,20 @@
             <h2 class="heading text-center">Subscribe & Get Updates!</h2>
             <p class="desc">Subscribe to our newsletter and get information catered to the retail property management industry and updated Mall Maverick features.</p>
             <div class="row">
-                <div class="col-md-5 text-left middle_align">
+                <div id="subscribe" class="col-md-5 text-left middle_align">
                     <form action="http://mobilefringe.createsend.com/t/d/s/yuxz/" method="post" id="subForm">
                         <div class="col-md-8">
                             <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
                         </div>
-                        <div id="normal-subscribe">
-                            <span class="agree_terms_label">
-                            <!--<input type="submit" value="SUBMIT" class="submit_btn">-->
-                            <button type="submit" class="submit_btn button--ujarak">SUBMIT</button>
-                            </span>
-                            <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
-                            <label for="agree_terms" class="confirm_label checkbox-custom-label">
-                                I agree to receive electronic mail messaging from Mall Maverick
-                            </label>
-                            <p id="success_subscribe">Thank you for subscribing our newsletter.</p>
-                        </div>
+                        <span class="agree_terms_label">
+                        <!--<input type="submit" value="SUBMIT" class="submit_btn">-->
+                        <button type="submit" class="submit_btn button--ujarak">SUBMIT</button>
+                        </span>
+                        <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
+                        <label for="agree_terms" class="confirm_label checkbox-custom-label">
+                            I agree to receive electronic mail messaging from Mall Maverick
+                        </label>
+                        <p id="success_subscribe">Thank you for subscribing our newsletter.</p>
                     </form>
                 </div>
             </div>
