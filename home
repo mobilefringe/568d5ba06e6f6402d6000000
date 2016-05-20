@@ -209,7 +209,7 @@
                         <div class="mobile-checkbox">
                             <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
                             <label for="agree_terms" class="confirm_label checkbox-custom-label">
-                                I agree to receive email messaging from Mall Maverick
+                                I agree to receive electronic mail messaging from Mall Maverick
                             </label>
                         </div>
                         <p id="success_subscribe">Thank you for subscribing our newsletter.</p>
