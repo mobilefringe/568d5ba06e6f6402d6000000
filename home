@@ -199,10 +199,7 @@
             <div class="row">
                 <div class="col-md-5 text-left middle_align">
                     <form action="http://mobilefringe.createsend.com/t/d/s/yuxz/" method="post" id="subForm">
-                    <div class="col-md-8 hidden_phone">
-                        <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
-                    </div>
-                    <div class="col-md-10 show_phone">
+                    <div class="col-md-8">
                         <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
                     </div>
                     <div class="submit hidden_phone">
