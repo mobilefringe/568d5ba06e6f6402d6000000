@@ -215,7 +215,7 @@
                     </div>
                     <div class="submit show_phone">
                     <div class="row">
-                        <div class="col-xs-8 col-xs-offset-2">
+                        <div class="col-xs-10 col-xs-offset-1">
                             <span class="agree_terms_label">
                         <!--<input type="submit" value="SUBMIT" class="submit_btn">-->
                             <button type="submit" class="submit_btn button--ujarak">SUBMIT</button>
