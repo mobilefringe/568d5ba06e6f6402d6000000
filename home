@@ -216,7 +216,7 @@
                     <div class="submit show_phone">
                             <span class="agree_terms_label">
                         <!--<input type="submit" value="SUBMIT" class="submit_btn">-->
-                            <button type="submit" class="submit_btn button--ujara">SUBMIT</button>
+                            <button type="submit" class="submit_btn button--ujarak">SUBMIT</button>
                             </span>
                         <div>
                             <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">                       
