@@ -217,7 +217,7 @@
                         <span class="agree_terms_label">
                         <!--<input type="submit" value="SUBMIT" class="submit_btn">-->
                         <div class="row">
-                            <div class="col-md-8 col-md-offset-2" style="background: #000;">
+                            <div class="col-md-8 col-md-offset-2">
                                 <button type="submit" class="submit_btn button--ujarak" style="width: 100%;">PHONE</button>
                                 </span>
                                 <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
