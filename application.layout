@@ -123,6 +123,9 @@
                         <a class="footer_menu_options" href="#">FAQ</a>
                         <a class="footer_menu_options" href="#">Contact</a>
                     </div>
+                    <div class="main_container show_phone">
+                        <a id="menu_features" class="footer_menu_options" href="#">Features</a>
+                    </div>
                     <div class="clearfix"></div>
                 </div>
                 <div class="main_container">
