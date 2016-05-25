@@ -119,7 +119,6 @@
                 <div class="footer_menu">
                     <div class="main_container hidden_phone">
                         <a id="menu_features" class="footer_menu_options" href="#">Features</a>
-                        <a class="footer_menu_options" href="#">About Us</a>
                         <a class="footer_menu_options" href="#">FAQ</a>
                         <a class="footer_menu_options" href="#">Contact</a>
                     </div>
