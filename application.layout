@@ -133,7 +133,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-6 footer">
-                                    <ul class="bottom_menu_footer">
+                                    <ul class="bottom_menu_features">
                                         <li><a href="#">Update Once</a></li>
                                         <li><a href="#">Retailer Login</a></li>
                                         <li><a href="#">Analytics</a></li>
@@ -145,7 +145,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
-                                    <ul class="bottom_menu_footer">
+                                    <ul class="bottom_menu_features">
                                         <li><a href="#">Social Media Integration</a></li>
                                         <li><a href="#">eNewsLetters & Marketing</a></li>
                                         <li><a href="#">3rd Party Integration</a></li>
