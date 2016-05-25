@@ -16,7 +16,9 @@
     </div>
     <div id="contact">
         <div class="main_container">
-            <h2 class="heading text-center special_heading">Get in Touch</h2>
+            <div class="col-sm-8">
+                <h2 class="heading text-center special_heading">Get in Touch</h2>
+            </div>
         </div>
     </div>
 </div>
