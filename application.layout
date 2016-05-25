@@ -132,7 +132,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="row">
-                                <div class="col-md-6 mobile_footer_features">
+                                <div class="col-md-6footer_features">
                                     <ul class="bottom_menu_features">
                                         <li><a href="#">Update Once</a></li>
                                         <li><a href="#">Retailer Login</a></li>
