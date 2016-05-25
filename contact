@@ -1,0 +1,12 @@
+<div id="wrapper">
+    <div id="hero">
+        <div class="main_container hero_container"></div>
+            <div class="scroll_hero">
+                <a href="/#contact" class="scroll">
+                    <i class="fa fa-chevron-down"></i>
+                    <br />
+                    <span>SCROLL DOWN</span>
+                </a>
+            </div>
+        </div>
+    </div>
