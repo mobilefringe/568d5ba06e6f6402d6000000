@@ -126,7 +126,7 @@
                 </div>
                 <div class="main_container">
                     <div class="row">
-                        <div class="col-md-2 col-md-push-6">
+                        <div class="col-sm-2 col-sm-push-6">
                             <div class="stay_connected">
                                 <p>Stay Connected:</p>
                                 <a href="#">
@@ -137,15 +137,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4 col-md-push-6">
+                        <div class="col-sm-4 col-sm-push-6">
                             <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452876539000/zendesk.png" class="zendesk" alt="zendesk">
                         </div>
                         <div class="mobile_footer_menu show_phone">
                             <a id="menu_features" class="footer_menu_options" href="#">Features</a>
                         </div>
-                        <div class="col-md-6 col-md-pull-6">
+                        <div class="col-sm-6 col-sm-pull-6">
                             <div class="row">
-                                <div class="col-md-6 footer_features">
+                                <div class="col-sm-6 footer_features">
                                     <ul class="bottom_menu_features">
                                         <li><a href="#">Update Once</a></li>
                                         <li><a href="#">Retailer Login</a></li>
@@ -157,7 +157,7 @@
                                         <li><a href="#">Advanced Push Notifications</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
                                     <ul class="bottom_menu_features">
                                         <li><a href="#">Social Media Integration</a></li>
                                         <li><a href="#">eNewsLetters & Marketing</a></li>
