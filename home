@@ -117,7 +117,7 @@
             <div class="row mobile_features">
                 <div class="col-md-10 middle_align">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-sm-4">
                             <ul class="features_list">
                                 <li>Update Once</li>
                                 <li>Retailer Login</li>
@@ -126,7 +126,7 @@
                                 <li>Loyalty & Gift Card Programs</li>
                             </ul>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-sm-4">
                             <ul class="features_list">
                                 <li>Live Chat</li>
                                 <li>Routing & Waypoint Finding</li>
@@ -135,7 +135,7 @@
                                 <li>Email Newsletters & Marketing</li>
                             </ul>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-sm-4">
                             <ul class="features_list">
                                 <li>3rd Party Integration</li>
                                 <li>Marketing Intern</li>
