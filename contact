@@ -24,6 +24,7 @@
                 <div class ="col-sm-4">
                     <div class="contact_special_heading more_info">
                         <p class="desc more_info_header">More Information</p>
+                        <p class="moreinfo_subheading">Address</p>
                     </div>
                 </div>
             </div>
