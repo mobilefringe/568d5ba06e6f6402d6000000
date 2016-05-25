@@ -2,7 +2,7 @@
     <div id="hero">
         <div class="main_container hero_container">
             <div class="features">
-                <h2 id="contact-header" class="heading text-center contact">Contact Us!</h2>
+                <h2 id="contact-header" class="text-center contact">Contact Us!</h2>
                 <p class="contact desc">Questions, Concerns, Comments?... or stop by and say Hello! :D</p>
             </div>
             <div class="scroll_hero">
