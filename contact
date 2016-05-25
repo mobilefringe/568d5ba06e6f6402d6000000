@@ -18,9 +18,11 @@
         <div class="main_container">
             <div class="row">
                 <div class="col-sm-8">
-                    <h2 class="heading text-center special_heading">Get in Touch</h2>
+                    <h2 class="heading special_heading">Get in Touch</h2>
                 </div>
-                <div class ="col-sm-4"
+                <div class ="col-sm-4">
+                    <div class="special_heading"></div>
+                </div>
             </div>
         </div>
     </div>
