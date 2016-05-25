@@ -140,10 +140,8 @@
                         <div class="col-md-4 col-md-push-6">
                             <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452876539000/zendesk.png" class="zendesk" alt="zendesk">
                         </div>
-                        <div class="footer_menu">
-                            <div class="mobile_footer_menu show_phone">
-                                <a id="menu_features" class="footer_menu_options" href="#">Features</a>
-                            </div>
+                        <div class="show_phone">
+                            <a id="menu_features" class="footer_menu_options" href="#">Features</a>
                         </div>
                         <div class="col-md-6 col-md-pull-6">
                             <div class="row">
