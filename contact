@@ -23,7 +23,7 @@
                 </div>
                 <div class ="col-sm-4">
                     <div class="special_heading">
-                        <p class="desc text-center more_info_header">More Information</p>
+                        <p class="desc more_info_header">More Information</p>
                     </div>
                 </div>
             </div>
