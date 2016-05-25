@@ -74,14 +74,14 @@
             </div>
             
             <div class="row margin_100">
-                <div class="col-md-6 text-center dynpost-left">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452789944000/data.png" class="mm_img" alt="data">
-                </div>
-                <div class="col-md-6 dynpost-right">
+                <div class="col-md-6 col-md-push-6 dynpost-right">
                     <h3 class="subheading">Amazing Analytics</h3>
                     <p class="desc2">
                         Experience an unprecedented level of analytics about who your shoppers are and what they like. Helping you understand the most successful ways to engage your users.
                     </p>
+                </div>
+                <div class="col-md-6 col-md-pull-6 text-center dynpost-left">
+                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452789944000/data.png" class="mm_img" alt="data">
                 </div>
             </div>
             
@@ -98,14 +98,14 @@
             </div>
             
             <div class="row margin_100">
-                <div class="col-md-6 text-center dynpost-left">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452789917000/responsive.png" class="mm_img" alt="responsive">
-                </div>
-                <div class="col-md-6 dynpost-right">
+                <div class="col-md-6 col-md-push-6 dynpost-right">
                     <h3 class="subheading">Multi Center Platform</h3>
                     <p class="desc2">
                         Roll out features and common design templates for all your centers. Share resources, assets and campaigns easily accross all centers for amazing corporate savings.
                     </p>
+                </div>
+                <div class="col-md-6 col-md-pull-6 text-center dynpost-left">
+                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1452789917000/responsive.png" class="mm_img" alt="responsive">
                 </div>
             </div>
         </div>
