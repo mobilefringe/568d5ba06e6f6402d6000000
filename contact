@@ -17,9 +17,9 @@
     <div id="contact">
         <div class="main_container">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-8 main_container">
                     <h2 class="heading special_heading">Get in Touch</h2>
-                    <p class="desc">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a  flash!</p>
+                    <p class="desc">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a</p>
                 </div>
                 <div class ="col-sm-4">
                     <div class="special_heading"></div>
