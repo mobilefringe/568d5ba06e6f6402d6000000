@@ -5,13 +5,6 @@
                 <h2 id="contact-header" class="text-center contact">Contact Us!</h2>
                 <p class="contact desc">Questions, Concerns, Comments?... or stop by and say Hello! :D</p>
             </div>
-            <div class="scroll_hero">
-                <a href="/#contact" class="scroll">
-                    <i class="fa fa-chevron-down"></i>
-                    <br />
-                    <span>SCROLL DOWN</span>
-                </a>
-            </div>
         </div>
     </div>
     <div id="contact">
