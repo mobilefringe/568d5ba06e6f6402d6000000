@@ -20,8 +20,8 @@
                         <div class="col-md-6">
                             <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
                         </div>
-                        <div class="col-md-12 message">
-                            <input type="textarea" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
+                        <div class="col-md-12">
+                            <input type="textarea" name="cm-yuxz-yuxz" class="form-control custom_form_control message" placeholder="Hello!" required="">
                         </div>
                     </div>
                 </div>
