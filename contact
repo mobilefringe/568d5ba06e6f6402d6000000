@@ -36,7 +36,7 @@
                     								<div id="recaptcha_image" style="width:300px; height: 57px;">
                     									<img id="recaptcha_challenge_image" alt="reCAPTCHA challenge image" height="57" width="300" src="http://www.google.com/recaptcha/api/image?c=03AHJ_VuuyHmeYFQrnMjoSFip4HXHy4aA6_sGu-d83krDmE1TNHz8Bzp_dGmKn3MFj7MlVhdcamfq8gPBfaz_Z1twLky7LGuGZ6kiBLsCn4k-BT_H9PHAtXoHgI_8Lndq9Lw8NwjlVMuZ3pO_2BknSBfINrmE9XCq3Mf55BYUuSemGOBl5ATUOh890gToGvO3UtMVelQbcgKDI3O_44TXlbc7xaI54EXwA2ZnwUJrSit6xs_iTfmVAjF0DqK520Tc0AR7bkyT1NyW78shj_zQTJPfq9CXF_vhOug&amp;th=,t0ZXRmewJaeYCKeEe9a2HHKT63zR93DwAAAAF6AAAAAC-ABnq8Xw2x7RgdsShlbTouzJpZblwoRQC7bS74VHMxgyKbpAPn1wntZIDDRCPHrRZpWQHPmcSJuXf6D8duLTc0-KDe8rgM5hWRyPbnUSW4lR4_PXTTfpH23EQDmNjB_lhMytlYXhrIEHwmsAuTkFBEcvySn1WVqraFWdsoZiOIl_yeFX_MuNkDNipFuKb1aUAI70TtmzgPd8P7iyaQuocHGay4GjS2WCfDHnAXc5fi3jMaZgk1hlN3iNXQoCOkgconwhKxIIIpqWg02J869iTLIKZYBXlJbttsJfCIWpAMu1Fx_TJadC1Zsx1zxR31U4udtbtHo5BpH_Hj8xoBzn9VsZT0lP3k9ml8XjYciDHdQaJujrWNTg9IyRimaOTIGwKrwhHDU6">
                     								</div>
-                    							</cemter>
+                    							</center>
                     						</td>
                     						<td style="padding: 10px 7px 7px 7px">
                     							<a id="recaptcha_reload_btn" title="Get a new challenge">
