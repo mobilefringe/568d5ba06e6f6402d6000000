@@ -20,6 +20,9 @@
                         <div class="col-md-6">
                             <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
                         </div>
+                        <div class="col-md-12">
+                            <input type="text-box" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
+                        </div>
                     </div>
                 </div>
                 <div class ="col-sm-4">
