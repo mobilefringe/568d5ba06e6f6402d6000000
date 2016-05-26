@@ -77,29 +77,28 @@
                     	    &lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"&gt;
                     	</noscript>
                     </div>
-                    
-                                        </div>
-                                    </div>
-                                    <div class ="col-sm-4">
-                                        <div class="contact_special_heading more_info">
-                                            <p class="desc more_info_header">More Information</p>
-                                            <p class="moreinfo_subheading">Address</p>
-                                            <p class="desc3"> The Mall Maverick Team is located in beautiful Toronto, Ontario Canada</p>
-                                            <p class="moreinfo_subheading">Contact Direct</p>
-                                            <div class="contact-direct">
-                                                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/phone_icon.png" class="" alt="phoneNum">
-                                                <p class="desc3">1-888-854-5796</p>
-                                            </div>
-                                            <div class="contact-direct">
-                                                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/envelope_icon.png" class="" alt="email">
-                                                <p class="desc3">contact@mobilefringe.com</p>
-                                            </div>
-                                            <div class="contact-direct">
-                                                <p class="foot-note">Mall Maverick is product of Mobile Fringe Inc.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class ="col-sm-4">
+                <div class="contact_special_heading more_info">
+                    <p class="desc more_info_header">More Information</p>
+                    <p class="moreinfo_subheading">Address</p>
+                    <p class="desc3"> The Mall Maverick Team is located in beautiful Toronto, Ontario Canada</p>
+                    <p class="moreinfo_subheading">Contact Direct</p>
+                    <div class="contact-direct">
+                        <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/phone_icon.png" class="" alt="phoneNum">
+                        <p class="desc3">1-888-854-5796</p>
                     </div>
+                    <div class="contact-direct">
+                        <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/envelope_icon.png" class="" alt="email">
+                        <p class="desc3">contact@mobilefringe.com</p>
+                    </div>
+                    <div class="contact-direct">
+                        <p class="foot-note">Mall Maverick is product of Mobile Fringe Inc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
