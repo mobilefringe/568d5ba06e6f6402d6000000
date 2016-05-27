@@ -1,5 +1,5 @@
 <div id="wrapper">
-    <div id="hero">
+    <div id="contact-hero">
         <div class="main_container hero_container">
             <div class="features">
                 <h2 id="contact-header" class="text-center contact">Contact Us!</h2>
