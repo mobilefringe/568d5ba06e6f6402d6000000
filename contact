@@ -64,7 +64,18 @@
                                                                 <input type="hidden" name="recaptcha_challenge_field" id="recaptcha_challenge_field" value="03AHJ_VusTEcSm3WFtW0Oyi1TLJIKT-qj1kS82P1T2uHr-ntnkt9xP5vrzjdsgXBHh70g5maDEOE3BG-qCmDHNqYoBSkjjK0_ow18RuEMBnjccdsDmmDK-su6k_UEKDUsCaGJIee8lS1OpbwDxJTZx6GAvkBKYUJwlPegrBHzvSeIWiPgl6KswSkMk4zhAeaAboSUaUnrPKXqhHC-THDucUHYMe51WqErd6KO2tVyuua7UosxAJLaRpAeSK7CGDBs9Vd43aYXuqxu3Posl77F5sxCm4Y44BoBe1w">
                                                             </span>
                                                             <input style="border: 1px solid #3c3c3c; width: 302px;" name="recaptcha_response_field" id="recaptcha_response_field" type="text" placeholder="Type the text" autocomplete="off"> 
-                                                        </div> </td> <td colspan="2"><span id="recaptcha_privacy" class="recaptcha_only_if_privacy"><a href="http://www.google.com/intl/en/policies/" target="_blank">Privacy &amp; Terms</a></span></td> </tr> </tbody></table> </div></div>
+                                                        </div> 
+                                                    </td> 
+                                                    <td colspan="2">
+                                                        <span id="recaptcha_privacy" class="recaptcha_only_if_privacy">
+                                                            <a href="http://www.google.com/intl/en/policies/" target="_blank">Privacy &amp; Terms</a>
+                                                         </span>
+                                                     </td> 
+                                                 </tr> 
+                                             </tbody>
+                                         </table> 
+                                     </div>
+                                 </div>
                                     <noscript>
                                         &lt;iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro" height="300" frameborder="0"&gt;&lt;/iframe&gt;&lt;br&gt;
                                         &lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;
