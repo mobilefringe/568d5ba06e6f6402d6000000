@@ -24,7 +24,7 @@
                             <div class="col-md-12">
                                 <textarea rows="6" class="form-control custom-form-control" placeholder="Hello!" required="" form="contactform"></textarea>
                             </div>
-                            <div class="g-recaptcha" data-sitekey="== Your site Key =="></div>
+                            <div class="g-recaptcha" data-sitekey=""></div>
                         </form>
                     </div>
                 </div>
