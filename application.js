@@ -22,10 +22,10 @@ function init(){
     $(".scroll").click(function(e) {
         e.preventDefault();
         if(window.screen.width > 768){
-            $('html,body').animate( { scrollTop:$(this.hash).offset().top-85 } , 500);
+            $('html,body').animate( { scrollTop:$(this).offset().top-85 } , 500);
         }
         else{
-            $('html,body').animate( { scrollTop:$(this.hash).offset().top } , 500);
+            $('html,body').animate( { scrollTop:$(this).offset().top } , 500);
         }
     });
     $('#open_features').click(function(e){
