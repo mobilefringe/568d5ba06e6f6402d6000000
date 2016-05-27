@@ -24,66 +24,7 @@
                             <div class="col-md-12">
                                 <textarea rows="6" class="form-control custom-form-control" placeholder="Hello!" required="" form="contactform"></textarea>
                             </div>
-                                <div>
-                                <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro"></script>
-                                <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha.js"></script>
-                                    <div id="recaptcha_widget_div" style="" class=" recaptcha_nothad_incorrect_sol recaptcha_isnot_showing_audio">
-                                        <div id="recaptcha_area">
-                                            <table id="recaptcha_table" class="recaptchatable recaptcha_theme_clean"> 
-                                                <tbody>
-                                                    <tr height="73"> 
-                                                        <td class="recaptcha_image_cell" width="302">
-                                                            <center>
-                                                                <div id="recaptcha_image" style="width: 300px; height: 57px;">
-                                                                    <img id="recaptcha_challenge_image" alt="reCAPTCHA challenge image" height="57" width="300" src="http://www.google.com/recaptcha/api/image?c=03AHJ_VusTEcSm3WFtW0Oyi1TLJIKT-qj1kS82P1T2uHr-ntnkt9xP5vrzjdsgXBHh70g5maDEOE3BG-qCmDHNqYoBSkjjK0_ow18RuEMBnjccdsDmmDK-su6k_UEKDUsCaGJIee8lS1OpbwDxJTZx6GAvkBKYUJwlPegrBHzvSeIWiPgl6KswSkMk4zhAeaAboSUaUnrPKXqhHC-THDucUHYMe51WqErd6KO2tVyuua7UosxAJLaRpAeSK7CGDBs9Vd43aYXuqxu3Posl77F5sxCm4Y44BoBe1w&amp;th=,lWRXZEWwmtOt2ekHIq62Fu5KrJlEC0PwAAAAEqAAAAAD-ABnNNrEEz5-MfjJNx2wpB-IitlNiB53d2Vxr5PVHBrFPYLB2SxhopS1AnOsYf3i49rVjxhipqTMTBR_1yryhxUeUzP-aVMej5SzBmakGYw5WEQ3FBjS1dj-CH7wP142eV2vxp8y2pWSq2sAuc7I7T1hQzo58rKGe1f0lSBWyJrqb2rsmKrog4DVnLxf68A-WWIKzWB_yvPdNdpd5fTNaXEc_9mhf_HLKQiOxcPi--JeKdji9GKiW0dUT8CavOb0jwra_oLe5yHB39cbDzDKXblSYWYL5O59DpsR-9x_aGBL5IeB_nMQZ5SJY-r8o3iS-A4Ody7ZQFjmhm292CWB2Ah36vqAI-nUzACBIbp1H7bBO4MddUCZtcC9cwHOtqzBi1QnW2AQ">
-                                                                </div>
-                                                            </center>
-                                                        </td> 
-                                                        <td style="padding: 10px 7px 7px 7px;"> 
-                                                            <a id="recaptcha_reload_btn" title="Get a new challenge"> 
-                                                                <img id="recaptcha_reload" width="25" height="18" alt="Get a new challenge" src="http://www.google.com/recaptcha/api/img/clean/refresh.png">
-                                                            </a> 
-                                                            <a id="recaptcha_switch_audio_btn" class="recaptcha_only_if_image" title="Get an audio challenge">
-                                                                <img id="recaptcha_switch_audio" width="25" height="15" alt="Get an audio challenge" src="http://www.google.com/recaptcha/api/img/clean/audio.png">
-                                                            </a>
-                                                            <a id="recaptcha_switch_img_btn" class="recaptcha_only_if_audio" title="Get a visual challenge">
-                                                                <img id="recaptcha_switch_img" width="25" height="15" alt="Get a visual challenge" src="http://www.google.com/recaptcha/api/img/clean/text.png">
-                                                            </a> 
-                                                            <a id="recaptcha_whatsthis_btn" title="Help">
-                                                                <img id="recaptcha_whatsthis" width="25" height="16" src="http://www.google.com/recaptcha/api/img/clean/help.png" alt="Help">
-                                                            </a> 
-                                                        </td> 
-                                                        <td style="padding: 18px 7px 18px 7px;"> 
-                                                            <img id="recaptcha_logo" alt="" width="71" height="36" src="http://www.google.com/recaptcha/api/img/clean/logo.png"> 
-                                                        </td> 
-                                                    </tr> 
-                                                    <tr> 
-                                                    <td style="padding-left: 7px;"> 
-                                                        <div class="recaptcha_input_area" style="padding-top: 2px; padding-bottom: 7px;"> 
-                                                            <span id="recaptcha_challenge_field_holder" style="display: none;">
-                                                                <input type="hidden" name="recaptcha_challenge_field" id="recaptcha_challenge_field" value="03AHJ_VusTEcSm3WFtW0Oyi1TLJIKT-qj1kS82P1T2uHr-ntnkt9xP5vrzjdsgXBHh70g5maDEOE3BG-qCmDHNqYoBSkjjK0_ow18RuEMBnjccdsDmmDK-su6k_UEKDUsCaGJIee8lS1OpbwDxJTZx6GAvkBKYUJwlPegrBHzvSeIWiPgl6KswSkMk4zhAeaAboSUaUnrPKXqhHC-THDucUHYMe51WqErd6KO2tVyuua7UosxAJLaRpAeSK7CGDBs9Vd43aYXuqxu3Posl77F5sxCm4Y44BoBe1w">
-                                                            </span>
-                                                            <input style="border: 1px solid #3c3c3c; width: 302px;" name="recaptcha_response_field" id="recaptcha_response_field" type="text" placeholder="Type the text" autocomplete="off"> 
-                                                        </div> 
-                                                    </td> 
-                                                    <td colspan="2">
-                                                        <span id="recaptcha_privacy" class="recaptcha_only_if_privacy">
-                                                            <a href="http://www.google.com/intl/en/policies/" target="_blank">Privacy &amp; Terms</a>
-                                                         </span>
-                                                     </td> 
-                                                 </tr> 
-                                             </tbody>
-                                         </table> 
-                                     </div>
-                                </div>
-                                <noscript>
-                                    &lt;iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro" height="300" frameborder="0"&gt;&lt;/iframe&gt;&lt;br&gt;
-                                    &lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;
-                                    &lt;/textarea&gt;
-                                    &lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"&gt;
-                                </noscript>
-                            </div>
-                            <div class="line_break">&nbsp;</div>
+                            <div class="g-recaptcha" data-sitekey="== Your site Key =="></div>
                         </form>
                     </div>
                 </div>
