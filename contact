@@ -15,16 +15,16 @@
                         <h2 class="heading ">Get in Touch</h2>
                         <p class="desc3">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a flash!</p>
                         <form id="contactform">
-                        <div class="col-md-6">
-                            <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Full Name" required="">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
-                        </div>
-                        <div class="col-md-12">
-                            <textarea rows="6" class="form-control custom-form-control" placeholder="Hello!" required="" form="contactform"></textarea>
-                        </div>
-                                </form>
+                            <div class="col-md-6">
+                                <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Full Name" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea rows="6" class="form-control custom-form-control" placeholder="Hello!" required="" form="contactform"></textarea>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <div class ="col-sm-4">
