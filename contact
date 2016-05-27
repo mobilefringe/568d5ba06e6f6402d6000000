@@ -82,8 +82,6 @@
                                     &lt;/textarea&gt;
                                     &lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"&gt;
                                 </noscript>
-                                    
-                            
                             </div>
                             <div class="line_break">&nbsp;</div>
                         </form>
