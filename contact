@@ -25,7 +25,7 @@
                                 <textarea rows="6" class="form-control custom-form-control" placeholder="Hello!" required="" form="contactform"></textarea>
                             </div>
                             <div class="contact-form col-md-12 g-recaptcha" data-sitekey="6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro"></div>
-                            <div class="contact-form">
+                            <div class="col-md-12 contact-form">
                                 <button type="submit" class="send_btn button--ujarak">SEND</button>
                             </div>
                         </form>
