@@ -75,13 +75,13 @@
                                              </tbody>
                                          </table> 
                                      </div>
-                                 </div>
-                                    <noscript>
-                                        &lt;iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro" height="300" frameborder="0"&gt;&lt;/iframe&gt;&lt;br&gt;
-                                        &lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;
-                                        &lt;/textarea&gt;
-                                        &lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"&gt;
-                                    </noscript>
+                                </div>
+                                <noscript>
+                                    &lt;iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro" height="300" frameborder="0"&gt;&lt;/iframe&gt;&lt;br&gt;
+                                    &lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;
+                                    &lt;/textarea&gt;
+                                    &lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"&gt;
+                                </noscript>
                                     
                             
                             </div>
