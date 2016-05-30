@@ -2,8 +2,8 @@
     <div id="faq-hero">
         <div class="main_container hero_container">
             <div class="features">
-                <h2 id="contact-header" class="text-center contact">Contact Us!</h2>
-                <p class="contact desc">Questions, Concerns, Comments?... or stop by and say Hello! :D</p>
+                <h2 id="contact-header" class="text-center contact">Have a question?</h2>
+                <p class="contact desc">If you have any question you can ask below or enter what you are looking for!</p>
             </div>
         </div>
     </div>
