@@ -4,7 +4,7 @@
             <div class="features">
                 <h2 id="contact-header" class="text-center contact">Have a question?</h2>
                 <p class="contact desc">If you have any question you can ask below or enter what you are looking for!</p>
-                <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
+                <input type="text" name="filter-blog" class="form-control custom_form_control" placeholder="Enter Email" required="">
             </div>
         </div>
     </div>
