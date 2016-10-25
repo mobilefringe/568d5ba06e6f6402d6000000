@@ -1,0 +1,19 @@
+<section id="hero">
+    <h2>Page Title</h2>
+</section>
+<section>
+    
+</section>
+<aside>
+    <div class="features-container"
+        <h4>Other Features</h4>
+        <ul>
+            <li>Feature</li>
+            <li>Feature</li>
+            <li>Feature</li>        
+        </ul>
+    </div>
+    <div class="contact-container">
+        
+    </div>
+</aside>
