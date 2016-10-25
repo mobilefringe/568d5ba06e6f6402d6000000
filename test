@@ -1,4 +1,4 @@
-<div id="wrapper">
+<!--<div id="wrapper">-->
     <section class="page_banner">
         <h2 class="heading text-center inside_main_header">Page Title</h2>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
@@ -38,4 +38,4 @@
             </aside>    
         </div>
     </div>
-</div>
+<!--</div>-->
