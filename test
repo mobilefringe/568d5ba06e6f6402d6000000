@@ -24,4 +24,5 @@
         <p>contact@mobilefringe.com</p>
         <h5>Contact Us</h5>
     </div>
+    <button><i class="material-icons">file_download</i> Download PDF</button>
 </aside>
