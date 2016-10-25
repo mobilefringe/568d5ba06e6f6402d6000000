@@ -1,29 +1,31 @@
-<section id="hero">
-    <h2>Page Title</h2>
-</section>
-<section class="col-md-8">
-    <img>
-    <h3>Feature Title</h3>
-</section>
-<aside class="col-md-4">
-    <div class="features-container"
-        <h4>Other Features</h4>
-        <ul>
-            <li>Feature</li>
-            <li>Feature</li>
-            <li>Feature</li>        
-        </ul>
-    </div>
-    <div class="contact-container">
-        <h3>Ready to Discuss?</h3>
-        <span>
-            <i class="material-icons">phone</i>
-            <p>1-888-854-5797 ext 108</p>
-        </span>
-        
-        <i class="material-icons">email</i>
-        <p>contact@mobilefringe.com</p>
-        <h5>Contact Us</h5>
-    </div>
-    <button><i class="material-icons">file_download</i> Download PDF</button>
-</aside>
+<div id="wrapper>"
+    <section id="hero">
+        <h2>Page Title</h2>
+    </section>
+    <section class="col-md-8">
+        <img>
+        <h3>Feature Title</h3>
+    </section>
+    <aside class="col-md-4">
+        <div class="features-container"
+            <h4>Other Features</h4>
+            <ul>
+                <li>Feature</li>
+                <li>Feature</li>
+                <li>Feature</li>        
+            </ul>
+        </div>
+        <div class="contact-container">
+            <h3>Ready to Discuss?</h3>
+            <span>
+                <i class="material-icons">phone</i>
+                <p>1-888-854-5797 ext 108</p>
+            </span>
+            
+            <i class="material-icons">email</i>
+            <p>contact@mobilefringe.com</p>
+            <h5>Contact Us</h5>
+        </div>
+        <button><i class="material-icons">file_download</i> Download PDF</button>
+    </aside>
+</div>
