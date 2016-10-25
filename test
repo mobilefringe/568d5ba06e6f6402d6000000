@@ -1,18 +1,20 @@
-<!--<div id="wrapper">-->
+<div id="wrapper">
     <section class="page_banner">
         <h2 class="heading text-center inside_main_header">Page Title</h2>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
     </section>
-    <section class="col-md-8">
-        <img src="https://unsplash.it/650/400">
-        <h3>Feature Title</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
-        <h3>Feature Title</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
-        <h3>Feature Title</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
-    </section>
-    <aside class="col-md-4">
+    
+    <div class="row">
+        <section class="col-md-8">
+            <img src="https://unsplash.it/650/400">
+            <h3>Feature Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
+            <h3>Feature Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
+            <h3>Feature Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
+        </section>
+        <aside class="col-md-4">
         <div class="features-container">
             <h4>Other Features</h4>
             <ul>
@@ -33,5 +35,8 @@
             <h5>Contact Us</h5>
         </div>
         <button><i class="material-icons">file_download</i> Download PDF</button>
-    </aside>
-<!--</div>-->
+    </aside>    
+        
+    </div>
+    
+</div>
