@@ -6,7 +6,9 @@
     <div class="container">
         <div class="row">
             <section class="col-md-8">
-                <img src="https://unsplash.it/620/398">
+                <figure class="feature-image">
+                    <img src="https://unsplash.it/620/398">
+                </figure>
                 <h3>Feature Title</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
                 <h3>Feature Title</h3>
