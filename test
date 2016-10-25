@@ -1,8 +1,9 @@
 <section id="hero">
     <h2>Page Title</h2>
 </section>
-<section>
-    
+<section class="col-md-8">
+    <img>
+    <h3>Feature Title</h3>
 </section>
 <aside class="col-md-4">
     <div class="features-container"
@@ -14,7 +15,7 @@
         </ul>
     </div>
     <div class="contact-container">
-        <h3>Ready to Discuss</h3>
+        <h3>Ready to Discuss?</h3>
         <span>
             <i class="material-icons">phone</i>
             <p>1-888-854-5797 ext 108</p>
