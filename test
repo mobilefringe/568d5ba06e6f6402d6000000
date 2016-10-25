@@ -1,5 +1,5 @@
 <div id="wrapper">
-    <section id="hero">
+    <section class="page-hero">
         <h2>Page Title</h2>
     </section>
     <section class="col-md-8">
