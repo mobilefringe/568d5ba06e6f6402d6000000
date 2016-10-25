@@ -4,8 +4,13 @@
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
     </section>
     <section class="col-md-8">
-        <img>
+        <img src="https://unsplash.it/650/400">
         <h3>Feature Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
+        <h3>Feature Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
+        <h3>Feature Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
     </section>
     <aside class="col-md-4">
         <div class="features-container"
