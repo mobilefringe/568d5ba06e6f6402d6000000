@@ -28,11 +28,11 @@
                 <div class="contact-container">
                     <h3>Ready to Discuss?</h3>
                     <span>
-                        <i class="material-icons">phone</i>
+                        <i class="material-icons contact-icon">phone</i>
                         <p>1-888-854-5797 ext 108</p>
                     </span>
                     
-                    <i class="material-icons">email</i>
+                    <i class="material-icons contact-icon">email</i>
                     <p>contact@mobilefringe.com</p>
                     <h5>Contact Us</h5>
                 </div>
