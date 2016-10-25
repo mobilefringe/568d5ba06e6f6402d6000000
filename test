@@ -1,6 +1,6 @@
 <div id="wrapper">
-    <section class="page-hero">
-        <h2>Page Title</h2>
+    <section class="page_banner">
+        <h2 class="heading text-center">Page Title</h2>
     </section>
     <section class="col-md-8">
         <img>
