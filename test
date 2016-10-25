@@ -1,4 +1,4 @@
-<!--<div id="wrapper>"-->
+<div id="wrapper">
     <section id="hero">
         <h2>Page Title</h2>
     </section>
@@ -28,4 +28,4 @@
         </div>
         <button><i class="material-icons">file_download</i> Download PDF</button>
     </aside>
-<!--</div>-->
+</div>
