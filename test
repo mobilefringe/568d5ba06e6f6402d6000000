@@ -22,9 +22,9 @@
                 <div class="features_container">
                     <h4>Other Features</h4>
                     <ul>
-                        <li>Feature</li>
-                        <li>Feature</li>
-                        <li>Feature</li>        
+                        <a><li>Feature</li></a>
+                        <a><li>Feature</li></a>
+                        <a><li>Feature</li></a>        
                     </ul>
                 </div>
                 <div class="contact_container">
