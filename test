@@ -35,7 +35,7 @@
                     </div>
                     <div class="contact_info">
                         <i class="material-icons contact_icon">email</i>
-                        <p>contact@mobilefringe.com</p>
+                        <a href="mailto:contact@mobilefringe.com">contact@mobilefringe.com</a>
                     </div>    
                     <h5>Contact Us</h5>
                     <hr>
