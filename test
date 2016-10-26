@@ -1,6 +1,6 @@
 <section class="page_banner">
     <div class = "main_container">
-        <h2 class="heading text-center inside_main_header">Page Title</h2>
+        <h2 class="heading text-center inside_main_header">iBeacons</h2>
         <p class="text-center banner_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>    
     </div>
 </section>
