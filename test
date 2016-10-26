@@ -40,7 +40,7 @@
                     <h5>Contact Us</h5>
                     <hr>
                 </div>
-                <button class="download_btn"><i class="material-icons">file_download</i> Download PDF</button>
+                <button class="download_btn"><i class="material-icons">file_download</i><span>Download PDF</span></button>
             </aside>      
         </div>
     </div>    
