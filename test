@@ -22,9 +22,9 @@
                 <div class="features_container">
                     <h4>Other Features</h4>
                     <ul>
-                        <li><a>Feature</a></li>
-                        <li><a>Feature</a></li>
-                        <li><a>Feature</a></li>       
+                        <li><a><i class="material-icons">check_circle</i> Feature</a></li>
+                        <li><a><i class="material-icons">check_circle</i> Feature</a></li>
+                        <li><a><i class="material-icons">check_circle</i> Feature</a></li>       
                     </ul>
                 </div>
                 <div class="contact_container">
