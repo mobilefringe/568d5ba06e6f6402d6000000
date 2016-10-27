@@ -23,7 +23,7 @@
                         </figure>
                     </div>
                     <div class="col-md-7">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
+                        <p class="company_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
                     </div>
                     <div class="col-md-5">
                         <figure class="feature-image">
@@ -31,7 +31,7 @@
                         </figure>
                     </div>
                     <div class="col-md-7">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
+                        <p class="company_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
                     </div>
                     <div class="col-md-5">
                         <figure class="feature-image">
@@ -39,7 +39,7 @@
                         </figure>
                     </div>
                     <div class="col-md-7">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
+                        <p class="company_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
                     </div>                    
                 </div>
             </main>
