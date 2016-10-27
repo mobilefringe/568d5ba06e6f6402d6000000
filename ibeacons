@@ -48,7 +48,7 @@
                 </div>
             </main>
             <aside class="col-md-4">
-                <div class="visible-md-4 features_container">
+                <div class="hidden-xs hidden-s features_container">
                     <h4>Other Features</h4>
                     <ul>
                         <a><li><i class="material-icons">check_circle</i> Feature</li></a>
