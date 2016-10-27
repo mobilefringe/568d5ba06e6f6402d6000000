@@ -93,7 +93,7 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
-            console.log();
+            console.log("Does this work?");
             // show_content();
             // $('#top_nav_centre_info').addClass('active_yellow')
         }
