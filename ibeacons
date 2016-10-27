@@ -5,7 +5,7 @@
     </div>
 </section>
 <section class="main_content">
-    <div class="main_container">
+    <div class="inside_container">
         <div class="row">
             <main class="col-md-8">
                 <figure class="feature-image">
