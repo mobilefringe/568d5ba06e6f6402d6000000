@@ -60,7 +60,7 @@
                     <h3>Ready to Discuss?</h3>
                     <div class="contact_info">
                         <i class="material-icons contact_icon">phone</i>
-                        <h6>1-888-854-5797 ext 108</h6>
+                        <p class="phone">1-888-854-5797 ext 108</p>
                     </div>
                     <div class="contact_info">
                         <i class="material-icons contact_icon">email</i>
