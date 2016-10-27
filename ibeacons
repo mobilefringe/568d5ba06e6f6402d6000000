@@ -18,7 +18,7 @@
                 <div class="row company_logo_desc">
                     <div class="col-md-5 company_logo">
                         <figure class="feature-image">
-                            <img src="https://unsplash.it/220/55">
+                            <a href="" target="_"><img src="https://unsplash.it/220/55"></a>
                         </figure>
                     </div>
                     <div class="col-md-7">
@@ -28,7 +28,7 @@
                 <div class="row company_logo_desc">
                     <div class="col-md-5 company_logo">
                         <figure class="feature-image">
-                            <img src="https://unsplash.it/80/80">
+                            <a href="" target="_"><img src="https://unsplash.it/80/80"></a>
                         </figure>
                     </div>
                     <div class="col-md-7">
@@ -38,7 +38,7 @@
                 <div class="row company_logo_desc">
                     <div class="col-md-5 company_logo">
                         <figure class="feature-image">
-                            <img src="https://unsplash.it/206/55">
+                            <a href="" target="_"><img src="https://unsplash.it/206/55"></a>
                         </figure>
                     </div>
                     <div class="col-md-7">
@@ -51,7 +51,7 @@
                 <div class="hidden-xs hidden-s features_container">
                     <h4>Other Features</h4>
                     <ul>
-                        <li><a href="google.com" target="_"><i class="material-icons">check_circle</i>Feature</a></li>
+                        <li><a href="" target="_"><i class="material-icons">check_circle</i>Feature</a></li>
                         <li><a><i class="material-icons">check_circle</i>Feature</a></li>
                         <li><a><i class="material-icons">check_circle</i>Feature</a></li>       
                     </ul>
