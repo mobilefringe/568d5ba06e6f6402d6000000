@@ -25,6 +25,8 @@
                     <div class="col-md-7">
                         <p class="company_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-md-5">
                         <figure class="feature-image">
                             <img src="https://unsplash.it/80/80">
@@ -33,6 +35,8 @@
                     <div class="col-md-7">
                         <p class="company_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-md-5">
                         <figure class="feature-image">
                             <img src="https://unsplash.it/206/55">
@@ -40,7 +44,8 @@
                     </div>
                     <div class="col-md-7">
                         <p class="company_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
-                    </div>                    
+                    </div> 
+                    
                 </div>
             </main>
             <aside class="col-md-4">
