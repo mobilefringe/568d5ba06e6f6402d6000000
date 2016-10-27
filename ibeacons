@@ -100,14 +100,23 @@
     // })
     
     
-    function() {
-      var pageData = "//mallmaverick.com/pages/home-blog.json";
-      $.getJSON( pageData, {
-        format: "json"
-      })
+    // function() {
+    //   var pageData = "//mallmaverick.com/pages/home-blog.json";
+    //   $.getJSON( pageData, {
+    //     format: "json"
+    //   })
       
-      console.log(pageData);
-    })();
+    //   console.log(pageData);
+    // })();
     
+    $.ajax({
+    url: '//mallmaverick.com/pages/home-blog.json',
+    dataType: 'application/json',
+    complete: function(data){
+        console.log(data)
+    },
+    success: function(data){
+        console.log(data)
+    }
     
 </script>
