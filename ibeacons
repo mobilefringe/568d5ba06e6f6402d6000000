@@ -1,4 +1,72 @@
-<div class="ibeacons_banner">
-    <h2 class="heading text-center inside_main_header">iBeacons</h2>
-</div>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<section class="page_banner">
+    <div class = "main_container">
+        <h2 class="heading text-center inside_main_header">iBeacons</h2>
+        <p class="text-center desc banner_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>    
+    </div>
+</section>
+<section class="main_content">
+    <div class="main_container">
+        <div class="row">
+            <main class="col-md-8">
+                <figure class="feature-image">
+                    <img src="https://unsplash.it/800/398">
+                </figure>
+                <h3 class="feature_title">How can it be used in a retail environment?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
+                <h3 class="feature_title">Feature Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
+                <h3 class="feature_title">Companies Currently Using...</h3>
+                <div class="row">
+                    <div class="col-md-5">
+                        <figure class="feature-image">
+                            <img src="https://unsplash.it/150/150">
+                        </figure>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="company_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <figure class="feature-image">
+                            <img src="https://unsplash.it/300/100">
+                        </figure>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="company_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <figure class="feature-image">
+                            <img src="https://unsplash.it/300/100">
+                        </figure>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="company_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
+                    </div>                    
+                </div>
+            </main>
+            <aside class="col-md-4">
+                <div class="features_container">
+                    <h4>Other Features</h4>
+                    <ul>
+                        <a><li><i class="material-icons">check_circle</i> Feature</li></a>
+                        <a><li><i class="material-icons">check_circle</i> Feature</li></a>
+                        <a><li><i class="material-icons">check_circle</i> Feature</li></a>       
+                    </ul>
+                </div>
+                <div class="contact_container">
+                    <h3>Ready to Discuss?</h3>
+                    <div class="contact_info">
+                        <i class="material-icons contact_icon">phone</i>
+                        <p>1-888-854-5797 ext 108</p>
+                    </div>
+                    <div class="contact_info">
+                        <i class="material-icons contact_icon">email</i>
+                        <a href="mailto:contact@mobilefringe.com">contact@mobilefringe.com</a>
+                    </div>    
+                    <h5>Contact Us</h5>
+                    <hr>
+                </div>
+                <button class="download_btn"><i class="material-icons">file_download</i><span>Download PDF</span></button>
+            </aside>      
+        </div>
+    </div>    
+</section>
