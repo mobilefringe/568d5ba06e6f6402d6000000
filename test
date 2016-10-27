@@ -24,7 +24,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
                     </div>
                 </div>
-                <div class="row">
+                <!--<div class="row">-->
                     <div class="col-md-3">
                         <figure class="feature-image">
                             <img src="https://unsplash.it/800/398">
@@ -33,15 +33,15 @@
                     <div class="col-md-5">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
                     </div>
-                </div>
-                <div class="row">
+                <!--</div>-->
+                <!--<div class="row">-->
                     <div class="col-md-3">
                         
                     </div>
                     <div class="col-md-5">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
                     </div>
-                </div>
+                <!--</div>-->
             </main>
             <aside class="col-md-4">
                 <div class="features_container">
