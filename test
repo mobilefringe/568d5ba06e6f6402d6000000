@@ -16,7 +16,7 @@
                 <h3 class="feature_title">Feature Title</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
                 <h3 class="feature_title">Companies Currently Using...</h3>
-                <div class="row">
+                <div class="row col-8">
                     <div class="col-md-3">
                         <figure class="feature-image">
                             <img src="https://unsplash.it/800/398">
@@ -26,7 +26,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row col-8">
                     <div class="col-md-3">
                         <figure class="feature-image">
                             <img src="https://unsplash.it/800/398">
@@ -36,7 +36,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row col-8">
                     <div class="col-md-3">
                         <figure class="feature-image">
                             <img src="https://unsplash.it/800/398">
