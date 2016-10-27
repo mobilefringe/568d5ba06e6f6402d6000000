@@ -98,5 +98,6 @@
             // $('#top_nav_centre_info').addClass('active_yellow')
         }
         // loadMallDataCached(renderAll); 
+        console.log("Work?");
     })
 </script>
