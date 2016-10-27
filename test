@@ -17,28 +17,28 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>
                 <h3 class="feature_title">Companies Currently Using...</h3>
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <figure class="feature-image">
                             <img src="https://unsplash.it/200/200">
                         </figure>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-6">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <figure class="feature-image">
                             <img src="https://unsplash.it/200/200">
                         </figure>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-6">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <figure class="feature-image">
                             <img src="https://unsplash.it/200/200">
                         </figure>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-6">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sem ut dapibus facilisis. Fusce tempus massa elit, a rhoncus est vulputate eget. Integer ac bibendum eros, eget consectetur nisl. Pellentesque at lectus venenatis nunc ultricies scelerisque. Maecenas vestibulum, lectus vel tincidunt efficitur, nisl quam vulputate arcu, ut pellentesque lectus.</p>
                     </div>                    
                 </div>
