@@ -62,7 +62,7 @@
             }); 
             show_content(renderAll);
         }
-        loadData(renderAll); 
+        load(renderAll); 
     
     
     
