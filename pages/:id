@@ -70,7 +70,6 @@
             method: "GET",
             dataType: "json",
         }).then(function(res) {
-            // renderEvents("#jobs_container","#jobs_template", publis3hed_events);
             console.log(res);
         });
     
