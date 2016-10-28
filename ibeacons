@@ -81,6 +81,15 @@
 
     <div id="display"></div>
     
+    <div id="jobs_container">
+        <script id="inside_template" type="x-tmpl-mustache/text">
+            <h3 class="feature_title">{{title}}</h3>
+            <div>
+                <p>{{body}}
+            </div>
+        </script>
+    </div>
+    
 </div>
 <script>
 $(document).ready(function(){
@@ -98,6 +107,7 @@ $(document).ready(function(){
         method: "GET",
         dataType: "json",
     }).then(function(res) {
+        renderEvents("#jobs_container","#jobs_template", published_events);
         console.log(res);
     });
 });
