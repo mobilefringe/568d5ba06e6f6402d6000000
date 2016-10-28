@@ -112,7 +112,7 @@ $(document).ready(function(){
         method: "GET",
         dataType: "json",
     }).then(function(res) {
-        renderEvents("#jobs_container","#jobs_template", published_events);
+        // renderEvents("#jobs_container","#jobs_template", published_events);
         console.log(res);
     });
 });
