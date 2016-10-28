@@ -84,12 +84,21 @@
 </div>
 <script>
 $(document).ready(function(){
-    $("#click").click(function(){
-        $.getJSON("//mallmaverick.com/pages/home-blog.json", function(result){
-            $.each(result, function(i, field){
-                $("#display").append(field + " ");
-            });
-        });
+    // $("#click").click(function(){
+    //     $.getJSON("//mallmaverick.com/pages/home-blog.json", function(result){
+    //         $.each(result, function(i, field){
+    //             $("#display").append(field + " ");
+    //         });
+    //     });
+    // });
+
+
+    $.ajax({
+        url: "//mallmaverick.com/pages/home-blog.json",
+        method: "GET",
+        dataType: "json",
+    }).then(function() {
+        console.log("It worked!");
     });
 });
 </script>
