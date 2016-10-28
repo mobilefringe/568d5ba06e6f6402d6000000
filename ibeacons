@@ -96,9 +96,9 @@ $(document).ready(function(){
     $.ajax({
         url: "//mallmaverick.com/pages/home-blog.json",
         method: "GET",
-        dataType: "json",
-    }).then(function() {
-        console.log("It worked!");
+        dataType: "jsonp",
+    }).then(function(res) {
+        console.log(res);
     });
 });
 </script>
