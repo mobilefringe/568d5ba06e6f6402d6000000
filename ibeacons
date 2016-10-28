@@ -95,26 +95,26 @@
 $(document).ready(function(){
     
     
-    var pathArray = window.location.pathname.split( '/' );
-    var slug = pathArray[pathArray.length-1];
-    prefix = get_prefix();
-    var pages_json = prefix + "/pages/" + slug + ".json"
-    $.getJSON(pages_json).done(function(data) {
-        $('#mm_page_title').html(data.title);
-        $('#mm_page_content').html(data.body);
-    }).then(function(res) {
-        console.log(res);
-    });
-
-
-    // $.ajax({
-    //     url: "//mallmaverick.com/pages/home-blog.json",
-    //     method: "GET",
-    //     dataType: "json",
+    // var pathArray = window.location.pathname.split( '/' );
+    // var slug = pathArray[pathArray.length-1];
+    // prefix = get_prefix();
+    // var pages_json = prefix + "/pages/" + slug + ".json"
+    // $.getJSON(pages_json).done(function(data) {
+    //     // $('#mm_page_title').html(data.title);
+    //     // $('#mm_page_content').html(data.body);
     // }).then(function(res) {
-    //     renderEvents("#jobs_container","#jobs_template", published_events);
     //     console.log(res);
     // });
+
+
+    $.ajax({
+        url: "//mallmaverick.com/pages/home-blog.json",
+        method: "GET",
+        dataType: "json",
+    }).then(function(res) {
+        renderEvents("#jobs_container","#jobs_template", published_events);
+        console.log(res);
+    });
 });
 </script>
 
