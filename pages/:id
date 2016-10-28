@@ -1,3 +1,5 @@
+<script id="inside_template" type="x-tmpl-mustache/text"></script>
+
 <section class="page_banner">
     <div class = "inside_container">
         <h2 class="text-center inside_main_header">iBeacons</h2>
@@ -42,21 +44,27 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        function renderAll(){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            prefix = get_prefix();
-            var pages_json = prefix + "/pages/" + slug + ".json"
-            $.getJSON(pages_json).done(function(data) {
-                $('title').html(data.title);
-                $('body').html(data.body);
-            }).fail(function(jqXHR) {
-                if (jqXHR.status == 404) {
-                    $("#404_msg").fadeIn("fast");
-                }
-            }); 
-            show_content();
-        }
-        loadMallDataCached(renderAll); 
+    
+    // var pathArray = window.location.pathname.split( '/' );
+    // var slug = pathArray[pathArray.length-1];
+    // prefix = get_prefix();
+    // var pages_json = prefix + "/pages/" + slug + ".json"
+    // $.getJSON(pages_json).done(function(data) {
+    //     // $('#mm_page_title').html(data.title);
+    //     // $('#mm_page_content').html(data.body);
+    // }).then(function(res) {
+    //     console.log(res);
+    // });
+
+
+    $.ajax({
+        url: "//mallmaverick.com/pages/home-caitlin-test.json",
+        method: "GET",
+        dataType: "json",
+    }).then(function(res) {
+        // renderEvents("#jobs_container","#jobs_template", publis3hed_events);
+        console.log(res);
+    });
+
     })
 </script>
