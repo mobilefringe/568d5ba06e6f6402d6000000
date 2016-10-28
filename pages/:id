@@ -59,10 +59,9 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
-            show_content();
-            // $('#top_nav_about_us').addClass('active_yellow')
+            show_content(renderAll);
         }
-        loadMallDataCached(renderAll); 
+        // loadMallDataCached(renderAll); 
     
     
     
