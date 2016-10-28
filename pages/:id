@@ -63,15 +63,17 @@
             // $('#top_nav_about_us').addClass('active_yellow')
         }
         // loadMallDataCached(renderAll); 
+    
+    
+    
+        $.ajax({
+            url: "//mallmaverick.com/pages/home-caitlin-test.json",
+            method: "GET",
+            dataType: "json",
+        }).then(function(res) {
+            // renderEvents("#jobs_container","#jobs_template", publis3hed_events);
+            console.log(res);
+        });
+    
     });
-    
-    
-    // $.ajax({
-    //     url: "//mallmaverick.com/pages/home-caitlin-test.json",
-    //     method: "GET",
-    //     dataType: "json",
-    // }).then(function(res) {
-    //     // renderEvents("#jobs_container","#jobs_template", publis3hed_events);
-    //     console.log(res);
-    // });
 </script>
