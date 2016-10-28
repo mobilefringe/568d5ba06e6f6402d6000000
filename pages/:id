@@ -49,7 +49,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
-            var pages_json = '//dixieoutlet.mallmaverick.com/pages/dixieoutlet-group-tours.json'
+            var pages_json = '//mallmaverick.com/pages/home-caitlin-test.json'
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_title').html(data.title);
                 $('#mm_page_content').html(data.body);
@@ -65,14 +65,14 @@
     })
     
     
-    $.ajax({
-        url: "//mallmaverick.com/pages/home-caitlin-test.json",
-        method: "GET",
-        dataType: "json",
-    }).then(function(res) {
-        // renderEvents("#jobs_container","#jobs_template", publis3hed_events);
-        console.log(res);
-    });
+    // $.ajax({
+    //     url: "//mallmaverick.com/pages/home-caitlin-test.json",
+    //     method: "GET",
+    //     dataType: "json",
+    // }).then(function(res) {
+    //     // renderEvents("#jobs_container","#jobs_template", publis3hed_events);
+    //     console.log(res);
+    // });
 
     })
 </script>
