@@ -60,9 +60,9 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
-            show_content(renderAll);
+            show_content();
         }
-        load(renderAll); 
+        loadMallDataCached(renderAll); 
     
     
     
