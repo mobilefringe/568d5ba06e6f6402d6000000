@@ -2,7 +2,7 @@
 
 <section class="page_banner">
     <div class = "inside_container">
-        <h2 class="text-center inside_main_header">iBeacons</h2>
+        <h2 class="text-center inside_main_header" id="mm_page_title"></h2>
         <p class="text-center desc banner_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus risus at lacus bibendum, quis ultrices dolor ornare. Etiam congue blandit augue at tristique. Ut pharetra dictum lobortis. Etiam lacinia, augue id pulvinar vehicula, eros.</p>    
     </div>
 </section>
@@ -44,19 +44,27 @@
 <script>
     $(document).ready(function(e){
         init(e);
+
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = '//dixieoutlet.mallmaverick.com/pages/dixieoutlet-group-tours.json'
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_title').html(data.title);
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            show_content();
+            $('#top_nav_about_us').addClass('active_yellow')
+        }
+        loadMallDataCached(renderAll); 
+    })
     
-    // var pathArray = window.location.pathname.split( '/' );
-    // var slug = pathArray[pathArray.length-1];
-    // prefix = get_prefix();
-    // var pages_json = prefix + "/pages/" + slug + ".json"
-    // $.getJSON(pages_json).done(function(data) {
-    //     // $('#mm_page_title').html(data.title);
-    //     // $('#mm_page_content').html(data.body);
-    // }).then(function(res) {
-    //     console.log(res);
-    // });
-
-
+    
     $.ajax({
         url: "//mallmaverick.com/pages/home-caitlin-test.json",
         method: "GET",
