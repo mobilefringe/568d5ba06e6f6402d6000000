@@ -83,27 +83,28 @@
         // }
         // loadMallDataCached(renderAll); 
     
-    //     function update_json(){
+        function update_json(){
     // 		$("#loading").modal("show");
     // 		$("#update_body").html("Updating");
     // 		$("#close_modal").addClass("hidden");
-    // 		$.ajax({
-    // 			url: "//mallmaverick.com/pages/home-caitlin-test.json",
-    // 			type: "GET",
-    // 			success: function(response){
-    // 				if(response["msg"] == "success"){					
-    // 				// 	$("#update_body").html("Update Complete").fadeIn();
-    // 				// 	$("#close_modal").removeClass("hidden");
-    // 				$('#mm_page_title').html(data.title);
-    //                 $('#mm_page_content').html(data.body);
-    // 				}
-    // 				else{
-    // 					$("#update_body").html("Update Failed").fadeIn();
-    // 				// 	$("#close_modal").removeClass("hidden");
-    // 				}
-    // 			}
-		  //  });
-    //     };		    
+    		$.ajax({
+    			url: "//mallmaverick.com/pages/home-caitlin-test.json",
+    			type: "GET",
+    			success: function(response) {
+    				if(response["msg"] == "success"){					
+    				// 	$("#update_body").html("Update Complete").fadeIn();
+    				// 	$("#close_modal").removeClass("hidden");
+    				$('#mm_page_title').html(data.title);
+                    $('#mm_page_content').html(data.body);
+    				}
+    				else{
+    				    $('#mm_page_content').html("Fail");
+    				// 	$("#update_body").html("Update Failed").fadeIn();
+    				// 	$("#close_modal").removeClass("hidden");
+    				}
+    			}
+		    });
+        };		    
     
     
         $.ajax({
