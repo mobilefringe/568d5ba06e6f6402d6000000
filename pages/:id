@@ -12,7 +12,6 @@
             <main class="col-md-8">
                 <!-- Template Here -->
                 <div id="mm_page_content"></div>
-                <!--<h3 id="404_msg" class="hidden_now">Sorry we can't find the page you're looking for.</h3>-->
             </main>
             <aside class="col-md-4">
                 <div class="hidden-xs hidden-s features_container">
@@ -45,7 +44,27 @@
 <script>
     $(document).ready(function(e){
         init(e);
-
+        
+        
+        function renderData(){
+            // var pathArray = window.location.pathname.split( '/' );
+            // var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            // var pages_json = prefix + "/pages/" + slug + ".json"
+            var pages_json = '//mallmaverick.com/pages/home-caitlin-test.json'
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_title').html(data.title);
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            show_content();
+        }
+        loadMallDataCached(renderData);
+        
+        
         // function renderAll(){
         //     var pathArray = window.location.pathname.split( '/' );
         //     var slug = pathArray[pathArray.length-1];
