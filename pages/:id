@@ -53,7 +53,7 @@
         }).then(function(data) {
             console.log(data);
             $('#mm_page_title').html(data.title);
-            $('#mm_page_subtitle').html(data.body);
+            // $('#mm_page_subtitle').html(data.body);
             $('#mm_page_content').html(data.body);
         });
     
