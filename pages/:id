@@ -62,7 +62,7 @@
             }); 
             show_content();
         }
-        loadMallDataCached(renderData);
+        // loadMallDataCached(renderData);
         
         
         // function renderAll(){
