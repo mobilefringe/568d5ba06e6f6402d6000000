@@ -47,7 +47,7 @@
         
         var data = [];
         $.ajax({
-            url: "//mallmaverick.com/pages/home-blog",
+            url: "//mallmaverick.com/pages/home-ibeacons",
             method: "GET",
             dataType: "json",
         }).then(function(data) {
