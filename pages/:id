@@ -42,7 +42,7 @@
     </div>    
 </section>
 <script>
-    $(document).ready(function(e){
+    $(function(e) {
         init(e);
         
         
