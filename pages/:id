@@ -50,7 +50,7 @@
         
         var data = [];
         $.ajax({
-            url: "//mallmaverick.com/posts/ibeacon-test.json",
+            url: "//mallmaverick.com/posts/" + slug + ".json",
             method: "GET",
             dataType: "json",
         }).then(function(data) {
