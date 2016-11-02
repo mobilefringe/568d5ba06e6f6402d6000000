@@ -41,4 +41,8 @@ function init(){
             previousScroll = scroller;
         }
     });
+    
+    var navbar = document.getElementById("header");
+	var headroom = new Headroom(navbar);
+	headroom.init();
 }
