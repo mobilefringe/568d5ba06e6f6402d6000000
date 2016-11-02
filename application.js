@@ -8,15 +8,13 @@ function init(){
             $('#header').removeClass('darken');
             $('body').removeClass('no_scroll');
             $(".modal-backdrop").remove();
-        }else{
+        } else {
             $('#header').removeClass('lighten');
             $('#header').addClass('darken');
             $('body').addClass('no_scroll');
             setTimeout(function() {$('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body); }, 300);
-            
         }
         $('.custom_mobile_menu').slideToggle();
-        
     })
     
     $(".scroll").click(function(e) {
