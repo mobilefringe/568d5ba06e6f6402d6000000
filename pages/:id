@@ -12,7 +12,7 @@
             <main class="col-md-8">
                 <!-- Template Here -->
                 <figure class="feature-image">
-                    <img id="#mm_post_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/jpeg/undefined/" + {{image_file_name}}>
+                    <img id="#mm_post_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/jpeg/undefined/" + {{image_file_name}} + "/>
                     <!--//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1447713049000/img.jpg-->
                 </figure>
                 <div id="mm_post_content"></div>
