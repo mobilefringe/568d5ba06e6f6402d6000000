@@ -113,7 +113,7 @@
     <div id="more_features">
         <div class="main_container">
             <h2 class="heading text-center special_heading">Responsive Websites, Native Mobile Applications <br />& Digital Directory Boards</h2>
-            <p class="desc">We have so much great features for your website!</p>
+            <p class="desc">We have so many great features for your website!</p>
             <div class="row mobile_features">
                 <div class="col-md-10 middle_align">
                     <div class="row">
@@ -199,7 +199,7 @@
             <div class="row">
                 <div class="col-md-5 text-left middle_align">
                     <form action="http://mobilefringe.createsend.com/t/d/s/yuxz/" method="post" id="subForm">
-                    <div class="col-md-8">
+                    <div class="">
                         <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
                     </div>
                     <div class="submit">
