@@ -44,6 +44,8 @@
 </section>
 <script>
     $(document).ready(function() {
+        init();
+        
         function renderpageHTML(){
             var pathArray = window.location.pathname.split( '/' );
             
