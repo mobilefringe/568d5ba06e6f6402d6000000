@@ -54,7 +54,7 @@
             var pageInfo = getPageInfo();
             renderPageData('.feature-image','#inside_template', pageInfo)
             renderpageHTML();
-            console.log(pageInfo);
+            console.log(work?);
         }
         
         var data = [];
