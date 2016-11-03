@@ -46,9 +46,9 @@
     $(document).ready(function() {
         function renderpageHTML(){
             var pathArray = window.location.pathname.split( '/' );
-            console.log("pathArray")
             
-            // var slug = pathArray[pathArray.length-1];
+            var slug = pathArray[pathArray.length-1];
+            console.log(slug);
             // prefix = get_prefix();
             // var pages_json = prefix + "/posts/" + slug + ".json"
             // $.getJSON(pages_json).done(function(data) {
