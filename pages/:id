@@ -68,7 +68,7 @@
         function loadData() {
           var template = $('#inside_template').html();
           Mustache.parse(template);   // optional, speeds up future uses
-          var rendered = Mustache.render(template, {{image_file_name}});
+          var rendered = Mustache.render(template);
           $('#inside_template').html(rendered);
         }
     });
