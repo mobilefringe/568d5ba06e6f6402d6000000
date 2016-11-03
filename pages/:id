@@ -1,3 +1,5 @@
+
+
 <section class="page_banner">
     <div class = "inside_container">
         <h2 class="text-center inside_main_header" id="mm_post_title"></h2>
@@ -44,57 +46,20 @@
 </section>
 <script>
     $(document).ready(function() {                
-        init();    
-        // var data = [];
-        // $.ajax({
-        //     url: "//mallmaverick.com/posts/ibeacon-test.json",
-        //     method: "GET",
-        //     dataType: "json",
-        // }).then(function(data) {
-        //     console.log(data);
-        //     $('#mm_post_title').html(data.title);
-        //     $('#mm_post_author').html(data.author);
-        //     $('#mm_post_image').html(data.image_file_name);
-        //     $('#mm_post_content').html(data.body);
-        //     console.log(data.image_file_name);
-        // });
         
-        function renderData() {
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            prefix = get_prefix();
-            var pages_json = prefix + "/posts/" + slug + ".json"
-            $.getJSON(pages_json).done(function(data) {
-                $('#mm_post_title').html(data.title);
-                $('#mm_post_author').html(data.author);
-                $('#mm_post_image').html(data.image_file_name);
-                $('#mm_post_content').html(data.body);
-            // }).fail(function(jqXHR) {
-            //     if (jqXHR.status == 404) {
-            //         $("#404_msg").fadeIn("fast");
-            //     }
-            }); 
-            show_content();
-        }
-        loadMallDataCached(renderData); 
+        var data = [];
+        $.ajax({
+            url: "//mallmaverick.com/posts/ibeacon-test.json",
+            method: "GET",
+            dataType: "json",
+        }).then(function(data) {
+            console.log(data);
+            $('#mm_post_title').html(data.title);
+            $('#mm_post_author').html(data.author);
+            $('#mm_post_image').html(data.image_file_name);
+            $('#mm_post_content').html(data.body);
+            console.log(data.image_file_name);
+        });
+        
     });
-    // $(document).ready(function(e){
-    //     init(e);
-    //     function renderAll(){
-    //         var pathArray = window.location.pathname.split( '/' );
-    //         var slug = pathArray[pathArray.length-1];
-    //         prefix = get_prefix();
-    //         var pages_json = prefix+"/pages/" + slug + ".json"
-    //         $.getJSON(pages_json).done(function(data) {
-    //             $('#mm_page_title').html(data.title);
-    //             $('#mm_page_content').html(data.body);
-    //         }).fail(function(jqXHR) {
-    //             if (jqXHR.status == 404) {
-    //                 $("#404_msg").fadeIn("fast");
-    //             }
-    //         }); 
-    //         show_content();
-    //     }
-    //     loadMallDataCached(renderAll); 
-    // })
 </script>
