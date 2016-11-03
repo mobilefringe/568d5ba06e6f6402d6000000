@@ -61,7 +61,7 @@
         
         function renderData() {
             // var pathArray = window.location.pathname.split( '/' );
-            // var slug = pathArray[pathArray.length-1];
+            var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
             var pages_json = prefix + "/posts/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
