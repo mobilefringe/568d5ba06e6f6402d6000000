@@ -65,11 +65,11 @@
             var output = Mustache.render("{{image_file_name}}", data);
         });
         
-        function loadData() {
-          var template = $('#inside_template').html();
-          Mustache.parse(template);   // optional, speeds up future uses
-          var rendered = Mustache.render(template, {{image_file_name}});
-          $('#inside_template').html(rendered);
-        }
+        // function loadData() {
+        //   var template = $('#inside_template').html();
+        //   Mustache.parse(template);   // optional, speeds up future uses
+        //   var rendered = Mustache.render(template, {{image_file_name}});
+        //   $('#inside_template').html(rendered);
+        // }
     });
 </script>
