@@ -10,6 +10,7 @@
             <main class="col-md-8">
                 <!-- Template Here -->
                 <figure class="feature-image">
+                    <!-- image needs to be dynamic -->
                     <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/test.jpeg?1478183445"/>
                 </figure>
                 <div id="mm_post_content"></div>
@@ -42,22 +43,45 @@
         </div>
     </div>    
 </section>
+// <script>
+//     $(document).ready(function() {                
+//         var data = [];
+//         $.ajax({
+//             url: "//mallmaverick.com/posts/ibeacon-test.json",
+//             method: "GET",
+//             dataType: "json",
+//         }).then(function(data) {
+//             console.log(data);
+//             $('#mm_post_title').html(data.title);
+//             $('#mm_post_author').html(data.author);
+//             $('#mm_post_image').html(data.image_file_name);
+//             $('#mm_post_content').html(data.body);
+//         });
+//     });
+// </script>
+
 <script>
-    $(document).ready(function() {                
+    $(document).ready(function(e){
+        init(e);
+        renderPage();
+    })
+    
+    function renderPage(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
         
-        var data = [];
-        $.ajax({
-            url: "//mallmaverick.com/posts/ibeacon-test.json",
-            method: "GET",
-            dataType: "json",
-        }).then(function(data) {
-            console.log(data);
+        prefix = get_prefix();
+        var pages_json = prefix + "/posts/" + slug + ".json"
+        $.getJSON(pages_json).done(function(data) {
             $('#mm_post_title').html(data.title);
             $('#mm_post_author').html(data.author);
             $('#mm_post_image').html(data.image_file_name);
             $('#mm_post_content').html(data.body);
-            console.log(data.image_file_name);
-        });
-        
-    });
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#404_msg").fadeIn("fast");
+            }
+        }); 
+        show_content();
+    }
 </script>
