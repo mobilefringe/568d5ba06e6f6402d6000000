@@ -12,8 +12,8 @@
             <main class="col-md-8">
                 <!-- Template Here -->
                 <figure class="feature-image">
-                    <script id="inside_template" type="x-tmpl-mustache/text">
-                        <img id="#mm_post_image" src="//www.mallmaverick.com/system/posts/{{image_file_name}}">
+                    <script id="inside_template" type="x-tmpl-mustache">
+                        <img id="#mm_post_image" src="{{image_file_name}}"/>
                     </script>
                     <!--//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1447713049000/img.jpg-->
                 </figure>
@@ -48,7 +48,14 @@
     </div>    
 </section>
 <script>
-    $(document).ready(function() {
+    $(document).ready(function() {        
+    
+        function renderAll (){
+            var pageInfo = getPageInfo();
+            renderPageData('.feature-image','#inside_template', pageInfo)
+            renderpageHTML();
+            console.log(pageInfo);
+        }
         
         var data = [];
         $.ajax({
@@ -63,6 +70,11 @@
             $('#mm_post_content').html(data.body);
             
             // var output = Mustache.render("{{image_file_name}}", data);
+            
+            var template = $('#inside_template').html();
+          Mustache.parse(template);   // optional, speeds up future uses
+          var rendered = Mustache.render(template);
+          $('#inside_template').html(rendered);
         });
         
         function loadData() {
