@@ -65,13 +65,11 @@
             var output = Mustache.render("{{image_file_name}}", data);
         });
         
-        // function renderAll (){
-        //     var propertyDetails = getPropertyDetails();
-        //     renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
-        //     renderpageHTML();
-        //     $("#loading_screen").hide();
-        //     $( "#main_content" ).fadeIn( "fast");
-        // }
-        
+        function loadData() {
+          var template = $('#inside_template').html();
+          Mustache.parse(template);   // optional, speeds up future uses
+          var rendered = Mustache.render(template, {{image_file_name}});
+          $('#inside_template').html(rendered);
+        }
     });
 </script>
