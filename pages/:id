@@ -69,19 +69,17 @@
             $('#mm_post_image').html(data.image_file_name);
             $('#mm_post_content').html(data.body);
             
-            // var output = Mustache.render("{{image_file_name}}", data);
-            
-            var template = $('#inside_template').html();
-          Mustache.parse(template);   // optional, speeds up future uses
-          var rendered = Mustache.render(template);
-          $('#inside_template').html(rendered);
+        //     var template = $('#inside_template').html();
+        //   Mustache.parse(template);   // optional, speeds up future uses
+        //   var rendered = Mustache.render(template);
+        //   $('#inside_template').html(rendered);
         });
         
-        function loadData() {
-          var template = $('#inside_template').html();
-          Mustache.parse(template);   // optional, speeds up future uses
-          var rendered = Mustache.render(template);
-          $('#inside_template').html(rendered);
-        }
+        // function loadData() {
+        //   var template = $('#inside_template').html();
+        //   Mustache.parse(template);   // optional, speeds up future uses
+        //   var rendered = Mustache.render(template);
+        //   $('#inside_template').html(rendered);
+        // }
     });
 </script>
