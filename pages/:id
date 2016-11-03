@@ -43,47 +43,21 @@
     </div>    
 </section>
 <script>
-    $(document).ready(function() {
-
+    $(document).ready(function() {                
         
-        function renderpageHTML(){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            prefix = get_prefix();
-            var pages_json = prefix + "/posts/" + slug + ".json"
-            $.getJSON(pages_json).done(function(data) {
-                //var pages_data = JSON.parse(data);
-                // console.log(data.body);
-                
-                document.title = data.title;
-                $("#active_breadcrumb").html(data.title)
-                $("#page_title").html(data.title)
-                $('#mm_page_content').html(data.body);
-            }).fail(function(jqXHR) {
-                if (jqXHR.status == 404) {
-                    $("#404_msg").fadeIn("fast");
-                }
-            }); 
-        }
-        init();
+        var data = [];
+        $.ajax({
+            url: "//mallmaverick.com/posts/ibeacon-test.json",
+            method: "GET",
+            dataType: "json",
+        }).then(function(data) {
+            console.log(data);
+            $('#mm_post_title').html(data.title);
+            $('#mm_post_author').html(data.author);
+            $('#mm_post_image').html(data.image_file_name);
+            $('#mm_post_content').html(data.body);
+            console.log(data.image_file_name);
+        });
         
     });
-    
-    // $(document).ready(function() {                
-        
-    //     var data = [];
-    //     $.ajax({
-    //         url: "//mallmaverick.com/posts/ibeacon-test.json",
-    //         method: "GET",
-    //         dataType: "json",
-    //     }).then(function(data) {
-    //         console.log(data);
-    //         $('#mm_post_title').html(data.title);
-    //         $('#mm_post_author').html(data.author);
-    //         $('#mm_post_image').html(data.image_file_name);
-    //         $('#mm_post_content').html(data.body);
-    //         console.log(data.image_file_name);
-    //     });
-        
-    // });
 </script>
