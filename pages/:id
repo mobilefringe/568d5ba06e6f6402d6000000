@@ -46,7 +46,7 @@
     $(document).ready(function() {
         function renderpageHTML(){
             var pathArray = window.location.pathname.split( '/' );
-            console.log("pathArray"")
+            console.log("pathArray")
             
             // var slug = pathArray[pathArray.length-1];
             // prefix = get_prefix();
