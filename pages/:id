@@ -74,7 +74,7 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
-            show_content();
         }
+        show_content();
     });
 </script>
