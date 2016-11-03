@@ -49,7 +49,7 @@
 </section>
 <script>
     $(document).ready(function() {        
-    
+    init(e);
         function renderAll (){
             var pageInfo = getPageInfo();
             renderPageData('.feature-image','#inside_template', pageInfo)
