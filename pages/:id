@@ -44,7 +44,7 @@
 </section>
 <script>
     $(document).ready(function() {                
-        
+        init();    
         // var data = [];
         // $.ajax({
         //     url: "//mallmaverick.com/posts/ibeacon-test.json",
