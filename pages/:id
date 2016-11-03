@@ -76,5 +76,6 @@
             }); 
             show_content();
         }
+        loadMallDataCached(renderData); 
     });
 </script>
