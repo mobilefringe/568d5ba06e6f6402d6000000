@@ -63,8 +63,8 @@
     $(document).ready(function() {                
         
         function renderAll (){
-            var image_Details = getImageDetails();
-            renderPageData('#feature_image','#feature_image_template', image_Details);
+            var imageDetails = getImageDetails();
+            renderPageData('#feature_image','#feature_image_template', imageDetails);
             
             renderpageHTML();
         }
@@ -88,7 +88,7 @@
             var item_rendered = [];
             var template_html = $("#feature_image_template").html();
             Mustache.parse(template_html);   // optional, speeds up future uses
-            if (type == "image_Details"){
+            if (type == "imageDetails"){
                 item_list.push(collection);
                 collection = []
                 collection = item_list;
