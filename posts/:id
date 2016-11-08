@@ -1,7 +1,7 @@
 <section class="page_banner">
     <div class = "inside_container">
-        <div id="post_container">
-            <script id="post_template" type="x-tmpl-mustache/text">
+        <div id="header_container">
+            <script id="header_template" type="x-tmpl-mustache/text">
                 <h2 class="text-center inside_main_header">{{title}}</h2>
                 <p class="text-center desc banner_text">{{author}}</p> 
             </script>    
@@ -66,14 +66,14 @@
             // blog_searcher();
 
 
-            renderPostDetails("#post_container", "#post_template", post);
+            renderHeaderDetails("#header_container", "#header_template", header);
         }
         
-        function renderPostDetails(container, template, collection){
+        function renderHedaerDetails(header_container, header_template, header){
             var item_list = [];
             var item_rendered = [];
-            var template_html = $(template).html();
-            $.each( collection , function( key, val ) {
+            var template_html = $(header_template).html();
+            $.each(header, function(key, val) {
                 // if (val.image_url.indexOf('missing.png') > -1) {
                 //     val.post_image = "//codecloud.cdn.speedyrails.net/sites/55bba30d6e6
                 // } else {
@@ -109,10 +109,12 @@
                 // if (val.tag != undefined){
                 //     val.tag_list = val.tag.join(', ');
                 // }
+                if(val.title.length >0){
+                    val.title = val.title;
+                }
                 if(val.author.length > 0){
                     val.author = val.author;
                 }
-                
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
             });
