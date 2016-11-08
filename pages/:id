@@ -64,19 +64,7 @@
 <script>
     $(document).ready(function() {                
         
-        function renderAll (){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            var post = getPublishedPostDetailsBySlug(slug);
-            var posts = getAllPublishedPosts();
-            var published_posts = sortByKey(posts, 'publish_date').reverse().slice(0, 4);
-            renderPosts("#side_blog_container", "#side_blog_template", published_posts);
-            renderPostDetails("#post_container", "#post_template", post);
-            var blogs = getBlogList()
-            renderBlogs("#blog_links_container", "#blog_links_template", blogs);
-            show_content();
-            blog_searcher();
-        }
+        
         
         
         
@@ -84,34 +72,15 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
-            var pages_json = "//home.mallmaverick.com/posts" + slug + ".json"
+            var pages_json = "//mallmaverick.com/posts/ibeacon-test.json"
             $.getJSON(pages_json).done(function(data) {
                 document.title = data.title;
                 $('#mm_post_title').html(data.title);
                 $('#mm_post_author').html(data.author);
+                $('#mm_post_image').html(data.image_file_name);
                 $('#mm_post_content').html(data.body);
-                console.log(data);
-            }); 
-        }
-        
-        function renderPageData(feature_image_container, feature_image_template, collection, type){
-            var item_list = [];
-            var item_rendered = [];
-            var template_html = $(feature_image_template).html();
-            Mustache.parse(template_html);   // optional, speeds up future uses
-            if (type == "image_details"){
-                item_list.push(featureImage);
-                collection = []
-                collection = item_list;
-            }
-            $.each( collection , function( key, val ) {
-                var rendered = Mustache.render(template_html,val);
-                item_rendered.push(rendered);
             });
-            $(feature_image_container).show();
-            $(feature_image_container).html(item_rendered.join(''));
-        };
-        
+        }
         // var data = [];
         // $.ajax({
         //     url: "//mallmaverick.com/posts/ibeacon-test.json",
@@ -124,6 +93,6 @@
         //     $('#mm_post_image').html(data.image_file_name);
         //     $('#mm_post_content').html(data.body);
         // });
-        renderAll();
+        renderrenderpageHTML();
     });
 </script>
