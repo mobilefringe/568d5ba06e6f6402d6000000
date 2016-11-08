@@ -63,7 +63,7 @@
     $(document).ready(function() {                
         
         function renderAll (){
-            var imageDetails = getImageDetails();
+            // var imageDetails = getImageDetails();
             renderPageData('#feature_image','#feature_image_template', imageDetails);
             
             renderpageHTML();
