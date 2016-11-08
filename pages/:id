@@ -64,7 +64,7 @@
         
         function renderAll (){
             // var imageDetails = getImageDetails();
-            renderPageData('#feature_image','#feature_image_template', imageDetails);
+            // renderPageData('#feature_image','#feature_image_template', imageDetails);
             
             renderpageHTML();
         }
