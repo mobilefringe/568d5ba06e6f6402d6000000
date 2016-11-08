@@ -91,11 +91,11 @@
             $(header_container).html(item_rendered.join(''));
         }
         
-        function renderPostDetails(container, template, collection){
+        function renderPostDetails(post_container, post_template, posts){
             var item_list = [];
             var item_rendered = [];
-            var template_html = $(template).html();
-            $.each( collection , function( key, val ) {
+            var template_html = $(post_template).html();
+            $.each(posts, function(key, val) {
                 // if (val.image_url.indexOf('missing.png') > -1) {
                 //     val.post_image = "//codecloud.cdn.speedyrails.net/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
                 // } else {
@@ -135,7 +135,7 @@
                 // item_rendered.push(rendered);
             });
             
-            $(container).html(item_rendered.join(''));
+            $(post_container).html(item_rendered.join(''));
         }
         loadMallDataCached(renderAll); 
 		
