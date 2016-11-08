@@ -1,3 +1,18 @@
+<script id="job_list_template" type="x-tmpl-mustache/text">
+            <div class="job_container">
+                <a href="/stores/{{store_slug}}"><p class="logo_circle_heading">{{store_name}}</p></a>
+                <div style="width:100%; display:inline-block;">
+                    <p class="promo_details_name" style="float:left;width:45%">{{name}}</p>
+                    <p class="promo_details_dates" style="float:left;">{{job_type}}</p>
+                    <div class="clearfix"></div>
+                    <a class="promo_read_more pull-left" href="/jobs/{{slug}}"><i class="fa fa-plus-square"></i> READ MORE</a>
+                </div>
+            </div>
+                
+</script>
+
+
+
 <section class="page_banner">
     <div class = "inside_container">
         <h2 class="text-center inside_main_header" id="mm_post_title"></h2>
@@ -8,13 +23,14 @@
     <div class="inside_container">
         <div class="row">
             <main class="col-md-8">
-                <!-- Template Here -->
-                <figure class="feature-image">
-                    <!-- image needs to be dynamic -->
-                    <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/test.jpeg?1478183445"/>
-                </figure>
+                <script id="feature_image_template" type="x-tmpl-mustache/text">
+                    <figure id="feature_image">
+                        <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_url}}"/>
+                    </figure>
+                </script>    
                 <div id="mm_post_content"></div>
             </main>
+            
             <aside class="col-md-4">
                 <div class="hidden-xs hidden-s features_container">
                     <h4>Other Features</h4>
@@ -22,7 +38,7 @@
                         <!-- Dynamically pull in list of Features-->
                         <li><a href="" target="_"><i class="material-icons">check_circle</i>Feature</a></li>
                         <li><a><i class="material-icons">check_circle</i>Feature</a></li>
-                        <li><a><i class="material-icons">check_circle</i>Feature</a></li>       
+                        <li><a><i class="material-icons">check_circle</i>Feature</a></li>  
                     </ul>
                 </div>
                 <div class="contact_container">
@@ -45,17 +61,57 @@
 </section>
 <script>
     $(document).ready(function() {                
-        var data = [];
-        $.ajax({
-            url: "//mallmaverick.com/posts/ibeacon-test.json",
-            method: "GET",
-            dataType: "json",
-        }).then(function(data) {
-            console.log(data);
-            $('#mm_post_title').html(data.title);
-            $('#mm_post_author').html(data.author);
-            $('#mm_post_image').html(data.image_file_name);
-            $('#mm_post_content').html(data.body);
-        });
+        
+        function renderAll (){
+            var imageDetails = getImageDetails();
+            renderPageData('#feature_image','#feature_image_template', imageDetails);
+            
+            renderpageHTML();
+        }
+        
+        function renderpageHTML(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix + "/posts/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                document.title = data.title;
+                $('#mm_post_title').html(data.title);
+                $('#mm_post_author').html(data.author);
+                $('#mm_post_content').html(data.body);
+                console.log(data);
+            }); 
+        }
+        
+        function renderPageData(feature_image, feature_image_template, imageDetails){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $("#feature_image_template").html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "imageDetails"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;
+            }
+            $.each( collection , function( key, val ) {
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+            });
+            $(feature_image).show();
+            $(feature_image).html(item_rendered.join(''));
+        };
+        
+        // var data = [];
+        // $.ajax({
+        //     url: "//mallmaverick.com/posts/ibeacon-test.json",
+        //     method: "GET",
+        //     dataType: "json",
+        // }).then(function(data) {
+        //     console.log(data);
+        //     $('#mm_post_title').html(data.title);
+        //     $('#mm_post_author').html(data.author);
+        //     $('#mm_post_image').html(data.image_file_name);
+        //     $('#mm_post_content').html(data.body);
+        // });
     });
 </script>
