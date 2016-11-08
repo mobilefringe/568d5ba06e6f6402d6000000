@@ -1,23 +1,22 @@
-<section class="page_banner">
-    <div class = "inside_container" id="header_container">
-        <script id="header_template" type="x-tmpl-mustache/text">
-            <h2 class="text-center inside_main_header" id="mm_post_title">{{post_title}}</h2>
-            <p class="text-center desc banner_text" id="mm_post_author">{{post_subtitle}}</p>    
-        </scipt>
-    </div>
-</section>
-<section class="main_content">
-    <div class="inside_container">
-        <div class="row">
-            <main class="col-md-8">
-                <figure id="feature_image_container">
-                    <script id="feature_image_template" type="x-tmpl-mustache/text">
-                        <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_name}}"/>
-                    </script>   
-                </figure>
-                <div id="mm_post_content"></div>
-            </main>
-            
+<div id="post_container">
+    <script id="post_template" type="x-tmpl-mustache/text">
+        <section class="page_banner">
+            <div class = "inside_container">
+                    <h2 class="text-center inside_main_header">{{post_title}}</h2>
+                    <p class="text-center desc banner_text">{{post_subtitle}}</p> 
+            </div>
+        </section>
+        <section class="main_content">
+            <div class="inside_container">
+                <div class="row">
+                    <main class="col-md-8">
+                        <figure id="feature_image">
+                            <img src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_name}}"/>
+                            </script>   
+                        </figure>
+                        <div id="mm_post_content"></div>
+                    </main>
+        </script>    
             <aside class="col-md-4">
                 <div class="hidden-xs hidden-s features_container">
                     <h4>Other Features</h4>
@@ -63,26 +62,61 @@
             // renderBlogs("#blog_links_container", "#blog_links_template", blogs);
             // show_content();
             // blog_searcher();
-            $('#mm_post_title').html(posts.title);
-            $('#mm_post_author').html(posts.author);
-            $('#mm_post_image').html(posts.image_file_name);
-            $('#mm_post_content').html(posts.body);
-            // console.log(data.image_file_name);
-            // renderHeaderDetails("#header_container", "#header_template", posts);
+
+
+            renderPostDetails("#post_container", "#post_template", post);
         }
         
-        // function renderHeaderDetails(header_container, header_template, posts){
-        //     var item_list = [];
-        //     var item_rendered = [];
-        //     var template_html = $(header_template).html();
-        //     Mustache.parse(template_html);   // optional, speeds up future uses
-        //     $.each(posts, function(key, val) {
+        function renderPostDetails(container, template, collection){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            $.each( collection , function( key, val ) {
+                if (val.image_url.indexOf('missing.png') > -1) {
+                    val.post_image = "//codecloud.cdn.speedyrails.net/sites/55bba30d6e6
+                } else {
+                    val.post_image = val.image_url;
+                }
+                if(val.body.length > 100){
+                    val.description_short = val.body.substring(0,100) + "...";
+                }
+                else{
+                    val.description_short = val.body;
+                }
+                var date_blog = moment(val.publish_date).tz(getPropertyTimeZone());
+                val.published_on = date_blog.format("MMMM D, YYYY")
+                var next_p = getNextPublishedPostBySlug(val.slug);
+                var prev_p = getPrevPublishedPostBySlug(val.slug);
+                if (next_p == undefined){
+                    val.next_post_show = "display:none";
+                }
+                else{
+                    val.next_post = next_p.title;
+                    val.next_slug = next_p.slug;
+                    val.next_post_show = "display:inline-block";
+                }
+                if (prev_p == undefined){
+                    val.prev_post_show = "display:none";
+                }
+                else{
+                    val.prev_post = prev_p.title;
+                    val.prev_slug = prev_p.slug;
+                    val.prev_post_show = "display:inline-block";
+                }
                 
-        //         post_title = val.title
-        //     });
-        //     $(header_container).show();
-        //     $(header_container).html(item_rendered.join(''));
-        // }
+                if (val.tag != undefined){
+                    val.tag_list = val.tag.join(', ');
+                }
+                if(val.author.length > 0){
+                    val.author = "By " + val.author;
+                }
+                
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+            });
+            
+            $(container).html(item_rendered.join(''));
+        }
         loadMallDataCached(renderAll); 
 		
     });
