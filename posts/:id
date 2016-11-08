@@ -1,21 +1,22 @@
-<div id="post_container">
-    <script id="post_template" type="x-tmpl-mustache/text">
-        <section class="page_banner">
-            <div class = "inside_container">
-                    <h2 class="text-center inside_main_header">{{title}}</h2>
-                    <p class="text-center desc banner_text">{{author}}</p> 
-            </div>
-        </section>
-        <section class="main_content">
-            <div class="inside_container">
-                <div class="row">
-                    <main class="col-md-8">
-                        <figure id="feature_image">
-                            <img src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_name}}"/>
-                            </script>   
-                        </figure>
-                        <div id="mm_post_content"></div>
-                    </main>
+<section class="page_banner">
+    <div class = "inside_container">
+        <div id="post_container">
+            <script id="post_template" type="x-tmpl-mustache/text">
+                <h2 class="text-center inside_main_header">{{title}}</h2>
+                <p class="text-center desc banner_text">{{author}}</p> 
+        </div>    
+    </div>
+</section>
+<section class="main_content">
+    <div class="inside_container">
+        <div class="row">
+            <main class="col-md-8">
+                <figure id="feature_image">
+                    <img src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_name}}"/>
+                    </script>   
+                </figure>
+                <div id="mm_post_content"></div>
+            </main>
         </script>    
             <aside class="col-md-4">
                 <div class="hidden-xs hidden-s features_container">
