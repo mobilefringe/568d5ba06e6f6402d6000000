@@ -17,13 +17,10 @@
                         <figure id="feature_image">
                             <img src="{{image}}"/>
                         </figure>
-                        <div id="mm_post_content">
-                            {{content}}
-                        </div>
-                    </script>
+                        <div id="mm_post_content">{{content}}</div>  
+                    </script>    
                 </div>
             </main>
-        </script>    
             <aside class="col-md-4">
                 <div class="hidden-xs hidden-s features_container">
                     <h4>Other Features</h4>
