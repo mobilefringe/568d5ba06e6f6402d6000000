@@ -98,7 +98,7 @@
             }); 
         }
         
-        function renderBanner(feature_image_template, feature_image_container, imageName){
+        function renderPageData(feature_image_template, feature_image_container, imageName){
             var item_list = [];
             var item_rendered = [];
             var banner_template_html = $(feature_image_template).html();
