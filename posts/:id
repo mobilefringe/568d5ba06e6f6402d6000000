@@ -91,7 +91,7 @@
                     val.post_image = val.image_url;
                 }
                 if(val.body.length > 0){
-                    val.content = val.body
+                    val.body = val.body
                 }
             });
             
