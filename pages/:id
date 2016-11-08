@@ -63,8 +63,8 @@
     $(document).ready(function() {                
         
         function renderAll (){
-            // var imageDetails = getImageDetails();
-            // renderPageData('#feature_image','#feature_image_template', imageDetails);
+            var image_Details = getImageDetails();
+            renderPageData('#feature_image','#feature_image_template', image_Details);
             
             renderpageHTML();
         }
@@ -83,12 +83,12 @@
             }); 
         }
         
-        function renderPageData(feature_image, feature_image_template, imageDetails){
+        function renderPageData(feature_image, feature_image_template, image_Details){
             var item_list = [];
             var item_rendered = [];
             var template_html = $("#feature_image_template").html();
             Mustache.parse(template_html);   // optional, speeds up future uses
-            if (type == "imageDetails"){
+            if (type == "image_Details"){
                 item_list.push(collection);
                 collection = []
                 collection = item_list;
