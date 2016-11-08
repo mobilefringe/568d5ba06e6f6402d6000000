@@ -50,7 +50,8 @@
         function renderAll (){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
-            var post = getPublishedPostDetailsBySlug(slug);
+            var post = getBlogDataBySlug(slug);
+            console.log(post);
             var posts = getAllPublishedPosts();
             var published_posts = sortByKey(posts, 'publish_date').reverse().slice(0, 4);
             renderPosts("#side_blog_container", "#side_blog_template", published_posts);
