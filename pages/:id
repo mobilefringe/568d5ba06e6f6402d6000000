@@ -85,7 +85,7 @@
             }); 
         }
         
-        function renderPageData(feature_image_container, feature_image_template, imageDetails){
+        function renderPageData(feature_image_container, feature_image_template, imageDetails, image_Details){
             var item_list = [];
             var item_rendered = [];
             var template_html = $("#feature_image_template").html();
