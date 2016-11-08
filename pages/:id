@@ -76,7 +76,7 @@
 <script>
     $(document).ready(function() {                
         
-        function renderAll (){
+        function renderAll(){
             var imageName = getImageName();
             console.log(imageName);
             // renderPageData('#feature_image_template','#feature_image_container', imageName);
