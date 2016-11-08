@@ -65,8 +65,8 @@
     $(document).ready(function() {                
         
         function renderAll (){
-            // var featureImage = getfeatureImage();
-            // renderPageData('#feature_image_container','#feature_image_template', featureImage, 'image_details')
+            var featureImage = getfeatureImage();
+            renderPageData('#feature_image_container','#feature_image_template', featureImage, 'image_details')
             
             renderpageHTML();
         }
