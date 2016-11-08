@@ -4,6 +4,7 @@
             <script id="post_template" type="x-tmpl-mustache/text">
                 <h2 class="text-center inside_main_header">{{title}}</h2>
                 <p class="text-center desc banner_text">{{author}}</p> 
+            </script>    
         </div>    
     </div>
 </section>
