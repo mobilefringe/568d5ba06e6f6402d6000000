@@ -65,7 +65,7 @@
             // show_content();
             // blog_searcher();
 
-            var header = getPostDetails();
+            var header = getAllPublishedPosts();
             renderHeaderDetails("#header_container", "#header_template", header);
         }
         
