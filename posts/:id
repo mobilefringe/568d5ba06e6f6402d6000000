@@ -67,18 +67,18 @@
             renderHeaderDetails("#header_container", "#header_template", posts);
         }
         
-        function renderHeaderDetails(header_container, header_template, posts){
-            var item_list = [];
-            var item_rendered = [];
-            var template_html = $(header_template).html();
-            Mustache.parse(template_html);   // optional, speeds up future uses
-            $.each(posts, function(key, val) {
+        // function renderHeaderDetails(header_container, header_template, posts){
+        //     var item_list = [];
+        //     var item_rendered = [];
+        //     var template_html = $(header_template).html();
+        //     Mustache.parse(template_html);   // optional, speeds up future uses
+        //     $.each(posts, function(key, val) {
                 
-                post_title = val.title
-            });
-            $(header_container).show();
-            $(header_container).html(item_rendered.join(''));
-        }
+        //         post_title = val.title
+        //     });
+        //     $(header_container).show();
+        //     $(header_container).html(item_rendered.join(''));
+        // }
         loadMallDataCached(renderAll); 
 		
     });
