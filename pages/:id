@@ -89,7 +89,7 @@
             var template_html = $("#feature_image_template").html();
             Mustache.parse(template_html);   // optional, speeds up future uses
             if (type == "imageDetails"){
-                item_list.push(collection);
+                item_list.push(imageDetails);
                 collection = []
                 collection = item_list;
             }
