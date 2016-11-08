@@ -61,6 +61,10 @@
             // renderBlogs("#blog_links_container", "#blog_links_template", blogs);
             // show_content();
             // blog_searcher();
+            $('#mm_post_title').html(data.title);
+            $('#mm_post_author').html(data.author);
+            $('#mm_post_image').html(data.image_file_name);
+            $('#mm_post_content').html(data.body);
         }
         loadMallDataCached(renderAll); 
 		
