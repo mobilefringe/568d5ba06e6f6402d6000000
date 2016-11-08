@@ -67,7 +67,7 @@
             $('#mm_post_author').html(posts.author);
             $('#mm_post_image').html(posts.image_file_name);
             $('#mm_post_content').html(posts.body);
-            console.log(data.image_file_name);
+            // console.log(data.image_file_name);
             // renderHeaderDetails("#header_container", "#header_template", posts);
         }
         
