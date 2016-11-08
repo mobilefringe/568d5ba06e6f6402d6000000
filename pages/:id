@@ -75,7 +75,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
-            var pages_json = prefix + "/posts/" + slug + ".json"
+            var pages_json = "//mallmaverick.com/posts" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
                 document.title = data.title;
                 $('#mm_post_title').html(data.title);
@@ -115,6 +115,6 @@
         //     $('#mm_post_image').html(data.image_file_name);
         //     $('#mm_post_content').html(data.body);
         // });
-        init(renderAll());
+        renderAll();
     });
 </script>
