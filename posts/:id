@@ -12,8 +12,8 @@
     <div class="inside_container">
         <div class="row">
             <main class="col-md-8">
-                <div id="page_container">
-                    <script id="page_template" type="x-tmpl-mustache/text">
+                <div id="main_container">
+                    <script id="main_template" type="x-tmpl-mustache/text">
                         <figure class="feature_image">
                             <img src="{{post_image}}"/>
                         </figure>
@@ -60,7 +60,7 @@
             console.log(posts);
             
             renderHeaderDetails("#header_container", "#header_template", posts);
-            renderPostDetails("#page_container", "#page_template", posts);
+            renderPostDetails("#main_container", "#main_template", posts);
         }
         
         function renderHeaderDetails(header_container, header_template, posts){
@@ -80,22 +80,22 @@
             $(header_container).html(item_rendered.join(''));
         }
         
-        function renderPostDetails(page_container, page_template, posts){
+        function renderPostDetails(main_container, main_template, posts){
             var item_list = [];
             var item_rendered = [];
-            var template_html = $(page_template).html();
+            var template_html = $(main_template).html();
             $.each(posts, function(key, val) {
-                if (val.image_url.indexOf('missing.png') > -1) {
-                    val.post_image = "//codecloud.cdn.speedyrails.net/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
-                } else {
-                    val.post_image = val.post_image;
-                }
+                // if (val.image_url.indexOf('missing.png') > -1) {
+                //     val.post_image = "//codecloud.cdn.speedyrails.net/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
+                // } else {
+                //     val.post_image = val.post_image;
+                // }
                 if(val.body.length > 0){
                     val.body = val.body
                 }
             });
             
-            $(page_container).html(item_rendered.join(''));
+            $(main_container).html(item_rendered.join(''));
         }
         loadMallDataCached(renderAll); 
 		
