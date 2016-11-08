@@ -1,7 +1,9 @@
 <section class="page_banner">
-    <div class = "inside_container">
-        <h2 class="text-center inside_main_header" id="mm_post_title"></h2>
-        <p class="text-center desc banner_text" id="mm_post_author"></p>    
+    <div class = "inside_container" id="header_container">
+        <script id="header_template" type="x-tmpl-mustache/text">
+            <h2 class="text-center inside_main_header" id="mm_post_title">{{post_title}}</h2>
+            <p class="text-center desc banner_text" id="mm_post_author">{{post_subtitle}}</p>    
+        </scipt>
     </div>
 </section>
 <section class="main_content">
@@ -61,10 +63,21 @@
             // renderBlogs("#blog_links_container", "#blog_links_template", blogs);
             // show_content();
             // blog_searcher();
-            $('#mm_post_title').html(data.title);
-            $('#mm_post_author').html(data.author);
-            $('#mm_post_image').html(data.image_file_name);
-            $('#mm_post_content').html(data.body);
+            
+            renderHeaderDetails("#header_container", "#header_template", posts);
+        }
+        
+        function renderHeaderDetails(header_container, header_template, posts);{
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(header_template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            $.each(posts, function(key, val) {
+                
+                val.post_title = posts.title
+            });
+            $(header_container).show();
+            $(header_container).html(item_rendered.join(''));
         }
         loadMallDataCached(renderAll); 
 		
