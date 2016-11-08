@@ -2,8 +2,8 @@
     <script id="post_template" type="x-tmpl-mustache/text">
         <section class="page_banner">
             <div class = "inside_container">
-                    <h2 class="text-center inside_main_header">{{post_title}}</h2>
-                    <p class="text-center desc banner_text">{{post_subtitle}}</p> 
+                    <h2 class="text-center inside_main_header">{{title}}</h2>
+                    <p class="text-center desc banner_text">{{author}}</p> 
             </div>
         </section>
         <section class="main_content">
@@ -108,7 +108,7 @@
                     val.tag_list = val.tag.join(', ');
                 }
                 if(val.author.length > 0){
-                    val.author = "By " + val.author;
+                    val.author = val.author;
                 }
                 
                 var rendered = Mustache.render(template_html,val);
