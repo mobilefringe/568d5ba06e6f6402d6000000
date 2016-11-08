@@ -23,13 +23,25 @@
     <div class="inside_container">
         <div class="row">
             <main class="col-md-8">
-                <div id="feature_image_container">
+            
+            <ul class="slides" id="home_banner">
+                <script id="banner_template" type="x-tmpl-mustache/text">
+                    <li class="item">
+                        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                            <img src="{{image_url}}"/>
+                        </a>
+                    </li>
+                </script>
+            </ul>
+            
+            
+            
+            
+                <figure id="feature_image_container">
                     <script id="feature_image_template" type="x-tmpl-mustache/text">
-                        <figure id="">
-                            <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_namel}}"/>
-                        </figure>
+                        <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_name}}"/>
                     </script>   
-                </div>
+                </figure>
                 <div id="mm_post_content"></div>
             </main>
             
@@ -65,8 +77,9 @@
     $(document).ready(function() {                
         
         function renderAll (){
-            var featureImage = getfeatureImage();
-            renderPageData('#feature_image_container','#feature_image_template', featureImage, 'image_details')
+            var imageName = getImageName();
+            console.log(imageName);
+            renderPageData('#feature_image_template','#feature_image_container', imageName);
             
             renderpageHTML();
         }
@@ -85,23 +98,17 @@
             }); 
         }
         
-        function renderPageData(feature_image_container, feature_image_template, collection, type){
+        function renderBanner(feature_image_template, feature_image_container, imageName){
             var item_list = [];
             var item_rendered = [];
-            var template_html = $(feature_image_template).html();
-            Mustache.parse(template_html);   // optional, speeds up future uses
-            if (type == "image_details"){
-                item_list.push(featureImage);
-                collection = []
-                collection = item_list;
-            }
-            $.each( collection , function( key, val ) {
-                var rendered = Mustache.render(template_html,val);
-                item_rendered.push(rendered);
+            var banner_template_html = $(feature_image_template).html();
+            Mustache.parse(banner_template_html);   // optional, speeds up future uses
+            $.each(imageName, function(key, val) {
+                val.image_file_name=val.image_file_name;
             });
             $(feature_image_container).show();
             $(feature_image_container).html(item_rendered.join(''));
-        };
+        }
         
         // var data = [];
         // $.ajax({
