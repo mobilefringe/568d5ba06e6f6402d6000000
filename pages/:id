@@ -72,7 +72,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
-            var pages_json = "//mallmaverick.com/posts/ibeacon-test.json"
+            var pages_json = prefix + /posts/ + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
                 document.title = data.title;
                 $('#mm_post_title').html(data.title);
