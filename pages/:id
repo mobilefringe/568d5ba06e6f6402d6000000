@@ -81,8 +81,6 @@
             
             var imageName = getImageName();
             renderPageData('#feature_image_template','#feature_image_container', imageName);
-            
-            
         }
         
         function renderPageHTML(){
