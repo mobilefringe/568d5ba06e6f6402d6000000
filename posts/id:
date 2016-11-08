@@ -53,6 +53,7 @@
             var post = getBlogDataBySlug('home-features');
             console.log(post);
             var posts = getAllPublishedPosts();
+            console.log(posts);
             // var published_posts = sortByKey(posts, 'publish_date').reverse().slice(0, 4);
             // renderPosts("#side_blog_container", "#side_blog_template", published_posts);
             // renderPostDetails("#post_container", "#post_template", post);
