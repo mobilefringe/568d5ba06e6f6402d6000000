@@ -116,6 +116,6 @@
         //     $('#mm_post_content').html(data.body);
         //     console.log(data.image_file_name);
         // });
-        renderPageData();
+        renderAll();
     });
 </script>
