@@ -53,13 +53,14 @@
             var post = getBlogDataBySlug(slug);
             console.log(post);
             var posts = getAllPublishedPosts();
-            var published_posts = sortByKey(posts, 'publish_date').reverse().slice(0, 4);
-            renderPosts("#side_blog_container", "#side_blog_template", published_posts);
-            renderPostDetails("#post_container", "#post_template", post);
-            var blogs = getBlogList()
-            renderBlogs("#blog_links_container", "#blog_links_template", blogs);
-            show_content();
-            blog_searcher();
+            // var published_posts = sortByKey(posts, 'publish_date').reverse().slice(0, 4);
+            // renderPosts("#side_blog_container", "#side_blog_template", published_posts);
+            // renderPostDetails("#post_container", "#post_template", post);
+            var blogs = getBlogList();
+            
+            // renderBlogs("#blog_links_container", "#blog_links_template", blogs);
+            // show_content();
+            // blog_searcher();
         }
         loadMallDataCached(renderAll); 
 		
