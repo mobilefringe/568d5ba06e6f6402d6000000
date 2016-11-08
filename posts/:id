@@ -74,7 +74,7 @@
             Mustache.parse(template_html);   // optional, speeds up future uses
             $.each(posts, function(key, val) {
                 
-                val.post_title = title
+                post_title = val.title
             });
             $(header_container).show();
             $(header_container).html(item_rendered.join(''));
