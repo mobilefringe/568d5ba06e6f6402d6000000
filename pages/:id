@@ -26,7 +26,7 @@
                 <div id="feature_image_container">
                     <script id="feature_image_template" type="x-tmpl-mustache/text">
                         <figure id="">
-                            <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_url}}"/>
+                            <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_namel}}"/>
                         </figure>
                     </script>   
                 </div>
