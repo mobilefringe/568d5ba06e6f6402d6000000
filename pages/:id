@@ -114,6 +114,7 @@
             $('#mm_post_author').html(data.author);
             $('#mm_post_image').html(data.image_file_name);
             $('#mm_post_content').html(data.body);
+            console.log(data.image_file_name);
         });
         // renderAll();
     });
