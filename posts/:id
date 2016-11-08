@@ -15,7 +15,7 @@
                 <div id="post_container">
                     <script id="post_template" type="x-tmpl-mustache/text">
                         <figure id="feature_image">
-                            <img src="{{feature_image}}"/>
+                            <img src="{{image}}"/>
                             </script>   
                         </figure>
                         <div id="mm_post_content">
@@ -99,7 +99,7 @@
                 // if (val.image_url.indexOf('missing.png') > -1) {
                 //     val.post_image = "//codecloud.cdn.speedyrails.net/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
                 // } else {
-                    val.feature_image = val.image_url;
+                    val.image = val.image_url;
                 // }
                 // if(val.body.length > 100){
                 //     val.description_short = val.body.substring(0,100) + "...";
