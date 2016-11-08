@@ -64,7 +64,7 @@
             // show_content();
             // blog_searcher();
             
-            renderHeaderDetails("#header_container", "#header_template", posts);
+            // renderHeaderDetails("#header_container", "#header_template", posts);
         }
         
         // function renderHeaderDetails(header_container, header_template, posts){
