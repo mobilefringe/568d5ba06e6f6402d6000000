@@ -16,7 +16,6 @@
                     <script id="post_template" type="x-tmpl-mustache/text">
                         <figure id="feature_image">
                             <img src="{{image}}"/>
-                            </script>   
                         </figure>
                         <div id="mm_post_content">
                             {{content}}
