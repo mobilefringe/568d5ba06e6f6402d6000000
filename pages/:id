@@ -93,6 +93,6 @@
         //     $('#mm_post_image').html(data.image_file_name);
         //     $('#mm_post_content').html(data.body);
         // });
-        renderrenderpageHTML();
+        renderpageHTML();
     });
 </script>
