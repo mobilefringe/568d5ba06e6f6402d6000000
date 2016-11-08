@@ -64,16 +64,14 @@
             // renderBlogs("#blog_links_container", "#blog_links_template", blogs);
             // show_content();
             // blog_searcher();
-
-            var header = getAllPublishedPosts();
-            renderHeaderDetails("#header_container", "#header_template", header);
+            renderHeaderDetails("#header_container", "#header_template", posts);
         }
         
-        function renderHedaerDetails(header_container, header_template, header){
+        function renderHeaderDetails(header_container, header_template, posts){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(header_template).html();
-            $.each(header, function(key, val) {
+            $.each(posts, function(key, val) {
                 // if (val.image_url.indexOf('missing.png') > -1) {
                 //     val.post_image = "//codecloud.cdn.speedyrails.net/sites/55bba30d6e6
                 // } else {
@@ -119,7 +117,7 @@
                 item_rendered.push(rendered);
             });
             
-            $(container).html(item_rendered.join(''));
+            $(header_container).html(item_rendered.join(''));
         }
         loadMallDataCached(renderAll); 
 		
