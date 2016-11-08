@@ -83,7 +83,7 @@
             }); 
         }
         
-        function renderPageData(feature_image, feature_image_template, image_Details){
+        function renderPageData(feature_image, feature_image_template, imageDetails){
             var item_list = [];
             var item_rendered = [];
             var template_html = $("#feature_image_template").html();
