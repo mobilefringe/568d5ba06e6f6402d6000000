@@ -90,7 +90,7 @@
         function renderPostDetails(main_container, main_template, posts){
             var item_list = [];
             var item_rendered = [];
-            var template_html = $(post_template).html();
+            var template_html = $(main_template).html();
             $.each(posts, function(key, val) {
                 // if (val.image_url.indexOf('missing.png') > -1) {
                 //     val.post_image = "//codecloud.cdn.speedyrails.net/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
@@ -131,7 +131,7 @@
                 // item_rendered.push(rendered);
             });
             
-            $(post_container).html(item_rendered.join(''));
+            $(main_container).html(item_rendered.join(''));
         }
         loadMallDataCached(renderAll); 
 		
