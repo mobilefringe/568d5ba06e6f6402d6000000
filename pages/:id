@@ -64,35 +64,57 @@
 <script>
     $(document).ready(function() {                
         
+        // function renderAll (){
+        //     var featureImage = getfeatureImage();
+        //     renderPageData('#feature_image_container','#feature_image_template', featureImage, 'image_details')
+            
+        //     renderpageHTML();
+        // }
         
+        // function renderpageHTML(){
+        //     var pathArray = window.location.pathname.split( '/' );
+        //     var slug = pathArray[pathArray.length-1];
+        //     prefix = get_prefix();
+        //     var pages_json = "//home.mallmaverick.com/posts" + slug + ".json"
+        //     $.getJSON(pages_json).done(function(data) {
+        //         document.title = data.title;
+        //         $('#mm_post_title').html(data.title);
+        //         $('#mm_post_author').html(data.author);
+        //         $('#mm_post_content').html(data.body);
+        //         console.log(data);
+        //     }); 
+        // }
         
+        // function renderPageData(feature_image_container, feature_image_template, collection, type){
+        //     var item_list = [];
+        //     var item_rendered = [];
+        //     var template_html = $(feature_image_template).html();
+        //     Mustache.parse(template_html);   // optional, speeds up future uses
+        //     if (type == "image_details"){
+        //         item_list.push(featureImage);
+        //         collection = []
+        //         collection = item_list;
+        //     }
+        //     $.each( collection , function( key, val ) {
+        //         var rendered = Mustache.render(template_html,val);
+        //         item_rendered.push(rendered);
+        //     });
+        //     $(feature_image_container).show();
+        //     $(feature_image_container).html(item_rendered.join(''));
+        // };
         
-        
-        function renderpageHTML(){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            prefix = get_prefix();
-            var pages_json = prefix + /posts/ + slug + ".json"
-            $.getJSON(pages_json).done(function(data) {
-                document.title = data.title;
-                $('#mm_post_title').html(data.title);
-                $('#mm_post_author').html(data.author);
-                $('#mm_post_image').html(data.image_file_name);
-                $('#mm_post_content').html(data.body);
-            });
-        }
-        // var data = [];
-        // $.ajax({
-        //     url: "//mallmaverick.com/posts/ibeacon-test.json",
-        //     method: "GET",
-        //     dataType: "json",
-        // }).then(function(data) {
-        //     console.log(data);
-        //     $('#mm_post_title').html(data.title);
-        //     $('#mm_post_author').html(data.author);
-        //     $('#mm_post_image').html(data.image_file_name);
-        //     $('#mm_post_content').html(data.body);
-        // });
-        renderpageHTML();
+        var data = [];
+        $.ajax({
+            url: "//mallmaverick.com/posts/ibeacon-test.json",
+            method: "GET",
+            dataType: "json",
+        }).then(function(data) {
+            console.log(data);
+            $('#mm_post_title').html(data.title);
+            $('#mm_post_author').html(data.author);
+            $('#mm_post_image').html(data.image_file_name);
+            $('#mm_post_content').html(data.body);
+        });
+        // renderAll();
     });
 </script>
