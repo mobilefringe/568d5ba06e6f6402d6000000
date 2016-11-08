@@ -13,7 +13,7 @@
         <div class="row">
             <main class="col-md-8">
                 <figure id="feature_image">
-                    <img src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_name}}"/>
+                    <!--<img src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_name}}"/>-->
                     </script>   
                 </figure>
                 <div id="mm_post_content"></div>
