@@ -25,7 +25,7 @@
             <main class="col-md-8">
                 <div id="feature_image_container">
                     <script id="feature_image_template" type="x-tmpl-mustache/text">
-                        <figure id="feature_image">
+                        <figure id="">
                             <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_url}}"/>
                         </figure>
                     </script>   
@@ -65,8 +65,8 @@
     $(document).ready(function() {                
         
         function renderAll (){
-            var imageDetails = getImageDetails();
-            renderPageData('#feature_image_container','#feature_image_template', imageDetails, 'image_Details');
+            var featureImage = getfeatureImage();
+            renderPageData('#feature_image_container','#feature_image_template', featureImage, 'image_details')
             
             renderpageHTML();
         }
@@ -85,13 +85,13 @@
             }); 
         }
         
-        function renderPageData(feature_image_container, feature_image_template, imageDetails, image_Details){
+        function renderPageData(feature_image_container, feature_image_template, collection, type){
             var item_list = [];
             var item_rendered = [];
-            var template_html = $("#feature_image_template").html();
+            var template_html = $(feature_image_template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
-            if (type == 'image_Details'){
-                item_list.push(imageDetails);
+            if (type == "image_details"){
+                item_list.push(featureImage);
                 collection = []
                 collection = item_list;
             }
@@ -100,7 +100,7 @@
                 item_rendered.push(rendered);
             });
             $(feature_image_container).show();
-            $(feature_image_containere).html(item_rendered.join(''));
+            $(feature_image_container).html(item_rendered.join(''));
         };
         
         // var data = [];
