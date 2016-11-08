@@ -65,11 +65,20 @@
     $(document).ready(function() {                
         
         function renderAll (){
-            var featureImage = getfeatureImage();
-            renderPageData('#feature_image_container','#feature_image_template', featureImage, 'image_details')
-            
-            renderpageHTML();
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = "//home.mallmaverick.com/posts" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                document.title = data.title;
+                $('#mm_post_title').html(data.title);
+                $('#mm_post_author').html(data.author);
+                $('#mm_post_content').html(data.body);
+                console.log(data);
+            }); 
         }
+        
+        
         
         function renderpageHTML(){
             var pathArray = window.location.pathname.split( '/' );
