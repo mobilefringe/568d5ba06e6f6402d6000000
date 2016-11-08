@@ -1,0 +1,66 @@
+<section class="page_banner">
+    <div class = "inside_container">
+        <h2 class="text-center inside_main_header" id="mm_post_title"></h2>
+        <p class="text-center desc banner_text" id="mm_post_author"></p>    
+    </div>
+</section>
+<section class="main_content">
+    <div class="inside_container">
+        <div class="row">
+            <main class="col-md-8">
+                <figure id="feature_image_container">
+                    <script id="feature_image_template" type="x-tmpl-mustache/text">
+                        <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_name}}"/>
+                    </script>   
+                </figure>
+                <div id="mm_post_content"></div>
+            </main>
+            
+            <aside class="col-md-4">
+                <div class="hidden-xs hidden-s features_container">
+                    <h4>Other Features</h4>
+                    <ul>
+                        <!-- Dynamically pull in list of Features-->
+                        <li><a href="" target="_"><i class="material-icons">check_circle</i>Feature</a></li>
+                        <li><a><i class="material-icons">check_circle</i>Feature</a></li>
+                        <li><a><i class="material-icons">check_circle</i>Feature</a></li>  
+                    </ul>
+                </div>
+                <div class="contact_container">
+                    <h3>Ready to Discuss?</h3>
+                    <div class="contact_info">
+                        <i class="material-icons contact_icon">phone</i>
+                        <h6 class="phone">1-888-854-5797 ext 108</h6>
+                    </div>
+                    <div class="contact_info">
+                        <i class="material-icons contact_icon">email</i>
+                        <a href="mailto:contact@mobilefringe.com">contact@mobilefringe.com</a>
+                    </div>    
+                    <a href="#contact"><h5>Contact Us</h5></a>
+                    <hr>
+                </div>
+                <button class="download_btn" type="button"><i class="material-icons">file_download</i><span>Download PDF</span></button>
+            </aside>      
+        </div>
+    </div>    
+</section>
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        function renderAll (){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var post = getPublishedPostDetailsBySlug(slug);
+            var posts = getAllPublishedPosts();
+            var published_posts = sortByKey(posts, 'publish_date').reverse().slice(0, 4);
+            renderPosts("#side_blog_container", "#side_blog_template", published_posts);
+            renderPostDetails("#post_container", "#post_template", post);
+            var blogs = getBlogList()
+            renderBlogs("#blog_links_container", "#blog_links_template", blogs);
+            show_content();
+            blog_searcher();
+        }
+        loadMallDataCached(renderAll); 
+		
+    });
+</script>
