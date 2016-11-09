@@ -56,21 +56,21 @@
             var slug = pathArray[pathArray.length-1];
             var post = getBlogDataBySlug('home-features');
             console.log(post);
-            var posts = getAllPublishedPosts();
+            var posts = getAllPublishedPosts(slug);
             console.log(posts);
             // var published_posts = sortByKey(posts, 'title').reverse().slice(0, 4);
             // console.log(published_posts);
             
-            renderHeaderDetails("#header_container", "#header_template", post);
-            renderMainDetails("#main_container", "#main_template", post);
-            renderFeaturesDetails("#features_container", "#features_template", post);
+            renderHeaderDetails("#header_container", "#header_template", posts);
+            renderMainDetails("#main_container", "#main_template", posts);
+            renderFeaturesDetails("#features_container", "#features_template", posts);
         }
         
-        function renderHeaderDetails(header_container, header_template, post){
+        function renderHeaderDetails(header_container, header_template, posts){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(header_template).html();
-            $.each(post, function(key, val) {
+            $.each(posts, function(key, val) {
                 if(val.title.length >0){
                     val.title = val.title;
                 }
