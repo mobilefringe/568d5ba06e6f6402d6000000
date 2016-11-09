@@ -24,8 +24,8 @@
             <aside class="col-md-4">
                 <div class="hidden-xs hidden-s features_container">
                     <h4>Other Features</h4>
-                    <ul class="container">
-                        <script id="main_template" type="x-tmpl-mustache/text">
+                    <ul class="features_container">
+                        <script id="features_template" type="x-tmpl-mustache/text">
                             <li><a href="{{slug}}"><i class="material-icons">check_circle</i>{{title}}</a></li>
                         </script> 
                     </ul>
@@ -60,6 +60,7 @@
             
             renderHeaderDetails("#header_container", "#header_template", posts);
             renderMainDetails("#main_container", "#main_template", posts);
+            renderFeaturesDetails("#features_container", "#features_template", posts);
         }
         
         function renderHeaderDetails(header_container, header_template, posts){
@@ -95,6 +96,24 @@
             });
             
             $(main_container).html(item_rendered.join(''));
+        }
+        
+        function renderFeaturesDetails(features_container, features_template, posts){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(features_template).html();
+            $.each(posts, function(key, val) {
+                // if (val.image_url.indexOf('missing.png') > -1) {
+                //     val.image_url = val.image_url2
+                // } else {
+                //     val.image_url = val.image_url;
+                // }
+                if(val.title.length >0){
+                    val.title = val.title;
+                }
+            });
+            
+            $(features_container).html(item_rendered.join(''));
         }
         loadMallDataCached(renderAll); 
 		
