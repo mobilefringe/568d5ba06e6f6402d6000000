@@ -93,6 +93,8 @@
                 if(val.body.length > 0){
                     val.body = val.body
                 }
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
             });
             $(main_container).show();
             $(main_container).html(item_rendered.join(''));
