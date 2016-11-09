@@ -56,7 +56,7 @@
             var slug = pathArray[pathArray.length-1];
             console.log(slug);
             var blog = getBlogDataBySlug('home-features');
-            // console.log(post);
+            console.log(blog);
             var posts = getAllPublishedPosts();
             // console.log(posts);
             
