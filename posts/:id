@@ -94,7 +94,6 @@
                     val.body = val.body
                 }
             });
-            
             $(main_container).html(item_rendered.join(''));
         }
         
