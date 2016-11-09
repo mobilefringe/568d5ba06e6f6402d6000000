@@ -85,11 +85,11 @@
             var item_rendered = [];
             var template_html = $(main_template).html();
             $.each(posts, function(key, val) {
-                // if (val.image_url.indexOf('missing.png') > -1) {
-                //     val.post_image = "//codecloud.cdn.speedyrails.net/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
-                // } else {
-                //     val.post_image = val.post_image;
-                // }
+                if (val.image_url.indexOf('missing.png') > -1) {
+                    val.post_image = val.image_url2
+                } else {
+                    val.post_image = val.image_url;
+                }
                 if(val.body.length > 0){
                     val.body = val.body
                 }
