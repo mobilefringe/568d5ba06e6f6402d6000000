@@ -70,7 +70,7 @@
             var item_list = [];
             var item_rendered = [];
             var template_html = $(header_template).html();
-            $.each(post[], function(key, val) {
+            $.each(post, function(key, val) {
                 if(val.title.length >0){
                     val.title = val.title;
                 }
