@@ -17,7 +17,7 @@
                         <figure class="feature_image">
                             <img src="{{image_url}}"/>
                         </figure>
-                        <div>{{body}}</div>  
+                        <div>{{html_body}}</div>  
                     </script>    
                 </div>
             </main>
@@ -90,8 +90,8 @@
                 } else {
                     val.image_url = val.image_url;
                 }
-                if(val.body.length > 0){
-                    val.body = val.body
+                if(val.html_body.length > 0){
+                    val.html_body = val.html_body
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
