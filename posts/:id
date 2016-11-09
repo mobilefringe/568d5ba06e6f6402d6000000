@@ -72,8 +72,8 @@
             var item_rendered = [];
             var template_html = $(header_template).html();
             
-                if(val.title.length > 0){
-                    val.title = val.title;
+                if(post_details.title.length > 0){
+                    val.title = post_details.title;
                 }
                 if(val.author.length > 0){
                     val.author = val.author;
