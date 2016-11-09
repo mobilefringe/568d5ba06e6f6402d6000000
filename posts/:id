@@ -86,14 +86,14 @@
             var item_rendered = [];
             var template_html = $(main_template).html();
             
-            if (post_details.image_url.indexOf('missing.png') > -1) {
-                image_url = post_details.image_url2
-            } else {
-                image_url = post_details.image_url;
-            }
-            if (post_details.html_body.length > 0){
-                html_body = post_details.html_body
-            }
+            // if (post_details.image_url.indexOf('missing.png') > -1) {
+            //     image_url = post_details.image_url2
+            // } else {
+            //     image_url = post_details.image_url;
+            // }
+            // if (post_details.html_body.length > 0){
+            //     html_body = post_details.html_body
+            // }
             var rendered = Mustache.render(template_html, post_details);
             item_rendered.push(rendered);
             
