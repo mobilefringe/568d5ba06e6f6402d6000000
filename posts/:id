@@ -56,13 +56,12 @@
             var slug = pathArray[pathArray.length-1];
             var blog = getBlogDataBySlug('home-features');
             
-            var posts = getAllPublishedPosts();
             
             var post_details = getPostDetailsBySlug(slug);
             
             renderHeaderDetails("#header_container", "#header_template", post_details);
             renderMainDetails("#main_container", "#main_template", post_details);
-            renderFeaturesDetails("#features_container", "#features_template", posts);
+            renderFeaturesDetails("#features_container", "#features_template", blog.posts);
         }
         
         function renderHeaderDetails(header_container, header_template, post_details){
