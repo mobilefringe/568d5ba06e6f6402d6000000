@@ -55,7 +55,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             console.log(slug);
-            var post = getBlogDataBySlug('home-features');
+            var blog = getBlogDataBySlug('home-features');
             // console.log(post);
             var posts = getAllPublishedPosts();
             // console.log(posts);
@@ -71,7 +71,7 @@
             var item_list = [];
             var item_rendered = [];
             var template_html = $(header_template).html();
-            $.each(post_details, function(key, val) {
+            
                 if(val.title.length > 0){
                     val.title = val.title;
                 }
@@ -80,7 +80,7 @@
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
-            });
+           
             $(header_container).html(item_rendered.join(''));
         }
         
