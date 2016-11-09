@@ -24,11 +24,10 @@
             <aside class="col-md-4">
                 <div class="hidden-xs hidden-s features_container">
                     <h4>Other Features</h4>
-                    <ul>
-                        <!-- Dynamically pull in list of Features-->
-                        <li><a href="" target="_"><i class="material-icons">check_circle</i>Feature</a></li>
-                        <li><a><i class="material-icons">check_circle</i>Feature</a></li>
-                        <li><a><i class="material-icons">check_circle</i>Feature</a></li>  
+                    <ul class="container">
+                        <script id="main_template" type="x-tmpl-mustache/text">
+                            <li><a href="{{slug}}"><i class="material-icons">check_circle</i>{{title}}</a></li>
+                        </script> 
                     </ul>
                 </div>
                 <div class="contact_container">
