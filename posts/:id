@@ -24,7 +24,7 @@
             <aside class="col-md-4">
                 <div class="hidden-xs hidden-s features_container">
                     <h4>Other Features</h4>
-                    <ul class="features_container">
+                    <ul class="features_container" id="features_container">
                         <script id="features_template" type="x-tmpl-mustache/text">
                             <li><a href="{{slug}}"><i class="material-icons">check_circle</i>{{title}}</a></li>
                         </script> 
@@ -97,7 +97,6 @@
             var rendered = Mustache.render(template_html, post_details);
             item_rendered.push(rendered);
             
-            $(main_container).show();
             $(main_container).html(item_rendered.join(''));
         }
         
