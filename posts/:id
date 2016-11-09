@@ -58,9 +58,9 @@
             var post = getBlogDataBySlug('home-features');
             var posts = getAllPublishedPosts();
             console.log(posts);
-            
-            renderHeaderDetails("#header_container", "#header_template", posts);
             renderPostDetails("#main_container", "#main_template", posts);
+            renderHeaderDetails("#header_container", "#header_template", posts);
+            // renderPostDetails("#main_container", "#main_template", posts);
         }
         
         function renderHeaderDetails(header_container, header_template, posts){
