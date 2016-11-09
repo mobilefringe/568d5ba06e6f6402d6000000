@@ -106,11 +106,6 @@
             var item_rendered = [];
             var template_html = $(features_template).html();
             $.each(posts, function(key, val) {
-                // if (val.image_url.indexOf('missing.png') > -1) {
-                //     val.image_url = val.image_url2
-                // } else {
-                //     val.image_url = val.image_url;
-                // }
                 if (val.title.length > 0){
                     title = posts.title;
                 }
