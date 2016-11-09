@@ -58,16 +58,16 @@
             var posts = getAllPublishedPosts();
             console.log(posts);
             
-            renderHeaderDetails("#header_container", "#header_template", posts);
+            renderHeaderDetails("#header_container", "#header_template", post);
             renderMainDetails("#main_container", "#main_template", posts);
-            renderFeaturesDetails("#features_container", "#features_template", posts);
+            renderFeaturesDetails("#features_container", "#features_template", post);
         }
         
-        function renderHeaderDetails(header_container, header_template, posts){
+        function renderHeaderDetails(header_container, header_template, post){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(header_template).html();
-            $.each(posts, function(key, val) {
+            $.each(post, function(key, val) {
                 if(val.title.length >0){
                     val.title = val.title;
                 }
