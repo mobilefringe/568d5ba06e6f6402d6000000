@@ -71,10 +71,10 @@
             var item_rendered = [];
             var template_html = $(header_template).html();
             
-            if(post_details.title.length > 0){
+            if (post_details.title.length > 0){
                 title = post_details.title;
             }
-            if(post_details.author.length > 0){
+            if (post_details.author.length > 0){
                 author = post_details.author;
             }
             var rendered = Mustache.render(template_html, post_details);
@@ -93,7 +93,7 @@
             } else {
                 image_url = post_details.image_url;
             }
-            if(post_details.html_body.length > 0){
+            if (post_details.html_body.length > 0){
                 html_body = post_details.html_body
             }
             var rendered = Mustache.render(template_html, post_details);
@@ -107,18 +107,18 @@
             var item_list = [];
             var item_rendered = [];
             var template_html = $(features_template).html();
-            // $.each(posts, function(key, val) {
+            $.each(posts, function(key, val) {
                 // if (val.image_url.indexOf('missing.png') > -1) {
                 //     val.image_url = val.image_url2
                 // } else {
                 //     val.image_url = val.image_url;
                 // }
-                if(posts.title.length > 0){
+                if (posts.title.length > 0){
                     title = posts.title;
                 }
                 var rendered = Mustache.render(template_html, val);
                 item_rendered.push(rendered);
-            // });
+            });
             $(features_container).html(item_rendered.join(''));
         }
         loadMallDataCached(renderAll); 
