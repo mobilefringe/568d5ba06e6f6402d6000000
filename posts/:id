@@ -113,7 +113,7 @@
                 // } else {
                 //     val.image_url = val.image_url;
                 // }
-                if (posts.title.length > 0){
+                if (val.title.length > 0){
                     title = posts.title;
                 }
                 var rendered = Mustache.render(template_html, val);
