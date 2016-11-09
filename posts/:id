@@ -15,7 +15,7 @@
                 <div id="main_container">
                     <script id="main_template" type="x-tmpl-mustache/text">
                         <figure class="feature_image">
-                            <img src="{{post_image}}"/>
+                            <img src="{{image_url}}"/>
                         </figure>
                         <div>{{body}}</div>  
                     </script>    
@@ -86,9 +86,9 @@
             var template_html = $(main_template).html();
             $.each(posts, function(key, val) {
                 if (val.image_url.indexOf('missing.png') > -1) {
-                    val.post_image = val.image_url2
+                    val.image_url = val.image_url2
                 } else {
-                    val.post_image = val.image_url;
+                    val.image_url = val.image_url;
                 }
                 if(val.body.length > 0){
                     val.body = val.body
