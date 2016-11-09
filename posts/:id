@@ -64,7 +64,7 @@
             
             renderHeaderDetails("#header_container", "#header_template", post_details);
             renderMainDetails("#main_container", "#main_template", post_details);
-            renderFeaturesDetails("#features_container", "#features_template", blog);
+            renderFeaturesDetails("#features_container", "#features_template", posts);
         }
         
         function renderHeaderDetails(header_container, header_template, post_details){
@@ -104,20 +104,20 @@
             $(main_container).html(item_rendered.join(''));
         }
         
-        function renderFeaturesDetails(features_container, features_template, blog){
+        function renderFeaturesDetails(features_container, features_template, posts){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(features_template).html();
-            $.each(blog, function(key, val) {
+            $.each(posts, function(key, val) {
                 // if (val.image_url.indexOf('missing.png') > -1) {
                 //     val.image_url = val.image_url2
                 // } else {
                 //     val.image_url = val.image_url;
                 // }
-                if(blog.title.length > 0){
-                    title = blog.title;
+                if(posts.title.length > 0){
+                    title = posts.title;
                 }
-                var rendered = Mustache.render(template_html, blog);
+                var rendered = Mustache.render(template_html, posts);
                 item_rendered.push(rendered);
             });
             $(features_container).html(item_rendered.join(''));
