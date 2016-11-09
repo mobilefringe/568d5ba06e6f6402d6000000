@@ -58,8 +58,8 @@
             console.log(post);
             var posts = getAllPublishedPosts();
             console.log(posts);
-            var published_posts = sortByKey(posts, 'title').reverse().slice(0, 4);
-            console.log(published_posts);
+            // var published_posts = sortByKey(posts, 'title').reverse().slice(0, 4);
+            // console.log(published_posts);
             
             renderHeaderDetails("#header_container", "#header_template", posts);
             renderMainDetails("#main_container", "#main_template", posts);
