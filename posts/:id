@@ -106,6 +106,7 @@
             var item_rendered = [];
             var template_html = $(features_template).html();
             $.each(posts, function(key, val) {
+                console.log(val)
                 if (val.title.length > 0){
                     title = posts.title;
                 }
