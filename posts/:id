@@ -17,7 +17,7 @@
                         <figure class="feature_image">
                             <img src="{{image_url}}"/>
                         </figure>
-                        <div>{{html_body}}</div>  
+                        <div>{{{html_body}}}</div>  
                     </script>    
                 </div>
             </main>
