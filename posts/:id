@@ -63,7 +63,7 @@
             console.log(post_details);
             
             renderHeaderDetails("#header_container", "#header_template", post_details);
-            renderMainDetails("#main_container", "#main_template", post_details);
+            // renderMainDetails("#main_container", "#main_template", post_details);
             // renderFeaturesDetails("#features_container", "#features_template", post);
         }
         
@@ -84,25 +84,25 @@
             $(header_container).html(item_rendered.join(''));
         }
         
-        function renderMainDetails(main_container, main_template, post_details){
-            var item_list = [];
-            var item_rendered = [];
-            var template_html = $(main_template).html();
-            $.each(post_details, function(key, val) {
-                if (val.image_url.indexOf('missing.png') > -1) {
-                    val.image_url = val.image_url2
-                } else {
-                    val.image_url = val.image_url;
-                }
-                if(val.html_body.length > 0){
-                    val.html_body = val.html_body
-                }
-                var rendered = Mustache.render(template_html,val);
-                item_rendered.push(rendered);
-            });
-            $(main_container).show();
-            $(main_container).html(item_rendered.join(''));
-        }
+        // function renderMainDetails(main_container, main_template, post_details){
+        //     var item_list = [];
+        //     var item_rendered = [];
+        //     var template_html = $(main_template).html();
+        //     $.each(post_details, function(key, val) {
+        //         if (val.image_url.indexOf('missing.png') > -1) {
+        //             val.image_url = val.image_url2
+        //         } else {
+        //             val.image_url = val.image_url;
+        //         }
+        //         if(val.html_body.length > 0){
+        //             val.html_body = val.html_body
+        //         }
+        //         var rendered = Mustache.render(template_html,val);
+        //         item_rendered.push(rendered);
+        //     });
+        //     $(main_container).show();
+        //     $(main_container).html(item_rendered.join(''));
+        // }
         
         // function renderFeaturesDetails(features_container, features_template, post){
         //     var item_list = [];
