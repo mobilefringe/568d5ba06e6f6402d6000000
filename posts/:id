@@ -114,10 +114,10 @@
                 // } else {
                 //     val.image_url = val.image_url;
                 // }
-                if(val.title.length > 0){
-                    title = val.title;
+                if(posts.title.length > 0){
+                    title = posts.title;
                 }
-                var rendered = Mustache.render(template_html, val);
+                var rendered = Mustache.render(template_html, posts);
                 item_rendered.push(rendered);
             });
             $(features_container).html(item_rendered.join(''));
