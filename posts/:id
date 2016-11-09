@@ -58,7 +58,7 @@
             var blog = getBlogDataBySlug('home-features');
             console.log(blog);
             var posts = getAllPublishedPosts();
-            // console.log(posts);
+            console.log(posts);
             
             var post_details = getPostDetailsBySlug(slug);
             
