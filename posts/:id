@@ -94,6 +94,7 @@
                     val.body = val.body
                 }
             });
+            $(main_container).show();
             $(main_container).html(item_rendered.join(''));
         }
         
@@ -107,7 +108,7 @@
                 // } else {
                 //     val.image_url = val.image_url;
                 // }
-                if(val.title.length >0){
+                if(val.title.length > 0){
                     val.title = val.title;
                 }
             });
