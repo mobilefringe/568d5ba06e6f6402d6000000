@@ -61,16 +61,16 @@
             var post_details = getPostDetailsBySlug(slug);
             console.log(post_details);
             
-            renderHeaderDetails("#header_container", "#header_template", posts);
-            renderMainDetails("#main_container", "#main_template", posts);
-            renderFeaturesDetails("#features_container", "#features_template", posts);
+            renderHeaderDetails("#header_container", "#header_template", post_details);
+            renderMainDetails("#main_container", "#main_template", post_details);
+            renderFeaturesDetails("#features_container", "#features_template", post_details);
         }
         
-        function renderHeaderDetails(header_container, header_template, posts){
+        function renderHeaderDetails(header_container, header_template, post_details){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(header_template).html();
-            $.each(posts, function(key, val) {
+            $.each(post_details, function(key, val) {
                 if(val.title.length >0){
                     val.title = val.title;
                 }
@@ -83,11 +83,11 @@
             $(header_container).html(item_rendered.join(''));
         }
         
-        function renderMainDetails(main_container, main_template, post){
+        function renderMainDetails(main_container, main_template, post_details){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(main_template).html();
-            $.each(post, function(key, val) {
+            $.each(post_details, function(key, val) {
                 if (val.image_url.indexOf('missing.png') > -1) {
                     val.image_url = val.image_url2
                 } else {
@@ -103,11 +103,11 @@
             $(main_container).html(item_rendered.join(''));
         }
         
-        function renderFeaturesDetails(features_container, features_template, post){
+        function renderFeaturesDetails(features_container, features_template, post_details){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(features_template).html();
-            $.each(post, function(key, val) {
+            $.each(post_details, function(key, val) {
                 // if (val.image_url.indexOf('missing.png') > -1) {
                 //     val.image_url = val.image_url2
                 // } else {
