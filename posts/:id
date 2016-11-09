@@ -59,7 +59,7 @@
             // console.log(post);
             var posts = getAllPublishedPosts();
             // console.log(posts);
-            var post_details = getPostDetailsBySlug(slug, function(key, val));
+            var post_details = getPostDetailsBySlug(slug, function(key, val))
             console.log(post_details);
             
             renderHeaderDetails("#header_container", "#header_template", post_details);
