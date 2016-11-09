@@ -56,12 +56,16 @@
             var slug = pathArray[pathArray.length-1];
             var post = getBlogDataBySlug('home-features');
             console.log(post);
-            var posts = getAllPublishedPosts();
+            var posts = getAllPublishedPosts(i);
             console.log(posts);
-            var blogs = getBlogList();
-            console.log(blogs);
-            // var published_posts = sortByKey(posts, 'title').reverse().slice(0, 4);
-            // console.log(published_posts);
+            
+            // $.each(posts, function( key, val ){
+            //     today = new Date();
+            //     webDate = new Date(val.show_on_web_date);
+            //     if (today >= webDate) {
+            //         all_promos.push(val);
+            //     } 
+            // });
             
             renderHeaderDetails("#header_container", "#header_template", posts);
             renderMainDetails("#main_container", "#main_template", posts);
