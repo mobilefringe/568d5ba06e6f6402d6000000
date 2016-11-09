@@ -113,8 +113,9 @@
                 if(val.title.length > 0){
                     val.title = val.title;
                 }
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
             });
-            
             $(features_container).html(item_rendered.join(''));
         }
         loadMallDataCached(renderAll); 
