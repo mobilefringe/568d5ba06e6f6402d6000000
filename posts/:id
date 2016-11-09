@@ -58,14 +58,8 @@
             console.log(post);
             var posts = getAllPublishedPosts();
             console.log(posts);
-            
-            // $.each(posts, function( key, val ){
-            //     today = new Date();
-            //     webDate = new Date(val.show_on_web_date);
-            //     if (today >= webDate) {
-            //         all_promos.push(val);
-            //     } 
-            // });
+            var post_details = getPostDetailsBySlug();
+            console.log(post_details);
             
             renderHeaderDetails("#header_container", "#header_template", posts);
             renderMainDetails("#main_container", "#main_template", posts);
