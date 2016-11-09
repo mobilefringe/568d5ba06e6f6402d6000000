@@ -62,8 +62,8 @@
             var post_details = getPostDetailsBySlug(slug);
             console.log(post_details);
             
-            renderHeaderDetails("#header_container", "#header_template", post_details);
-            renderMainDetails("#main_container", "#main_template", post_details);
+            // renderHeaderDetails("#header_container", "#header_template", post_details);
+            // renderMainDetails("#main_container", "#main_template", post_details);
             renderFeaturesDetails("#features_container", "#features_template", post);
         }
         
