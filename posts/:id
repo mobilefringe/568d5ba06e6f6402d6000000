@@ -63,7 +63,7 @@
             
             renderHeaderDetails("#header_container", "#header_template", posts);
             renderMainDetails("#main_container", "#main_template", posts);
-            renderFeaturesDetails("#features_container", "#features_template", published_posts);
+            // renderFeaturesDetails("#features_container", "#features_template", published_posts);
         }
         
         function renderHeaderDetails(header_container, header_template, posts){
