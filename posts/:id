@@ -75,8 +75,8 @@
                 if(post_details.title.length > 0){
                     val.title = post_details.title;
                 }
-                if(val.author.length > 0){
-                    val.author = val.author;
+                if(post_detailsl.author.length > 0){
+                    val.author = post_details.author;
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
