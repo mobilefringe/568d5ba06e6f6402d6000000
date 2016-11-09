@@ -78,7 +78,7 @@
                 if(post_details.author.length > 0){
                     author = post_details.author;
                 }
-                var rendered = Mustache.render(template_html,val);
+                var rendered = Mustache.render(template_html, post_details);
                 item_rendered.push(rendered);
            
             $(header_container).html(item_rendered.join(''));
