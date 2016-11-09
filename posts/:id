@@ -106,9 +106,7 @@
             var item_rendered = [];
             var template_html = $(features_template).html();
             $.each(posts, function(key, val) {)
-                if (val.title.length > 0){
-                    title = val.title;
-                }
+                
                 var rendered = Mustache.render(template_html, val);
                 item_rendered.push(rendered);
             });
