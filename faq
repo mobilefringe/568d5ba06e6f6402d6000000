@@ -88,7 +88,7 @@
 	/*margin-top: -16px;*/
 	/*margin-left: -16px;*/
 	
-	font-size: 24px;
+	font-size: 21px;
 	font-weight: 600;
 	line-height: 28px;
 	color: #FFBE1D;	
