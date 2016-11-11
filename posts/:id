@@ -43,7 +43,13 @@
                     <a href="#contact"><h5>Contact Us</h5></a>
                     <hr>
                 </div>
-                <button class="download_btn" type="button"><i class="material-icons">file_download</i><span>Download PDF</span></button>
+                <div id="download_container">
+                    <script id="download_template" type="x-tmpl-mustache/text">
+                        <form method="get" action="{{video_link}}">
+                            <button class="download_btn" type="button"><i class="material-icons">file_download</i><span>Download PDF</span></button>    
+                        </form>
+                    </script>    
+                </div>
             </aside>      
         </div>
     </div>    
