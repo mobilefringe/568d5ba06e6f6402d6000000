@@ -284,7 +284,6 @@
                 numberHtml: '<div class="circle-icon faq-circle-icon"><div>#</div></div>'
             };
             // Merge the runtime options with the default settings
-             */
             var options = $.extend({}, defaults, options);
             // Iterate through the collection of elements and return the object to preserve method chaining
 
@@ -292,25 +291,18 @@
             // Wrap the current element in an instance of jQuery
                 var $this = $(this);
                 var $container = $this.wrap ('<div class="faq-container"></div>');
-                
                 $this.addClass ('faq-list');
-                
                 if (options.enableSearch) {            	
     	            var $form = generateSearchForm ();
     	            $form.insertBefore ($this);
                 }
-                
                 if (options.enableToc) {
     	            var $toc = generateToc ($this);
     	            $toc.insertBefore ($this);
     	        }
-                			
-                
                 var $empty = generateEmptySearch ();
                 $empty.appendTo ($container);
-                
                 generateAnswerNumbers ($this);
-                
             });
             
             function search (e) {
