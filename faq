@@ -79,17 +79,17 @@
 }
 
 .faq-circle-icon div {
-	display: table-cell;
-	width: 32px;
-	height: 32px;
-	margin-top: -16px;
-	margin-left: -16px;
+	/*display: table-cell;*/
+	/*width: 32px;*/
+	/*height: 32px;*/
+	/*margin-top: -16px;*/
+	/*margin-left: -16px;*/
 	
-	font-size: 14px;
+	font-size: 28px;
 	font-weight: 600;
 	line-height: 28px;
-	color: #FFF;	
-	font-family: open_sans;
+	color: #FFBE1D;	
+	font-family: "Open Sans";
     
 	border-color: #FFF;
 	
