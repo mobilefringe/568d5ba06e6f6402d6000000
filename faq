@@ -1,4 +1,4 @@
-<div id="faq-hero">
+<section id="faq-hero">
     <div class="main_container hero_container">
         <div class="features">
             <h2 id="contact-header" class="text-center contact">Have a question?</h2>
@@ -6,7 +6,7 @@
             <input type="text" name="filter-blog" class="form-control custom_form_control hero-form" placeholder="Type your search terms here" required="">
         </div>
     </div>
-</div>
+</section>
 <section>
     <div class="inside_container">
         <div class="row">
