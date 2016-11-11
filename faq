@@ -42,7 +42,8 @@
 
 .faq-toc a {
 	margin-left: .5em;
-    color: #0088CC;
+    color: #ffbe1d;
+    font-size: 14px;
 }
 
 
