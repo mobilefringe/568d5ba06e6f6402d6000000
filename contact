@@ -6,49 +6,49 @@
         </div>
     </div>
 </section>
-    <div id="contact">
-        <div class="main_container">
-            <div class="row">
-                <div class="col-sm-8 contact_special_heading">
-                    <div class="get-in-touch">
-                        <h2 class="heading ">Get in Touch</h2>
-                        <p class="desc3">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a flash!</p>
-                        <form id="contactform">
-                            <div class="contact-form col-md-6">
-                                <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Full Name" required="">
-                            </div>
-                            <div class="contact-form col-md-6">
-                                <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
-                            </div>
-                            <div class="contact-form col-md-12">
-                                <textarea rows="6" class="form-control custom-form-control" placeholder="Hello!" required="" form="contactform"></textarea>
-                            </div>
-                            <div class="contact-form col-md-12 g-recaptcha" data-sitekey="6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro"></div>
-                            <div class="col-md-12 contact-form">
-                                <button type="submit" class="send_btn button--ujarak">SEND</button>
-                            </div>
-                        </form>
-                    </div>
+<section id="contact">
+    <div class="main_container">
+        <div class="row">
+            <div class="col-sm-8 contact_special_heading">
+                <div class="get-in-touch">
+                    <h2 class="heading ">Get in Touch</h2>
+                    <p class="desc3">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a flash!</p>
+                    <form id="contactform">
+                        <div class="contact-form col-md-6">
+                            <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Full Name" required="">
+                        </div>
+                        <div class="contact-form col-md-6">
+                            <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
+                        </div>
+                        <div class="contact-form col-md-12">
+                            <textarea rows="6" class="form-control custom-form-control" placeholder="Hello!" required="" form="contactform"></textarea>
+                        </div>
+                        <div class="contact-form col-md-12 g-recaptcha" data-sitekey="6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro"></div>
+                        <div class="col-md-12 contact-form">
+                            <button type="submit" class="send_btn button--ujarak">SEND</button>
+                        </div>
+                    </form>
                 </div>
-                <div class ="col-sm-4">
-                    <div class="contact_special_heading more_info">
-                        <p class="desc more_info_header">More Information</p>
-                        <p class="moreinfo_subheading">Address</p>
-                        <p class="desc3"> The Mall Maverick Team is located in beautiful Toronto, Ontario Canada</p>
-                        <p class="moreinfo_subheading">Contact Direct</p>
-                        <div class="contact-direct">
-                            <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/phone_icon.png" class="" alt="phoneNum">
-                            <p class="desc3">1-888-854-5796</p>
-                        </div>
-                        <div class="contact-direct">
-                            <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/envelope_icon.png" class="" alt="email">
-                            <p class="desc3">contact@mobilefringe.com</p>
-                        </div>
-                        <div class="contact-direct">
-                            <p class="foot-note">Mall Maverick is product of Mobile Fringe Inc.</p>
-                        </div>
+            </div>
+            <div class ="col-sm-4">
+                <div class="contact_special_heading more_info">
+                    <p class="desc more_info_header">More Information</p>
+                    <p class="moreinfo_subheading">Address</p>
+                    <p class="desc3"> The Mall Maverick Team is located in beautiful Toronto, Ontario Canada</p>
+                    <p class="moreinfo_subheading">Contact Direct</p>
+                    <div class="contact-direct">
+                        <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/phone_icon.png" class="" alt="phoneNum">
+                        <p class="desc3">1-888-854-5796</p>
+                    </div>
+                    <div class="contact-direct">
+                        <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/envelope_icon.png" class="" alt="email">
+                        <p class="desc3">contact@mobilefringe.com</p>
+                    </div>
+                    <div class="contact-direct">
+                        <p class="foot-note">Mall Maverick is product of Mobile Fringe Inc.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
