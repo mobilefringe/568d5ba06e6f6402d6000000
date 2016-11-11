@@ -26,7 +26,7 @@
                     <h4>Other Features</h4>
                     <ul id="features_container">
                         <script id="features_template" type="x-tmpl-mustache/text">
-                            <li><a href="{{slug}}"><i class="material-icons">check_circle</i>{{title}}</a></li>
+                            <li><a href="{{slug}}" class="contact"><i class="material-icons">check_circle</i>{{title}}</a></li>
                         </script> 
                     </ul>
                 </div>
@@ -40,7 +40,7 @@
                         <i class="material-icons contact_icon">email</i>
                         <a href="mailto:contact@mobilefringe.com">contact@mobilefringe.com</a>
                     </div>    
-                    <a href="/contact" class="contact"><h5>Contact Us</h5></a>
+                    <a href="/contact" class="contact_a"><h5>Contact Us</h5></a>
                     <hr>
                 </div>
                 <div id="download_container">
