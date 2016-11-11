@@ -7,3 +7,120 @@
         </div>
     </div>
 </div>
+<section>
+    <div class="row">
+			<div class="span8">					
+					<h3 style="padding-top:0px;"><span class="slash"></span> Search...</h3>
+					
+					<ol class="faq-list">
+						<li>
+							<h4>What does Mall Maverick Do?</h4>
+							<p>Mall Maverick is a complete management system for all of your digital channels, websites, mobile apps, social networks, and digital directory boards – All managed your through one back-end content management system (CMS).</p>	
+						</li>
+						
+						<li>
+							<h4>What do I need in order to start my website?</h4>
+							<p>You will need: 
+							    <p>1. A list of all your stores and store details (descriptions, phone numbers, emails, etc.)</p>
+                                <p>2. A map image file of your shopping center</p>
+                                <p>3. Access to your website DNS profile ie. www.yourcenter.com </p>
+							</p>	
+						</li>
+						
+						<li>
+							<h4>Can I use my own domain name with my new website?</h4>
+							<p>Yes, definitely! Make sure you have user access to your domain name/DNS account to ensure your “www.yourcenter.com” is connected to your new website.</p>	
+							<p>If you need help with this step, our technical support team will be able to help coordinate this information with your previous vendor/IT contact.</p>	
+						</li>
+						
+						<li>
+							<h4> Can I port over my existing mobile app(s)?</h4>
+							<p>
+                            Yes, definitely! Make sure you have the user credentials to your app store (iTunes, Play, Windows, BlackBerry) and we can transition your users from your old apps to your new apps.    						   
+							</p>								
+						</li>
+						
+						<li>						
+							<h4>Do I need a designer/programer to update my website?</h4>
+							<p>
+                                No, Mall Maverick CMS allows for easy access and user friendly accessibility to manage/operate your website whenever you like.
+                            </p>	
+						</li>
+						
+						<li>
+							<h4>What is “Responsive Design”?</h4>
+							<p>
+    						    Mall Maverick is “Responsive Web Design (RWD)” certified, which means all websites are designed and developed to provide optimal viewing experience on your desktop, tablet, and mobile devices.   
+							</p>	
+                            <p>
+                                One website that adapts for all screen sizes and is still managed through one back-end CMS.
+                            </p>
+						</li>
+						
+						<li>							
+							<h4>Does Mall Maverick support multiple languages? </h4>
+							<p>
+							    Mall Maverick currently supports English, French and Spanish.   
+							</p>	
+						</li>
+						
+						<li>							
+							<h4>Does the new website support analytic reporting?</h4>
+							<p>
+							 Full analytics are available for all of your devices and sites through Mall Maverick. This will help you fully understand the most successful ways to engage your users through all of your different digital channels.   
+							</p>	
+						</li>
+						
+						<li>							
+							<h4>Does Mall Maverick only work with retail websites?</h4>
+							<p>
+							 No, Mall Maverick can be used for any business (single or multi-location) looking to manage content for multiple devices and sites.   
+							</p>	
+						</li>
+						
+						<li>
+							<h4>Who maintains my new website/app/directory board?</h4>
+							<p>
+    						    The option is up to you. Mall Maverick was built as ultra-user friendly software.
+                            </p>
+                            <p>
+                                Training is available to help you understand all of the features available.
+                            </p>
+                            <p>
+                                We also offer an option that will have Mall Maverick completely manage our clients content.   
+							</p>	
+						</li>
+						
+						<li>    						
+							<h4>Does Mall Maverick support corporate templates or franchised websites?</h4>
+							<p>
+							    Yes, we are able to work with your existing templates and sites OR build you a brand new site using the latest and greatest technologies.
+							</p>	
+						</li>
+						
+                        <li>    						
+							<h4>How much does Mall Maverick cost?</h4>
+							<p>
+							 We do have some basic pricing available, however, because there are so la carte options available we ask that you <a href="/contact" class="contact_a">contact us</a> so that we can learn what your goals. We want to build you a custom quote that meets your needs and budget.
+							</p>	
+						</li>
+						
+						
+					</ol>
+					
+				
+			</div> <!-- /span8 -->
+			
+			<div class="span4">
+				<div class="sidebar">
+					<h3><span class="slash"></span> More Information</h3>
+					
+					<p>
+                    For more questions or information about pricing please feel free to <a href="/contact" class="contact_a">contact us</a> directly. 
+					</p>
+					
+				</div> <!-- /sidebar -->
+				
+			</div> <!-- /span4 -->
+		</div> <!-- /row --> 
+</section>
