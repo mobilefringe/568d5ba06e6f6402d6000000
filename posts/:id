@@ -120,15 +120,15 @@
         }
         loadMallDataCached(renderAll); 
         
-        function renderDownloadItem(features_container, features_template, posts){
+        function renderDownloadItem(download_container, download_template, posts){
             var item_list = [];
             var item_rendered = [];
-            var template_html = $(features_template).html();
+            var template_html = $(download_template).html();
             $.each(posts, function(key, val) {
                 var rendered = Mustache.render(template_html, val);
                 item_rendered.push(rendered);
             });
-            $(features_container).html(item_rendered.join(''));
+            $(download_container).html(item_rendered.join(''));
         }
         loadMallDataCached(renderAll); 
 		
