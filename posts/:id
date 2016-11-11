@@ -45,7 +45,7 @@
                 </div>
                 <div id="download_container">
                     <script id="download_template" type="x-tmpl-mustache/text">
-                        <form method="get" download="{{video_link}}">
+                        <form method="get" action={{video_link}}>
                             <button class="download_btn" type="submit"><i class="material-icons">file_download</i><span>Download PDF</span></button>    
                         </form>
                     </script>    
