@@ -303,7 +303,7 @@
             	enableToc: true,
             	enableStyling: true,
                 //numberHtml: '{{#}}.',
-                numberHtml: '<div class="circle-icon faq-circle-icon"><div>#</div></div>'
+                numberHtml: '<div class="circle-icon faq-circle-icon">#</div>'
             };
             /**
              * Merge the runtime options with the default settings
