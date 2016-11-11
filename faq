@@ -8,8 +8,9 @@
     </div>
 </div>
 <section>
-    <div class="row">
-			<div class="span8">					
+    <div class="inside_container">
+        <div class="row">
+			<div class="col-md-8">					
 					<h3 style="padding-top:0px;"><span class="slash"></span> Search...</h3>
 					
 					<ol class="faq-list">
