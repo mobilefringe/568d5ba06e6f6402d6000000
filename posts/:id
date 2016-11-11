@@ -69,7 +69,7 @@
             renderMainDetails("#main_container", "#main_template", post_details);
             renderFeaturesDetails("#features_container", "#features_template", blog.posts);
             
-            renderDownloadItem("#download_container", "#download_template", blog.posts);
+            renderDownloadItem("#download_container", "#download_template", post_details);
         }
         
         function renderHeaderDetails(header_container, header_template, post_details){
@@ -118,16 +118,19 @@
             });
             $(features_container).html(item_rendered.join(''));
         }
-        loadMallDataCached(renderAll); 
         
-        function renderDownloadItem(download_container, download_template, posts){
+        function renderDownloadItem(download_container, download_template, post_details){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(download_template).html();
-            $.each(posts, function(key, val) {
-                var rendered = Mustache.render(template_html, val);
-                item_rendered.push(rendered);
-            });
+            
+            if (post_details.video_link.length > 0){
+                video_link = post_details.video_link
+            }
+            
+            var rendered = Mustache.render(template_html, val);
+            item_rendered.push(rendered);
+   
             $(download_container).html(item_rendered.join(''));
         }
         loadMallDataCached(renderAll); 
