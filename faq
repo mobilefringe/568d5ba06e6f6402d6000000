@@ -112,7 +112,7 @@
 				
 			</div> <!-- /span8 -->
 			
-			<div class="span4">
+			<div class="col-md-4">
 				<div class="sidebar">
 					<h3><span class="slash"></span> More Information</h3>
 					
