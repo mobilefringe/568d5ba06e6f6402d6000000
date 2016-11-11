@@ -102,9 +102,7 @@
     padding: 15px;
 }
 
-a.contact_a:link {
-    text-decoration: underline;
-}
+
 
 .input-xlarge{
     width: 98%;
