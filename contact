@@ -1,12 +1,11 @@
-<div id="wrapper">
-    <div id="contact-hero">
-        <div class="main_container hero_container">
-            <div class="features">
-                <h2 id="contact-header" class="text-center contact">Contact Us!</h2>
-                <p class="contact desc">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a flash!</p>
-            </div>
+<section id="contact-hero" class="page_banner">
+    <div class="main_container hero_container">
+        <div class="features">
+            <h2 id="contact-header" class="text-center contact">Contact Us!</h2>
+            <p class="contact desc">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a flash!</p>
         </div>
     </div>
+</section>
     <div id="contact">
         <div class="main_container">
             <div class="row">
@@ -53,4 +52,3 @@
             </div>
         </div>
     </div>
-</div>
