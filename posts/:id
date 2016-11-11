@@ -68,6 +68,8 @@
             renderHeaderDetails("#header_container", "#header_template", post_details);
             renderMainDetails("#main_container", "#main_template", post_details);
             renderFeaturesDetails("#features_container", "#features_template", blog.posts);
+            
+            renderDownloadItem("#download_container", "#download_template", blog.posts);
         }
         
         function renderHeaderDetails(header_container, header_template, post_details){
@@ -107,6 +109,18 @@
         }
         
         function renderFeaturesDetails(features_container, features_template, posts){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(features_template).html();
+            $.each(posts, function(key, val) {
+                var rendered = Mustache.render(template_html, val);
+                item_rendered.push(rendered);
+            });
+            $(features_container).html(item_rendered.join(''));
+        }
+        loadMallDataCached(renderAll); 
+        
+        function renderDownloadItem(features_container, features_template, posts){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(features_template).html();
