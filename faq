@@ -82,19 +82,11 @@
 }
 
 .faq-circle-icon div {
-	/*display: table-cell;*/
-	/*width: 32px;*/
-	/*height: 32px;*/
-	/*margin-top: -16px;*/
-	/*margin-left: -16px;*/
-	
 	font-size: 21px;
 	font-weight: 600;
 	line-height: 28px;
 	color: #FFBE1D;	
 	font-family: "Open Sans";
-    
-	border-color: #FFF;
 }
 
 .sidebar {
