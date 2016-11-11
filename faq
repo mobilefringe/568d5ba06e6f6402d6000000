@@ -114,11 +114,10 @@
 			
 			<aside class="col-md-4">
 				<div class="sidebar">
-					<h3><span class="slash"></span> More Information</h3>
+					<h4>More Information</h4>
 					<p>For more questions or information about pricing please feel free to <a href="/contact" class="contact_a">contact us</a> directly.</p>
 				</div> <!-- /sidebar -->
-				
-			</aside> <!-- /span4 -->
+			</aside>
 		</div> <!-- /row --> 
 </section>
 
