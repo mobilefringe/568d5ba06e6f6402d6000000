@@ -133,7 +133,7 @@
    
             $(download_container).html(item_rendered.join(''));
         }
+        
         loadMallDataCached(renderAll); 
-		
     });
 </script>
