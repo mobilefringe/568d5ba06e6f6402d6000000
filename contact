@@ -10,7 +10,7 @@
     <div class="inside_container">
         <div class="row">
             <main class="col-sm-8">
-                <div class="post_content">
+                <div class="get-in-touch">
                     <h2 class="heading ">Get in Touch</h2>
                     <p class="desc3">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a flash!</p>
                     <form id="contactform">
@@ -30,9 +30,9 @@
                     </form>
                 </div>
             </main>
-            <div class ="col-sm-4">
-                <div class= "more_info">
-                    <p class="desc more_info_header">More Information</p>
+            <aside class ="col-sm-4">
+                <div class= "features_container">
+                    <h4>More Information</h4>
                     <p class="moreinfo_subheading">Address</p>
                     <p class="desc3"> The Mall Maverick Team is located in beautiful Toronto, Ontario Canada</p>
                     <p class="moreinfo_subheading">Contact Direct</p>
@@ -48,7 +48,7 @@
                         <p class="foot-note">Mall Maverick is product of Mobile Fringe Inc.</p>
                     </div>
                 </div>
-            </div>
+            </aside>
         </div>
     </div>
 </section>
