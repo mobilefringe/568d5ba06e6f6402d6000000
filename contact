@@ -10,25 +10,23 @@
     <div class="inside_container">
         <div class="row">
             <main class="col-sm-8 content_background">
-                <div>
-                    <h2 class="heading ">Get in Touch</h2>
-                    <p class="desc3">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a flash!</p>
-                    <form id="contactform">
-                        <div class="contact-form col-md-6">
-                            <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Full Name" required="">
-                        </div>
-                        <div class="contact-form col-md-6">
-                            <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
-                        </div>
-                        <div class="contact-form col-md-12">
-                            <textarea rows="6" class="form-control custom-form-control" placeholder="Message" required="" form="contactform"></textarea>
-                        </div>
-                        <div class="contact-form col-md-12 g-recaptcha" data-sitekey="6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro"></div>
-                        <div class="col-md-12 contact-form">
-                            <button type="submit" class="send_btn button--ujarak">SEND</button>
-                        </div>
-                    </form>
-                </div>
+                <h2 class="heading ">Get in Touch</h2>
+                <p class="desc3">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a flash!</p>
+                <form id="contactform">
+                    <div class="contact-form col-md-6">
+                        <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Full Name" required="">
+                    </div>
+                    <div class="contact-form col-md-6">
+                        <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
+                    </div>
+                    <div class="contact-form col-md-12">
+                        <textarea rows="6" class="form-control custom-form-control" placeholder="Message" required="" form="contactform"></textarea>
+                    </div>
+                    <div class="contact-form col-md-12 g-recaptcha" data-sitekey="6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro"></div>
+                    <div class="col-md-12 contact-form">
+                        <button type="submit" class="send_btn button--ujarak">SEND</button>
+                    </div>
+                </form>
             </main>
             <aside class ="col-sm-4">
                 <div class= "features_container">
