@@ -2,7 +2,7 @@
     <div class="main_container hero_container">
         <div class=""> <!--features-->
             <h2 id="contact-header" class="text-center inside_main_header">Contact Us</h2>
-            <p class="contact desc">We want to hear from you! Just enter your name, email address, and message into the form below and send away. Please include as much information about your center as possible and we'll be happy to get back to you in a flash!</p>
+            <p class="contact desc">We want to hear from you! Please complete the form below with as much information as possible and we'll be happy to get back to you in a flash!</p>
         </div>
     </div>
 </section>
