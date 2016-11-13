@@ -132,7 +132,7 @@
 <section class="page_banner">
     <div class="main_container hero_container">
         <div>
-            <h2 id="contact-header" class="text-center contact">Have a question?</h2>
+            <h2 id="contact-header" class="text-center inside_main_header">Have a question?</h2>
             <p class="contact desc">If you have any question you can ask below or enter what you are looking for!</p>
             <!--<input type="text" name="filter-blog" class="form-control custom_form_control hero-form" placeholder="Type your search terms here" required="">-->
         </div>
