@@ -283,4 +283,7 @@
             }, speed);
         });
     });
+
+    init(e);
+
 </script>
