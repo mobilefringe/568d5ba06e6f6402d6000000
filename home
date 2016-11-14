@@ -203,10 +203,11 @@
                     <div class="">
                         <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
                     </div>
+                    <button type="submit" class="submit_btn button--ujarak">SUBMIT</button>
                     <div class="submit">
                         <span class="agree_terms_label">
                         <!--<input type="submit" value="SUBMIT" class="submit_btn">-->
-                        <button type="submit" class="submit_btn button--ujarak">SUBMIT</button>
+                        
                         </span>
                         <div class="checkbox-mobile">
                         <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
