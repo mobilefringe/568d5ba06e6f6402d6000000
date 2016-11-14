@@ -71,23 +71,30 @@
                             <a href="/contact">Contact</a>
                         </div>
                         <div class="col-xs-12">
-                            <ul class="mobile_submenu">
-                                <li><a href="#">Update Once</a></li>
-                                <li><a href="#">Retailer Login</a></li>
-                                <li><a href="#">Analytics</a></li>
-                                <li><a href="#">Multi-Center Platforms</a></li>
-                                <li><a href="#">Loyalty & Gift Card Programs</a></li>
-                                <li><a href="#">Live Chat</a></li>
-                                <li><a href="#">Routing & Waypoint Finding</a></li>
-                                <li><a href="#">Advanced Push Notifications</a></li>
-                                <li><a href="#">Social Media Integration</a></li>
-                                <li><a href="#">eNewsletters & Marketing</a></li>
-                                <li><a href="#">3rd Party Integration</a></li>
-                                <li><a href="#">Marketing Intern</a></li>
-                                <li><a href="#">Campaigns & Contests</a></li>
-                                <li><a href="#">Digital Board Media</a></li>
-                                <li><a href="#">Center Map Design</a></li>
+                            <ul id="feature_page_container" class="mobile_submenu">
+                                <script id="feature_page_template" type="x-tmpl-mustache/text">
+                                    {% raw %}
+                                        <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
+                                    {% endraw %}
+                                </script> 
                             </ul>
+                            <!--<ul class="mobile_submenu">-->
+                            <!--    <li><a href="#">Update Once</a></li>-->
+                            <!--    <li><a href="#">Retailer Login</a></li>-->
+                            <!--    <li><a href="#">Analytics</a></li>-->
+                            <!--    <li><a href="#">Multi-Center Platforms</a></li>-->
+                            <!--    <li><a href="#">Loyalty & Gift Card Programs</a></li>-->
+                            <!--    <li><a href="#">Live Chat</a></li>-->
+                            <!--    <li><a href="#">Routing & Waypoint Finding</a></li>-->
+                            <!--    <li><a href="#">Advanced Push Notifications</a></li>-->
+                            <!--    <li><a href="#">Social Media Integration</a></li>-->
+                            <!--    <li><a href="#">eNewsletters & Marketing</a></li>-->
+                            <!--    <li><a href="#">3rd Party Integration</a></li>-->
+                            <!--    <li><a href="#">Marketing Intern</a></li>-->
+                            <!--    <li><a href="#">Campaigns & Contests</a></li>-->
+                            <!--    <li><a href="#">Digital Board Media</a></li>-->
+                            <!--    <li><a href="#">Center Map Design</a></li>-->
+                            <!--</ul>-->
                         </div>
                     </div>
                 <div id="features_menu">
@@ -105,7 +112,6 @@
                                     {% endraw %}
                                     </script> 
                                 </ul>
-                                
                                 <!--<ul>-->
                                 <!--    <li><a href="#">Update Once</a></li>-->
                                 <!--    <li><a href="#">Retailer Login</a></li>-->
