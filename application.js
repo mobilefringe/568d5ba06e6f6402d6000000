@@ -57,10 +57,10 @@ function init(){
         var item_list = [];
         var item_rendered = [];
         var template_html = $(feature_links_template).html();
-        $.each(posts, function(key, val) {
+        // $.each(posts, function(key, val) {
             var rendered = Mustache.render(template_html, val);
             item_rendered.push(rendered);
-        });
+        // });
         $(feature_links_container).html(item_rendered.join(''));
     }
     loadMallDataCached(renderAll); 
