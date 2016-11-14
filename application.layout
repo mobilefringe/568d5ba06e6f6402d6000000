@@ -105,7 +105,7 @@
                                 <h4 class="heading">Features</h4>
                             </div>
                             <div class="col-md-3">
-                                <ul id="feature_page_container">
+                                <ul id="feature_page_container" class="feature_menu">
                                     <script id="feature_page_template" type="x-tmpl-mustache/text">
                                         {% raw %}
                                             <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
