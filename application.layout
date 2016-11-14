@@ -71,8 +71,8 @@
                             <a href="/contact">Contact</a>
                         </div>
                         <div class="col-xs-12">
-                            <ul id="feature_page_container" class="mobile_submenu">
-                                <script id="feature_page_template" type="x-tmpl-mustache/text">
+                            <ul id="mobile_feature_container" class="mobile_submenu">
+                                <script id="mobile_feature_template" type="x-tmpl-mustache/text">
                                     {% raw %}
                                         <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
                                     {% endraw %}
