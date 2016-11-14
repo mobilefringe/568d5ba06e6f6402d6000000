@@ -93,9 +93,9 @@
                 <div id="features_menu">
                     <div class="main_container" id="feature_insider">
                         <div class="row">
-                            <div class="col-md-3">
-                                <h4 class="heading">Features</h4>
-                            </div>
+                            <!--<div class="col-md-3">-->
+                            <!--    <h4 class="heading">Features</h4>-->
+                            <!--</div>-->
                             <div class="col-md-3">
                             
                                 <ul id="feature_page_container">
