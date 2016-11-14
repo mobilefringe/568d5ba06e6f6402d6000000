@@ -110,7 +110,7 @@
             var template_html = $(features_template).html();
             console.log(blog_slug);
             $.each(posts, function(key, val) {
-                if (posts.slug != blog_slug) {
+                if (val.slug != blog_slug) {
                     
                 
                 var rendered = Mustache.render(template_html, val);
