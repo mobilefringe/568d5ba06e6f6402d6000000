@@ -46,22 +46,28 @@ function init(){
 	var headroom = new Headroom(navbar);
 	headroom.init();
 	
-	function renderAll(){
-        var blog = getBlogDataBySlug('home-features');
-        console.log(blog.posts);
+	$(document).ready(function(e) {
+        init(e);
         
-        renderFeatureLinks("#feature_links_container", "#feature_links_template", blog.posts);
-    }
-    
-    function renderFeatureLinks(feature_links_container, feature_links_template, posts){
-        var item_list = [];
-        var item_rendered = [];
-        var template_html = $(feature_links_template).html();
-        // $.each(posts, function(key, val) {
-            var rendered = Mustache.render(template_html, posts);
-            item_rendered.push(rendered);
-        // });
-        $(feature_links_container).html(item_rendered.join(''));
-    }
-    loadMallDataCached(renderAll); 
-}
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var blog = getBlogDataBySlug('home-features');
+            console.log(blog);
+            var post_details = getPostDetailsBySlug(slug);
+            
+            renderFeaturesDetails("#features_container", "#features_template", blog.posts);
+        }
+        
+        function renderFeaturesDetails(features_container, features_template, posts){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(features_template).html();
+            $.each(posts, function(key, val) {
+                var rendered = Mustache.render(template_html, val);
+                item_rendered.push(rendered);
+            });
+            $(features_container).html(item_rendered.join(''));
+        }
+        loadMallDataCached(renderAll);  
+    });
