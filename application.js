@@ -30,11 +30,7 @@ function init(){
         e.preventDefault();
         $('#feature_insider').slideToggle();
     });
-    
-    $('#open_features').click(function(e){
-        e.preventDefault();
-        $('.heading').fadeIn();
-    });
+
     
     var previousScroll = 0;
     $(window).scroll(function(event){
