@@ -133,7 +133,3 @@
         loadMallDataCached(renderAll); 
     });
 </script>
-
-// <form method="get" action={{video_link}}>
-                        //     <button class="download_btn" type="submit"><i class="material-icons">file_download</i><span>Download PDF</span></button>    
-                        // </form>
