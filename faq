@@ -274,7 +274,7 @@
     
     $(function () {
         $(".faq-toc").find("a[href*=#]:not([href=#])").click(function () {
-            var offset = 500;
+            var offset = 100;
             var speed = 1000;
             var target = $(this.hash);
     
