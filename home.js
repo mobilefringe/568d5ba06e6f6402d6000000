@@ -65,4 +65,6 @@ $(document).ready(function(){
 	var headroom = new Headroom(navbar);
 	headroom.init();
 	
+	loadMallDataCached(renderAll);
+	
 });
