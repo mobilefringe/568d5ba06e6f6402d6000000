@@ -285,7 +285,8 @@
             };
             // Merge the runtime options with the default settings
             var options = $.extend({}, defaults, options);
-            // Iterate through the collection of elements and return the object to preserve method chaining
+            // Iterate through the collection of elements and return the object to
+            // preserve method chaining
 
             return this.each(function(i) {
             // Wrap the current element in an instance of jQuery
