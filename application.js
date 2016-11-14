@@ -71,4 +71,4 @@ function init(){
     
     loadMallDataCached(renderAll);  
     
-    });
+};
