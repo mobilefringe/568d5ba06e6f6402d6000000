@@ -28,12 +28,12 @@ function init(){
     });
     $('#open_features').click(function(e){
         e.preventDefault();
-        $('#feature_insider').slideToggle(menuFade());
-        
+        $('#feature_insider').slideToggle();
+        $('.feature_menu').fadeIn(500);      
     });
 
     function menuFade(){
-        $('.feature_menu').fadeIn();    
+          
     }
     
     var previousScroll = 0;
