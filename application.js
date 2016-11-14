@@ -55,10 +55,10 @@ function init(){
         console.log(blog);
         var post_details = getPostDetailsBySlug(slug);
         
-        renderFeaturesDetails("#features_container", "#features_template", blog.posts);
+        renderFeatureLinks("#features_container", "#features_template", blog.posts);
     }
     
-    function renderFeaturesDetails(features_container, features_template, posts){
+    function renderFeatureLinks(features_container, features_template, posts){
         var item_list = [];
         var item_rendered = [];
         var template_html = $(features_template).html();
@@ -71,4 +71,4 @@ function init(){
     
     loadMallDataCached(renderAll);  
     
-};
+}
