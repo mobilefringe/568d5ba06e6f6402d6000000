@@ -58,7 +58,7 @@ function init(){
         renderFeaturePages("#feature_page_container", "#feature_page_template", blog.posts);
     }
     
-    function renderFeatureLinks(feature_links_container, feature_links_template, posts){
+    function renderFeaturePages(feature_page_container, feature_page_template, posts){
         var item_list = [];
         var item_rendered = [];
         var template_html = $(feature_links_template).html();
