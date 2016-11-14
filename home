@@ -119,32 +119,38 @@
                 <div class="col-md-10 middle_align">
                     <div class="row">
                         <div class="col-sm-4">
-                            <ul class="features_list">
-                                <li>Update Once</li>
-                                <li>Retailer Login</li>
-                                <li>Analytics</li>
-                                <li>Multi-Center Platforms</li>
-                                <li>Loyalty & Gift Card Programs</li>
+                            <ul id="features_container">
+                                <script id="features_template" type="x-tmpl-mustache/text">
+                                    <li><a href="{{slug}}" class="contact"><i class="material-icons">check_circle</i>{{title}}</a></li>
+                                </script> 
                             </ul>
-                        </div>
-                        <div class="col-sm-4">
-                            <ul class="features_list">
-                                <li>Live Chat</li>
-                                <li>Routing & Waypoint Finding</li>
-                                <li>Advanced Push Notifications</li>
-                                <li>Social Media Integration</li>
-                                <li>Email Newsletters & Marketing</li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                            <ul class="features_list">
-                                <li>3rd Party Integration</li>
-                                <li>Marketing Intern</li>
-                                <li>Campaigns & Contests</li>
-                                <li>Digital Board Media</li>
-                                <li>Center Map Design</li>
-                            </ul>
-                        </div>
+                    
+                        <!--    <ul class="features_list">-->
+                        <!--        <li>Update Once</li>-->
+                        <!--        <li>Retailer Login</li>-->
+                        <!--        <li>Analytics</li>-->
+                        <!--        <li>Multi-Center Platforms</li>-->
+                        <!--        <li>Loyalty & Gift Card Programs</li>-->
+                        <!--    </ul>-->
+                        <!--</div>-->
+                        <!--<div class="col-sm-4">-->
+                        <!--    <ul class="features_list">-->
+                        <!--        <li>Live Chat</li>-->
+                        <!--        <li>Routing & Waypoint Finding</li>-->
+                        <!--        <li>Advanced Push Notifications</li>-->
+                        <!--        <li>Social Media Integration</li>-->
+                        <!--        <li>Email Newsletters & Marketing</li>-->
+                        <!--    </ul>-->
+                        <!--</div>-->
+                        <!--<div class="col-sm-4">-->
+                        <!--    <ul class="features_list">-->
+                        <!--        <li>3rd Party Integration</li>-->
+                        <!--        <li>Marketing Intern</li>-->
+                        <!--        <li>Campaigns & Contests</li>-->
+                        <!--        <li>Digital Board Media</li>-->
+                        <!--        <li>Center Map Design</li>-->
+                        <!--    </ul>-->
+                        <!--</div>-->
                     </div>
                 </div>
             </div>
