@@ -104,14 +104,16 @@
                             <!--    <h4 class="heading">Features</h4>-->
                             <!--</div>-->
                             <div class="col-md-3">
-                            
-                                <ul id="feature_page_container">
-                                    <script id="feature_page_template" type="x-tmpl-mustache/text">
-                                    {% raw %}
-                                        <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
-                                    {% endraw %}
-                                    </script> 
-                                </ul>
+                                <div class="dropdown">
+                                    <ul id="feature_page_container">
+                                        <script id="feature_page_template" type="x-tmpl-mustache/text">
+                                            {% raw %}
+                                                <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
+                                            {% endraw %}
+                                        </script> 
+                                    </ul>    
+                                </div>
+                                
                                 <!--<ul>-->
                                 <!--    <li><a href="#">Update Once</a></li>-->
                                 <!--    <li><a href="#">Retailer Login</a></li>-->
