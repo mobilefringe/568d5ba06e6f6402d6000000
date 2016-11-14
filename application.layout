@@ -23,7 +23,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <!--Mustache is a client side templating engine //github.com/janl/mustache.js/ -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
-        <script src="../application.js"></script>
+        
         <script src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/application/x-javascript/1448835474000/slick.min.js"></script>
         <script src="//s3.amazonaws.com/kodekloud/sites/568d5ba06e6f6402d6000000/application/x-javascript/undefined/viewportchecker.js"></script>
         <script src="//s3.amazonaws.com/kodekloud/sites/568d5ba06e6f6402d6000000/application/x-javascript/undefined/headroom.js"></script>
@@ -31,6 +31,7 @@
         <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507772000/moment.min.js"></script>
         <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507661000/moment-timezone-with-data.min.js"></script>
 
+        <script src="../application.js"></script>
         <!--MallMaverick v=0.3-->
         <script src="//mallmaverick.codecloudapp.com/mallmaverick_v3.js"></script>
         <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
