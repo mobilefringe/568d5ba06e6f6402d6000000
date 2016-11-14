@@ -303,7 +303,7 @@
                 var $empty = generateEmptySearch ();
                 $empty.appendTo ($container);
                 generateAnswerNumbers ($this);
-            });
+    });
             
         function search (e) {
 			var el, container, filter, count, pattern, container, answers, toc, tocs, empty;
