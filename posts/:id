@@ -110,11 +110,13 @@
             var template_html = $(features_template).html();
             $.each(posts, function(key, val) {
                 if (posts.slug != slug) {
-                        
+                    slug = posts.slug;
+                    title =  posts.title;
+                }
                 
                 var rendered = Mustache.render(template_html, val);
                 item_rendered.push(rendered);
-                }
+                
             });
             $(features_container).html(item_rendered.join(''));
         }
