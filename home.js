@@ -1,5 +1,5 @@
 // $(document).ready(function(){
-    init();
+    // init();
     $('.products_list').slick({
         infinite: true,
         slidesToShow: 3,
