@@ -99,7 +99,7 @@
                             
                                 <ul id="feature_links_container">
                                     <script id="feature_links_template" type="x-tmpl-mustache/text">
-                                        <li><a href="{{posts.slug}}" class="contact">{{title}}</a></li>
+                                        <li><a href="{{slug}}" class="contact">{{title}}</a></li>
                                     </script> 
                                 </ul>
                                 <!--<ul>-->
