@@ -6,3 +6,8 @@
         </div>
     </div>
 </section>
+<script>
+    $(document).ready(function(e) {
+        init(e);
+    });
+</script>
