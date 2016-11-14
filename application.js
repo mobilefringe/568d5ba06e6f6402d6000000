@@ -55,18 +55,18 @@ function init(){
         console.log(blog);
         var post_details = getPostDetailsBySlug(slug);
         
-        renderFeatureLinks("#features_container", "#features_template", blog.posts);
+        renderFeatureLinks("#feature_links_container", "#feature_links_template", blog.posts);
     }
     
-    function renderFeatureLinks(features_container, features_template, posts){
+    function renderFeatureLinks(feature_links_container, feature_links_template, posts){
         var item_list = [];
         var item_rendered = [];
-        var template_html = $(features_template).html();
+        var template_html = $(feature_links_template).html();
         $.each(posts, function(key, val) {
             var rendered = Mustache.render(template_html, val);
             item_rendered.push(rendered);
         });
-        $(features_container).html(item_rendered.join(''));
+        $(feature_links_container).html(item_rendered.join(''));
     }
     
     loadMallDataCached(renderAll);  
