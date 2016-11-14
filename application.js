@@ -55,7 +55,7 @@ function init(){
         console.log(blog.posts);
         var post_details = getPostDetailsBySlug(slug);
         
-        renderFeatureLinks("#feature_links_container", "#feature_links_template", blog.posts);
+        renderFeaturePages("#feature_page_container", "#feature_page_template", blog.posts);
     }
     
     function renderFeatureLinks(feature_links_container, feature_links_template, posts){
