@@ -68,4 +68,7 @@ function init(){
         });
         $(features_container).html(item_rendered.join(''));
     }
-};
+    
+    loadMallDataCached(renderAll);  
+    
+    });
