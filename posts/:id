@@ -112,11 +112,11 @@
             console.log(blog_slug);
             $.each(posts, function(key, val) {
                 if (posts.slug != blog_slug) {
-                    var rendered = Mustache.render(template_html, val);
-                }
+                    
                 
+                var rendered = Mustache.render(template_html, val);
                 item_rendered.push(rendered);
-                
+                }
             });
             $(features_container).html(item_rendered.join(''));
         }
