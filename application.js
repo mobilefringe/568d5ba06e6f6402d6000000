@@ -1,6 +1,6 @@
 /*Created 2015-02-28 by CodeCloud Team*/
-
-function init(){
+$(document).ready(function(e) {
+    init(e);
     
     $('.menu_toggler').click(function(){
         if ($('#header').hasClass('darken')){
@@ -71,4 +71,4 @@ function init(){
     
     loadMallDataCached(renderAll);  
     
-}
+});
