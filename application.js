@@ -51,7 +51,7 @@ function init(){
         // var slug = pathArray[pathArray.length-1];
         var blog = getBlogDataBySlug('home-features');
         console.log(blog);
-        var post_details = getPostDetailsBySlug(slug);
+        // var post_details = getPostDetailsBySlug(slug);
         
         renderFeaturesDetails("#features_container", "#features_template", blog.posts);
     }
