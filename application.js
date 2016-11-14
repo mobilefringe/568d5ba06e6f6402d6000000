@@ -28,8 +28,7 @@ function init(){
     });
     $('#open_features').click(function(e){
         e.preventDefault();
-        $('#feature_insider').slideToggle()
-        $('#feature_insider').fadeIn()
+        $('#feature_insider').slideToggle().fadeIn();
     });
     
     var previousScroll = 0;
