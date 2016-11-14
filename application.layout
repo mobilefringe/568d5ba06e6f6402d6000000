@@ -97,7 +97,7 @@
                             </div>
                             <div class="col-md-3">
                             
-                                <ul id="feature_links_container">
+                                <ul id="">
                                     <script id="feature_links_template" type="x-tmpl-mustache/text">
                                         <li><a href="{{slug}}" class="contact">{{title}}</a></li>
                                     </script> 
