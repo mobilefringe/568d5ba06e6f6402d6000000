@@ -101,7 +101,7 @@
                                 <ul id="feature_page_container">
                                     <script id="feature_page_template" type="x-tmpl-mustache/text">
                                     {% raw %}
-                                        <li><a href="{{slug}}" class="contact">{{title}}</a></li>
+                                        <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
                                     {% endraw %}
                                     </script> 
                                 </ul>
