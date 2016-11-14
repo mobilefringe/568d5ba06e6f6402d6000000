@@ -53,23 +53,4 @@ $(document).ready(function(){
 	var navbar = document.getElementById("header");
 	var headroom = new Headroom(navbar);
 	headroom.init();
-	
-	function renderAll(){
-        var blog = getBlogDataBySlug('home-features');
-        console.log(blog);
-        
-        renderFeatureLinks("#feature_links_container", "#feature_links_template", blog.posts);
-    }
-    
-    function renderFeatureLinks(feature_links_container, feature_links_template, posts){
-        var item_list = [];
-        var item_rendered = [];
-        var template_html = $(feature_links_template).html();
-        $.each(posts, function(key, val) {
-            var rendered = Mustache.render(template_html, val);
-            item_rendered.push(rendered);
-        });
-        $(feature_links_container).html(item_rendered.join(''));
-    }
-    loadMallDataCached(renderAll);
 });
