@@ -1,4 +1,4 @@
-$(document).ready(function(){
+// $(document).ready(function(){
     init();
     $('.products_list').slick({
         infinite: true,
@@ -53,4 +53,4 @@ $(document).ready(function(){
 	var navbar = document.getElementById("header");
 	var headroom = new Headroom(navbar);
 	headroom.init();
-});
+// });
