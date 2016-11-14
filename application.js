@@ -1,6 +1,6 @@
 /*Created 2015-02-28 by CodeCloud Team*/
 $(document).ready(function(e) {
-    init(e);
+    // init(e);
     
     $('.menu_toggler').click(function(){
         if ($('#header').hasClass('darken')){
