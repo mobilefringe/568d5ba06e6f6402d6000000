@@ -104,7 +104,7 @@
                             <div class="col-md-3">
                                 <h4 class="heading">Features</h4>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-9">
                                 <ul id="feature_page_container" class="feature_menu">
                                     <script id="feature_page_template" type="x-tmpl-mustache/text">
                                         {% raw %}
