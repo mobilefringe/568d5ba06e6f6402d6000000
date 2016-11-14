@@ -217,5 +217,13 @@
                 </p>
             </div>
         </section>
+        <script>
+            $(document).ready(function(e) {
+                init(e);
+                
+                
+                loadMallDataCached(renderAll); 
+            });
+        </script>
     </body>
 </html>
