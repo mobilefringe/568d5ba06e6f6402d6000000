@@ -272,28 +272,15 @@
     	});
     })
     
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $(".faq-toc").on('click', function(event) {
+    $(function () {
+        $("a").find("a[href*=#]:not([href=#])").click(function () {
+            var offset = 0;
+            var speed = 1000;
+            var target = $(this.hash);
     
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-    
-          // Store hash
-          var hash = this.hash;
-    
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-       
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
+            $("html,body").animate({
+                scrollTop: target.offset().top - offset
+            }, speed);
+        });
     });
 </script>
