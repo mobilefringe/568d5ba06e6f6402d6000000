@@ -56,12 +56,12 @@ function init(){
     function renderFeatureLinks(feature_links_container, feature_links_template, posts){
         var item_list = [];
         var item_rendered = [];
-        var template_html = $(feature_links_template).html();
+        var template_html = $(features_template).html();
         $.each(posts, function(key, val) {
             var rendered = Mustache.render(template_html, val);
             item_rendered.push(rendered);
         });
-        $(feature_links_container).html(item_rendered.join(''));
+        $(features_container).html(item_rendered.join(''));
     }
     loadMallDataCached(renderAll); 
 }
