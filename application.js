@@ -55,6 +55,7 @@ function init(){
         console.log(blog.posts);
         var post_details = getPostDetailsBySlug(slug);
         
+        renderMobileFeature("#mobile_feature_container", "#mobile_feature_template", blog.posts);
         renderFeaturePages("#feature_page_container", "#feature_page_template", blog.posts);
     }
     
@@ -67,6 +68,17 @@ function init(){
             item_rendered.push(rendered);
         });
         $(feature_page_container).html(item_rendered.join(''));
+    }
+    
+    function renderMobileFeature(mobile_feature_container, mobile_feature_template, posts){
+        var item_list = [];
+        var item_rendered = [];
+        var template_html = $(feature_page_template).html();
+        $.each(posts, function(key, val) {
+            var rendered = Mustache.render(template_html, val);
+            item_rendered.push(rendered);
+        });
+        $(mobile_feature_container).html(item_rendered.join(''));
     }
     
     loadMallDataCached(renderAll);  
