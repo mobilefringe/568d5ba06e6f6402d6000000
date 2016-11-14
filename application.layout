@@ -61,23 +61,24 @@
                     </ul>
                 </div>
                 <div class="custom_mobile_menu show_phone">
-                        <div class="col-xs-4">
-                            <a class="active" href="#">Features <i class="fa fa-chevron-down"></i></a>
-                        </div>
-                        <div class="col-xs-4 text-center">
-                            <a href="/faq">FAQ</a>
-                        </div>
-                        <div class="col-xs-4 text-right">
-                            <a href="/contact">Contact</a>
-                        </div>
-                        <div class="col-xs-12">
-                            <ul id="mobile_feature_container" class="mobile_submenu">
-                                <script id="mobile_feature_template" type="x-tmpl-mustache/text">
-                                    {% raw %}
-                                        <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
-                                    {% endraw %}
-                                </script> 
-                            </ul>
+                    <div class="col-xs-4">
+                        <a class="active" href="#">Features <i class="fa fa-chevron-down"></i></a>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <a href="/faq">FAQ</a>
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        <a href="/contact">Contact</a>
+                    </div>
+                    <div class="col-xs-12">
+                        <ul id="mobile_feature_container" class="mobile_submenu">
+                            <script id="mobile_feature_template" type="x-tmpl-mustache/text">
+                                {% raw %}
+                                    <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
+                                {% endraw %}
+                            </script> 
+                        </ul>
+                    </div>
                             <!--<ul class="mobile_submenu">-->
                             <!--    <li><a href="#">Update Once</a></li>-->
                             <!--    <li><a href="#">Retailer Login</a></li>-->
@@ -95,7 +96,7 @@
                             <!--    <li><a href="#">Digital Board Media</a></li>-->
                             <!--    <li><a href="#">Center Map Design</a></li>-->
                             <!--</ul>-->
-                        </div>
+                        <!--</div>-->
                     </div>
                 <div id="features_menu">
                     <div class="main_container" id="feature_insider">
