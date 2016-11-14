@@ -1,5 +1,5 @@
-// $(document).ready(function(){
-    // init();
+$(document).ready(function(){
+    init();
     $('.products_list').slick({
         infinite: true,
         slidesToShow: 3,
@@ -53,4 +53,4 @@
 	var navbar = document.getElementById("header");
 	var headroom = new Headroom(navbar);
 	headroom.init();
-// });
+});
