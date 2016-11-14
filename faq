@@ -142,7 +142,7 @@
     <div class="inside_container">
         <div class="row">
 			<main class="col-md-8 content_background">					
-					<h3 style="padding-top:0px;"><span class="slash"></span> Search...</h3>
+					<h3 style="padding-top:0px;" class="heading"><span class="slash"></span> Search...</h3>
 					
 					<ol class="faq-list">
 						<li>
