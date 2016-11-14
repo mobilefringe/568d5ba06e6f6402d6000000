@@ -100,7 +100,7 @@
                             
                                 <ul id="">
                                     <script id="feature_links_template" type="x-tmpl-mustache/text">
-                                        <li><a href="{{slug}}" class="contact">{{title}}</a></li>
+                                        <li><a href="{{slug}}" class="contact"><i class="material-icons">check_circle</i>{{title}}</a></li>
                                     </script> 
                                 </ul>
                                 
