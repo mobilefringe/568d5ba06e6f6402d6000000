@@ -111,7 +111,7 @@
             var template_html = $(features_template).html();
             console.log(blog_slug);
             $.each(posts, function(key, val) {
-                if (posts.slug != blog_slug) {
+                if (slug != blog_slug) {
                     slug = posts.slug;
                     title = posts.title
                 }
