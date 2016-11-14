@@ -47,11 +47,8 @@ function init(){
 	headroom.init();
 	
 	function renderAll(){
-        // var pathArray = window.location.pathname.split( '/' );
-        // var slug = pathArray[pathArray.length-1];
         var blog = getBlogDataBySlug('home-features');
         console.log(blog);
-        // var post_details = getPostDetailsBySlug(slug);
         
         renderFeatureLinks("#feature_links_container", "#feature_links_template", blog.posts);
     }
