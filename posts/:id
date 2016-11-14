@@ -111,9 +111,9 @@
             var template_html = $(features_template).html();
             console.log(blog_slug);
             $.each(posts, function(key, val) {
-                if (slug != blog_slug) {
-                    slug = posts.slug;
-                    title = posts.title
+                if (posts.slug == blog_slug) {
+                    slug = "visibility:hidden";
+                    title = "visibility:hidden";
                 }
                 var rendered = Mustache.render(template_html, val);
                 item_rendered.push(rendered);
