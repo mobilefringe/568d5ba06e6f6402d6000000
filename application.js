@@ -48,7 +48,7 @@ function init(){
 	
 	function renderAll(){
         var blog = getBlogDataBySlug('home-features');
-        console.log(blog);
+        console.log(blog.posts);
         
         renderFeatureLinks("#feature_links_container", "#feature_links_template", blog.posts);
     }
