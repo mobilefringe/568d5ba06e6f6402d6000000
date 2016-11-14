@@ -33,7 +33,7 @@
             <a href="#" class="contact_us">Contact Us</a>
         </div>
     </div>
-    <hr class="breakline visible-sm-12">
+    <hr class="breakline show_phone">
     <div id="mall_maverick">
         <div class="main_container">
             <h2 class="heading2 text-center">WHY MALL MAVERICK?</h2>
