@@ -46,9 +46,6 @@
                 <div id="download_container">
                     <script id="download_template" type="x-tmpl-mustache/text">
                         <a href="{{video_Link}}" class="download_btn">i class="material-icons">file_download</i><span>Download PDF</span></a>
-                        // <form method="get" action={{video_link}}>
-                        //     <button class="download_btn" type="submit"><i class="material-icons">file_download</i><span>Download PDF</span></button>    
-                        // </form>
                     </script>    
                 </div>
             </aside>      
@@ -136,3 +133,7 @@
         loadMallDataCached(renderAll); 
     });
 </script>
+
+// <form method="get" action={{video_link}}>
+                        //     <button class="download_btn" type="submit"><i class="material-icons">file_download</i><span>Download PDF</span></button>    
+                        // </form>
