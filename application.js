@@ -2,6 +2,10 @@
 
 function init(){
     
+    var navbar = document.getElementById("header");
+	var headroom = new Headroom(navbar);
+	headroom.init();
+    
     $('.menu_toggler').click(function(){
         if ($('#header').hasClass('darken')){
             $('#header').addClass('lighten');
