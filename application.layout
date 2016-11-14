@@ -55,7 +55,7 @@
                     </a>
                     <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1455216554000/ic_menu_black_24px.png" class="menu_toggler show_phone" alt="toggler">
                     <ul class="custom_nav" id="menu">
-                        <li><a href="#" class="" id="open_features">Features <i class="fa fa-chevron-down"></i></a></li>
+                        <li><a href="" class="" id="open_features">Features <i class="fa fa-chevron-down"></i></a></li>
                         <li><a href="/faq">FAQ</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
