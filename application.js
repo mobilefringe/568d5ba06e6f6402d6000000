@@ -53,10 +53,10 @@ function init(){
         console.log(blog);
         // var post_details = getPostDetailsBySlug(slug);
         
-        renderFeaturesDetails("#features_container", "#features_template", blog.posts);
+        renderFeatureLinks("#feature_links_container", "#feature_links_template", blog.posts);
     }
     
-    function renderFeaturesDetails(feature_links_container, feature_links_template, posts){
+    function renderFeatureLinks(feature_links_container, feature_links_template, posts){
         var item_list = [];
         var item_rendered = [];
         var template_html = $(feature_links_template).html();
