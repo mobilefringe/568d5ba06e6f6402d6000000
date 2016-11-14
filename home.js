@@ -1,16 +1,5 @@
 $(document).ready(function(){
     init();
-    
-    function renderAll(){
-        var pathArray = window.location.pathname.split( '/' );
-        var slug = pathArray[pathArray.length-1];
-        var blog = getBlogDataBySlug('home-features');
-
-        var post_details = getPostDetailsBySlug(slug);
-
-        renderFeaturesDetails("#features_container", "#features_template", blog.posts);
-    }
-        
     $('.products_list').slick({
         infinite: true,
         slidesToShow: 3,
@@ -45,7 +34,7 @@ $(document).ready(function(){
                 }
             });
         }
-        else {
+        else{
             $("#agree_terms").focus();
             alert("Please agree to receive newsletter before continuing.")
             $('.submit_btn').prop('disabled', false);
@@ -64,7 +53,5 @@ $(document).ready(function(){
 	var navbar = document.getElementById("header");
 	var headroom = new Headroom(navbar);
 	headroom.init();
-	
-	loadMallDataCached(renderAll);
 	
 });
