@@ -58,7 +58,7 @@ function init(){
         var item_rendered = [];
         var template_html = $(feature_links_template).html();
         // $.each(posts, function(key, val) {
-            var rendered = Mustache.render(template_html, val);
+            var rendered = Mustache.render(template_html, posts);
             item_rendered.push(rendered);
         // });
         $(feature_links_container).html(item_rendered.join(''));
