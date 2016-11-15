@@ -60,7 +60,7 @@
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                     <div id="features_menu">
-                        <div class="" id="feature_insider">
+                        <div class="main_container" id="feature_insider">
                             <div class="row">
                                 <div class="col-md-3">
                                     <h4 class="heading menu_title">Features</h4>
