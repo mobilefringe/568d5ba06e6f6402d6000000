@@ -32,7 +32,7 @@
                 <div class= "features_container">
                     <h4>More Information</h4>
                     <p class="moreinfo_subheading">Address</p>
-                    <p class="more_info"> The Mall Maverick Team is located in beautiful Toronto, Ontario Canada</p>
+                    <p class="desc3"> The Mall Maverick Team is located in beautiful Toronto, Ontario Canada</p>
                     <p class="moreinfo_subheading">Contact Us Directly</p>
                     <div class="contact-direct">
                         <i class="material-icons contact_icon">phone</i>
