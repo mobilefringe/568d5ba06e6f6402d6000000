@@ -102,7 +102,7 @@
                     <div class="main_container" id="feature_insider">
                         <div class="row">
                             <div class="col-md-3">
-                                <h4 class="heading">Features</h4>
+                                <h4 class="heading menu_title">Features</h4>
                             </div>
                             <div class="col-md-9">
                                 <ul id="feature_page_container" class="feature_menu">
