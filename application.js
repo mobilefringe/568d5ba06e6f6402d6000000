@@ -30,7 +30,7 @@ function init(){
         e.preventDefault();
         $('#feature_insider').slideToggle(function(){
             $('.heading').fadeIn('slow');
-            $('#feature_page_container').fadeIn('slow');
+            $('.feature_menu').fadeIn('slow');
         });
     });
     
