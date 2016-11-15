@@ -83,3 +83,7 @@ function init(){
     loadMallDataCached(renderAll);  
     
 }
+
+function fadeContent(){
+    alert("hellow")
+}
