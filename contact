@@ -39,7 +39,7 @@
                         <p class="desc3"><a href="tel:1-888-854-5796">1-888-854-5796</a></p>
                     </div>
                     <div class="contact-direct">
-                        <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/envelope_icon.png" class="" alt="email">
+                        <i class="material-icons contact_icon">email</i>
                         <p class="desc3"><a href="mailto:contact@mobilefringe.com">contact@mobilefringe.com</a></p>
                     </div>
                     <div>
