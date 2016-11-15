@@ -29,12 +29,13 @@ function init(){
     $('#open_features').click(function(e){
         e.preventDefault();
         $('#feature_insider').slideToggle();
-        $('.feature_menu').fadeIn(500);      
     });
 
-    function menuFade(){
-          
-    }
+    $('#feature_insider').slideToggle(function(e) {
+        e.preventDefault();
+        $('.feature_menu').fadeIn(500);
+    });
+   
     
     var previousScroll = 0;
     $(window).scroll(function(event){
