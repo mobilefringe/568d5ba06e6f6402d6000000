@@ -29,7 +29,8 @@ function init(){
     $('#open_features').click(function(e){
         e.preventDefault();
         $('#feature_insider').slideToggle(function(){
-            $('#features_menu').fadeIn('slow');
+            $('.heading').fadeIn('slow');
+            $('#feature_page_container').fadeIn('slow');
         });
     });
     
