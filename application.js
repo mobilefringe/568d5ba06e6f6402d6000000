@@ -32,7 +32,8 @@ function init(){
     });
     $('#open_features').click(function(e){
         e.preventDefault();
-        $('#feature_insider').slideFadeToggle();
+        $('#feature_insider').slideToggle(function(){
+        });
     });
     
     var previousScroll = 0;
