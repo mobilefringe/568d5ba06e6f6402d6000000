@@ -85,5 +85,5 @@ function init(){
 }
 
 function fadeContent(){
-    alert("hellow")
+    $('#feature_insider row').fadeIn();
 }
