@@ -32,7 +32,7 @@ function init(){
     });
 
     $('#feature_insider').slideToggle(function(e) {
-        e.preventDefault();
+        // e.preventDefault();
         $('.feature_menu').fadeIn(500);
     });
    
