@@ -31,7 +31,7 @@ function init(){
         $('#feature_insider').stop(true, true).animate({
             height:"toggle",
             opacity:"toggle"
-        },slideDuration);
+        },400);
     });
     
     var previousScroll = 0;
