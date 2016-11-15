@@ -36,11 +36,11 @@
                     <p class="moreinfo_subheading">Contact Direct</p>
                     <div class="contact-direct">
                         <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/phone_icon.png" class="" alt="phoneNum">
-                        <p class="desc3">1-888-854-5796</p>
+                        <p class="desc3"><a href="tel:1-888-854-5796">1-888-854-5796</a></p>
                     </div>
                     <div class="contact-direct">
                         <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/envelope_icon.png" class="" alt="email">
-                        <p class="desc3">contact@mobilefringe.com</p>
+                        <p class="desc3"><a href="mailto:contact@mobilefringe.com">contact@mobilefringe.com</a></p>
                     </div>
                     <div>
                         <p class="foot-note">Mall Maverick is product of Mobile Fringe Inc.</p>
