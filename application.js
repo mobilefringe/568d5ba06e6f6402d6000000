@@ -28,7 +28,11 @@ function init(){
     });
     $('#open_features').click(function(e){
         e.preventDefault();
-        $('#feature_insider').fadeToggle();
+        $('#feature_insider').stop(true, true)
+        .animate({
+            height:"toggle",
+            opacity:"toggle"
+        },slideDuration);
     });
     
     var previousScroll = 0;
