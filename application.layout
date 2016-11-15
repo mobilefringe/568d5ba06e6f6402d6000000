@@ -55,7 +55,27 @@
                     </a>
                     <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1455216554000/ic_menu_black_24px.png" class="menu_toggler show_phone" alt="toggler">
                     <ul class="custom_nav" id="menu">
-                        <li><a href="#" class="" id="open_features">Features <i class="fa fa-chevron-down"></i></a></li>
+                        <li>
+                            <a href="#" class="" id="open_features">Features <i class="fa fa-chevron-down"></i></a>
+                            <div id="features_menu">
+                                <div class="main_container" id="feature_insider">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <h4 class="heading menu_title">Features</h4>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <ul id="feature_page_container" class="feature_menu">
+                                                <script id="feature_page_template" type="x-tmpl-mustache/text">
+                                                    {% raw %}
+                                                        <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
+                                                    {% endraw %}
+                                                </script> 
+                                            </ul>    
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                         <li><a href="/faq">FAQ</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
