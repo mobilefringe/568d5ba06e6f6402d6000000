@@ -26,7 +26,7 @@
                     <h4>Other Features</h4>
                     <ul id="features_container">
                         <script id="features_template" type="x-tmpl-mustache/text">
-                            <li><a href="{{slug}}" class="contact"><i class="material-icons">check_circle</i>{{title}}</a></li>
+                            <li><a href="{{slug}}" class="contact"><i class="material-icons check_mark">check_circle</i>{{title}}</a></li>
                         </script> 
                     </ul>
                 </div>
