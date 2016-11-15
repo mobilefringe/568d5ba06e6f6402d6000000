@@ -85,5 +85,5 @@ function init(){
 }
 
 function fadeContent(){
-    $('#feature_insider row').fadeIn();
+    $('#feature_insider .row').fadeIn();
 }
