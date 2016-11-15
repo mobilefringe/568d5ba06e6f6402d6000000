@@ -28,10 +28,7 @@ function init(){
     });
     $('#open_features').click(function(e){
         e.preventDefault();
-        $('#feature_insider').stop(true, true).animate({
-            height:"toggle",
-            opacity:"toggle"
-        },400);
+        $('#feature_insider').fadeToggle();
     });
     
     var previousScroll = 0;
