@@ -1,8 +1,4 @@
 /*Created 2015-02-28 by CodeCloud Team*/
-$.fn.slideFadeToggle  = function(speed, easing, callback) {
-        return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
-}; 
-
 
 function init(){
     
@@ -33,6 +29,8 @@ function init(){
     $('#open_features').click(function(e){
         e.preventDefault();
         $('#feature_insider').slideToggle(function(){
+            $('.menu_title').fadeIn('slow');
+            $('.feature_menu').fadeIn('slow');
         });
     });
     
