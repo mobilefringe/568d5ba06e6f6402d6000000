@@ -29,7 +29,7 @@ function init(){
     $('#open_features').click(function(e){
         e.preventDefault();
         $('#feature_insider').slideToggle(function(){
-            $('#feature_insider:hidden:first').fadeIn();
+            $('#feature_insider:hidden:first').fadeIn('slow');
         });
     });
     
