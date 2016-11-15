@@ -1,4 +1,8 @@
 /*Created 2015-02-28 by CodeCloud Team*/
+$.fn.slideFadeToggle  = function(speed, easing, callback) {
+        return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
+}; 
+
 
 function init(){
     
