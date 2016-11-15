@@ -80,24 +80,7 @@
                         </ul>
                     </div>
                 </div>
-                <div id="features_menu">
-                    <div class="main_container" id="feature_insider">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <h4 class="heading menu_title">Features</h4>
-                            </div>
-                            <div class="col-md-9">
-                                <ul id="feature_page_container" class="feature_menu">
-                                    <script id="feature_page_template" type="x-tmpl-mustache/text">
-                                        {% raw %}
-                                            <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
-                                        {% endraw %}
-                                    </script> 
-                                </ul>    
-                            </div>  
-                        </div>
-                    </div>
-                </div>
+                
             </section>
         {{yield}}
         <section id="footer">
