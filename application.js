@@ -28,7 +28,7 @@ function init(){
     });
     $('#open_features').click(function(e){
         e.preventDefault();
-        $('#feature_insider').slideToggle(50000000);
+        $('#feature_insider').slideToggle(5000);
     });
     
     var previousScroll = 0;
