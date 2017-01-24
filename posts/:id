@@ -45,7 +45,9 @@
                 </div>
                 <div id="download_container">
                     <script id="download_template" type="x-tmpl-mustache/text">
+                        {{#video_link}}
                         <a href="{{video_link}}" download="{{video_link}}" class="download_btn"><i class="material-icons">file_download</i><span>Download PDF</span></a>
+                        {{/video_link}}
                     </script>    
                 </div>
             </aside>      
