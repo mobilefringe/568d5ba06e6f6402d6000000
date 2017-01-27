@@ -61,12 +61,13 @@
             var pathArray = window.location.pathname.split( '/' );
             var blog_slug = pathArray[pathArray.length-1];
             var blog = getBlogDataBySlug('home-features');
+            var blog_posts = blog.posts.sortBy(function(o){ return o.publish_date });
             console.log(blog.posts);
             var post_details = getPostDetailsBySlug(blog_slug);
             
             renderHeaderDetails("#header_container", "#header_template", post_details);
             renderMainDetails("#main_container", "#main_template", post_details);
-            renderFeaturesDetails("#features_container", "#features_template", blog.posts, blog_slug);
+            renderFeaturesDetails("#features_container", "#features_template", blog_posts, blog_slug);
             renderDownloadItem("#download_container", "#download_template", post_details);
         }
         
