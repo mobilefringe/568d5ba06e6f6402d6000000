@@ -51,7 +51,7 @@ function init(){
     function renderAll(){
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
-        var blog = getBlogDataBySlug('home-features');
+        var blog = getBlogDataBySlug('home-features').sortBy(function(o){ return o.publish_date });
         console.log(blog.posts);
         var post_details = getPostDetailsBySlug(slug);
         
