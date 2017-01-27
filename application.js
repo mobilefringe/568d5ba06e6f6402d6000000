@@ -56,8 +56,8 @@ function init(){
         console.log(blog_posts);
         var post_details = getPostDetailsBySlug(slug);
         
-        renderMobileFeature("#mobile_feature_container", "#mobile_feature_template", blog.posts);
-        renderFeaturePages("#feature_page_container", "#feature_page_template", blog.posts);
+        renderMobileFeature("#mobile_feature_container", "#mobile_feature_template", blog_posts);
+        renderFeaturePages("#feature_page_container", "#feature_page_template", blog_posts);
     }
     
     function renderFeaturePages(feature_page_container, feature_page_template, posts){
