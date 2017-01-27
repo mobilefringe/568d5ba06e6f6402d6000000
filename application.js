@@ -53,7 +53,6 @@ function init(){
         var slug = pathArray[pathArray.length-1];
         var blog = getBlogDataBySlug('home-features');
         blog_posts = blog.posts.sortBy(function(o){ return o.publish_date });
-        console.log(blog_posts);
         var post_details = getPostDetailsBySlug(slug);
         
         renderMobileFeature("#mobile_feature_container", "#mobile_feature_template", blog_posts);
