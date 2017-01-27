@@ -52,6 +52,7 @@ function init(){
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         var blog = getBlogDataBySlug('home-features');
+        console.log(blog.posts);
         var post_details = getPostDetailsBySlug(slug);
         
         renderMobileFeature("#mobile_feature_container", "#mobile_feature_template", blog.posts);
