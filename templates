@@ -12,7 +12,7 @@
     </div>
 </section>
 <section class="">
-    <div class="inside_container">
+    <div class="inside_container margin_100">
         <div class="row">
             <div id="design_container">            
                 <script id="design_template" type="x-tmpl-mustache/text">
