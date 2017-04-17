@@ -14,9 +14,9 @@
 <section class="">
     <div class="inside_container">
         <div class="row">
-            <div id="design_container" class="design_template">            
+            <div id="design_container">            
                 <script id="design_template" type="x-tmpl-mustache/text">
-                    <div class="col-md-4">
+                    <div class="col-md-4 design_template">
                         <a href="/templates/{{slug}}">
                             <img src="{{image_url}}" alt="Design Template"/>
                             <h3>{{title}}</h3>
