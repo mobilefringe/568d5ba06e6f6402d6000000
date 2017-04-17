@@ -21,8 +21,9 @@
      $(document).ready(function(e) {
         init(e);
         function renderAll(){
-            // var images = getFashionBySlug("home-template-1").fashion_images;
-            // renderGeneral('#design_container','#design_template', images);
+            var templates = getBlogDataBySlug("home-templates").posts;
+            console.log(templates);
+
 
         }
         
