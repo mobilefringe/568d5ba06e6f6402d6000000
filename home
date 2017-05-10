@@ -3,13 +3,13 @@
         <div class="main_container hero_container">
             <div class="row features">
                 <div class="col-md-4 banner_icons">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/devices.png" class="width_100" alt="responsive website">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/devices.png" class="width_100" alt="responsive website">
                 </div>
                 <div class="col-md-4 banner_icons">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/CMS.png" class="width_100" alt="apps for all devices">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/CMS.png" class="width_100" alt="apps for all devices">
                 </div>
                 <div class="col-md-4 banner_icons">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/zendesk.png" class="width_100" alt="digital directory">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/zendesk.png" class="width_100" alt="digital directory">
                 </div>
             </div>
             <div class="scroll_hero">
@@ -46,7 +46,7 @@
                     </p>
                 </div>
                 <div class="col-sm-6 text-center dynpost-right">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/setting.png" class="mm_img" alt="setting">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/setting.png" class="mm_img" alt="setting">
                 </div>
             </div>
 
@@ -58,7 +58,7 @@
                     </p>
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 text-center dynpost-left">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/paint.png" class="mm_img" alt="paint">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/paint.png" class="mm_img" alt="paint">
                 </div>
             </div>
             
@@ -82,7 +82,7 @@
                     </p>
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 text-center dynpost-left">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/data.png" class="mm_img" alt="data">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/data.png" class="mm_img" alt="data">
                 </div>
             </div>
             
@@ -94,7 +94,7 @@
                     </p>
                 </div>
                 <div class="col-sm-6 text-center dynpost-right">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/present.png" class="" alt="">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/present.png" class="" alt="">
                 </div>
             </div>
             
@@ -106,7 +106,7 @@
                     </p>
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 text-center dynpost-left">
-                    <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/undefined/responsive.png" class="mm_img" alt="responsive">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/responsive.png" class="mm_img" alt="responsive">
                 </div>
             </div>
         </div>
@@ -199,7 +199,7 @@
             <p class="desc">Subscribe to our newsletter and get information catered to the retail property management industry and updated Mall Maverick features.</p>
             <div class="row">
                 <div class="col-md-5 text-left middle_align">
-                    <form action="http://mobilefringe.createsend.com/t/d/s/yuxz/" method="post" id="subForm">
+                    <form action="//mobilefringe.createsend.com/t/d/s/yuxz/" method="post" id="subForm">
                     <div class="">
                         <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
                     </div>
