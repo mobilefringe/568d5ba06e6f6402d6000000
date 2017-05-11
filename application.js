@@ -57,6 +57,7 @@ function init(){
         
         renderMobileFeature("#mobile_feature_container", "#mobile_feature_template", blog_posts);
         renderFeaturePages("#feature_page_container", "#feature_page_template", blog_posts);
+        renderFeaturePages("#footer_container", "#footer_template", blog_posts);
     }
     
     function renderFeaturePages(feature_page_container, feature_page_template, posts){
