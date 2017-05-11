@@ -141,7 +141,7 @@
                             <div class="row">
                                 <div class="col-sm-6 footer_features">
                                 
-                                    <ul id="footer_container" class="feature_menu">
+                                    <ul id="footer_container" class="footer_menu">
                                         <script id="footer_template" type="x-tmpl-mustache/text">
                                             {% raw %}
                                                 <li><a href="/posts/{{slug}}" class="contact">{{title}}</a></li>
