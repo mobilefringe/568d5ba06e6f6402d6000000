@@ -1,7 +1,7 @@
 <div id="wrapper">
     <div id="hero">
         <div class="main_container hero_container">
-            <div class="row features">
+            <div class="features">
                 <div class="col-md-4 banner_icons">
                     <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/devices.png" class="width_100" alt="responsive website">
                 </div>
