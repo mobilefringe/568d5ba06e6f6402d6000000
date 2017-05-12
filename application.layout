@@ -187,10 +187,8 @@
                     </p>
                 </div>
                 <p class="pull-left hidden_phone">
-                    @2016 Mall Maverick. All right reserved.
-                    <a href="#">Privacy Policy</a>
-                    |
-                    <a href="#">Terms & Conditions</a>
+                    &copy;2017 Maverick. All right reserved.
+                    <a href="/pages/mobilefringe-privacy-policy">Privacy Policy</a>
                 </p>
                 <p class="pull-right hidden_phone">
                     Powered by <a href="//mobilefringe.com" target="_blank" class="mm_link">Mobile Fringe</a>
