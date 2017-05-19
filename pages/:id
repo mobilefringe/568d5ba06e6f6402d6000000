@@ -50,8 +50,8 @@
         function renderAll(){
             renderPageHTML();
             
-            var imageName = getImageName();
-            renderPageData('#feature_image_template','#feature_image_container', imageName);
+            // var imageName = getImageName();
+            // renderPageData('#feature_image_template','#feature_image_container', imageName);
         }
         
         function renderPageHTML(){
@@ -81,19 +81,5 @@
         }
         
         renderAll();
-        
-        var data = [];
-        $.ajax({
-            url: "//mallmaverick.com/posts/ibeacon-test.json",
-            method: "GET",
-            dataType: "json",
-        }).then(function(data) {
-            console.log(data);
-            $('#mm_post_title').html(data.title);
-            $('#mm_post_author').html(data.author);
-            $('#mm_post_image').html(data.image_file_name);
-            $('#mm_post_content').html(data.body);
-            console.log(data.image_file_name);
-        });
     });
 </script>
