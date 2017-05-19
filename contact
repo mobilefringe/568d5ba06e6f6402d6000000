@@ -32,7 +32,7 @@
                 <div class= "features_container">
                     <h4>More Information</h4>
                     <p class="moreinfo_subheading">Address</p>
-                    <p class="desc3"> The Mall Maverick Team is located in beautiful Toronto, Ontario Canada</p>
+                    <p class="desc3"> The Mall Maverick Team is located in the beautiful city of Toronto, Canada</p>
                     <p class="moreinfo_subheading">Contact Us Directly</p>
                     <div class="contact-direct">
                         <i class="material-icons contact_icon">phone</i>
@@ -43,7 +43,7 @@
                         <p><a href="mailto:contact@mobilefringe.com">contact@mobilefringe.com</a></p>
                     </div>
                     <div>
-                        <p class="foot_note"><a href="//mobilefringe.com">Mall Maverick is product of Mobile Fringe Inc.</a></p>
+                        <p class="foot_note"><a href="//mobilefringe.com">Mall Maverick is a product of Mobile Fringe INC.</a></p>
                     </div>
                 </div>
             </aside>
