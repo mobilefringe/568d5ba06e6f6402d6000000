@@ -135,7 +135,7 @@
                             <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1452876539000/zendesk.png" class="zendesk" alt="zendesk">
                         </div>
                         <div class="mobile_footer_menu show_phone">
-                            <a id="menu_features" class="footer_menu_options" >Features</a>
+                            <a id="menu_features" class="footer_menu_options" href="#">Features</a>
                         </div>
                         <div class="col-sm-6 col-sm-pull-6">
                             <div class="row">
