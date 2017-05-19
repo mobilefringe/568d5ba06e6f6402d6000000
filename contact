@@ -17,10 +17,7 @@ Email or call us even for a hello and we will get back to you in a flash!</p>
 
 
                 <form name="contact_form" id="contact_form" method="post">
-                    <div class="row" style="margin-left:-15px;margin-right:-15px">
-                        <div class="col-sm-12 col-md-12">
-                            <h5>We value your feedback. Send us your comments or questions by completing the contact form below.</h5>
-                        </div>
+                    <div class="row">
                         <div class="col-sm-6 col-md-6">
                             <label for="name">Name</label>
                             <input name="name" id="name" class="form-control" type="text" value="" required>
@@ -31,14 +28,14 @@ Email or call us even for a hello and we will get back to you in a flash!</p>
                         </div>
                     </div>
                     <br>
-                    <div class="row" style="margin-left:-15px;margin-right:-15px">
+                    <div class="row">
                         <div class="col-sm-12 col-md-12">
                             <label for="subject">Subject</label>
                             <input name="subject" id="subject" class="form-control" type="text" required>
                         </div>
                     </div>
                     <br>
-                    <div class="row" style="margin-left:-15px;margin-right:-15px">
+                    <div class="row">
                         <div class="col-sm-12 col-md-12">
                             <label for="message">Message</label>
                             <textarea name="message" id="message" rows="8" class="form-control" required></textarea>
@@ -50,7 +47,7 @@ Email or call us even for a hello and we will get back to you in a flash!</p>
                             <input type="text" id="enterVerify" name="enterVerify" />
                         </div>
                     </div>
-                    <div class="row" style="margin-left:-15px;margin-right:-15px">
+                    <div class="row">
                         <div class="col-sm-12 col-md-12"><br/>
                         <button id="submit" class="btn btn-primary" type="submit">Submit</button>
                         </div>
