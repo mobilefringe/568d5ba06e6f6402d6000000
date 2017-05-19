@@ -50,7 +50,7 @@ Email or call us even for a hello and we will get back to you in a flash!</p>
                             <br>
                             <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
                             <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
-                            <input type="text" id="enterVerify" name="enterVerify" />
+                            <input type="text" id="enterVerify" name="enterVerify" class="form-control"/>
                         </div>
                     </div>
                     <div class="row">
