@@ -62,6 +62,7 @@
            
             ga('create', 'UA-43741301-1', 'auto');
             ga('send', 'pageview');
+            var mall_name = "Mall Maverick"
         </script>
     </head>
     <body id="top">
