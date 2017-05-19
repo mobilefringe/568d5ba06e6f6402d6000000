@@ -14,21 +14,65 @@
                 <p class="desc3">Our customer support and account management teams provide the best service in the industry.</br></br>
                 We're passionate about our products as well as our customers and it shows in the level of service that we provide. We're always happy to help find the solution for your needs. If a solution doesn't already exist, we'll create a new solution that resolves your issue.</br></br>
 Email or call us even for a hello and we will get back to you in a flash!</p>
-                <form id="contactform">
-                    <div class="contact-form col-md-6">
-                        <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Full Name" required="">
+
+
+                <form name="contact_form" id="contact_form" method="post">
+                    <div class="row" style="margin-left:-15px;margin-right:-15px">
+                        <div class="col-sm-12 col-md-12">
+                            <h5>We value your feedback. Send us your comments or questions by completing the contact form below.</h5>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <label for="name">Name</label>
+                            <input name="name" id="name" class="form-control" type="text" value="" required>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <label for="email" >E-mail</label>
+                            <input name="email" id="email" class="form-control" type="text" value="" required>
+                        </div>
                     </div>
-                    <div class="contact-form col-md-6">
-                        <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">
+                    <br>
+                    <div class="row" style="margin-left:-15px;margin-right:-15px">
+                        <div class="col-sm-12 col-md-12">
+                            <label for="subject">Subject</label>
+                            <input name="subject" id="subject" class="form-control" type="text" required>
+                        </div>
                     </div>
-                    <div class="contact-form col-md-12">
-                        <textarea rows="6" class="form-control custom-form-control" placeholder="Message" required="" form="contactform"></textarea>
+                    <br>
+                    <div class="row" style="margin-left:-15px;margin-right:-15px">
+                        <div class="col-sm-12 col-md-12">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="8" class="form-control" required></textarea>
+                        </div>
+                        <div class="col-sm-12 col-md-12">
+                        <br>
+                            <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
+                            <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
+                            <input type="text" id="enterVerify" name="enterVerify" />
+                        </div>
                     </div>
-                    <div class="contact-form col-md-12 g-recaptcha" data-sitekey="6LcwKyIUAAAAAEQAkuu7TUrsaYnZoJbnZquUlF2c"></div>
-                    <div class="col-md-12 contact-form">
-                        <button type="submit" class="send_btn button--ujarak">SEND</button>
+                    <div class="row" style="margin-left:-15px;margin-right:-15px">
+                        <div class="col-sm-12 col-md-12"><br/>
+                        <button id="submit" class="btn btn-primary" type="submit">Submit</button>
+                        </div>
                     </div>
                 </form>
+            
+            
+                <!--<form id="contactform">-->
+                <!--    <div class="contact-form col-md-6">-->
+                <!--        <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Full Name" required="">-->
+                <!--    </div>-->
+                <!--    <div class="contact-form col-md-6">-->
+                <!--        <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Email" required="">-->
+                <!--    </div>-->
+                <!--    <div class="contact-form col-md-12">-->
+                <!--        <textarea rows="6" class="form-control custom-form-control" placeholder="Message" required="" form="contactform"></textarea>-->
+                <!--    </div>-->
+                <!--    <div class="contact-form col-md-12 g-recaptcha" data-sitekey="6LcwKyIUAAAAAEQAkuu7TUrsaYnZoJbnZquUlF2c"></div>-->
+                <!--    <div class="col-md-12 contact-form">-->
+                <!--        <button type="submit" class="send_btn button--ujarak">SEND</button>-->
+                <!--    </div>-->
+                <!--</form>-->
             </main>
             <aside class ="col-sm-4">
                 <div class= "features_container">
