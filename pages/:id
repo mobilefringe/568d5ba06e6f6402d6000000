@@ -47,40 +47,40 @@
 <script>
     $(document).ready(function() {                
         
-        // function renderAll(){
-        //     renderPageHTML();
+        function renderAll(){
+            renderPageHTML();
             
-        //     var imageName = getImageName();
-        //     renderPageData('#feature_image_template','#feature_image_container', imageName);
-        // }
+            var imageName = getImageName();
+            renderPageData('#feature_image_template','#feature_image_container', imageName);
+        }
         
-        // function renderPageHTML(){
-        //     var pathArray = window.location.pathname.split( '/' );
-        //     var slug = pathArray[pathArray.length-1];
-        //     prefix = get_prefix();
-        //     var pages_json = "//home.mallmaverick.com/posts" + slug + ".json"
-        //     $.getJSON(pages_json).done(function(data) {
-        //         document.title = data.title;
-        //         $('#mm_post_title').html(data.title);
-        //         $('#mm_post_author').html(data.author);
-        //         $('#mm_post_content').html(data.body);
-        //         console.log(data);
-        //     }); 
-        // }
+        function renderPageHTML(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = "//home.mallmaverick.com/posts" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                document.title = data.title;
+                $('#mm_post_title').html(data.title);
+                $('#mm_post_author').html(data.author);
+                $('#mm_post_content').html(data.body);
+                console.log(data);
+            }); 
+        }
         
-        // function renderPageData(feature_image_template, feature_image_container, imageName){
-        //     var item_list = [];
-        //     var item_rendered = [];
-        //     var banner_template_html = $(feature_image_template).html();
-        //     Mustache.parse(banner_template_html);   // optional, speeds up future uses
-        //     $.each(imageName, function(key, val) {
-        //         val.image_file_name=val.image_file_name;
-        //     });
-        //     $(feature_image_container).show();
-        //     $(feature_image_container).html(item_rendered.join(''));
-        // }
+        function renderPageData(feature_image_template, feature_image_container, imageName){
+            var item_list = [];
+            var item_rendered = [];
+            var banner_template_html = $(feature_image_template).html();
+            Mustache.parse(banner_template_html);   // optional, speeds up future uses
+            $.each(imageName, function(key, val) {
+                val.image_file_name=val.image_file_name;
+            });
+            $(feature_image_container).show();
+            $(feature_image_container).html(item_rendered.join(''));
+        }
         
-        // renderAll();
+        renderAll();
         
         var data = [];
         $.ajax({
