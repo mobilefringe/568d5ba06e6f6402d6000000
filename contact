@@ -24,7 +24,8 @@ Email or call us even for a hello and we will get back to you in a flash!</p>
                     <div class="contact-form col-md-12">
                         <textarea rows="6" class="form-control custom-form-control" placeholder="Message" required="" form="contactform"></textarea>
                     </div>
-                    <div class="contact-form col-md-12 g-recaptcha" data-sitekey="6LfSiOsSAAAAAHRpIQJSMOnthY3efrn6081gp8Ro"></div>
+                    <!--<div class="contact-form col-md-12 g-recaptcha" data-sitekey="6LcwKyIUAAAAAEQAkuu7TUrsaYnZoJbnZquUlF2c"></div>-->
+                    <div class="g-recaptcha" data-sitekey="6LcwKyIUAAAAAEQAkuu7TUrsaYnZoJbnZquUlF2c"></div>
                     <div class="col-md-12 contact-form">
                         <button type="submit" class="send_btn button--ujarak">SEND</button>
                     </div>
