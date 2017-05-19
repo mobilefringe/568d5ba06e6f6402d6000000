@@ -82,6 +82,10 @@
 </section>
 
 <script>
+    $(document).ready(function(e) {
+        init(e);
+    });
+    
     /**
      * @name      FAQ Plugin
      * @author    Rod Howard
