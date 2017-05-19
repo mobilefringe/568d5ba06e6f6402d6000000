@@ -94,7 +94,6 @@ Email or call us even for a hello and we will get back to you in a flash!</p>
         init(e);
         
         $('#contact_form').submit(function(e) {
-
     // 		if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
                 values = [];
                 values = JSON.stringify($('#contact_form').serializeArray());
