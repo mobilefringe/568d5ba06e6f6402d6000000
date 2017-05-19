@@ -15,7 +15,16 @@
                 We're passionate about our products as well as our customers and it shows in the level of service that we provide. We're always happy to help find the solution for your needs. If a solution doesn't already exist, we'll create a new solution that resolves your issue.</br></br>
 Email or call us even for a hello and we will get back to you in a flash!</p>
 
-
+                <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                    <span class="sr-only">Success</span>
+                    Thank you for contacting us. A member from our team will contact you shortly. 
+                </div>
+                <div id="send_contact_error" class="alert alert-danger" role="alert" style="display:none">
+                    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                    <span class="sr-only">Error:</span>
+                        There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and please try again.
+                </div>
                 <form name="contact_form" id="contact_form" method="post">
                     <div class="row">
                         <div class="contact-form col-md-6">
