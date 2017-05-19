@@ -92,5 +92,33 @@ Email or call us even for a hello and we will get back to you in a flash!</p>
 <script>
     $(document).ready(function(e) {
         init(e);
+        
+        $('#contact_form').submit(function(e) {
+
+    // 		if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
+                values = [];
+                values = JSON.stringify($('#contact_form').serializeArray());
+                e.preventDefault();
+                $.ajax({
+                    url : "/api/v1/contact_us",
+                    type: "POST",
+                    data : {authenticity_token: '<%=form_authenticity_token%>' ,
+                    form_data:values},
+                    success: function(data, textStatus, jqXHR)
+                    {
+                        $('#send_contact_success').fadeIn();
+                        $('#contact_form').find("input[type=text], textarea").val("");
+                    },
+                    error: function (jqXHR, textStatus, errorThrown)
+                    {
+                        $('#send_contact_error').fadeIn();
+                    }
+                });
+    // 		} else {
+    // 			alert("Please Enter Correct Verification Number");
+    // 			randomgen();
+    // 			e.preventDefault();
+    // 		}
+    	});
     });
 </script>
