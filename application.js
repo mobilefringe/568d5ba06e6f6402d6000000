@@ -21,7 +21,7 @@ function init(){
         e.preventDefault();
         console.log("click");
         if(window.screen.width > 768){
-            $('html,body').animate( { scrollTop:$(this).offset().top-85 } , 500);
+            $('html,body').animate( { scrollTop:$(this).offset().top } , 500);
         }
         else{
             $('html,body').animate( { scrollTop:$(this).offset().top } , 500);
