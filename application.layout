@@ -135,7 +135,7 @@
                             <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1452876539000/zendesk.png" class="zendesk" alt="zendesk">
                         </div>
                         <div class="mobile_footer_menu show_phone">
-                            <a id="menu_features" class="footer_menu_options" href="#">Features</a>
+                            <a id="menu_features" class="footer_menu_options" >Features</a>
                         </div>
                         <div class="col-sm-6 col-sm-pull-6">
                             <div class="row">
@@ -147,28 +147,6 @@
                                             {% endraw %}
                                         </script> 
                                     </ul>
-                                    
-                                <!--    <ul class="bottom_menu_features">-->
-                                <!--        <li><a href="#">Update Once</a></li>-->
-                                <!--        <li><a href="#">Retailer Login</a></li>-->
-                                <!--        <li><a href="#">Analytics</a></li>-->
-                                <!--        <li><a href="#">Multi Center Platforms</a></li>-->
-                                <!--        <li><a href="#">Loyalty & Gift Card Programs</a></li>-->
-                                <!--        <li><a href="#">Live Chat</a></li>-->
-                                <!--        <li><a href="#">Routing & Waypoint Finding</a></li>-->
-                                <!--        <li><a href="#">Advanced Push Notifications</a></li>-->
-                                <!--    </ul>-->
-                                <!--</div>-->
-                                <!--<div class="col-sm-6">-->
-                                <!--    <ul class="bottom_menu_features">-->
-                                <!--        <li><a href="#">Social Media Integration</a></li>-->
-                                <!--        <li><a href="#">eNewsLetters & Marketing</a></li>-->
-                                <!--        <li><a href="#">3rd Party Integration</a></li>-->
-                                <!--        <li><a href="#">Marketing Intern</a></li>-->
-                                <!--        <li><a href="#">Campaigns & Contests</a></li>-->
-                                <!--        <li><a href="#">Digital Board Media</a></li>-->
-                                <!--        <li><a href="#">Center Map Design</a></li>-->
-                                <!--    </ul>-->
                                 </div>
                             </div>
                         </div>
