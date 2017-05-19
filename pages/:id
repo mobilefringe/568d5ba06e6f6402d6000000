@@ -45,7 +45,7 @@
     </div>    
 </section>
 <script>
-    $(document).ready(function() {                
+    $(document).ready(function(e) {                
         init(e);
         
         function renderAll(){
