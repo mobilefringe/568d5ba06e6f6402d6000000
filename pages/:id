@@ -46,6 +46,7 @@
 </section>
 <script>
     $(document).ready(function() {                
+        init(e);
         
         function renderAll(){
             renderPageHTML();
