@@ -10,7 +10,7 @@
         <p class="text-center desc banner_text" id="mm_post_author"></p>    
     </div>
 </section>
-<section class="main_content">
+<section class="">
     <div class="inside_container">
         <div class="row">
             <main class="col-md-8">
