@@ -91,7 +91,7 @@
             custom.position = $('#position').val();
             custom.outlets = $('#num_outlets').val();
             post_data.custom = custom;
-            $.post("/custom_email", post_data, function(data, status, xhr){
+            $.post("https://mallmaverick.com/custom_email", post_data, function(data, status, xhr){
                 if(status == "success"){
                 	bootbox.alert({ 
 						title: "Congratulations!",
