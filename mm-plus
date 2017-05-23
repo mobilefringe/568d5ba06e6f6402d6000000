@@ -1,3 +1,9 @@
+<style>
+    .page_banner{
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+    }
+</style>
 <section class="page_banner">
     <div class = "inside_container">
         <div id="header_container">
