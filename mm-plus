@@ -8,6 +8,52 @@
         margin-bottom: 15px;
         font-size: 13px;
     }
+    .heading {
+	color: #FFBE1D;
+	font-size: 36px;
+	line-height: 57px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.desc {
+	font-size: 16px;
+	margin-bottom: 25px;
+	width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center_align {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.custom_control {
+	border: 1px solid #A9B2BD;
+	height: 46px;
+	margin-bottom: 40px;
+	margin-top: 5px;
+}
+
+.form-error {
+	margin-top: -35px;
+	margin-bottom: 17px;
+}
+
+.send_btn {
+	background: #FFBE1D;
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 600;
+	padding: 11px 64px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
 </style>
 <section class="page_banner">
     <div class = "inside_container">
