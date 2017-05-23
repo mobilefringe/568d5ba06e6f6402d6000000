@@ -23,11 +23,11 @@
     <div class = "inside_container">
         <div id="header_container">
             <h2 class="text-center inside_main_header">Mall Maverick PLUS Registration</h2>
-            <p class="text-center desc banner_text">Welcome to Mall Maverick Plus!  Mall Maverick Plus is your dedicated Digital Marketing Specialist, an extension of your in-house marketing team helping you post content to your website directly.  Mall Maverick Plus is a value added service that will drive views, visits, and engagement to your shopping centre while Marketing Professionals focus their efforts on other value added marketing campaigns that require personal attention.</p> 
         </div>    
     </div>
 </section>
 <div class="inside_container mm_plus">
+    <p class="text-center desc banner_text">Welcome to Mall Maverick Plus!  Mall Maverick Plus is your dedicated Digital Marketing Specialist, an extension of your in-house marketing team helping you post content to your website directly.  Mall Maverick Plus is a value added service that will drive views, visits, and engagement to your shopping centre while Marketing Professionals focus their efforts on other value added marketing campaigns that require personal attention.</p> 
     <div class="row">
 		<div class="col-md-12 center_align">
 			<form action="https://mallmaverick.com/custom_email" method="post" id="signup_form" class="has-validation-callback">
