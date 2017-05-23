@@ -81,7 +81,7 @@
             $('.send_btn').prop('disabled', true);
             e.preventDefault();
             var post_data = {}
-            post_data.mailto = "rajbir@mobilefringe.com";
+            post_data.mailto = "contact@mobilefringe.com";
             post_data.subject = "MM Plus Sign up";
             custom = {};
             custom.name = $('#full_name').val();
