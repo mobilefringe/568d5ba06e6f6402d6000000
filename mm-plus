@@ -14,7 +14,7 @@
 </section>
 <div class="inside_container">
     <div class="row">
-		<div class="col-md-8 center_align">
+		<div class="col-md-12 center_align">
 			<form action="/custom_email" method="post" id="signup_form" class="has-validation-callback">
 				<div class="row">
 					<div class="col-md-6">
