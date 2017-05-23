@@ -2,7 +2,7 @@
     <div class = "inside_container">
         <div id="header_container">
             <h2 class="text-center inside_main_header">Mall Maverick PLUS Registration</h2>
-            <p class="text-center desc banner_text">{{author}}</p> 
+            <p class="text-center desc banner_text">Welcome to Mall Maverick Plus!  Mall Maverick Plus is your dedicated Digital Marketing Specialist, an extension of your in-house marketing team helping you post content to your website directly.  Mall Maverick Plus is a value added service that will drive views, visits, and engagement to your shopping centre while Marketing Professionals focus their efforts on other value added marketing campaigns that require personal attention.</p> 
         </div>    
     </div>
 </section>
@@ -11,7 +11,7 @@
         <div class="col-md-12">
             <h3 class="text-center heading"></h3>
             <p class="desc text-center">
-				Welcome to Mall Maverick Plus!  Mall Maverick Plus is your dedicated Digital Marketing Specialist, an extension of your in-house marketing team helping you post content to your website directly.  Mall Maverick Plus is a value added service that will drive views, visits, and engagement to your shopping centre while Marketing Professionals focus their efforts on other value added marketing campaigns that require personal attention.
+				
 			</p>
 			<p class="desc text-center">
                 Mall Maverick PLUS is win-win for everyone!  Register today and enjoy the peace of mind your website is being updated for you.
