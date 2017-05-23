@@ -1,6 +1,6 @@
 <div class="container">
-	<div class="row-fluid">
-        <div class="span12">
+	<div class="row">
+        <div class="col-md-12">
             <h3 class="text-center heading">Mall Maverick PLUS Registration</h3>
             <p class="desc text-center">
 				Welcome to Mall Maverick Plus!  Mall Maverick Plus is your dedicated Digital Marketing Specialist, an extension of your in-house marketing team helping you post content to your website directly.  Mall Maverick Plus is a value added service that will drive views, visits, and engagement to your shopping centre while Marketing Professionals focus their efforts on other value added marketing campaigns that require personal attention.
@@ -10,42 +10,42 @@
 			</p>
         </div>
     </div>
-    <div class="row-fluid">
-		<div class="span8 center_align">
+    <div class="row">
+		<div class="col-md-8 center_align">
 			<form action="/custom_email" method="post" id="signup_form" class="has-validation-callback">
-				<div class="row-fluid">
-					<div class="span6">
+				<div class="row">
+					<div class="col-md-6">
 						<label class="custom_label" for="full_name">Full Name</label>
 						<input type="text" name="name" id="full_name" class="form-control custom_control" required="" data-validation="required">
 					</div>
-					<div class="span6">
+					<div class="col-md-6">
 						<label class="custom_label" for="phone">Phone Number</label>
 						<input type="text" name="phone" id="phone" class="form-control custom_control" required="" data-validation="length  number" data-validation-allowing="integer" data-validation-length="10-15">
 					</div>
 				</div>
-				<div class="row-fluid">
-					<div class="span6">
+				<div class="row">
+					<div class="col-md-6">
 						<label class="custom_label" for="email">Email</label>
 						<input data-validation-error-msg="Please enter a correct email address" data-validation="custom" data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" type="email" name="email" id="email" class="form-control custom_control" required="">
 					</div>
-					<div class="span6">
+					<div class="col-md-6">
 						<label class="custom_label" for="shopping_centre">Shopping Centre</label>
 						<input type="text" name="shopping_centre" id="shopping_centre" class="form-control custom_control" required="" data-validation="required">
 					</div>
 				</div>
-				<div class="row-fluid">
-					<div class="span6">
+				<div class="row">
+					<div class="col-md-6">
 						<label class="custom_label" for="position">Position</label>
 						<input type="text" name="position" id="position" class="form-control custom_control" required="" data-validation="required">
 					</div>
 				</div>
-				<div class="row-fluid">
-					<div class="span12">
+				<div class="row">
+					<div class="col-md-12">
 						 <p>By Selecting "Register" You understand and agree to the Mall Maverick Plus <a href="//mallmaverick.com/pages/home-mm-plus-terms-of-use" id="terms_conditions" target="_blank">Terms of Use</a></p><br>
 					</div>
 				</div>
-				<div class="row-fluid">
-					<div class="span12 text-center">
+				<div class="row">
+					<div class="col-md-12 text-center">
 						<input type="submit" value="Register" class="send_btn">
 					</div>
 				</div>
