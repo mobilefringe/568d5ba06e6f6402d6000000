@@ -98,7 +98,7 @@
                 if(status == "success"){
                 	bootbox.alert({ 
 						title: "Congratulations!",
-						message: "<p>We have received your Mall Maverick Plus Registration request.</p><p>A Mall Maverick Digital Marketing Specialist will contact your shortly and take care of the rest.</p>",
+						message: "<p>We have received your Mall Maverick Plus Registration request.</p><p>You Mall Maverick Digital Marketing Specialist will contact your shortly and take care of the rest.</p>",
 					});
                     $('#signup_form').trigger('reset');
                     $('.send_btn').prop('disabled', false);
