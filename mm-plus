@@ -7,17 +7,6 @@
     </div>
 </section>
 <div class="inside_container">
-	<div class="row">
-        <div class="col-md-12">
-            <h3 class="text-center heading"></h3>
-            <p class="desc text-center">
-				
-			</p>
-			<p class="desc text-center">
-                Mall Maverick PLUS is win-win for everyone!  Register today and enjoy the peace of mind your website is being updated for you.
-			</p>
-        </div>
-    </div>
     <div class="row">
 		<div class="col-md-8 center_align">
 			<form action="/custom_email" method="post" id="signup_form" class="has-validation-callback">
