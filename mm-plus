@@ -30,7 +30,7 @@
 <div class="inside_container mm_plus">
     <div class="row">
 		<div class="col-md-12 center_align">
-			<form action="/custom_email" method="post" id="signup_form" class="has-validation-callback">
+			<form action="https://mallmaverick.com/custom_email" method="post" id="signup_form" class="has-validation-callback">
 				<div class="row">
 					<div class="col-md-6">
 						<label class="custom_label" for="full_name">Full Name</label>
