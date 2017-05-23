@@ -23,7 +23,7 @@
         </div>    
     </div>
 </section>
-<div class="inside_container mm-pus">
+<div class="inside_container mm_plus">
     <div class="row">
 		<div class="col-md-12 center_align">
 			<form action="/custom_email" method="post" id="signup_form" class="has-validation-callback">
