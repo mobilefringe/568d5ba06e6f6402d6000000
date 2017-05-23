@@ -9,6 +9,7 @@
         font-size: 13px;
     }
     .send_btn{
+        font-weight:bold;
         height: 50px;
         width: 300px;
         display: inline;
