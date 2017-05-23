@@ -8,7 +8,12 @@
         margin-bottom: 15px;
         font-size: 13px;
     }
-    
+    .send_btn{
+        width: 300px;
+        display: inline;
+        padding: 10px;
+        line-height: 15px;
+    }
 </style>
 <section class="page_banner">
     <div class = "inside_container">
