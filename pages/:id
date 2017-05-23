@@ -3,23 +3,6 @@
         padding-bottom: 50px;
         margin-bottom: 30px;
     }
-    .help-block{
-        margin-top: -35px;
-        margin-bottom: 15px;
-        font-size: 13px;
-    }
-    .send_btn{
-        font-weight:bold;
-        height: 50px;
-        width: 300px;
-        display: inline;
-        padding: 10px;
-        line-height: 15px;
-    }
-    .mm_plus .row{
-        margin-right: 0;
-        margin-left: 0;
-    }
 </style>
 <section class="page_banner">
     <div class = "inside_container">
