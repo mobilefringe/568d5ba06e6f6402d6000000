@@ -14,11 +14,6 @@
     <div class="inside_container">
         <div class="row">
             <main class="col-md-12">
-                <figure id="feature_image_container">
-                    <script id="feature_image_template" type="x-tmpl-mustache/text">
-                        <img id="#mm_post_image" src="//www.mallmaverick.com/system/site_images/photos/000/023/080/original/{{image_file_name}}"/>
-                    </script>   
-                </figure>
                 <div id="mm_post_content"></div>
             </main>
         </div>
