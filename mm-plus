@@ -3,6 +3,11 @@
         padding-bottom: 50px;
         margin-bottom: 30px;
     }
+    .help-block{
+        margin-top: -35px;
+        margin-bottom: 17px;
+        font-size: 13px;
+    }
 </style>
 <section class="page_banner">
     <div class = "inside_container">
