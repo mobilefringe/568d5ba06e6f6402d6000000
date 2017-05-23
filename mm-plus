@@ -22,7 +22,7 @@
 <section class="page_banner">
     <div class = "inside_container">
         <div id="header_container">
-            <h2 class="text-center">Mall Maverick PLUS Registration</h2>
+            <h2 class="text-center inside_main_header">Mall Maverick PLUS Registration</h2>
         </div>    
     </div>
 </section>
