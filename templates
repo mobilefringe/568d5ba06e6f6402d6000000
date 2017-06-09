@@ -4,7 +4,7 @@
         <p class="text-center desc banner_text" id="mm_post_author"></p>    
     </div>
 </section>
-<section class="grey_bar">
+<section class="button_bar">
     <div>
         <div class="inside_container">
             <h3>Mall Maverick Provides... </h3>
