@@ -14,10 +14,10 @@
                 <label> Premium </label>
             </a>
             <a class="template_btn">
-                <label> Premium </label>
+                <label> Standard </label>
             </a>
             <a class="template_btn">
-                <label> Premium </label>
+                <label> Custom </label>
             </a>
         </div>
     </div>
