@@ -8,7 +8,7 @@
 <img id="orange_line" src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1497030625000/Orange Line.png" class="" alt="">
 <section class="button_bar">
     <div>
-        <div class="inside_container">
+        <div class="inside_container" style="text-align:center:>
             <!--<h3>Mall Maverick Provides... </h3>-->
             <a class="template_btn">
                 <label> Premium </label>
