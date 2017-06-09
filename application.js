@@ -19,7 +19,7 @@ function init(){
     
     $(".scroll").click(function(e) {
         e.preventDefault();
-        $('html,body').animate( { scrollTop:$("#contact").offset().top-85 } , 500);
+        $('html,body').animate( { scrollTop:$("#contact").offset().top } , 500);
     });
     $('#open_features').click(function(e){
         e.preventDefault();
