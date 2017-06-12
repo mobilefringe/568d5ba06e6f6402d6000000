@@ -135,14 +135,13 @@
            $("#standard").trigger( "click" );
         }
         if(window.location.href.indexOf("#premium") > -1) {
-           
-            console.log("bro");
+           $("#premium").trigger( "click" );
         }
         else if(window.location.href.indexOf("#standard") > -1) {
-            
+            $("#standard").trigger( "click" );
         }
         else if(window.location.href.indexOf("#custom") > -1) {
-            
+            $("#custom").trigger( "click" );
         }
         $("#premium").click(function() {
             //console.log("click!");
