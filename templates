@@ -48,6 +48,9 @@
                console.log(templates);
                renderGeneral('#design_container','#design_template', templates);
             }
+            else {
+                
+            }
             
             $("#premium").click(function() {
                 var sorted_templates = [];
