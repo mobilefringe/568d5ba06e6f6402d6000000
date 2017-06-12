@@ -75,6 +75,12 @@
                 if(tag == "Premium"){
                     sorted_p_templates.push(val);
                 }
+                if(tag == "is_new"){
+                    val.is_new ="display:block";
+                }
+                else {
+                    val.is_new ="display:none";
+                }
              });
         });
         renderGeneral('#premium_design_container','#premium_design_template', sorted_p_templates);
@@ -84,6 +90,12 @@
                 //val.taglist = val.taglist + " " + tag;
                 if(tag == "Standard"){
                     sorted_s_templates.push(val);
+                }
+                if(tag == "is_new"){
+                    val.is_new ="display:block";
+                }
+                else {
+                    val.is_new ="display:none";
                 }
              });
         }); 
