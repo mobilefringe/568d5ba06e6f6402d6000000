@@ -52,7 +52,7 @@
             $("#standard").click(function() {
                 
             });
-            $("#premium").click(function() {
+            $("#custom").click(function() {
                 
             });
         }
