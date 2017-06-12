@@ -47,7 +47,7 @@
             console.log(templates);
             renderGeneral('#design_container','#design_template', templates);
             $("#premium").click(function() {
-                var sorted_templates = {};
+                var sorted_templates = [];
                $.each(templates, function(key, val) {
                     $.each( val.tag , function( tag_key, tag ) {
                         //val.taglist = val.taglist + " " + tag;
