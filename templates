@@ -99,6 +99,7 @@
                 }
              });
         });
+        renderGeneral('#custom_design_container','#custom_design_template', sorted_s_templates);
         //console.log(sorted_templates);
        // renderGeneral('#design_container','#design_template', sorted_c_templates);
             
