@@ -106,7 +106,7 @@
             //console.log(sorted_templates);
             $('#premium_design_container').hide();
             $('#standard_design_container').show();
-            $("#premium").addClass("active_templ_btn");
+            $("#standard").addClass("active_templ_btn");
         });
         $("#custom").click(function() {
              var sorted_templates = [];
@@ -120,7 +120,7 @@
             });
             console.log(sorted_templates);
             renderGeneral('#design_container','#design_template', sorted_templates);
-            $("#premium").addClass("active_templ_btn");
+            $("#custom").addClass("active_templ_btn");
         });
     }
 </script>
