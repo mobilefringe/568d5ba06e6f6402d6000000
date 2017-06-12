@@ -97,7 +97,9 @@
                 if(tag == "Custom"){
                     sorted_c_templates.push(val);
                 }
-                if(tag == "is_new")
+                if(tag == "is_new"){
+                    
+                }
              });
         });
         renderGeneral('#custom_design_container','#custom_design_template', sorted_c_templates);
