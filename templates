@@ -107,6 +107,7 @@
             $('#premium_design_container').hide();
             $('#standard_design_container').show();
             $("#standard").addClass("active_templ_btn");
+            $("#premium").removeClass("active_templ_btn");
         });
         $("#custom").click(function() {
              var sorted_templates = [];
