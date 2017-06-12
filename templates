@@ -42,7 +42,9 @@
 <script>
     $(document).ready(function(e) {
         init(e);
-        function renderAll(){
+        loadMallDataCached(renderAll); 
+    });
+    function renderAll(){
             var templates = getBlogDataBySlug("home-templates").posts;
             renderGeneral('#design_container','#design_template', templates);
             if(window.location.href.indexOf("#") == -1) {
@@ -95,7 +97,4 @@
            
             });
         }
-        
-        loadMallDataCached(renderAll); 
-    });
 </script>
