@@ -49,7 +49,7 @@
             $("#premium").click(function() {
                 var sorted_templates = {};
                $.each(templates, function(key, val) {
-                    $.each( val.tags , function( tag_key, tag ) {
+                    $.each( val.tag , function( tag_key, tag ) {
                         //val.taglist = val.taglist + " " + tag;
                         if(tag == "Premium"){
                             sorted_templates.push(val);
