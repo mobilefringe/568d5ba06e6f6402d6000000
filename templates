@@ -35,8 +35,8 @@
                     </div>
                 </script>
             </div>
-            <div id="design_container">            
-                <script id="design_template" type="x-tmpl-mustache/text">
+            <div id="standard_design_container">            
+                <script id="standard_design_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4 design_template">
                         <a href="/templates/{{slug}}">
                             <img src="{{image_url}}" alt="Design Template"/>
