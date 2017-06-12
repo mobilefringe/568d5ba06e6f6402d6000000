@@ -76,6 +76,7 @@
             renderGeneral('#premium_design_container','#premium_design_template', sorted_templates);
             console.log("bro");
         }
+        else 
         
         $("#premium").click(function() {
            
