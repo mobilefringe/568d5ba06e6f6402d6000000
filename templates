@@ -59,6 +59,7 @@
         //console.log(templates);
          //renderGeneral('#design_container','#design_template', templates);
          renderGeneral('#premium_design_container','#premium_design_template', sorted_templates);
+         renderGeneral('#standard_design_container','#standard_design_template', sorted_templates);
         if(window.location.href.indexOf("#") == -1) {
            window.location.assign("#premium");
         }
@@ -92,7 +93,7 @@
                  });
             });
             console.log(sorted_templates);
-            renderGeneral('#standard_design_container','#standard_design_template', sorted_templates);
+            
         
         });
         $("#custom").click(function() {
