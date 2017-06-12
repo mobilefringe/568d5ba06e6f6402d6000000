@@ -53,7 +53,7 @@
                     $.each( val.tags , function( tag_key, tag ) {
                         //val.taglist = val.taglist + " " + tag;
                         if(tag == "Premium"){
-                            
+                            sorted_templates.push(val);
                         }
                      });
                 });
