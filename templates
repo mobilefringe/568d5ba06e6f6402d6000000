@@ -47,7 +47,7 @@
             console.log(templates);
             renderGeneral('#design_container','#design_template', templates);
             $("#premium").click(function() {
-                
+                renderGeneral('#design_container','#design_template', templates);
             });
             $("#standard").click(function() {
                 
