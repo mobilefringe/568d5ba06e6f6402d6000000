@@ -59,12 +59,12 @@
         var templates = getBlogDataBySlug("home-templates").posts;
         console.log(templates);
          renderGeneral('#design_container','#design_template', templates);
-        // if(window.location.href.indexOf("#") == -1) {
+        if(window.location.href.indexOf("#") == -1) {
            
-        // }
-        // else {
-        //      console.log("bro");
-        // }
+        }
+        else {
+             console.log("bro");
+        }
         
         $("#premium").click(function() {
             var sorted_templates = [];
