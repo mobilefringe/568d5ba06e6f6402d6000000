@@ -76,7 +76,7 @@
             renderGeneral('#premium_design_container','#premium_design_template', sorted_templates);
             console.log("bro");
         }
-        else if(window.location.href.indexOf("#premium") > -1) {
+        else if(window.location.href.indexOf("#standard") > -1) {
              var sorted_templates = [];
            $.each(templates, function(key, val) {
                 $.each( val.tag , function( tag_key, tag ) {
@@ -87,6 +87,7 @@
                  });
             }); 
         }
+        else if
         
         $("#premium").click(function() {
            
