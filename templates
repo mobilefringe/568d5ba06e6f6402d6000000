@@ -48,7 +48,7 @@
             renderGeneral('#design_container','#design_template', templates);
             $("#premium").click(function() {
                 var sorted_templates = {};
-               $.each(imageName, function(key, val) {
+               $.each(templates, function(key, val) {
                 val.image_file_name=val.image_file_name;
             });
                 renderGeneral('#design_container','#design_template', sorted_templates);
