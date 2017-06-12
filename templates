@@ -27,6 +27,7 @@
         <div class="row">
             <div id="premium_design_container" class="hidden_now">            
                 <script id="premium_design_template" type="x-tmpl-mustache/text">
+                <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="" alt="">
                     <div class="col-md-4 design_template">
                         <a href="/templates/{{slug}}">
                             <img src="{{image_url}}" alt="Design Template"/>
