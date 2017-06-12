@@ -45,6 +45,16 @@
                     </div>
                 </script>
             </div>
+            <div id="custom_design_container">            
+                <script id="custom_design_template" type="x-tmpl-mustache/text">
+                    <div class="col-md-4 design_template">
+                        <a href="/templates/{{slug}}">
+                            <img src="{{image_url}}" alt="Design Template"/>
+                            <h3>{{title}}</h3>
+                        </a>
+                    </div>
+                </script>
+            </div>
         </div>
     </div>
 </section>
