@@ -141,9 +141,10 @@
             $("#custom").removeClass("active_templ_btn");
         });
         $("#custom").click(function() {
+            
+            ('#custom_design_container').show();
             $('#premium_design_container').hide();
-            $('#standard_design_container').show();
-            ('#custom_design_container').hide();
+            $('#standard_design_container').hide();
             
             $("#custom").addClass("active_templ_btn");
             $("#premium").removeClass("active_templ_btn");
