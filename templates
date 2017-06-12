@@ -104,9 +104,9 @@
        // renderGeneral('#design_container','#design_template', sorted_c_templates);
             
         if(window.location.href.indexOf("#") == -1) {
-           window.location.assign("#premium");
-           $("#premium").addClass("active_templ_btn");
-           $("#premium").trigger( "click" );
+           window.location.assign("#standard");
+           $("#standard").addClass("active_templ_btn");
+           $("#standard").trigger( "click" );
         }
         // if(window.location.href.indexOf("#premium") > -1) {
            
