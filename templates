@@ -85,8 +85,7 @@
                         sorted_templates.push(val);
                     }
                  });
-            });
-            
+            }); 
         }
         
         $("#premium").click(function() {
