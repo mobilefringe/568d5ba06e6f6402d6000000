@@ -89,6 +89,7 @@
         }); 
         console.log(sorted_templates);
         renderGeneral('#standard_design_container','#standard_design_template', sorted_s_templates);
+        
         var sorted_c_templates = [];
        $.each(templates, function(key, val) {
             $.each( val.tag , function( tag_key, tag ) {
