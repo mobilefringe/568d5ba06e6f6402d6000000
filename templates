@@ -100,8 +100,8 @@
             $('#premium_design_container').show();
             $('#standard_design_container').hide();
             $("#premium").addClass("active_templ_btn");
-            $("#custom").addClass("active_templ_btn");
-            $("#custom").addClass("active_templ_btn");
+            $("#standard").removeClass("active_templ_btn");
+            $("#custom").removeClass("active_templ_btn");
         });
         $("#standard").click(function() {
            
