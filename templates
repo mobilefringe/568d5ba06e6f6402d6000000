@@ -48,7 +48,7 @@
             renderGeneral('#design_container','#design_template', templates);
             $("#premium").click(function() {
                 
-            })
+            });
         }
         
         loadMallDataCached(renderAll); 
