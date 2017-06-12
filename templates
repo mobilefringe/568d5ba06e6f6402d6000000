@@ -68,7 +68,7 @@
         var templates = getBlogDataBySlug("home-templates").posts;
         //console.log(templates);
          //renderGeneral('#design_container','#design_template', templates);
-          var sorted_p_templates = [];
+        var sorted_p_templates = [];
            $.each(templates, function(key, val) {
                 $.each( val.tag , function( tag_key, tag ) {
                     //val.taglist = val.taglist + " " + tag;
