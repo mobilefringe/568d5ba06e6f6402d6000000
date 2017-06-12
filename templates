@@ -13,7 +13,7 @@
             <a class="template_btn" href="#premium">
                 <label> Premium </label>
             </a>
-            <a class="template_btn">
+            <a class="template_btn" href="#standard">
                 <label> Standard </label>
             </a>
             <a class="template_btn">
