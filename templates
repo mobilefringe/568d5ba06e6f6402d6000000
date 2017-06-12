@@ -123,6 +123,7 @@
             renderGeneral('#design_container','#design_template', sorted_templates);
             $("#custom").addClass("active_templ_btn");
             $("#premium").removeClass("active_templ_btn");
+            $("#standard").removeClass("active_templ_btn");
         });
     }
 </script>
