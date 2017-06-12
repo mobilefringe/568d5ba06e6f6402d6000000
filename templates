@@ -60,10 +60,32 @@
                 renderGeneral('#design_container','#design_template', sorted_templates);
             });
             $("#standard").click(function() {
-                
+                 var sorted_templates = [];
+               $.each(templates, function(key, val) {
+                    $.each( val.tag , function( tag_key, tag ) {
+                        //val.taglist = val.taglist + " " + tag;
+                        if(tag == "Premium"){
+                            sorted_templates.push(val);
+                        }
+                     });
+                });
+                console.log(sorted_templates);
+                renderGeneral('#design_container','#design_template', sorted_templates);
+            });
             });
             $("#custom").click(function() {
-                
+                 var sorted_templates = [];
+               $.each(templates, function(key, val) {
+                    $.each( val.tag , function( tag_key, tag ) {
+                        //val.taglist = val.taglist + " " + tag;
+                        if(tag == "Premium"){
+                            sorted_templates.push(val);
+                        }
+                     });
+                });
+                console.log(sorted_templates);
+                renderGeneral('#design_container','#design_template', sorted_templates);
+            });
             });
         }
         
