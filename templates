@@ -126,7 +126,7 @@
             $('#standard_design_container').hide();
             $('#custom_design_container').hide();
             
-            $("#premium").removeClass("active_templ_btn")
+            
             $("#premium").addClass("active_templ_btn");
             $("#standard").removeClass("active_templ_btn");
             $("#custom").removeClass("active_templ_btn");
@@ -138,6 +138,7 @@
             $('#standard_design_container').show();
             $('#custom_design_container').hide();
             
+            $("#premium").removeClass("active_templ_btn")
             $("#standard").addClass("active_templ_btn");
             $("#premium").removeClass("active_templ_btn");
             $("#custom").removeClass("active_templ_btn");
@@ -148,6 +149,7 @@
             $('#premium_design_container').hide();
             $('#standard_design_container').hide();
             
+            $("#premium").removeClass("active_templ_btn")
             $("#custom").addClass("active_templ_btn");
             $("#premium").removeClass("active_templ_btn");
             $("#standard").removeClass("active_templ_btn");
