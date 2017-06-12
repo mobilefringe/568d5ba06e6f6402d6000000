@@ -47,6 +47,9 @@
             console.log(templates);
             renderGeneral('#design_container','#design_template', templates);
             $("#premium").click(function() {
+               $.each(imageName, function(key, val) {
+                val.image_file_name=val.image_file_name;
+            });
                 renderGeneral('#design_container','#design_template', templates);
             });
             $("#standard").click(function() {
