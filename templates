@@ -45,56 +45,56 @@
         loadMallDataCached(renderAll); 
     });
     function renderAll(){
-            var templates = getBlogDataBySlug("home-templates").posts;
-            renderGeneral('#design_container','#design_template', templates);
-            if(window.location.href.indexOf("#") == -1) {
-               console.log(templates);
-               
-            }
-            else {
-                 console.log("bro");
-            }
-            
-            $("#premium").click(function() {
-                var sorted_templates = [];
-               $.each(templates, function(key, val) {
-                    $.each( val.tag , function( tag_key, tag ) {
-                        //val.taglist = val.taglist + " " + tag;
-                        if(tag == "Premium"){
-                            sorted_templates.push(val);
-                        }
-                     });
-                });
-                console.log(sorted_templates);
-                renderGeneral('#design_container','#design_template', sorted_templates);
-            });
-            $("#standard").click(function() {
-                var sorted_templates = [];
-               $.each(templates, function(key, val) {
-                    $.each( val.tag , function( tag_key, tag ) {
-                        //val.taglist = val.taglist + " " + tag;
-                        if(tag == "Standard"){
-                            sorted_templates.push(val);
-                        }
-                     });
-                });
-                console.log(sorted_templates);
-                renderGeneral('#design_container','#design_template', sorted_templates);
-            
-            });
-            $("#custom").click(function() {
-                 var sorted_templates = [];
-               $.each(templates, function(key, val) {
-                    $.each( val.tag , function( tag_key, tag ) {
-                        //val.taglist = val.taglist + " " + tag;
-                        if(tag == "Custom"){
-                            sorted_templates.push(val);
-                        }
-                     });
-                });
-                console.log(sorted_templates);
-                renderGeneral('#design_container','#design_template', sorted_templates);
+        var templates = getBlogDataBySlug("home-templates").posts;
+        renderGeneral('#design_container','#design_template', templates);
+        if(window.location.href.indexOf("#") == -1) {
+           console.log(templates);
            
-            });
         }
+        else {
+             console.log("bro");
+        }
+        
+        $("#premium").click(function() {
+            var sorted_templates = [];
+           $.each(templates, function(key, val) {
+                $.each( val.tag , function( tag_key, tag ) {
+                    //val.taglist = val.taglist + " " + tag;
+                    if(tag == "Premium"){
+                        sorted_templates.push(val);
+                    }
+                 });
+            });
+            console.log(sorted_templates);
+            renderGeneral('#design_container','#design_template', sorted_templates);
+        });
+        $("#standard").click(function() {
+            var sorted_templates = [];
+           $.each(templates, function(key, val) {
+                $.each( val.tag , function( tag_key, tag ) {
+                    //val.taglist = val.taglist + " " + tag;
+                    if(tag == "Standard"){
+                        sorted_templates.push(val);
+                    }
+                 });
+            });
+            console.log(sorted_templates);
+            renderGeneral('#design_container','#design_template', sorted_templates);
+        
+        });
+        $("#custom").click(function() {
+             var sorted_templates = [];
+           $.each(templates, function(key, val) {
+                $.each( val.tag , function( tag_key, tag ) {
+                    //val.taglist = val.taglist + " " + tag;
+                    if(tag == "Custom"){
+                        sorted_templates.push(val);
+                    }
+                 });
+            });
+            console.log(sorted_templates);
+            renderGeneral('#design_container','#design_template', sorted_templates);
+       
+        });
+    }
 </script>
