@@ -170,7 +170,7 @@
             $("#custom").removeClass("active_templ_btn");
         });
         $("#custom").click(function() {
-            
+            console.log("click!");
             $('#custom_design_container').show();
             $('#premium_design_container').hide();
             $('#standard_design_container').hide();
