@@ -73,7 +73,7 @@
             $.each( val.tag , function( tag_key, tag ) {
                 //val.taglist = val.taglist + " " + tag;
                 if(tag == "Premium"){
-                    sorted_templates.push(val);
+                    sorted_p_templates.push(val);
                 }
              });
         });
@@ -83,7 +83,7 @@
             $.each( val.tag , function( tag_key, tag ) {
                 //val.taglist = val.taglist + " " + tag;
                 if(tag == "Standard"){
-                    sorted_templates.push(val);
+                    sorted_s_templates.push(val);
                 }
              });
         }); 
@@ -95,7 +95,7 @@
             $.each( val.tag , function( tag_key, tag ) {
                 //val.taglist = val.taglist + " " + tag;
                 if(tag == "Custom"){
-                    sorted_templates.push(val);
+                    sorted_c_templates.push(val);
                 }
              });
         });
