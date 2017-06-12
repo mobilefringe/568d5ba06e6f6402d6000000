@@ -35,6 +35,7 @@
                             <h3>{{title}}</h3>
                         </a>
                     </div>
+                    </div>
                 </script>
             </div>
             <div id="standard_design_container" >            
