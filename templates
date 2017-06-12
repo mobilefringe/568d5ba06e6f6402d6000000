@@ -69,37 +69,37 @@
         //console.log(templates);
          //renderGeneral('#design_container','#design_template', templates);
         var sorted_p_templates = [];
-           $.each(templates, function(key, val) {
-                $.each( val.tag , function( tag_key, tag ) {
-                    //val.taglist = val.taglist + " " + tag;
-                    if(tag == "Premium"){
-                        sorted_templates.push(val);
-                    }
-                 });
-            });
-            renderGeneral('#premium_design_container','#premium_design_template', sorted_p_templates);
-          var sorted_s_templates = [];
-           $.each(templates, function(key, val) {
-                $.each( val.tag , function( tag_key, tag ) {
-                    //val.taglist = val.taglist + " " + tag;
-                    if(tag == "Standard"){
-                        sorted_templates.push(val);
-                    }
-                 });
-            }); 
-            console.log(sorted_templates);
-            renderGeneral('#standard_design_container','#standard_design_template', sorted_s_templates);
-             var sorted_c_templates = [];
-           $.each(templates, function(key, val) {
-                $.each( val.tag , function( tag_key, tag ) {
-                    //val.taglist = val.taglist + " " + tag;
-                    if(tag == "Custom"){
-                        sorted_templates.push(val);
-                    }
-                 });
-            });
-            console.log(sorted_templates);
-            renderGeneral('#design_container','#design_template', sorted_c_templates);
+       $.each(templates, function(key, val) {
+            $.each( val.tag , function( tag_key, tag ) {
+                //val.taglist = val.taglist + " " + tag;
+                if(tag == "Premium"){
+                    sorted_templates.push(val);
+                }
+             });
+        });
+        renderGeneral('#premium_design_container','#premium_design_template', sorted_p_templates);
+        var sorted_s_templates = [];
+       $.each(templates, function(key, val) {
+            $.each( val.tag , function( tag_key, tag ) {
+                //val.taglist = val.taglist + " " + tag;
+                if(tag == "Standard"){
+                    sorted_templates.push(val);
+                }
+             });
+        }); 
+        console.log(sorted_templates);
+        renderGeneral('#standard_design_container','#standard_design_template', sorted_s_templates);
+        var sorted_c_templates = [];
+       $.each(templates, function(key, val) {
+            $.each( val.tag , function( tag_key, tag ) {
+                //val.taglist = val.taglist + " " + tag;
+                if(tag == "Custom"){
+                    sorted_templates.push(val);
+                }
+             });
+        });
+        console.log(sorted_templates);
+        renderGeneral('#design_container','#design_template', sorted_c_templates);
             
         if(window.location.href.indexOf("#") == -1) {
            window.location.assign("#premium");
