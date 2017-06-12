@@ -100,6 +100,7 @@
             });
             console.log(sorted_templates);
             renderGeneral('#design_container','#design_template', sorted_c_templates);
+            
         if(window.location.href.indexOf("#") == -1) {
            window.location.assign("#premium");
            $("#premium").addClass("active_templ_btn");
