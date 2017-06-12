@@ -59,7 +59,7 @@
         //console.log(templates);
          //renderGeneral('#design_container','#design_template', templates);
          
-         renderGeneral('#standard_design_container','#standard_design_template', sorted_templates);
+         
         if(window.location.href.indexOf("#") == -1) {
            window.location.assign("#premium");
         }
@@ -86,6 +86,7 @@
                     }
                  });
             }); 
+            renderGeneral('#standard_design_container','#standard_design_template', sorted_templates);
         }
         else if(window.location.href.indexOf("#custom") > -1) {
             
