@@ -52,6 +52,9 @@
                     val.image_file_name=val.image_file_name;
                     $.each( val.tags , function( tag_key, tag ) {
                         //val.taglist = val.taglist + " " + tag;
+                        if(tag == "Premium"){
+                            
+                        }
                      });
                 });
                 renderGeneral('#design_container','#design_template', sorted_templates);
