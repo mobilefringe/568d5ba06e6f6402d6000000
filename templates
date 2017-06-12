@@ -49,6 +49,12 @@
             $("#premium").click(function() {
                 
             });
+            $("#premium").click(function() {
+                
+            });
+            $("#premium").click(function() {
+                
+            });
         }
         
         loadMallDataCached(renderAll); 
