@@ -100,6 +100,9 @@
                 if(tag == "is_new"){
                     val.is_new ="display:block";
                 }
+                else {
+                    val.is_new ="display:none";
+                }
              });
         });
         renderGeneral('#custom_design_container','#custom_design_template', sorted_c_templates);
