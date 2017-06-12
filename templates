@@ -10,7 +10,7 @@
     <div>
         <div class="inside_container" style="text-align:center">
             <!--<h3>Mall Maverick Provides... </h3>-->
-            <a class="template_btn" href="">
+            <a class="template_btn" href="#premium">
                 <label> Premium </label>
             </a>
             <a class="template_btn">
