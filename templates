@@ -60,7 +60,7 @@
         console.log(templates);
          renderGeneral('#design_container','#design_template', templates);
         if(window.location.href.indexOf("#") == -1) {
-           window.location.assign("#premium")
+           window.location.assign("#premium");
         }
         else {
              console.log("bro");
