@@ -16,7 +16,7 @@
             <a class="template_btn" href="#standard" id="standard">
                 <label> Standard </label>
             </a>
-            <a class="template_btn" href="#custom" id=custom">
+            <a class="template_btn" href="#custom" id="custom">
                 <label> Custom </label>
             </a>
         </div>
