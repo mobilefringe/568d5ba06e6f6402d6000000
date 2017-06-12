@@ -134,16 +134,16 @@
            $("#standard").addClass("active_templ_btn");
            $("#standard").trigger( "click" );
         }
-        // if(window.location.href.indexOf("#premium") > -1) {
+        if(window.location.href.indexOf("#premium") > -1) {
            
-        //     console.log("bro");
-        // }
-        // else if(window.location.href.indexOf("#standard") > -1) {
+            console.log("bro");
+        }
+        else if(window.location.href.indexOf("#standard") > -1) {
             
-        // }
-        // else if(window.location.href.indexOf("#custom") > -1) {
+        }
+        else if(window.location.href.indexOf("#custom") > -1) {
             
-        // }
+        }
         $("#premium").click(function() {
             //console.log("click!");
             //console.log(sorted_templates);
