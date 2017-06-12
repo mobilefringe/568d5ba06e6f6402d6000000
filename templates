@@ -86,7 +86,6 @@
         }
         else if(window.location.href.indexOf("#custom") > -1) {
             $("#custom").trigger( "click" );
-            console.log("clicky");
         }
     });
     function renderAll(){
@@ -127,25 +126,6 @@
         //console.log(sorted_templates);
         renderGeneral('#standard_design_container','#standard_design_template', sorted_s_templates);
         
-    //     var sorted_c_templates = [];
-    //   $.each(templates, function(key, val) {
-    //         $.each( val.tag , function( tag_key, tag ) {
-    //             //val.taglist = val.taglist + " " + tag;
-    //             if(tag == "Custom"){
-    //                 sorted_c_templates.push(val);
-    //             }
-    //             if(tag == "is_new"){
-    //                 val.is_new ="display:block";
-    //             }
-    //             else {
-    //                 val.is_new ="display:none";
-    //             }
-    //          });
-    //     });
-    //     renderGeneral('#custom_design_container','#custom_design_template', sorted_c_templates);
-        //console.log(sorted_templates);
-       // renderGeneral('#design_container','#design_template', sorted_c_templates);
-            
         
         $("#premium").click(function() {
             //console.log("click!");
@@ -173,7 +153,6 @@
             $("#custom").removeClass("active_templ_btn");
         });
         $("#custom").click(function() {
-            console.log("click!");
             $('#custom_design_container').show();
             $('#premium_design_container').hide();
             $('#standard_design_container').hide();
