@@ -64,11 +64,6 @@
            window.location.assign("#premium");
         }
         if(window.location.href.indexOf("#premium") > -1) {
-            renderGeneral('#premium_design_container','#premium_design_template', sorted_templates);
-            console.log("bro");
-        }
-        
-        $("#premium").click(function() {
             var sorted_templates = [];
            $.each(templates, function(key, val) {
                 $.each( val.tag , function( tag_key, tag ) {
@@ -78,6 +73,12 @@
                     }
                  });
             });
+            renderGeneral('#premium_design_container','#premium_design_template', sorted_templates);
+            console.log("bro");
+        }
+        
+        $("#premium").click(function() {
+           
             //console.log(sorted_templates);
             //$("#design_container").hide();
             $('#premium_design_container').show();
