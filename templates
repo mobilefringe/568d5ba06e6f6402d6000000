@@ -101,6 +101,7 @@
             $('#standard_design_container').hide();
             $("#premium").addClass("active_templ_btn");
             $("#custom").addClass("active_templ_btn");
+            $("#custom").addClass("active_templ_btn");
         });
         $("#standard").click(function() {
            
