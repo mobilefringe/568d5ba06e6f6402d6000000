@@ -101,7 +101,7 @@
         $("#standard").click(function() {
            
             //console.log(sorted_templates);
-            
+            $('#premium_design_container').hide();
         
         });
         $("#custom").click(function() {
