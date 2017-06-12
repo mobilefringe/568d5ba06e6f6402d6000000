@@ -72,6 +72,22 @@
     $(document).ready(function(e) {
         init(e);
         loadMallDataCached(renderAll); 
+        
+        if(window.location.href.indexOf("#") == -1) {
+           window.location.assign("#standard");
+           $("#standard").addClass("active_templ_btn");
+           $("#standard").trigger( "click" );
+        }
+        if(window.location.href.indexOf("#premium") > -1) {
+           $("#premium").trigger( "click" );
+        }
+        else if(window.location.href.indexOf("#standard") > -1) {
+            $("#standard").trigger( "click" );
+        }
+        else if(window.location.href.indexOf("#custom") > -1) {
+            $("#custom").trigger( "click" );
+            console.log("clicky");
+        }
     });
     function renderAll(){
         var templates = getBlogDataBySlug("home-templates").posts;
@@ -130,21 +146,7 @@
         //console.log(sorted_templates);
        // renderGeneral('#design_container','#design_template', sorted_c_templates);
             
-        if(window.location.href.indexOf("#") == -1) {
-           window.location.assign("#standard");
-           $("#standard").addClass("active_templ_btn");
-           $("#standard").trigger( "click" );
-        }
-        if(window.location.href.indexOf("#premium") > -1) {
-           $("#premium").trigger( "click" );
-        }
-        else if(window.location.href.indexOf("#standard") > -1) {
-            $("#standard").trigger( "click" );
-        }
-        else if(window.location.href.indexOf("#custom") > -1) {
-            $("#custom").trigger( "click" );
-            console.log("clicky");
-        }
+        
         $("#premium").click(function() {
             //console.log("click!");
             //console.log(sorted_templates);
