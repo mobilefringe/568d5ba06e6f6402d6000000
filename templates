@@ -77,7 +77,7 @@
                  });
             });
             console.log(sorted_templates);
-            renderGeneral('#design_container','#design_template', sorted_templates);
+            renderGeneral('#premium_design_container','#premium_design_template', sorted_templates);
         });
         $("#standard").click(function() {
             var sorted_templates = [];
