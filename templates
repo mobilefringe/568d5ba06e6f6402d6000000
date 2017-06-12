@@ -98,7 +98,7 @@
                     sorted_c_templates.push(val);
                 }
                 if(tag == "is_new"){
-                    
+                    val.is_new ="display:block";
                 }
              });
         });
