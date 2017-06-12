@@ -87,7 +87,7 @@
                  });
             }); 
         }
-        else if
+        else if(window.location.href.indexOf("#custom") > -1) {
         
         $("#premium").click(function() {
            
