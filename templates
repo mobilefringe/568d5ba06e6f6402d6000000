@@ -77,6 +77,16 @@
             console.log("bro");
         }
         else if(window.location.href.indexOf("#premium") > -1) {
+             var sorted_templates = [];
+           $.each(templates, function(key, val) {
+                $.each( val.tag , function( tag_key, tag ) {
+                    //val.taglist = val.taglist + " " + tag;
+                    if(tag == "Standard"){
+                        sorted_templates.push(val);
+                    }
+                 });
+            });
+            
         }
         
         $("#premium").click(function() {
@@ -87,16 +97,8 @@
             
         });
         $("#standard").click(function() {
-            var sorted_templates = [];
-           $.each(templates, function(key, val) {
-                $.each( val.tag , function( tag_key, tag ) {
-                    //val.taglist = val.taglist + " " + tag;
-                    if(tag == "Standard"){
-                        sorted_templates.push(val);
-                    }
-                 });
-            });
-            console.log(sorted_templates);
+           
+            //console.log(sorted_templates);
             
         
         });
