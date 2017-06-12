@@ -56,6 +56,7 @@
                         }
                      });
                 });
+                console.log(sorted_templates);
                 renderGeneral('#design_container','#design_template', sorted_templates);
             });
             $("#standard").click(function() {
