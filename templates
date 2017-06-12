@@ -56,11 +56,8 @@
             <div id="custom_design_container" class="hidden_now">
                 <div class="col-md-4 design_template">
                     <h4> Spend time with our designers and help them understand the vision that encaptures the uniqueness of your shopping centre.</h4>
-                        <a href="/templates/{{slug}}">
-                            <img src="{{image_url}}" alt="Design Template"/>
-                            <h3>{{title}}</h3>
-                        </a>
-                    </div>
+                        
+                </div>
             </div>
         </div>
     </div>
