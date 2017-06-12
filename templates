@@ -144,7 +144,7 @@
         });
         $("#custom").click(function() {
             
-            ('#custom_design_container').show();
+            4('#custom_design_container').show();
             $('#premium_design_container').hide();
             $('#standard_design_container').hide();
             
