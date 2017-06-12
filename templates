@@ -44,8 +44,11 @@
         init(e);
         function renderAll(){
             var templates = getBlogDataBySlug("home-templates").posts;
-            console.log(templates);
+            if(window.location.href.indexOf("franky") > -1) {
+               console.log(templates);
             renderGeneral('#design_container','#design_template', templates);
+            }
+            
             $("#premium").click(function() {
                 var sorted_templates = [];
                $.each(templates, function(key, val) {
