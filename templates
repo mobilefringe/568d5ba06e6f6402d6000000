@@ -46,8 +46,6 @@
             var templates = getBlogDataBySlug("home-templates").posts;
             console.log(templates);
             renderGeneral('#design_container','#design_template', templates);
-
-
         }
         
         loadMallDataCached(renderAll); 
