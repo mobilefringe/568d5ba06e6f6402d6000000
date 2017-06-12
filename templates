@@ -143,6 +143,7 @@
         }
         else if(window.location.href.indexOf("#custom") > -1) {
             $("#custom").trigger( "click" );
+            console.log("clicky");
         }
         $("#premium").click(function() {
             //console.log("click!");
