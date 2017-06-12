@@ -63,7 +63,7 @@
         if(window.location.href.indexOf("#") == -1) {
            window.location.assign("#premium");
         }
-        else if () {
+        else if(window.location.href.indexOf("#") == -1) {
              console.log("bro");
         }
         
