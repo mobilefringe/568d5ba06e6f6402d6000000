@@ -96,6 +96,7 @@
             //console.log(sorted_templates);
             //$("#design_container").hide();
             $('#premium_design_container').show();
+            $('#standard_design_container').hide();
             
         });
         $("#standard").click(function() {
