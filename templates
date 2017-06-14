@@ -16,6 +16,9 @@
                 <label> Premium </label>
             </a>
             </div>
+            <div>
+                
+            </div>
             <div class="col-md-4 col-xs-12">
                 <a class="template_btn " href="#standard" id="standard" >
                 <label> Standard </label>
