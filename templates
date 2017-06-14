@@ -24,12 +24,12 @@
                 <label> Standard </label>
             </a>
             </div>
-            <div class="col-md-2 col-xs-12">
+            <div class="col-md-2 col-sm-3 col-xs-12">
                 <a class="template_btn " href="#custom" id="custom">
                 <label> Custom </label>
             </a>
             </div>
-             <div class="col-md-3 col-xs-12">
+             <div class="col-md-3 col-sm-3 col-xs-12">
                 
             </div>
         </div>
