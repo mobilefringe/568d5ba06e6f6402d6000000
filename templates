@@ -11,6 +11,9 @@
     <div class="row">
         <div class="inside_container " style="text-align:center" >
             <!--<h3>Mall Maverick Provides... </h3>-->
+            <div class="">
+                
+            </div>
             <a class="template_btn col-md-4 col-xs-12" href="#premium" id="premium">
                 <label> Premium </label>
             </a>
