@@ -16,13 +16,13 @@
                 <label> Premium </label>
             </a>
             </div>
-            <div class="">
-                <a class="template_btn col-md-4 col-xs-12" href="#standard" id="standard" >
+            <div class="col-md-4 col-xs-12">
+                <a class="template_btn " href="#standard" id="standard" >
                 <label> Standard </label>
             </a>
             </div>
-            <div class="">
-                <a class="template_btn col-md-4 col-xs-12" href="#custom" id="custom">
+            <div class="col-md-4 col-xs-12">
+                <a class="template_btn " href="#custom" id="custom">
                 <label> Custom </label>
             </a>
             </div>
