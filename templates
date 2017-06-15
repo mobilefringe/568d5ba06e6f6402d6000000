@@ -150,6 +150,9 @@
             if($(window).width() <= 768){
                 
             }
+            else {
+                
+            }
              
             //$("#design_container").hide();
             $('#premium_design_container').show();
