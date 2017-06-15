@@ -2,8 +2,8 @@
     <div class = "inside_container">
         <h2 class="text-center inside_main_header col-md-6 col-sm-12 col-xs-12" id="mm_post_title">MALL MAVERICK WEBSITE DESIGNS</h2>
         <p class="text-center desc banner_text" id="mm_post_author"></p>
-        <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550735000/Desktop Custom .png" class="hidden_phone " alt="">
-            <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550720000/Mobile Custom Cover-01-01.png" class="show_phone" alt="">
+        <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550735000/Desktop Custom .png" class="hidden_phone template_banner_image" alt="">
+            <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550720000/Mobile Custom Cover-01-01.png" class="show_phone template_banner_image" alt="">
     </div>
 </section>
 <img id="orange_line" src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1497030625000/Orange Line.png" class="" alt="">
