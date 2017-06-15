@@ -91,7 +91,7 @@
          window_width = $(window).width(); // New width
          
         });
-        loadMallDataCached(renderAll); 
+        loadMallDataCached(renderAll(window_width)); 
         
         if(window.location.href.indexOf("#") == -1) {
            window.location.assign("#standard");
