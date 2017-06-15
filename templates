@@ -187,6 +187,7 @@
         $("#custom").click(function() {
             $(".template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1496674856000/Background Banner.png')");
             $('.show_phone.template_banner_image').show();
+            $('.hidden_phone.template_banner_image').hide();
             $('#custom_design_container').show();
             $('#premium_design_container').hide();
             $('#standard_design_container').hide();
