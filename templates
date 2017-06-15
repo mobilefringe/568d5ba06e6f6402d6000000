@@ -168,6 +168,8 @@
             $("#custom").removeClass("active_templ_btn");
         });
         $("#custom").click(function() {
+            $(".template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550735000/Desktop Custom .png')");
+            
             $('#custom_design_container').show();
             $('#premium_design_container').hide();
             $('#standard_design_container').hide();
