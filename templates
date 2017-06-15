@@ -93,7 +93,7 @@
         }
         if(window.location.href.indexOf("#premium") > -1) {
            $("#premium").trigger( "click" );
-            $(".template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550744000/TemplatesPageCover2x.png')");
+           
         }
         else if(window.location.href.indexOf("#standard") > -1) {
             //$("#standard").trigger( "click" );
@@ -144,8 +144,7 @@
         
         
         $("#premium").click(function() {
-            //console.log("click!");
-            //console.log(sorted_templates);
+             $(".template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550744000/TemplatesPageCover2x.png')");
             //$("#design_container").hide();
             $('#premium_design_container').show();
             $('#standard_design_container').hide();
