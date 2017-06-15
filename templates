@@ -158,6 +158,7 @@
         });
         $("#standard").click(function() {
            $(".template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550744000/TemplatesPageCover2x.png')");
+            $('#template_banner_image').hide();
             //console.log(sorted_templates);
             $('#premium_design_container').hide();
             $('#standard_design_container').show();
