@@ -98,7 +98,7 @@
         else if(window.location.href.indexOf("#standard") > -1) {
             $("#standard").trigger( "click" );
             console.log("hello");
-            $("#template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550744000/TemplatesPageCover2x.png')");
+            $("#template_banner").css("backgroundImage","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550744000/TemplatesPageCover2x.png')");
         }
         else if(window.location.href.indexOf("#custom") > -1) {
             $("#custom").trigger( "click" );
