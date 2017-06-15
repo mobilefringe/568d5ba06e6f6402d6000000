@@ -2,7 +2,7 @@
     <div class = "inside_container">
         <h2 class="text-center inside_main_header col-md-6 col-sm-12 col-xs-12" id="mm_post_title">MALL MAVERICK WEBSITE DESIGNS</h2>
         <p class="text-center desc banner_text" id="mm_post_author"></p>
-        <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497552684000/CustomPageImage.png" class="hidden_phone" alt="">
+        <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550735000/Desktop Custom .png" class="hidden_phone" alt="">
             <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497458774000/template_dets_banner_image.png" class="show_phone" alt="">
     </div>
 </section>
@@ -93,11 +93,10 @@
         }
         if(window.location.href.indexOf("#premium") > -1) {
            $("#premium").trigger( "click" );
-           $(".template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/jpeg/1497552244000/CoverCustom.jpg')");
-            $('#template_banner_image').hide();
+           
         }
         else if(window.location.href.indexOf("#standard") > -1) {
-            $("#standard").trigger( "click" );
+            //$("#standard").trigger( "click" );
             
         }
         else if(window.location.href.indexOf("#custom") > -1) {
