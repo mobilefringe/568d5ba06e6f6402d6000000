@@ -93,6 +93,7 @@
         }
         if(window.location.href.indexOf("#premium") > -1) {
            $("#premium").trigger( "click" );
+           $("#template_banner").css({left:(e.pageX) + "px", top:(e.pageY) + "px"});
         }
         else if(window.location.href.indexOf("#standard") > -1) {
             $("#standard").trigger( "click" );
