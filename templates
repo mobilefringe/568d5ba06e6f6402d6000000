@@ -99,7 +99,7 @@
            $("#standard").trigger( "click" );
         }
         if(window.location.href.indexOf("#premium") > -1) {
-           $("#premium").trigger( "click",["window_width"]);
+           $("#premium").trigger( "click",[window_width]);
            
         }
         else if(window.location.href.indexOf("#standard") > -1) {
