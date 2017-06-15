@@ -84,6 +84,7 @@
 <script>
     $(document).ready(function(e) {
         init(e);
+        var window.width;
          $(window).resize(function() {
           // This will execute whenever the window is resized
           //$(window).height(); // New height
