@@ -84,11 +84,11 @@
 <script>
     $(document).ready(function(e) {
         init(e);
-        var window.width;
+        var window_width;
          $(window).resize(function() {
           // This will execute whenever the window is resized
           //$(window).height(); // New height
-         window.width = $(window).width(); // New width
+         window_width = $(window).width(); // New width
          
         });
         loadMallDataCached(renderAll); 
