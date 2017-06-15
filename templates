@@ -148,7 +148,7 @@
              $('#template_banner_image').hide();
              
             if($(window).width() <= 767){
-                toggle_legend();
+                //toggle_legend();
             }
              
             //$("#design_container").hide();
