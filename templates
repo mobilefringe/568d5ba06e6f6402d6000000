@@ -84,13 +84,6 @@
 <script>
     $(document).ready(function(e) {
         init(e);
-        var window_width;
-         $(window).resize(function() {
-          // This will execute whenever the window is resized
-          //$(window).height(); // New height
-         window_width = $(window).width(); // New width
-         
-        });
         loadMallDataCached(renderAll); 
         
         if(window.location.href.indexOf("#") == -1) {
@@ -99,7 +92,7 @@
            $("#standard").trigger( "click" );
         }
         if(window.location.href.indexOf("#premium") > -1) {
-           $("#premium").trigger( "click",[window_width]);
+           $("#premium").trigger( "click" );
            
         }
         else if(window.location.href.indexOf("#standard") > -1) {
@@ -110,7 +103,6 @@
             $("#custom").trigger( "click" );
             
         }
-       
     });
     function renderAll(){
         var templates = getBlogDataBySlug("home-templates").posts;
@@ -151,17 +143,16 @@
         renderGeneral('#standard_design_container','#standard_design_template', sorted_s_templates);
         
         
-        $("#premium").click(function(window_width) {
+        $("#premium").click(function() {
              
              
-            if(window_width <= 768){
-                console.log("less that 768");
+            if($(window).width() <= 768){
                 $(".template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497553537000/MobileCustomCover (1).png')", "background-size": "100%"});
              $('.template_banner_image').hide();
             }
             else {
                 $(".template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/jpeg/1497552244000/CoverCustom.jpg')", "background-size": "100%"});
-             $('.template_banner_image').hide();
+             $('#template_banner_image').hide();
             }
              
             //$("#design_container").hide();
