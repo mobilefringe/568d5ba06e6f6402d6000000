@@ -151,7 +151,7 @@
         renderGeneral('#standard_design_container','#standard_design_template', sorted_s_templates);
         
         
-        $("#premium").click(function() {
+        $("#premium").click(function(window_width) {
              
              
             if(window_width <= 768){
