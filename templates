@@ -105,8 +105,8 @@
         }
         $(window).resize(function() {
           // This will execute whenever the window is resized
-          $(window).height(); // New height
-          $(window).width(); // New width
+          //$(window).height(); // New height
+         // $(window).width(); // New width
         });
     });
     function renderAll(){
