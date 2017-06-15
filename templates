@@ -1,4 +1,4 @@
-<section class="template_banner hide_phone">
+<section class="template_banner hidden_phone">
     <div class = "inside_container">
         <h2 class="text-center inside_main_header col-md-6 col-sm-12 col-xs-12" id="mm_post_title">MALL MAVERICK WEBSITE DESIGNS</h2>
         <p class="text-center desc banner_text" id="mm_post_author"></p>
@@ -155,7 +155,7 @@
              
              
             if($(window).width() <= 768){
-                $(".template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497553537000/MobileCustomCover (1).png')", "background-size": "100%"});
+                $(".template_banner.hid").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497553537000/MobileCustomCover (1).png')", "background-size": "100%"});
              $('.template_banner_image').hide();
             }
             else {
