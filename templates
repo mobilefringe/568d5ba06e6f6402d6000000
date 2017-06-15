@@ -154,7 +154,7 @@
         $("#premium").click(function() {
              
              
-            if($(window).width() <= 768){
+            if(window_width <= 768){
                 console.log("less that 768");
                 $(".template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497553537000/MobileCustomCover (1).png')", "background-size": "100%"});
              $('.template_banner_image').hide();
