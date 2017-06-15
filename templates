@@ -112,7 +112,7 @@
         }
        
     });
-    function renderAll(){
+    function renderAll(window_width){
         var templates = getBlogDataBySlug("home-templates").posts;
         //console.log(templates);
          //renderGeneral('#design_container','#design_template', templates);
