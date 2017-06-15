@@ -97,7 +97,7 @@
             $('#template_banner_image').hide();
         }
         else if(window.location.href.indexOf("#standard") > -1) {
-            //$("#standard").trigger( "click" );
+            $("#standard").trigger( "click" );
             
         }
         else if(window.location.href.indexOf("#custom") > -1) {
