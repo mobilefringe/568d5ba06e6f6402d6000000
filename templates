@@ -103,6 +103,11 @@
             $("#custom").trigger( "click" );
             
         }
+        $(window).resize(function() {
+          // This will execute whenever the window is resized
+          $(window).height(); // New height
+          $(window).width(); // New width
+        });
     });
     function renderAll(){
         var templates = getBlogDataBySlug("home-templates").posts;
