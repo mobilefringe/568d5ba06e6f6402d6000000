@@ -227,7 +227,7 @@
         });
         $("#standard").click(function(e) {
             
-            changStandardBG();
+            changeStandardBG();
             
             $('#premium_design_container').hide();
             $('#standard_design_container').show();
