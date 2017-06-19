@@ -225,6 +225,7 @@
         });
         $("#standard").click(function(e) {
             
+            changStandardBG();
             
             $('#premium_design_container').hide();
             $('#standard_design_container').show();
