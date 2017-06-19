@@ -1,4 +1,4 @@
-<section class="template_banner">
+<section class="template_banner hidden_phone">
     <div class = "inside_container">
         <h2 class="text-center inside_main_header col-md-6 col-sm-6 col-xs-12" id="mm_post_title">MALL MAVERICK WEBSITE DESIGNS</h2>
         <p class="text-center desc banner_text" id="mm_post_author"></p>
