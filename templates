@@ -197,6 +197,7 @@
         
         
         $("#premium").click(function(e) {
+            changePremiumBG();
             //$("#design_container").hide();
             $('#premium_design_container').show();
             $('#standard_design_container').hide();
