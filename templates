@@ -202,7 +202,7 @@
             $("#custom").removeClass("active_templ_btn");
             
             var x = window.pageXOffset,
-                y = window.pageYOffset;
+            var    y = window.pageYOffset;
             $(window).one('scroll', function () {
                 window.scrollTo(x, y);
             })
