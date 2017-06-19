@@ -159,7 +159,9 @@
             $(".show_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497888964000/Pattern Asset.png'); 
            $(".hidden_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497888964000/Pattern Asset.png');
     }
-     function changePremiumBG (){}
+     function changePremiumBG (){
+         
+     }
     function renderAll(){
         var templates = getBlogDataBySlug("home-templates").posts;
         //console.log(templates);
