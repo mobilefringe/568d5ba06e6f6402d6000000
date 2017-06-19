@@ -200,6 +200,11 @@
             $("#premium").removeClass("active_templ_btn");
             $("#custom").removeClass("active_templ_btn");
             
+            var x = window.pageXOffset,
+                y = window.pageYOffset;
+            $(window).one('scroll', function () {
+                window.scrollTo(x, y);
+            })
         });
         $("#custom").click(function() {
             $(".template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1496674856000/Background Banner.png')");
