@@ -95,6 +95,11 @@
         loadMallDataCached(renderAll); 
         
         if(window.location.href.indexOf("#") == -1) {
+             var x = window.pageXOffset,
+                y = window.pageYOffset;
+            $(window).one('scroll', function () {
+                window.scrollTo(x, y);
+            });
            window.location.assign("#standard");
            $("#standard").addClass("active_templ_btn");
            $("#standard").trigger( "click" );
@@ -104,6 +109,11 @@
            
         }
         else if(window.location.href.indexOf("#standard") > -1) {
+             var x = window.pageXOffset,
+                y = window.pageYOffset;
+            $(window).one('scroll', function () {
+                window.scrollTo(x, y);
+            });
             $("#standard").addClass("active_templ_btn");
             $("#standard").trigger( "click" );
             console.log("trigger click!");
@@ -116,6 +126,11 @@
             
         }
         else if(window.location.href.indexOf("#custom") > -1) {
+             var x = window.pageXOffset,
+                y = window.pageYOffset;
+            $(window).one('scroll', function () {
+                window.scrollTo(x, y);
+            });
             $("#custom").trigger( "click" );
             
         }
