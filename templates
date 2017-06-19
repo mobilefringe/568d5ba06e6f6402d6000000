@@ -172,6 +172,12 @@
             $("#premium").addClass("active_templ_btn");
             $("#standard").removeClass("active_templ_btn");
             $("#custom").removeClass("active_templ_btn");
+            
+            var x = window.pageXOffset,
+                y = window.pageYOffset;
+            $(window).one('scroll', function () {
+                window.scrollTo(x, y);
+            })
         });
         $("#standard").click(function() {
             $(".template_banner_image").removeClass("custom_tab");
