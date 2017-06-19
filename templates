@@ -194,7 +194,7 @@
         $("#custom").click(function() {
             $(".template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1496674856000/Background Banner.png')");
              $(".template_banner_image").addClass("custom_tab");
-            $(".show_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550720000/Mobile Custom Cover-01-01.png'); 
+            $(".custom_tab.show_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550720000/Mobile Custom Cover-01-01.png'); 
            $(".hidden_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550735000/Desktop Custom .png');
            $(".hidden_phone.template_banner_image").css({"max-width":"500px", "left":"48%"});
             
