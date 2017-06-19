@@ -170,7 +170,6 @@
             $("#premium").addClass("active_templ_btn");
             $("#standard").removeClass("active_templ_btn");
             $("#custom").removeClass("active_templ_btn");
-             $(".template_banner_image").removeClass("custom_tab");
         });
         $("#standard").click(function() {
             $(".template_banner_image").removeClass("custom_tab");
