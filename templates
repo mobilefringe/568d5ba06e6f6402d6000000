@@ -110,7 +110,7 @@
             $(window).one('scroll', function () {
                 window.scrollTo(x, y);
             });
-            $("#standpremiumard").addClass("active_templ_btn");
+            $("#premium").addClass("active_templ_btn");
            $("#premium").trigger( "click" );
            
         }
