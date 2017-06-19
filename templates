@@ -250,7 +250,7 @@
             });
         });
         $("#custom").click(function(e) {
-            
+            changeCustomBG();
             $('#custom_design_container').show();
             $('#premium_design_container').hide();
             $('#standard_design_container').hide();
