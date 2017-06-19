@@ -150,7 +150,7 @@
     });
     
     
-    function changePremiumBG {
+    function changePremiumBG (){
         
     }
     function renderAll(){
