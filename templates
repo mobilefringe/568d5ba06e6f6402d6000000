@@ -148,6 +148,11 @@
             
         }
     });
+    
+    
+    function changePremiumBG {
+        
+    }
     function renderAll(){
         var templates = getBlogDataBySlug("home-templates").posts;
         //console.log(templates);
