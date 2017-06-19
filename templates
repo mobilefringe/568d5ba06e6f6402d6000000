@@ -105,6 +105,11 @@
            $("#standard").trigger( "click" );
         }
         if(window.location.href.indexOf("#premium") > -1) {
+             var x = window.pageXOffset,
+                y = window.pageYOffset;
+            $(window).one('scroll', function () {
+                window.scrollTo(x, y);
+            });
            $("#premium").trigger( "click" );
            
         }
