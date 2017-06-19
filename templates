@@ -104,6 +104,7 @@
            
         }
         else if(window.location.href.indexOf("#standard") > -1) {
+            $("#standard").addClass("active_templ_btn");
             $("#standard").trigger( "click" );
             console.log("trigger click!");
             
