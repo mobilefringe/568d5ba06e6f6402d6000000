@@ -105,6 +105,7 @@
         }
         else if(window.location.href.indexOf("#standard") > -1) {
             $("#standard").trigger( "click" );
+            console.log("trigger click!");
             
         }
         else if(window.location.href.indexOf("#custom") > -1) {
