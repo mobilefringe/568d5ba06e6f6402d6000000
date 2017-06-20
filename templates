@@ -95,12 +95,13 @@
         loadMallDataCached(renderAll); 
         
         if(window.location.href.indexOf("#") == -1) {
-             var x = window.pageXOffset,
+            
+           window.location.assign("#standard");
+            var x = window.pageXOffset,
                 y = window.pageYOffset;
             $(window).one('scroll', function () {
                 window.scrollTo(x, y);
             });
-           window.location.assign("#standard");
            $("#standard").addClass("active_templ_btn");
            $("#standard").trigger( "click" );
         }
