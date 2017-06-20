@@ -46,7 +46,7 @@
 <section class="margin_100">
     <div class="inside_container">
         <div class="row">
-            <div id="premium_design_container" class="hidden_now">            
+            <div id="premium_design_container">            
                 <script id="premium_design_template" type="x-tmpl-mustache/text">
                 
                     <div class="col-md-4 design_template">
