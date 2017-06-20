@@ -106,6 +106,7 @@
            $("#premium").trigger( "click" );
         }
         if(window.location.href.indexOf("#premium") > -1) {
+             e.preventDefault();
             //  var x = window.pageXOffset,
             //     y = window.pageYOffset;
             // $(window).one('scroll', function () {
