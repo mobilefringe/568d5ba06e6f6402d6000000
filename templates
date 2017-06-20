@@ -171,8 +171,8 @@
           $(".template_banner_image").removeClass("custom_tab");
           $(".template_banner_image").removeClass("standard_tab");
             $(".template_banner_image").removeAttr( 'style' );
-         $(".hidden_phone.template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1496674856000/Background Banner.png')");
-         $(".show_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497971187000/CustomPatternM.png')", "background-size": "100% 100%"});
+         $(".hidden_phone.template_banner").css("background-image","url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497987064000/CustomBG.png')");
+         $(".show_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497987060000/CustomBGM.png')", "background-size": "100% 100%"});
             $(".template_banner_image").addClass("custom_tab");
             $(".show_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550720000/Mobile Custom Cover-01-01.png'); 
            $(".hidden_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550735000/Desktop Custom .png');
