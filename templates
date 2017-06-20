@@ -221,6 +221,7 @@
         
         
         $("#premium").click(function(e) {
+            e.preventDefault();
             changePremiumBG();
             //$("#design_container").hide();
             $('#premium_design_container').show();
@@ -239,7 +240,7 @@
             });
         });
         $("#standard").click(function(e) {
-            
+            e.preventDefault();
             changeStandardBG();
             
             $('#premium_design_container').hide();
@@ -258,6 +259,7 @@
             });
         });
         $("#custom").click(function(e) {
+            e.preventDefault();
             changeCustomBG();
             $('#custom_design_container').show();
             $('#premium_design_container').hide();
