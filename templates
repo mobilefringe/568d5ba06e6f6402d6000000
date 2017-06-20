@@ -233,11 +233,11 @@
             $("#standard").removeClass("active_templ_btn");
             $("#custom").removeClass("active_templ_btn");
             
-            var x = window.pageXOffset,
-                y = window.pageYOffset;
-            $(window).one('scroll', function () {
+            // var x = window.pageXOffset,
+            //     y = window.pageYOffset;
+            // $(window).one('scroll', function () {
                 window.scrollTo(0, 0);
-            });
+            // });
         });
         $("#standard").click(function(e) {
             e.preventDefault();
@@ -252,11 +252,11 @@
             $("#premium").removeClass("active_templ_btn");
             $("#custom").removeClass("active_templ_btn");
             
-            var x = window.pageXOffset,
-                y = window.pageYOffset;
-            $(window).one('scroll', function () {
+            // var x = window.pageXOffset,
+            //     y = window.pageYOffset;
+            // $(window).one('scroll', function () {
                 window.scrollTo(0, 0);
-            });
+            // });
         });
         $("#custom").click(function(e) {
             e.preventDefault();
@@ -270,11 +270,11 @@
             $("#premium").removeClass("active_templ_btn");
             $("#standard").removeClass("active_templ_btn");
             
-            var x = window.pageXOffset,
-                y = window.pageYOffset;
-            $(window).one('scroll', function () {
+            // var x = window.pageXOffset,
+            //     y = window.pageYOffset;
+            // $(window).one('scroll', function () {
                 window.scrollTo(0, 0);
-            });
+            // });
         });
     }
 </script>
