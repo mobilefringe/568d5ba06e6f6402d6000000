@@ -80,6 +80,10 @@ function init(){
     loadMallDataCached(renderAll);  
     
 }
+
+function templateInit () {
+    $('<div class="loader_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
+}
 function show_content(){
     $(".yield").css({visibility: "visible"});
     $(".loader_backdrop").remove();
