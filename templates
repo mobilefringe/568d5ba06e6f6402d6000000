@@ -140,11 +140,11 @@
             // $(window).one('scroll', function () {
             //     window.scrollTo(x, y);
             // });
-            window.scrollTo(0, 0);
+           
              $("#custom").addClass("active_templ_btn");
             $("#custom").trigger( "click" );
             changeCustomBG();
-        
+         window.scrollTo(0, 0);
         }
     });
     
