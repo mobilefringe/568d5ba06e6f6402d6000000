@@ -125,11 +125,12 @@
             // $(window).one('scroll', function () {
             //     window.scrollTo(x, y);
             // });
-            window.scrollTo(0, 0);
+            
             $("#standard").addClass("active_templ_btn");
             $("#standard").trigger( "click" );
             console.log("trigger click!");
             changeStandardBG();
+            window.scrollTo(0, 0);
        
             
         }
