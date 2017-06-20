@@ -96,7 +96,7 @@
         
         if(window.location.href.indexOf("#") == -1) {
             
-           window.location.assign("#standard");
+           window.location.assign("#premium");
             var x = window.pageXOffset,
                 y = window.pageYOffset;
             $(window).one('scroll', function () {
