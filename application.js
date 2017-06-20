@@ -82,6 +82,7 @@ function init(){
 }
 
 function templateInit () {
+    console.log("template_init");
     $('<div class="loader_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
 }
 function show_content(){
