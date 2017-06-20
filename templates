@@ -236,7 +236,7 @@
             var x = window.pageXOffset,
                 y = window.pageYOffset;
             $(window).one('scroll', function () {
-                window.scrollTo(x, y);
+                window.scrollTo(0, 0);
             });
         });
         $("#standard").click(function(e) {
@@ -255,7 +255,7 @@
             var x = window.pageXOffset,
                 y = window.pageYOffset;
             $(window).one('scroll', function () {
-                window.scrollTo(x, y);
+                window.scrollTo(0, 0);
             });
         });
         $("#custom").click(function(e) {
@@ -273,7 +273,7 @@
             var x = window.pageXOffset,
                 y = window.pageYOffset;
             $(window).one('scroll', function () {
-                window.scrollTo(x, y);
+                window.scrollTo(0, 0);
             });
         });
     }
