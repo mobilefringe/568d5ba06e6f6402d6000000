@@ -237,7 +237,6 @@
             $(window).one('scroll', function () {
                 window.scrollTo(x, y);
             });
-            e.preventDefault();
         });
         $("#standard").click(function(e) {
             
@@ -257,7 +256,6 @@
             $(window).one('scroll', function () {
                 window.scrollTo(x, y);
             });
-            e.preventDefault();
         });
         $("#custom").click(function(e) {
             changeCustomBG();
@@ -275,7 +273,6 @@
             $(window).one('scroll', function () {
                 window.scrollTo(x, y);
             });
-            e.preventDefault();
         });
     }
 </script>
