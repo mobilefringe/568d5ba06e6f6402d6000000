@@ -106,22 +106,24 @@
            $("#premium").trigger( "click" );
         }
         if(window.location.href.indexOf("#premium") > -1) {
-             var x = window.pageXOffset,
-                y = window.pageYOffset;
-            $(window).one('scroll', function () {
-                window.scrollTo(x, y);
-            });
+            //  var x = window.pageXOffset,
+            //     y = window.pageYOffset;
+            // $(window).one('scroll', function () {
+            //     window.scrollTo(x, y);
+            // });
+            window.scrollTo(0, 0);
             changePremiumBG();
             $("#premium").addClass("active_templ_btn");
            $("#premium").trigger( "click" );
            
         }
         else if(window.location.href.indexOf("#standard") > -1) {
-             var x = window.pageXOffset,
-                y = window.pageYOffset;
-            $(window).one('scroll', function () {
-                window.scrollTo(x, y);
-            });
+            //  var x = window.pageXOffset,
+            //     y = window.pageYOffset;
+            // $(window).one('scroll', function () {
+            //     window.scrollTo(x, y);
+            // });
+            window.scrollTo(0, 0);
             $("#standard").addClass("active_templ_btn");
             $("#standard").trigger( "click" );
             console.log("trigger click!");
@@ -130,11 +132,11 @@
             
         }
         else if(window.location.href.indexOf("#custom") > -1) {
-             var x = window.pageXOffset,
-                y = window.pageYOffset;
-            $(window).one('scroll', function () {
-                window.scrollTo(x, y);
-            });
+            //  var x = window.pageXOffset,
+            //     y = window.pageYOffset;
+            // $(window).one('scroll', function () {
+            //     window.scrollTo(x, y);
+            // });window.scrollTo(0, 0);
              $("#custom").addClass("active_templ_btn");
             $("#custom").trigger( "click" );
             changeCustomBG();
