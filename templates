@@ -95,7 +95,7 @@
         loadMallDataCached(renderAll); 
         window.scrollTo(0, 0);
         if(window.location.href.indexOf("#") == -1) {
-            
+             e.preventDefault();
            window.location.assign("#premium");
             // var x = window.pageXOffset,
             //     y = window.pageYOffset;
