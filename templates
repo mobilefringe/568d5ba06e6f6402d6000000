@@ -102,8 +102,8 @@
             $(window).one('scroll', function () {
                 window.scrollTo(x, y);
             });
-           $("#standard").addClass("active_templ_btn");
-           $("#standard").trigger( "click" );
+           $("#premium").addClass("active_templ_btn");
+           $("#premium").trigger( "click" );
         }
         if(window.location.href.indexOf("#premium") > -1) {
              var x = window.pageXOffset,
