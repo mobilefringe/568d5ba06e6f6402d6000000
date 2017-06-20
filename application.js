@@ -80,7 +80,10 @@ function init(){
     loadMallDataCached(renderAll);  
     
 }
-
+function show_content(){
+    $(".yield").css({visibility: "visible"});
+    $(".loader_backdrop").remove();
+}
 function renderGallery(container, template, collection){
     var item_list = [];
     var item_rendered = [];
