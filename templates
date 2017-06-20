@@ -97,11 +97,11 @@
         if(window.location.href.indexOf("#") == -1) {
             
            window.location.assign("#premium");
-            var x = window.pageXOffset,
-                y = window.pageYOffset;
-            $(window).one('scroll', function () {
-                window.scrollTo(x, y);
-            });
+            // var x = window.pageXOffset,
+            //     y = window.pageYOffset;
+            // $(window).one('scroll', function () {
+                window.scrollTo(0, 0);
+            // });
            $("#premium").addClass("active_templ_btn");
            $("#premium").trigger( "click" );
         }
