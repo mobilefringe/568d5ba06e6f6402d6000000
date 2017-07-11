@@ -152,6 +152,7 @@
     function changePremiumBG (){
         console.log("changing premium");
         $(".template_banner_image").removeAttr( 'style' );
+        $("#template_content").removeAttr( 'style' );
              $(".template_banner_image").removeClass("custom_tab");
              $(".template_banner_image").removeClass("standard_tab");
             $(".hidden_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497890003000/Pattern.png')", "background-size": "100% 100%"});
