@@ -183,7 +183,7 @@
            $(".hidden_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550735000/Desktop Custom .png');
            $(".custom_tab.hidden_phone.template_banner_image").css({"max-width":"500px", "left":"48%"});
            $("#mm_post_title").text("CUSTOMIZED WEBSITES MADE JUST FOR YOU");
-           $("#template_content")
+           $("#template_content").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497987060000/CustomBGM.png')", "background-size": "100% 100%"});
      }
     function renderAll(){
         var templates = getBlogDataBySlug("home-templates").posts;
