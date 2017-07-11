@@ -188,7 +188,7 @@
        $(".custom_tab.hidden_phone.template_banner_image").css({"max-width":"500px", "left":"48%"});
        $("#mm_post_title").text("CUSTOMIZED WEBSITES MADE JUST FOR YOU");
        //Custom page changes
-       $("#template_content").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1499356265000/imageassetmain.png')", "background-size": "cover","padding": "40px 80px 90px 80px"});
+       $("#template_content").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1499356265000/imageassetmain.png')", "background-size": "cover","padding": "100px 80px 90px 80px"});
        $(".button_bar").css({"margin-bottom": "70px"});
         $("#custom_design_container").css({"background-color": "#fff"});
      }
