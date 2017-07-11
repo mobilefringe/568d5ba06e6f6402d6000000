@@ -189,7 +189,7 @@
        $("#mm_post_title").text("CUSTOMIZED WEBSITES MADE JUST FOR YOU");
        //Custom page changes
        $("#template_content").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1499356248000/Imageasset.png')", "background-size": "100% 100%"});
-       $(".button_bar").css({"margin-bottom": "70px;"});
+       $(".button_bar").css({"margin-bottom": "70px"});
      }
     function renderAll(){
         var templates = getBlogDataBySlug("home-templates").posts;
