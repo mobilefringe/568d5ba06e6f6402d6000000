@@ -190,6 +190,7 @@
     function changeStandardBG (){
         $(".show_phone.template_banner").css({"padding": ""});
         $(".hidden_phone.template_banner_image").removeAttr( 'style' );
+        $("#template_content").removeAttr( 'style' );
         $(".template_banner_image").removeClass("custom_tab");
         $(".template_banner_image").removeClass("standard_tab");
         
@@ -199,7 +200,7 @@
          
         
         $(".button_bar").removeAttr( 'style' );
-        $("#template_content").removeAttr( 'style' );
+        
          $("#mm_post_title").removeAttr( 'style' );
         $("#mm_post_author").removeAttr( 'style' );
          $('.template_banner.hidden_phone #orange_line').hide();
