@@ -194,7 +194,8 @@
         $(".button_bar").removeAttr( 'style' );
         $(".template_banner_image").removeClass("custom_tab");
         $(".template_banner_image").removeClass("standard_tab");
-        
+         $("#mm_post_title").removeAttr( 'style' );
+        $("#mm_post_author").removeAttr( 'style' );
        $("#mm_post_title").removeClass("col-md-12 col-sm-12");
         $("#mm_post_title").addClass("col-md-6 col-sm-6");
         $(".template_banner_image").addClass("standard_tab");
@@ -202,8 +203,7 @@
         
         
         
-         $("#mm_post_title").removeAttr( 'style' );
-        $("#mm_post_author").removeAttr( 'style' );
+        
          $('.template_banner.hidden_phone #orange_line').hide();
         
        $(".hidden_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497984708000/StandardBG.png')", "background-size": "100% 100%","padding": "170px 0 227px 0" });
