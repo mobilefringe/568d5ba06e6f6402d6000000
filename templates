@@ -253,7 +253,7 @@
        }
        else {
            $(".show_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1499960436000/Custom_Mobile_BG.png')", "background-size": "100% 100%", "padding": "150px 0 90px 0"});
-           $("#template_content").css({"background-image":"url('')", "background-size": "cover","padding": "100px 80px 90px 80px", "margin-bottom":"0"});
+           $("#template_content").css({"background-image":"url('')", "background-size": "cover","padding": "100px 50px 90px 50px", "margin-bottom":"0"});
             $('#custom_bg_asset').show();
            $(".show_phone.template_banner_image").attr('src', '');
            $(".mm_post_title_m").text("Spend time with our designers");
