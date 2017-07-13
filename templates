@@ -8,10 +8,10 @@
         text-align:center;
         h4 {
             /* This design process: */
-font-family: Avenir-Medium;
-font-size: 30px;
-color: #000000;
-line-height: 60px;
+            font-family: Avenir-Medium;
+            font-size: 30px;
+            color: #000000;
+            line-height: 60px;
         }
         p {
             padding: 30px;
