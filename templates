@@ -225,6 +225,8 @@
        //$(".show_phone.template_banner_image").css({"max-width":"380px", "top":"500px"});
        $("#mm_post_title").text("MALL MAVERICK WEBSITE DESIGNS");
        $("#mm_post_author").text("");
+       $(".mm_post_title_m").text("MALL MAVERICK WEBSITE DESIGNS");
+           $(".mm_post_author_m").text("");
      }
     function changeCustomBG (){
         // Remove other styles
