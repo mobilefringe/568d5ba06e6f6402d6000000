@@ -229,6 +229,7 @@
        $("#mm_post_author").text("and help them understand the vision that encaptures the uniqueness of your shopping centre.");
        $("#mm_post_title").css({"text-align": "right", "color" : "#000"});
        $("#mm_post_author").css({"text-align": "right", "color" : "#000"});
+       $("#mm_post_title")
        // $("#custom_design_container").css({"background-color": "#fff","margin": "0 150px", "padding": "40px 30px 300px"});
      }
     function renderAll(){
