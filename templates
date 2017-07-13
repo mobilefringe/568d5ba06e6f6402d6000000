@@ -248,7 +248,7 @@
        $("#mm_post_title").addClass("col-md-12");
     //   $("#mm_post_author").removeClass("col-md-6");
     //   $("#mm_post_aithor").addClass("col-md-12");
-       ('.template_banner.hidden_phone #orange_line').show();
+       $('.template_banner.hidden_phone #orange_line').show();
        // $("#custom_design_container").css({"background-color": "#fff","margin": "0 150px", "padding": "40px 30px 300px"});
     //   $('<img id="orange_line" src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1497030625000/Orange Line.png" class="" alt="">')/appendTo('.template_banner.hidden_phone .inside_container');
      }
