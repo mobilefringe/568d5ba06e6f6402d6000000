@@ -249,7 +249,7 @@
     margin-right: 0px;
     font-size: 20px;
     font-weight: 400;
-       $("#mm_post_author").css({"text-align": "left", "color" : "#000", "padding":"0px 20px 0px 210px", "margin-right":"0","padding-left": "210px"});
+       $("#mm_post_author").css({"text-align": "left", "color" : "#000", "padding":"0px 20px 0px 210px", "margin-right":"0", "font-size": "20px","font-weight": "400"});
        $("#mm_post_title").removeClass("col-md-6");
        $("#mm_post_title").addClass("col-md-12");
     //   $("#mm_post_author").removeClass("col-md-6");
