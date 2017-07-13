@@ -260,6 +260,7 @@
            $(".mm_post_title_m").css({"text-align": "center", "color" : "#fff", "padding":" 30px"});
            $(".mm_post_author_m").css({"text-align": "center", "color" : "#fff", "padding":"30px", "margin":"0", "font-size": "20px","font-weight": "400","width": "100%"});
            $(".button_bar").css({ "margin-top": "10px"});
+            $("#custom_design_container").attr('src', '');
        }
        
        $(".button_bar").css({"margin-bottom": "70px"});
