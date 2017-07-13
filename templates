@@ -20,7 +20,7 @@
     #custom_design_container #orange_line {
         width: 75%;
     }
-    #template_banner #orange_line {
+    .template_banner #orange_line {
         width: 70%;
         top: 510px;
     }
