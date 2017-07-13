@@ -272,7 +272,7 @@
        $(".button_bar").css({"margin-bottom": "70px"});
       
        $("#mm_post_title").removeClass("col-md-6");
-       $("#mm_post_title").addClass("col-md-12");
+       $("#mm_post_title").addClass("col-md-12 col-sm-12");
     //   $("#mm_post_author").removeClass("col-md-6");
     //   $("#mm_post_aithor").addClass("col-md-12");
        $('.template_banner.hidden_phone #orange_line').show();
