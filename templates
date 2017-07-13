@@ -246,7 +246,6 @@
            $("#mm_post_title").text("Spend time with our designers");
            $("#mm_post_author").text("and help them understand the vision that encaptures the uniqueness of your shopping centre.");
            $("#mm_post_title").css({"text-align": "right", "color" : "#000", "padding-right":" 55px"});
-     
            $("#mm_post_author").css({"text-align": "left", "color" : "#000", "padding":"0px 30px 0px 205px", "margin-right":"0", "font-size": "20px","font-weight": "400"});
        }
        else {
