@@ -11,7 +11,7 @@
             padding: 30px;
         }
     }
-    h4{
+      #custom_design_container h4{
            
             /*font-family: Avenir-Medium;*/
             /*font-size: 30px;*/
