@@ -13,7 +13,7 @@
     }
     h4{
            
-            font-family: Avenir-Medium;
+            /*font-family: Avenir-Medium;*/
             /*font-size: 30px;*/
             font-weight:normal;
             color: #000000;
