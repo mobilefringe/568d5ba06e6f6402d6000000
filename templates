@@ -179,6 +179,7 @@
     });
     
     $(window).on('resize', function(){
+        console.log("I'm changing!");
     });
     function changePremiumBG (){
         console.log("changing premium");
