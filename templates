@@ -255,7 +255,7 @@
            $(".button_bar").css({ "margin-top": "10px"});
            $("#custom_design_container #orange_line").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1499963387000/Orange Line_mini.png');
        }
-       if($( document ).width() > 768 && $( document ).width() < 900) {
+       if($( document ).width() > 768 && $( document ).width() < 975) {
            $(".custom_tab.hidden_phone.template_banner_image").css({"left":"1%"});
        }
     }
