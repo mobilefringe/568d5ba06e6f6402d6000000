@@ -163,7 +163,7 @@
 
     });
     function changePremiumBG (){
-        console.log("changing premium");
+        
         $(".show_phone.template_banner").css({"padding": ""});
         $(".hidden_phone.template_banner_image").removeAttr( 'style' );
         $("#template_content").removeAttr( 'style' );
