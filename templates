@@ -22,7 +22,7 @@
     }
     .template_banner.hidden_phone #orange_line {
         width: 65%;
-        top: 487px;
+        top: 422px;
     }
 </style>
 
