@@ -256,7 +256,6 @@
        }
        if($( document ).width() > 768 && $( document ).width() < 900) {
            $(".custom_tab.hidden_phone.template_banner_image").css({"left":"1%"});
-           
        }
     }
     function renderAll(){
