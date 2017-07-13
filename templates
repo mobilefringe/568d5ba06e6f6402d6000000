@@ -253,8 +253,8 @@
            $(".show_phone.template_banner_image").attr('src', '');
            $(".mm_post_title_m").text("Spend time with our designers");
            $(".mm_post_author_m").text("and help them understand the vision that encaptures the uniqueness of your shopping centre.");
-           $(".mm_post_title_m").css({"text-align": "right", "color" : "#000", "padding-right":" 55px"});
-           $(".mm_post_author_m").css({"text-align": "left", "color" : "#000", "padding":"0px 30px 0px 205px", "margin-right":"0", "font-size": "20px","font-weight": "400"});
+           $(".mm_post_title_m").css({"text-align": "right", "color" : "#fff", "padding-right":" 55px"});
+           $(".mm_post_author_m").css({"text-align": "left", "color" : "#fff", "padding":"0px 30px 0px 205px", "margin-right":"0", "font-size": "20px","font-weight": "400"});
        }
        
        $(".button_bar").css({"margin-bottom": "70px"});
