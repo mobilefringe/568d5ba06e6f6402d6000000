@@ -1,3 +1,13 @@
+<style>
+    #custom_desgin_container {
+        /* Container: */
+    border-radius: 20px;
+    background-color: #fff;
+    margin": 0 150px; 
+    padding: 40px 30px 300px;
+    }
+</style>
+
 <section class="template_banner hidden_phone">
     <div class = "inside_container">
         <h2 class="text-center inside_main_header col-md-6 col-sm-6 col-xs-12" id="mm_post_title">MALL MAVERICK WEBSITE DESIGNS</h2>
