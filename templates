@@ -233,7 +233,7 @@
         $("#mm_post_author").removeAttr( 'style' );
         
         $(".hidden_phone.template_banner").css({"background-image":"url('')", "background-color":"#fff", "padding-bottom" :"45px"});
-        $(".show_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497987060000/CustomBGM.png')", "background-size": "100% 100%"});
+        $(".show_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1499960436000/Custom_Mobile_BG.png')", "background-size": "100% 100%"});
         $(".template_banner_image").addClass("custom_tab");
         $(".show_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497550720000/Mobile Custom Cover-01-01.png'); 
        $(".hidden_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1499356255000/Mockupasset.png');
