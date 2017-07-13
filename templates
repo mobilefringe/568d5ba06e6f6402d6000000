@@ -213,7 +213,7 @@
         $("#mm_post_title").addClass("col-md-6");
         $(".template_banner_image").addClass("standard_tab");
         
-        $(".template_banner_image").css( 'padding' : "");
+        $(".template_banner_image").css( {'padding' : ""});
         $(".button_bar").removeAttr( 'style' );
         $("#template_content").removeAttr( 'style' );
          $("#mm_post_title").removeAttr( 'style' );
