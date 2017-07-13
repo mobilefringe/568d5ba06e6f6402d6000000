@@ -179,7 +179,6 @@
     });
     
     $(window).on('resize', function(){
-        console.log("I'm changing!");
         if(window.location.href.indexOf("#premium") > -1) {
             changePremiumBG();
         }
