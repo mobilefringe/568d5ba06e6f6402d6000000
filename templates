@@ -184,7 +184,7 @@
         $(".template_banner_image").removeAttr( 'style' );
         $("#template_content").removeAttr( 'style' );
         $(".button_bar").removeAttr( 'style' );
-         $("#mm_post_title").removeAttr( 'style' );
+        $("#mm_post_title").removeAttr( 'style' );
         $("#mm_post_author").removeAttr( 'style' );
         $(".template_banner_image").removeClass("custom_tab");
         $(".template_banner_image").removeClass("standard_tab");
