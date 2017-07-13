@@ -196,6 +196,8 @@
         $("#mm_post_author").removeAttr( 'style' );
         $(".mm_post_title_m").removeAttr( 'style' );
         $(".mm_post_author_m").removeAttr( 'style' );
+        $(".template_banner_image").removeClass("custom_tab");
+        $(".template_banner_image").removeClass("standard_tab");
         $("#mm_post_title").removeClass("col-md-12 col-sm-12");
         $("#mm_post_title").addClass("col-md-6 col-sm-6");
         $(".template_banner_image").addClass("standard_tab");
