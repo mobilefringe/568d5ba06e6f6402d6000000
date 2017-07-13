@@ -180,6 +180,41 @@
     
     $(window).on('resize', function(){
         console.log("I'm changing!");
+        if(window.location.href.indexOf("#premium") > -1) {
+            changePremiumBG();
+            $("#premium").addClass("active_templ_btn");
+            $("#premium").trigger( "click" );
+            window.scrollTo(0, 0);
+           
+        }
+        else if(window.location.href.indexOf("#standard") > -1) {
+            //  var x = window.pageXOffset,
+            //     y = window.pageYOffset;
+            // $(window).one('scroll', function () {
+            //     window.scrollTo(x, y);
+            // });
+            
+            $("#standard").addClass("active_templ_btn");
+            $("#standard").trigger( "click" );
+            console.log("trigger click!");
+            changeStandardBG();
+            window.scrollTo(0, 0);
+       
+            
+        }
+        else if(window.location.href.indexOf("#custom") > -1) {
+            //  var x = window.pageXOffset,
+            //     y = window.pageYOffset;
+            // $(window).one('scroll', function () {
+            //     window.scrollTo(x, y);
+            // });
+           
+             $("#custom").addClass("active_templ_btn");
+            $("#custom").trigger( "click" );
+            changeCustomBG();
+         window.scrollTo(0, 0);
+        }
+    });
     });
     function changePremiumBG (){
         console.log("changing premium");
