@@ -7,9 +7,6 @@
         padding: 40px 30px 190px;
         text-align: center;
 
-        p {
-            padding: 30px;
-        }
     }
     #custom_design_container h4{
         font-weight:normal;
