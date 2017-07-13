@@ -6,10 +6,7 @@
         margin: 0 150px; 
         padding: 40px 30px 190px;
         text-align: center;
-        h4{
-        font-size:20px;
-        font-weight:bold;
-    }
+        
         h4{
             /* This design process: */
             font-family: Avenir-Medium;
