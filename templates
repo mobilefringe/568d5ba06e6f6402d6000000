@@ -215,7 +215,7 @@
          $("#mm_post_title").removeAttr( 'style' );
         $("#mm_post_author").removeAttr( 'style' );
          $('.template_banner.hidden_phone #orange_line').hide();
-       $(".hidden_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497984708000/StandardBG.png')", "background-size": "100% 100%"});
+       $(".hidden_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497984708000/StandardBG.png')", "background-size": "100% 100%", });
        $(".show_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497984708000/StandardBGM.png')", "background-size": "100% 100%"});
          $(".template_banner_image").addClass("standard_tab");
        $(".show_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497903662000/Standard Asset (1).png'); 
