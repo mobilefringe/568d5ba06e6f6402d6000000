@@ -14,6 +14,9 @@
         line-height: 35px;
         padding-bottom: 10px;
     }
+    #custom_design_container p {
+            padding: 30px;
+        }
 </style>
 
 <section class="template_banner hidden_phone">
