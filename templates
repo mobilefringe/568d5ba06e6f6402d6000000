@@ -17,7 +17,7 @@
     #custom_design_container p {
       padding: 30px;
     }
-    #orange_line {
+    #custom_design_container #orange_line {
         width: 75%;
     }
 </style>
