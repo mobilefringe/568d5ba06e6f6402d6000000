@@ -201,7 +201,7 @@
        $("#mm_post_title").text("MALL MAVERICK WEBSITE DESIGNS");
        $("#mm_post_author").text("");
        $(".mm_post_title_m").text("MALL MAVERICK WEBSITE DESIGNS");
-           $(".mm_post_author_m").text("");
+        $(".mm_post_author_m").text("");
     }
     function changeStandardBG (){
         $(".template_banner_image").removeClass("custom_tab");
