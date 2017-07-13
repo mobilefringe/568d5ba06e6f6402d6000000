@@ -1,10 +1,10 @@
 <style>
     #custom_design_container {
-    /* Container: */
-    border-radius: 20px;
-    background-color: #fff;
-    margin": 0 150px; 
-    padding: 40px 30px 300px;
+        /* Container: */
+        border-radius: 20px;
+        background-color: #fff;
+        margin": 0 150px; 
+        padding: 40px 30px 300px;
     }
 </style>
 
