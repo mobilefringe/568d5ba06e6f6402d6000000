@@ -256,17 +256,7 @@
            $(".custom_tab.hidden_phone.template_banner_image").css({"left":"1%"});
            
        }
-       
-       $(".button_bar").css({"margin-bottom": "70px"});
-      
-       $("#mm_post_title").removeClass("col-md-6 col-sm-6");
-       $("#mm_post_title").addClass("col-md-12 col-sm-12");
-       $('.template_banner.hidden_phone #orange_line').show();
-       
-       
-       // $("#custom_design_container").css({"background-color": "#fff","margin": "0 150px", "padding": "40px 30px 300px"});
-    //   $('<img id="orange_line" src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1497030625000/Orange Line.png" class="" alt="">')/appendTo('.template_banner.hidden_phone .inside_container');
-     }
+    }
     function renderAll(){
         var templates = getBlogDataBySlug("home-templates").posts;
         //console.log(templates);
