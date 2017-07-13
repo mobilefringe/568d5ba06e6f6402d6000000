@@ -178,7 +178,8 @@
         }
     });
     
-    
+    $(window).on('resize', function(){
+    });
     function changePremiumBG (){
         console.log("changing premium");
         $(".template_banner_image").removeAttr( 'style' );
