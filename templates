@@ -105,7 +105,7 @@
                 </script>
             </div>
             <div id="custom_design_container" class="hidden_now">
-            <img id="bg_asset" src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1499960436000/Mockup Copy.png" class="hidden_now" alt="">
+            <img id="custom_bg_asset" src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1499960436000/Mockup Copy.png" class="hidden_now" alt="">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <h4> This design process asks for creative input and offers for full customization and exclusivity on all design and development.</h4>
                      <img id="orange_line" src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1497030625000/Orange Line.png" class="" alt="">
