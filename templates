@@ -389,7 +389,7 @@
             });
         });
         $("#newsletters").click(function(e) {
-            changeCustomBG();
+            changeNewsletterBG();
             $('#custom_design_container').show();
             $('#premium_design_container').hide();
             $('#standard_design_container').hide();
