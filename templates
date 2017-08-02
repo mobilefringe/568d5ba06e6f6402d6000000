@@ -139,6 +139,9 @@
         else if(window.location.href.indexOf("#custom") > -1) {
             changeCustomBG();
         }
+        else if(window.location.href.indexOf("#newsletters") > -1) {
+            changeCustomBG();
+        }
 
     });
     function changePremiumBG (){
