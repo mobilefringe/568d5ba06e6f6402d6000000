@@ -140,7 +140,7 @@
             changeCustomBG();
         }
         else if(window.location.href.indexOf("#newsletters") > -1) {
-            changeCustomBG();
+            changeNewsletterBG();
         }
 
     });
