@@ -130,6 +130,18 @@
             changeCustomBG();
          window.scrollTo(0, 0);
         }
+        else if(window.location.href.indexOf("#newsletters") > -1) {
+            //  var x = window.pageXOffset,
+            //     y = window.pageYOffset;
+            // $(window).one('scroll', function () {
+            //     window.scrollTo(x, y);
+            // });
+           
+             $("#custom").addClass("active_templ_btn");
+            $("#custom").trigger( "click" );
+            changeCustomBG();
+         window.scrollTo(0, 0);
+        }
     });
     
     $(window).on('resize', function(){
