@@ -21,7 +21,7 @@
     <div class="col-md-12 ">
         <div class="inside_container " style="text-align:center" >
             <!--<h3>Mall Maverick Provides... </h3>-->
-            <div class="col-md-3 col-sm-2 col-xs-12">
+            <div class="col-md-2 col-sm-2 col-xs-12">
                 
             </div>
             <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
@@ -44,9 +44,9 @@
                 <label> Custom </label>
             </a>
             </div>
-            <!-- <div class="col-md-2 col-sm-1 col-xs-12">-->
+             <div class="col-md-2 col-sm-1 col-xs-12">
                 
-            <!--</div>-->
+            </div>
         </div>
     </div>
 </section>
