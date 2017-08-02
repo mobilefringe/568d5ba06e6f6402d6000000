@@ -107,14 +107,8 @@
             $("#premium").addClass("active_templ_btn");
             $("#premium").trigger( "click" );
             window.scrollTo(0, 0);
-           
         }
         else if(window.location.href.indexOf("#standard") > -1) {
-            //  var x = window.pageXOffset,
-            //     y = window.pageYOffset;
-            // $(window).one('scroll', function () {
-            //     window.scrollTo(x, y);
-            // });
             
             $("#standard").addClass("active_templ_btn");
             $("#standard").trigger( "click" );
