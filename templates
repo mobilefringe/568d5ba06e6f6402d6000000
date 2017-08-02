@@ -307,7 +307,7 @@
              });
         }); 
         //console.log(sorted_templates);
-        renderGeneral('#standard_design_container','#standard_design_template', sorted_s_templates);
+        renderGeneral('#newsletter_design_container','#newsletter_design_template', sorted_s_templates);
         
         $("#premium").click(function(e) {
             changePremiumBG();
