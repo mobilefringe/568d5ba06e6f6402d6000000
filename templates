@@ -109,17 +109,13 @@
             window.scrollTo(0, 0);
         }
         else if(window.location.href.indexOf("#standard") > -1) {
-            
             $("#standard").addClass("active_templ_btn");
             $("#standard").trigger( "click" );
             console.log("trigger click!");
             changeStandardBG();
             window.scrollTo(0, 0);
-       
-            
         }
         else if(window.location.href.indexOf("#custom") > -1) {
-            
             $("#custom").addClass("active_templ_btn");
             $("#custom").trigger( "click" );
             changeCustomBG();
