@@ -24,27 +24,27 @@
             <div class="col-md-2 col-sm-2 col-xs-12">
                 
             </div>
-            <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
+            <div class="col-md-2 col-sm-2 col-xs-12 template_btn_container">
                 <a class="template_btn active_templ_btn" href="#premium" id="premium">
                 <label> Premium </label>
             </a>
             </div >
-            <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
+            <div class="col-md-2 col-sm-2 col-xs-12 template_btn_container">
                 <a class="template_btn " href="#standard" id="standard" >
                 <label> Standard </label>
             </a>
             </div>
-            <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
+            <div class="col-md-2 col-sm-2 col-xs-12 template_btn_container">
                 <a class="template_btn " href="#newsletters" id="custom">
                 <label> Newsletters </label>
             </a>
             </div>
-            <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
+            <div class="col-md-2 col-sm-2 col-xs-12 template_btn_container">
                 <a class="template_btn " href="#custom" id="custom">
                 <label> Custom </label>
             </a>
             </div>
-             <div class="col-md-2 col-sm-1 col-xs-12">
+             <div class="col-md-2 col-sm-2 col-xs-12">
                 
             </div>
         </div>
