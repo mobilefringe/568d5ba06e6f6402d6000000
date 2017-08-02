@@ -103,16 +103,10 @@
         window.scrollTo(0, 0);
         
         if(window.location.href.indexOf("#premium") > -1) {
-            //  var x = window.pageXOffset,
-            //     y = window.pageYOffset;
-            // $(window).one('scroll', function () {
-            //     window.scrollTo(x, y);
-            // });
-            
             changePremiumBG();
             $("#premium").addClass("active_templ_btn");
-           $("#premium").trigger( "click" );
-           window.scrollTo(0, 0);
+            $("#premium").trigger( "click" );
+            window.scrollTo(0, 0);
            
         }
         else if(window.location.href.indexOf("#standard") > -1) {
