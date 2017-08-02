@@ -342,6 +342,7 @@
             $('#custom_design_container').hide();
             $('#newsletter_design_container').hide();
             
+            $("#premium").removeClass("active_templ_btn");
             $("#premium").addClass("active_templ_btn");
             $("#standard").removeClass("active_templ_btn");
             $("#custom").removeClass("active_templ_btn");
