@@ -36,6 +36,11 @@
             </div>
             <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
                 <a class="template_btn " href="#custom" id="custom">
+                <label> Newsletters </label>
+            </a>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
+                <a class="template_btn " href="#custom" id="custom">
                 <label> Custom </label>
             </a>
             </div>
