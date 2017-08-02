@@ -101,18 +101,7 @@
         init(e);
         loadMallDataCached(renderAll); 
         window.scrollTo(0, 0);
-        // if(window.location.href.indexOf("#") == -1) {
-            
-        //   window.location.assign("#premium");
-        //     // var x = window.pageXOffset,
-        //     //     y = window.pageYOffset;
-        //     // $(window).one('scroll', function () {
-                
-        //     // });
-        //   $("#premium").addClass("active_templ_btn");
-        //   $("#premium").trigger( "click" );
-        //   window.scrollTo(0, 0);
-        // }
+        
         if(window.location.href.indexOf("#premium") > -1) {
             //  var x = window.pageXOffset,
             //     y = window.pageYOffset;
