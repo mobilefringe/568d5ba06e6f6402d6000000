@@ -135,7 +135,7 @@
             changeCustomBG();
             window.scrollTo(0, 0);
         }
-        else if(window.location.href.indexOf("#newsletters") > -1) {
+        else if(window.location.href.indexOf("#newsletter") > -1) {
             $("#newsletters").addClass("active_templ_btn");
             $("#newsletters").trigger( "click" );
             changeNewsletterBG();
