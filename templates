@@ -153,7 +153,7 @@
         else if(window.location.href.indexOf("#custom") > -1) {
             changeCustomBG();
         }
-        else if(window.location.href.indexOf("#newsletters") > -1) {
+        else if(window.location.href.indexOf("#newsletter") > -1) {
             changeNewsletterBG();
         }
 
