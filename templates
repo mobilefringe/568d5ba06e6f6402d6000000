@@ -259,6 +259,7 @@
         
         $(".show_phone.template_banner").css({"padding": ""});
         $(".hidden_phone.template_banner_image").removeAttr( 'style' );
+        $(".show_phone.template_banner_image").removeAttr( 'style' );
         $("#template_content").removeAttr( 'style' );
         $(".button_bar").removeAttr( 'style' );
         $("#mm_post_title").removeAttr( 'style' );
