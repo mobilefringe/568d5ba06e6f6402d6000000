@@ -277,6 +277,9 @@
         if($( document ).width() < 468) {
             $(".show_phone.template_banner_image").css({"max-width": "200px"});
         }
+        else {
+            $(".show_phone.template_banner_image").removeAttr( 'style' );
+        }
         $(".hidden_phone.template_banner_image").attr('src', 'http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1502306303000/image asset.png');
         $(".hidden_phone.template_banner_image").css({"top":"105px"});
         $("#mm_post_title").text("MALL MAVERICK NEWSLETTER DESIGNS");
