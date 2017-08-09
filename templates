@@ -273,7 +273,7 @@
        
         $(".hidden_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1502306266000/desktop.png')", "background-size": "100% 100%","padding": "170px 0 227px 0" });
         $(".show_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1502208407000/RegisterBG Copy 13.png')", "background-size": "100% 100%"});
-        $(".show_phone.template_banner_image").attr('src', 'http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1502308374000/mobileimageasset.png'); 
+        $(".show_phone.template_banner_image").attr('src', 'http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1502309363000/mobileimageasset (1).png'); 
         $(".hidden_phone.template_banner_image").attr('src', 'http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1502306303000/image asset.png');
         $(".hidden_phone.template_banner_image").css({"top":"105px"});
         $("#mm_post_title").text("MALL MAVERICK NEWSLETTER DESIGNS");
