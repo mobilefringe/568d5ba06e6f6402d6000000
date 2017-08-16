@@ -65,6 +65,7 @@
             var blog_posts = blog.posts.sortBy(function(o){ return o.publish_date });
             console.log(blog_posts)
             var post_details = getPostDetailsBySlug(blog_slug);
+            console.log(post_details)
             
             // renderHeaderDetails("#header_container", "#header_template", post_details);
             renderMainDetails("#main_container", "#main_template", post_details);
