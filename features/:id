@@ -98,6 +98,7 @@
             } else {
                 image_url = post_details.image_url;
             }
+            
             if (post_details.html_body.length > 0){
                 html_body = post_details.html_body
             }
