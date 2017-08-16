@@ -60,10 +60,8 @@
         function renderAll(){
             var pathArray = window.location.pathname.split( '/' );
             var blog_slug = pathArray[pathArray.length-1];
-            console.log(blog_slug)
             var blog = getBlogDataBySlug('home-add-ons');
             var blog_posts = blog.posts.sortBy(function(o){ return o.publish_date });
-            console.log(blog_posts)
             var post_details = getPublishedPostDetailsBySlug(blog_slug);
             console.log(post_details)
             
