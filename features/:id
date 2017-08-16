@@ -66,7 +66,7 @@
             console.log(blog_posts)
             var post_details = getPostDetailsBySlug(blog_slug);
             
-            renderHeaderDetails("#header_container", "#header_template", post_details);
+            // renderHeaderDetails("#header_container", "#header_template", post_details);
             renderMainDetails("#main_container", "#main_template", post_details);
             renderFeaturesDetails("#features_container", "#features_template", blog_posts, blog_slug);
             renderDownloadItem("#download_container", "#download_template", post_details);
