@@ -1,0 +1,141 @@
+<section class="page_banner">
+    <div class = "inside_container">
+        <div id="header_container">
+            <script id="header_template" type="x-tmpl-mustache/text">
+                <h2 class="text-center inside_main_header">{{title}}</h2>
+                <p class="text-center desc banner_text">{{author}}</p> 
+            </script>    
+        </div>    
+    </div>
+</section>
+<section class="main_content">
+    <div class="inside_container">
+        <div class="row">
+            <main class="col-md-8">
+                <div id="main_container" class="post_content">
+                    <script id="main_template" type="x-tmpl-mustache/text">
+                        <figure class="feature_image">
+                            <img src="{{image_url}}"/>
+                        </figure>
+                        <div>{{{html_body}}}</div>  
+                    </script>    
+                </div>
+            </main>
+            <aside class="col-md-4">
+                <div class="hidden-xs hidden-s features_container">
+                    <h4>Other Features</h4>
+                    <ul id="features_container">
+                        <script id="features_template" type="x-tmpl-mustache/text">
+                            <li><a href="{{slug}}" class="contact"><i class="material-icons check_mark">check_circle</i>{{title}}</a></li>
+                        </script> 
+                    </ul>
+                </div>
+                <div class="contact_container">
+                    <h3>Ready to Discuss?</h3>
+                    <div class="contact_info">
+                        <i class="material-icons contact_icon">phone</i>
+                        <h6 class="phone">1-888-854-5797 ext 108</h6>
+                    </div>
+                    <div class="contact_info">
+                        <i class="material-icons contact_icon">email</i>
+                        <a href="mailto:contact@mobilefringe.com">contact@mobilefringe.com</a>
+                    </div>    
+                    <a href="/contact" class="contact_a"><h5>Contact Us</h5></a>
+                    <hr>
+                </div>
+                <div id="download_container">
+                    <script id="download_template" type="x-tmpl-mustache/text">
+                        {{#video_link}}
+                        <a href="{{video_link}}" download="{{video_link}}" class="download_btn"><i class="material-icons">file_download</i><span>Download PDF</span></a>
+                        {{/video_link}}
+                    </script>    
+                </div>
+            </aside>      
+        </div>
+    </div>    
+</section>
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var post_slug = pathArray[pathArray.length-1];
+            var post_details = getPublishedPostDetailsBySlug(post_slug)[0];
+            console.log(post_details);
+            
+            var blog = getBlogDataBySlug('home-add-ons');
+            var blog_posts = blog.posts.sortBy(function(o){ return o.publish_date });
+
+            renderHeaderDetails("#header_container", "#header_template", post_details);
+            renderMainDetails("#main_container", "#main_template", post_details);
+            renderFeaturesDetails("#features_container", "#features_template", blog_posts, post_slug);
+            renderDownloadItem("#download_container", "#download_template", post_details);
+        }
+        
+        function renderHeaderDetails(header_container, header_template, post_details){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(header_template).html();
+
+            if (post_details.title.length > 0){
+                title = post_details.title;
+            }
+            if (post_details.author.length > 0){
+                author = post_details.author;
+            }
+            var rendered = Mustache.render(template_html, post_details);
+            item_rendered.push(rendered);
+           
+            $(header_container).html(item_rendered.join(''));
+        }
+        
+        function renderMainDetails(main_container, main_template, post_details){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(main_template).html();
+            
+            if (post_details.image_url.indexOf('missing.png') > -1) {
+                image_url = post_details.image_url2
+            } else {
+                image_url = post_details.image_url;
+            }
+            if (post_details.html_body.length > 0){
+                html_body = post_details.html_body
+            }
+            var rendered = Mustache.render(template_html, post_details);
+            item_rendered.push(rendered);
+            
+            $(main_container).html(item_rendered.join(''));
+        }
+        
+        function renderFeaturesDetails(features_container, features_template, blog_posts, post_slug){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(features_template).html();
+            $.each(blog_posts, function(key, val) {
+                if (val.slug != post_slug) {
+                    var rendered = Mustache.render(template_html, val);
+                    item_rendered.push(rendered);
+                }
+            });
+            $(features_container).html(item_rendered.join(''));
+        }
+        
+        function renderDownloadItem(download_container, download_template, post_details){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(download_template).html();
+            
+            if (post_details.video_link.length > 0){
+                video_link = post_details.video_link
+            }
+            
+            var rendered = Mustache.render(template_html, post_details);
+            item_rendered.push(rendered);
+   
+            $(download_container).html(item_rendered.join(''));
+        }
+        
+        loadMallDataCached(renderAll); 
+    });
+</script>
