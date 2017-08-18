@@ -112,9 +112,9 @@
             var item_list = [];
             var item_rendered = [];
             var template_html = $(features_template).html();
-            console.log(blog_slug);
+            console.log(post_slug);
             $.each(posts, function(key, val) {
-                if (val.slug != blog_slug) {
+                if (val.slug != post_slug) {
                     var rendered = Mustache.render(template_html, val);
                     item_rendered.push(rendered);
                 }
