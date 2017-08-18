@@ -63,8 +63,8 @@
             console.log(post_slug);
             var post_details = getPostDetailsBySlug(post_slug);
             console.log(post_details)
-            var blog = getBlogDataBySlug('home-features');
-            var blog_posts = blog.posts.sortBy(function(o){ return o.publish_date });
+            // var blog = getBlogDataBySlug('home-features');
+            // var blog_posts = blog.posts.sortBy(function(o){ return o.publish_date });
             
             
             renderHeaderDetails("#header_container", "#header_template", post_details);
