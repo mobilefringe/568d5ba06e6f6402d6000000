@@ -87,7 +87,7 @@
             var item_list = [];
             var item_rendered = [];
             var template_html = $(header_template).html();
-            
+console.log(post_details.title)
             // if (post_details.title.length > 0){
             //     title = post_details.title;
             // }
