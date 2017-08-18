@@ -62,9 +62,9 @@
             var post_slug = pathArray[pathArray.length-1];
             var post_details = getPublishedPostDetailsBySlug(post_slug);
             
-            var blog = getBlogDataBySlug('home-features');
+            var blog = getBlogDataBySlug('home-add-ons');
+            console.log(blog)
             var blog_posts = blog.posts.sortBy(function(o){ return o.publish_date });
-            
             
             renderHeaderDetails("#header_container", "#header_template", post_details);
             renderMainDetails("#main_container", "#main_template", post_details);
