@@ -108,7 +108,7 @@
             $(main_container).html(item_rendered.join(''));
         }
         
-        function renderFeaturesDetails(features_container, features_template, posts, blog_slug){
+        function renderFeaturesDetails(features_container, features_template, blog_posts, post_slug){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(features_template).html();
