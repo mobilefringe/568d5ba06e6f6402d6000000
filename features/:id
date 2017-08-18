@@ -61,6 +61,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var post_slug = pathArray[pathArray.length-1];
             var post_details = getPublishedPostDetailsBySlug(post_slug);
+            console.log(post_details);
             
             var blog = getBlogDataBySlug('home-add-ons');
             console.log(blog)
