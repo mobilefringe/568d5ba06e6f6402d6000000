@@ -20,8 +20,8 @@
                         <div>
                             {{{html_body}}}
                             <div class="newsleter_marketing hidden_now">
-                                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1504720691000/DesktopAsset.png" class="hidden_phone" alt="">
-                                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1504720690000/Mobile Asset.png" class="show_phone" alt="">
+                                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1504720691000/DesktopAsset@2x.png" class="hidden_phone" alt="">
+                                <img src="http://assets.codecloudapp.com/sites/568d5ba06e6f6402d6000000/image/png/1504720690000/Mobile Asset@2x.png" class="show_phone" alt="">
                             </div>
                         </div>  
                         
