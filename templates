@@ -430,6 +430,8 @@
             });
         });
         $("#custom").click(function(e) {
+            
+            console.log("newsletter");
             changeCustomBG();
             $('#custom_design_container').show();
             $('#premium_design_container').hide();
