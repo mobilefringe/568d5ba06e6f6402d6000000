@@ -274,6 +274,11 @@
         $('#standard_design_container').show();
         $('#custom_design_container').hide();
         $('#newsletter_design_container').hide();
+        $("#standard").removeClass("active_templ_btn");
+        $("#standard").addClass("active_templ_btn");
+        $("#premium").removeClass("active_templ_btn");
+        $("#custom").removeClass("active_templ_btn");
+        $("#newsletters").removeClass("active_templ_btn");
         var x = window.pageXOffset,
             y = window.pageYOffset;
         $(window).one('scroll', function () {
