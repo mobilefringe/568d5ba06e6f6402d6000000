@@ -341,6 +341,11 @@
         $('#custom_design_container').hide();
         $('#premium_design_container').hide();
         $('#standard_design_container').hide();
+        var x = window.pageXOffset,
+                y = window.pageYOffset;
+            $(window).one('scroll', function () {
+                window.scrollTo(x, y);
+            });
     }
     function renderAll(){
         var templates = getBlogDataBySlug("home-templates").posts;
