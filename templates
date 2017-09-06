@@ -259,7 +259,7 @@
         // showw newsletter button only
         $("#newsletters").show();
         $("#premium").hide();
-        $("#newsletters").hide();
+        $("#standard").hide();
         $("#newsletters").hide();
         
         $(".show_phone.template_banner").css({"padding": ""});
