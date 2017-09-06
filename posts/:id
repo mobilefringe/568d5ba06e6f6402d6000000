@@ -19,6 +19,7 @@
                         </figure>
                         <div>{{{html_body}}}</div>  
                         <div>
+                            
                         </div>
                     </script>    
                 </div>
