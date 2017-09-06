@@ -180,6 +180,7 @@
             window.scrollTo(0, 0);
         }
         else if(window.location.href.indexOf("#newsletter") > -1) {
+            console.log("newsletter");
             $("#newsletters").addClass("active_templ_btn");
             $("#newsletters").trigger( "click" );
             changeNewsletterBG();
