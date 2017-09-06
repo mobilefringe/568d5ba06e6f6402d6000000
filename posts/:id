@@ -18,7 +18,7 @@
                             <img src="{{image_url}}"/>
                         </figure>
                         <div>{{{html_body}}}</div>  
-                        <div>
+                        <div class="newsleter_marketing hidden_now">
                             
                         </div>
                     </script>    
