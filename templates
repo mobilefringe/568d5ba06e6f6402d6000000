@@ -147,7 +147,7 @@
             window.scrollTo(0, 0);
         }
         
-        $("#premium_design_container .design_template a");
+        var templates = $("#premium_design_container .design_template a");
         $("#template_"+val.id ).mouseover(function() {
                console.log("hovering");
             });
