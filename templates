@@ -375,7 +375,7 @@
                 }
              });
             $( "button" ).on( "hover", function () {
-               console.log("hovering")
+               console.log("hovering");
             });
         });
         sorted_p_templates = sorted_p_templates.sortBy(function(o){ return o.publish_date }).reverse();
