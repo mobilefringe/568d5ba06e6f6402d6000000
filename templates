@@ -65,6 +65,9 @@
                         <a href="/templates/{{slug}}">
                             <img src="{{image_url}}" alt="Design Template" class="template_img"/>
                             <h3>{{title}}</h3>
+                            <div class="overlay">
+                                <div class="text">See More</div>
+                              </div
                         </a>
                     </div>
                     </div>
