@@ -181,7 +181,7 @@
         }
         else if(window.location.href.indexOf("#newsletter") > -1) {
             $("#newsletters").addClass("active_templ_btn");
-            $("#newsletters").trigger( "click" );
+            $("#newsletters").click();
             changeNewsletterBG();
             window.scrollTo(0, 0);
         }
