@@ -152,7 +152,7 @@
             // console.log($(this).attr("href"));
             // $(this).attr("href", store_url);
             $(this).mouseover(function() {
-                console.log($("#"+$(this).attr("id")));
+                console.log($("#template_"+$(this).attr("id")));
                 // $("#"+$(this).attr("id") +" .template_img").addClass("template_over");
                 $("#template_"+$(this).attr("id")).show();
                 
