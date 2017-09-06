@@ -258,7 +258,7 @@
     function changeNewsletterBG (){
         // showw newsletter button only
         $("#newsletters").show();
-        $("#newsletters").hide();
+        $("#premium").hide();
         $("#newsletters").hide();
         $("#newsletters").hide();
         
