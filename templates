@@ -156,7 +156,7 @@
                 });
                 
                 $(this).mouseout(function() {
-                    $(".template_img").removeClass("template_over");
+                    $($(this).attr("id") +" .template_img").removeClass("template_over");
                 });
         });
         
