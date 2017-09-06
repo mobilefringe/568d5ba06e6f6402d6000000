@@ -73,7 +73,7 @@
             renderMainDetails("#main_container", "#main_template", post_details);
             renderFeaturesDetails("#features_container", "#features_template", blog_posts, blog_slug);
             renderDownloadItem("#download_container", "#download_template", post_details);
-            if() {
+            if(("email-newsletter")> -1) {
                 $(".newsleter_marketing").show();
             }
         }
