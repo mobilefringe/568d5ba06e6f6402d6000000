@@ -453,79 +453,16 @@
         
         $("#premium").click(function(e) {
             changePremiumBG();
-            //$("#design_container").hide();
-            // $('#premium_design_container').show();
-            // $('#standard_design_container').hide();
-            // $('#custom_design_container').hide();
-            // $('#newsletter_design_container').hide();
-            
-            // $("#premium").removeClass("active_templ_btn");
-            // $("#premium").addClass("active_templ_btn");
-            // $("#standard").removeClass("active_templ_btn");
-            // $("#custom").removeClass("active_templ_btn");
-            // $("#newsletters").removeClass("active_templ_btn");
-            // var x = window.pageXOffset,
-            //     y = window.pageYOffset;
-            // $(window).one('scroll', function () {
-            //     window.scrollTo(x, y);
-            // });
         });
         $("#standard").click(function(e) {
             
             changeStandardBG();
-            
-            // $('#premium_design_container').hide();
-            // $('#standard_design_container').show();
-            // $('#custom_design_container').hide();
-            // $('#newsletter_design_container').hide();
-            
-            // $("#standard").removeClass("active_templ_btn");
-            // $("#standard").addClass("active_templ_btn");
-            // $("#premium").removeClass("active_templ_btn");
-            // $("#custom").removeClass("active_templ_btn");
-            // $("#newsletters").removeClass("active_templ_btn");
-            // var x = window.pageXOffset,
-            //     y = window.pageYOffset;
-            // $(window).one('scroll', function () {
-            //     window.scrollTo(x, y);
-            // });
         });
         $("#custom").click(function(e) {
             changeCustomBG();
-            // $('#custom_design_container').show();
-            // $('#premium_design_container').hide();
-            // $('#standard_design_container').hide();
-            // $('#newsletter_design_container').hide();
-            
-            // $("#custom").removeClass("active_templ_btn");
-            // $("#custom").addClass("active_templ_btn");
-            // $("#premium").removeClass("active_templ_btn");
-            // $("#standard").removeClass("active_templ_btn");
-            // $("#newsletters").removeClass("active_templ_btn");
-            // var x = window.pageXOffset,
-            //     y = window.pageYOffset;
-            // $(window).one('scroll', function () {
-            //     window.scrollTo(x, y);
-            // });
         });
         $("#newsletters").click(function(e) {
             changeNewsletterBG();
-            // $('#newsletter_design_container').show();
-            // $('#custom_design_container').hide();
-            // $('#premium_design_container').hide();
-            // $('#standard_design_container').hide();
-            
-            // $("#newsletters").removeClass("active_templ_btn");
-            // $("#newsletters").addClass("active_templ_btn");
-            // $("#custom").removeClass("active_templ_btn");
-            // $("#premium").removeClass("active_templ_btn");
-            // $("#standard").removeClass("active_templ_btn");
-            
-            // var x = window.pageXOffset,
-            //     y = window.pageYOffset;
-            // $(window).one('scroll', function () {
-            //     window.scrollTo(x, y);
-            // });
         });
     }
 </script>
