@@ -300,6 +300,8 @@
        }
     }
     function changeNewsletterBG (){
+        
+            console.log("newsletter");
         // showw newsletter button only
         $(".newsletter_btn_contaienr").show();
         $(".template_btn_contaienr").hide();
