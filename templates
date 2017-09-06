@@ -152,7 +152,7 @@
                 // console.log($(this).attr("href"));
                 // $(this).attr("href", store_url);
                 $(this).mouseover(function() {
-                    console.log("hovering");
+                    console.log("hovering",$(this).attr("id"));
                 });
         });
         
