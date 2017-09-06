@@ -374,7 +374,7 @@
                     val.is_new ="display:none";
                 }
              });
-            $( "button" ).on( "hover", function () {
+            $("#template_"+val.id ).on( "hover", function () {
                console.log("hovering");
             });
         });
