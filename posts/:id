@@ -18,6 +18,8 @@
                             <img src="{{image_url}}"/>
                         </figure>
                         <div>{{{html_body}}}</div>  
+                        <div>
+                        </div>
                     </script>    
                 </div>
             </main>
