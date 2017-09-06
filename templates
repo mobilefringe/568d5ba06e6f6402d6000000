@@ -412,6 +412,7 @@
              });
         }); 
         //console.log(sorted_templates);
+        sorted_n_templates = sorted_n_templates.sortBy(function(o){ return o.publish_date });
         renderGeneral('#newsletter_design_container','#newsletter_design_template', sorted_n_templates);
         
         $("#premium").click(function(e) {
