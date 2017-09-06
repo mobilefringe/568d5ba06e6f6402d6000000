@@ -375,7 +375,7 @@
                 }
              });
         });
-        sorted_p_templates = sorted_p_templates.sortBy(function(o){ return o.publish_date });
+        sorted_p_templates = sorted_p_templates.sortBy(function(o){ return o.publish_date }).reverse();
         renderGeneral('#premium_design_container','#premium_design_template', sorted_p_templates);
         var sorted_s_templates = [];
        $.each(templates, function(key, val) {
@@ -393,7 +393,7 @@
              });
         }); 
         //console.log(sorted_templates);
-        sorted_s_templates = sorted_s_templates.sortBy(function(o){ return o.publish_date });
+        sorted_s_templates = sorted_s_templates.sortBy(function(o){ return o.publish_date }).reverse();
         renderGeneral('#standard_design_container','#standard_design_template', sorted_s_templates);
         
          var sorted_n_templates = [];
