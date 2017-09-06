@@ -387,10 +387,10 @@
         $('#premium_design_container').hide();
         $('#standard_design_container').hide();
         $("#newsletters").removeClass("active_templ_btn");
-            $("#newsletters").addClass("active_templ_btn");
-            $("#custom").removeClass("active_templ_btn");
-            $("#premium").removeClass("active_templ_btn");
-            $("#standard").removeClass("active_templ_btn");
+        $("#newsletters").addClass("active_templ_btn");
+        $("#custom").removeClass("active_templ_btn");
+        $("#premium").removeClass("active_templ_btn");
+        $("#standard").removeClass("active_templ_btn");
         var x = window.pageXOffset,
             y = window.pageYOffset;
         $(window).one('scroll', function () {
