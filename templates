@@ -66,7 +66,7 @@
                             <h3>{{title}}</h3>
                             <div class="overlay">
                                 <div class="text">See More</div>
-                              </div
+                            </div
                         </a>
                     </div>
                     </div>
