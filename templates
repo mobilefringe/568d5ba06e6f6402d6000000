@@ -160,6 +160,7 @@
             
             $(this).mouseout(function() {
                 // $("#"+$(this).attr("id") +" .template_img").removeClass("template_over");
+                $(this).hide();
             });
         });
         
