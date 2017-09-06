@@ -66,6 +66,8 @@
                                 <h3>{{title}}</h3>
                                 
                             </a>
+                            <div id="template_{{id}}">
+                            </div>
                         </div>
                     </div>
                 </script>
