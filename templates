@@ -83,7 +83,6 @@
             </div>
         </div>
         <div class="inside_container newsletter_btn_contaienr hidden_now" style="text-align:center" >
-            
             <div class="col-md-2 col-sm-2 col-xs-12 template_btn_container">
                 <a class="template_btn " href="#newsletters" id="newsletters">
                 <label> Newsletters </label>
