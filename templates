@@ -265,7 +265,7 @@
     }
     function changeNewsletterBG (){
         // showw newsletter button only
-        $("#newsletters").show();
+        $(".newsletter_btn_contaienr").show();
         $(".template_btn_contaienr").hide();
         
         $(".show_phone.template_banner").css({"padding": ""});
