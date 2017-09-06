@@ -154,6 +154,7 @@
             $(this).mouseover(function() {
                 // console.log($("#"+$(this).attr("id") +" .template_img"));
                 // $("#"+$(this).attr("id") +" .template_img").addClass("template_over");
+                $(this).show();
                 
             });
             
