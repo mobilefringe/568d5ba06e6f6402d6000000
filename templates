@@ -342,7 +342,7 @@
         $('#premium_design_container').hide();
         $('#standard_design_container').hide();
         var x = window.pageXOffset,
-                y = window.pageYOffset;
+            y = window.pageYOffset;
             $(window).one('scroll', function () {
                 window.scrollTo(x, y);
             });
