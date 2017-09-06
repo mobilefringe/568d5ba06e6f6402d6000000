@@ -74,7 +74,7 @@
             renderFeaturesDetails("#features_container", "#features_template", blog_posts, blog_slug);
             renderDownloadItem("#download_container", "#download_template", post_details);
             if() {
-                $(".newsleter_marketing").show("email-newsletter");
+                $(".newsleter_marketing").show();
             }
         }
         
