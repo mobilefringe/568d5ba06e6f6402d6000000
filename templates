@@ -147,7 +147,7 @@
             window.scrollTo(0, 0);
         }
         
-        $("#premium_design_container .design_template template_over").each(function(){
+        $("#premium_design_container .design_template template_hover").each(function(){
             // var store_url = $(this).attr("href")+"?building=1&menu=0";
             // console.log($(this).attr("href"));
             // $(this).attr("href", store_url);
