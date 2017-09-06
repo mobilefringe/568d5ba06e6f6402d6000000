@@ -150,7 +150,7 @@
                 // console.log($(this).attr("href"));
                 // $(this).attr("href", store_url);
                 $(this).mouseover(function() {
-                    console.log("hovering",$(this));
+                    // console.log("hovering",$(this));
                     $("#template_img").addClass("template_over");
                     
                 });
