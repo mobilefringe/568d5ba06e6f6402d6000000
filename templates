@@ -158,8 +158,7 @@
                 });
                 
                 $(this).mouseout(function() {
-                    console.log("hovering",$(this).attr("id"));
-                    
+                    $(this).removeClass("template_over");
                 });
         });
         
