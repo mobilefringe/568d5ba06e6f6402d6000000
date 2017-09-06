@@ -151,12 +151,12 @@
                 // $(this).attr("href", store_url);
                 $(this).mouseover(function() {
                     console.log("hovering",$(this));
-                    $("#template-img").addClass("template_over");
+                    $("#template_img").addClass("template_over");
                     
                 });
                 
                 $(this).mouseout(function() {
-                    $("#template-img").removeClass("template_over");
+                    $("#template_img").removeClass("template_over");
                 });
         });
         
