@@ -338,9 +338,9 @@
         $(".mm_post_author_m").text("");
         
         $('#newsletter_design_container').show();
-            $('#custom_design_container').hide();
-            $('#premium_design_container').hide();
-            $('#standard_design_container').hide();
+        $('#custom_design_container').hide();
+        $('#premium_design_container').hide();
+        $('#standard_design_container').hide();
     }
     function renderAll(){
         var templates = getBlogDataBySlug("home-templates").posts;
