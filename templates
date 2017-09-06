@@ -359,7 +359,7 @@
         });
     }
     function renderAll(){
-        var templates = getBlogDataBySlug("home-templates").posts.sortBy(function(o){ return o.publish_date });
+        var templates = getBlogDataBySlug("home-templates").posts;
         var sorted_p_templates = [];
         $.each(templates, function(key, val) {
             $.each( val.tag , function( tag_key, tag ) {
