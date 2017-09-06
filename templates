@@ -151,12 +151,12 @@
                 // $(this).attr("href", store_url);
                 $(this).mouseover(function() {
                     console.log($("#template_"+$(this).attr("id") +" .template_img"));
-                    $("#template_"+$(this).attr("id") +" .template_img").addClass("template_over");
+                    $($(this).attr("id") +" .template_img").addClass("template_over");
                     
                 });
                 
                 $(this).mouseout(function() {
-                    $("#template_"+$(this).attr("id") +" .template_img").removeClass("template_over");
+                    $($(this).attr("id") +" .template_img").removeClass("template_over");
                 });
         });
         
