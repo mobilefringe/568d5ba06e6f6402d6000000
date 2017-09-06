@@ -374,6 +374,9 @@
                     val.is_new ="display:none";
                 }
              });
+            $( "button" ).on( "hover", function () {
+               
+            });
         });
         sorted_p_templates = sorted_p_templates.sortBy(function(o){ return o.publish_date }).reverse();
         renderGeneral('#premium_design_container','#premium_design_template', sorted_p_templates);
