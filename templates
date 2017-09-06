@@ -259,8 +259,8 @@
         // showw newsletter button only
         $("#newsletters").show();
         $("#newsletters").hide();
-        
-        
+        $("#newsletters").hide();
+        $("#newsletters").hide();
         
         $(".show_phone.template_banner").css({"padding": ""});
         $(".template_banner_image").removeAttr( 'style' );
