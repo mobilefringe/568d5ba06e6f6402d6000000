@@ -151,7 +151,7 @@
                 // var store_url = $(this).attr("href")+"?building=1&menu=0";
                 // console.log($(this).attr("href"));
                 // $(this).attr("href", store_url);
-                $("#template_"+val.id ).mouseover(function() {
+                $(this).mouseover(function() {
                     console.log("hovering");
                 });
         });
