@@ -260,7 +260,7 @@
         $("#newsletters").show();
         $("#premium").hide();
         $("#standard").hide();
-        $("#newsletters").hide();
+        $("#custom").hide();
         
         $(".show_phone.template_banner").css({"padding": ""});
         $(".template_banner_image").removeAttr( 'style' );
