@@ -163,7 +163,7 @@
         if(window.location.href.indexOf("#premium") > -1) {
             changePremiumBG();
             $("#premium").addClass("active_templ_btn");
-            $("#premium").trigger( "click" );
+            $("#premium").trigger("click");
             window.scrollTo(0, 0);
         }
         else if(window.location.href.indexOf("#standard") > -1) {
@@ -175,13 +175,13 @@
         }
         else if(window.location.href.indexOf("#custom") > -1) {
             $("#custom").addClass("active_templ_btn");
-            $("#custom").trigger( "click" );
+            $("#custom").trigger("click");
             changeCustomBG();
             window.scrollTo(0, 0);
         }
         else if(window.location.href.indexOf("#newsletter") > -1) {
             $("#newsletters").addClass("active_templ_btn");
-            $("#newsletters").click();
+            $("#newsletters").trigger("click");
             changeNewsletterBG();
             window.scrollTo(0, 0);
         }
@@ -301,6 +301,7 @@
     }
     function changeNewsletterBG (){
         
+            console.log("newsletter");
         // showw newsletter button only
         $(".newsletter_btn_contaienr").show();
         $(".template_btn_contaienr").hide();
@@ -448,8 +449,6 @@
             });
         });
         $("#newsletters").click(function(e) {
-            
-            console.log("newsletter");
             changeNewsletterBG();
             $('#newsletter_design_container').show();
             $('#custom_design_container').hide();
