@@ -1,16 +1,16 @@
 <style>
-.container {
+.premium_design_template.container {
   position: relative;
   width: 50%;
 }
 
-.image {
+.premium_design_template.image {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.overlay {
+.premium_design_template.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -23,11 +23,11 @@
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.premium_design_template.container:hover .overlay {
   opacity: 1;
 }
 
-.text {
+.premium_design_template.text {
   color: white;
   font-size: 20px;
   position: absolute;
