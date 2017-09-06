@@ -226,6 +226,11 @@
         $("#mm_post_author").text("");
         $(".mm_post_title_m").text("MALL MAVERICK WEBSITE DESIGNS");
         $(".mm_post_author_m").text("");
+        
+        $('#premium_design_container').show();
+            $('#standard_design_container').hide();
+            $('#custom_design_container').hide();
+            $('#newsletter_design_container').hide();
     }
     function changeStandardBG (){
         $(".show_phone.template_banner").css({"padding": ""});
