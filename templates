@@ -146,6 +146,10 @@
             changeNewsletterBG();
             window.scrollTo(0, 0);
         }
+        
+        $("#template_"+val.id ).mouseover(function() {
+               console.log("hovering");
+            });
     });
     
     $(window).on('resize', function(){
