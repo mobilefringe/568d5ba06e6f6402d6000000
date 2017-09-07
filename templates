@@ -66,10 +66,8 @@
                                     <img src="{{image_url}}" alt="Design Template" class="template_img" id="{{id}}"/>
                                 </div>
                                 <h3>{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3> 
-                                
                             </a>
-                            <div id="template_{{id}}" class="template_hover">
-                            </div>
+                            
                         </div>
                     </div>
                 </script>
