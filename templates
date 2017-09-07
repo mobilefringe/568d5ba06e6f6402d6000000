@@ -68,7 +68,7 @@
                                         <h3 class="hover_text">See More </h3>
                                     </div>
                                 </div>
-                                <h3>{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3> 
+                                <h3  class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3> 
                             </a>
                             
                         </div>
@@ -118,7 +118,7 @@
                                     <h3 class="hover_text">See More </h3>
                                 </div>
                             </div>
-                            <h3>{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
+                            <h3 class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
                         </a>
                     </div>
                     </div>
