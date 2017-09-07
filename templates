@@ -65,7 +65,7 @@
                                 <div class="template_img_container" style="position:relative">
                                     <img src="{{image_url}}" alt="Design Template" class="template_img" id="{{id}}"/>
                                     <div id="template_{{id}}" class="template_hover">
-                                        See More
+                                        <h3>See More </h3>
                                     </div>
                                 </div>
                                 <h3>{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3> 
