@@ -60,10 +60,9 @@
                 
                     <div class="col-md-4 design_template">
                         <div class="template_padding">
-                            
+                            <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template " alt="" style="{{is_new}}">
                             <a href="/templates/{{slug}}" >
-                                <div class="template_img_container" style="position:relative">
-                                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template " alt="" style="{{is_new}}">
+                                <div class="template_img_container">
                                     <img src="{{image_url}}" alt="Design Template" class="template_img" id="{{id}}"/>
                                     <div id="template_{{id}}" class="template_hover">
                                         See More
