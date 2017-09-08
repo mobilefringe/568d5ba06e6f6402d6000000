@@ -115,6 +115,8 @@
                             <div class="template_img_container" style="position:relative">
                                 <img src="{{image_url}}" alt="Design Template" class="template_img""/>
                                 <div class="template_hover">
+                                    <div>
+                                    </div>
                                     <h3 class="hover_text">See More </h3>
                                 </div>
                             </div>
