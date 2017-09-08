@@ -116,8 +116,8 @@
                                 <img src="{{image_url}}" alt="Design Template" class="template_img""/>
                                 <div class="template_hover">
                                     <div>
-                                    </div>
                                     <h3 class="hover_text">See More </h3>
+                                    </div>
                                 </div>
                             </div>
                             <h3 class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
