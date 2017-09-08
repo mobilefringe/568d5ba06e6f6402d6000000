@@ -87,10 +87,10 @@
                             <div class="template_img_container" style="position:relative">
                                 <img src="{{image_url}}" alt="Design Template" class="template_img"/>
                                 <div class="template_hover">
-                                    </div>
-                                    <div class="hover_see_more_btn">
-                                        <h3 class="hover_text">View Full Design </h3>
-                                    </div>
+                                </div>
+                                <div class="hover_see_more_btn">
+                                    <h3 class="hover_text">View Full Design </h3>
+                                </div>
                             </div>
                             <h3 class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
                         </a>
@@ -119,9 +119,9 @@
                             <div class="template_img_container" style="position:relative">
                                 <img src="{{image_url}}" alt="Design Template" class="template_img""/>
                                 <div class="template_hover">
-                                    <div class="hover_see_more_btn">
-                                        <h3 class="hover_text">View Full Design </h3>
-                                    </div>
+                                </div>
+                                <div class="hover_see_more_btn">
+                                    <h3 class="hover_text">View Full Design </h3>
                                 </div>
                             </div>
                             <h3 class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
