@@ -68,8 +68,8 @@
                                         
                                     </div>
                                     <div class="hover_see_more_btn">
-                                            <h3 class="hover_text">View Full Design </h3>
-                                        </div>
+                                        <h3 class="hover_text">View Full Design </h3>
+                                    </div>
                                 </div>
                                 <h3 class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3> 
                             </a>
