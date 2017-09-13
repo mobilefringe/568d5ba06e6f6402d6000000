@@ -166,22 +166,6 @@
             window.scrollTo(0, 0);
         }
         
-        // $("#premium_design_container .template_img").each(function(){
-        //     // var store_url = $(this).attr("href")+"?building=1&menu=0";
-        //     // console.log($(this).attr("href"));
-        //     // $(this).attr("href", store_url);
-        //     $(this).mouseover(function() {
-        //         console.log($("#template_"+$(this).attr("id")));
-        //         // $("#"+$(this).attr("id") +" .template_img").addClass("template_over");
-        //         $("#template_"+$(this).attr("id")).show();
-                
-        //     });
-            
-        //     $(this).mouseout(function() {
-        //         // $("#"+$(this).attr("id") +" .template_img").removeClass("template_over");
-        //         $("#template_"+$(this).attr("id")).hide();
-        //     });
-        // });
         
     });
     
