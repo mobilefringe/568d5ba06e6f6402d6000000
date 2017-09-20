@@ -64,6 +64,7 @@
             console.log(post_details);
             
             var blog = getBlogDataBySlug('home-add-ons');
+            console.log(blog)
             var blog_posts = blog.posts.sortBy(function(o){ return o.publish_date });
 
             renderHeaderDetails("#header_container", "#header_template", post_details);
