@@ -103,6 +103,7 @@
         function renderPageHTML(){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
+            if(slug == "home-newsletterbenefits")
             prefix = get_prefix();
             var pages_json = prefix + "/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
