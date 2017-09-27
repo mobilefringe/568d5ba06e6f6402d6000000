@@ -42,7 +42,7 @@
                             <figure class="feature_image">
                                 <img src="{{image_url}}"/>
                             </figure>
-                            <div id="mm_post_content"></div>  
+                            <div id="newsletter_mm_post_content"></div>  
                             
                         </script>    
                     </div>
