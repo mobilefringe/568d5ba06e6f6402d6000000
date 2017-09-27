@@ -27,7 +27,7 @@
         <div class = "inside_container">
             <div id="header_container">
                 <script id="header_template" type="x-tmpl-mustache/text">
-                    <h2 class="text-center inside_main_header">{{title}}</h2>
+                    <h2 class="text-center inside_main_header" id="mm_post_title">{{title}}</h2>
                     <p class="text-center desc banner_text">{{author}}</p> 
                 </script>    
             </div>    
