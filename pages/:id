@@ -22,7 +22,7 @@
         </div>    
     </section>
 </div>
-<div class="">
+<div id="newsletter_pages">
     <section class="page_banner">
         <div class = "inside_container">
             <div id="header_container">
