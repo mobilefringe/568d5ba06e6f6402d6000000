@@ -104,12 +104,12 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             if(slug == "home-newsletterbenefits") {
-                $("#newsletters_page").show();
+                $("#newsletter_page").show();
                 $("#default_pages").hide();
             }
             else {
                 $("#default_pages").show();
-                $("#newsletters_page").hide();
+                $("#newsletter_page").hide();
             }
             prefix = get_prefix();
             var pages_json = prefix + "/pages/" + slug + ".json"
