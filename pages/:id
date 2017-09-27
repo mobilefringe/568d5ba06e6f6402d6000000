@@ -108,6 +108,7 @@
                 $("#default_pages").hide();
             }
             else {
+                $("#default_pages").show();
                 $("#newsletters_page").hide();
             }
             prefix = get_prefix();
