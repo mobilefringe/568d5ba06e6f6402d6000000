@@ -107,6 +107,9 @@
                 $("#newsletters_page").show();
                 
             }
+            else {
+                $("#newsletters_page").hide();
+            }
             prefix = get_prefix();
             var pages_json = prefix + "/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
