@@ -106,6 +106,7 @@
             if(slug == "home-newsletterbenefits") {
                 $("#newsletters_page").show();
                 
+                $("#default_pages").hide();
             }
             else {
                 $("#newsletters_page").hide();
