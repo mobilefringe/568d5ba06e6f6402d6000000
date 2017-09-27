@@ -105,7 +105,6 @@
             var slug = pathArray[pathArray.length-1];
             if(slug == "home-newsletterbenefits") {
                 $("#newsletters_page").show();
-                
                 $("#default_pages").hide();
             }
             else {
