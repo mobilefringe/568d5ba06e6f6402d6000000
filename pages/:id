@@ -56,14 +56,14 @@
                     </div>
                 </main>
                 <aside class="col-md-4">
-                    <div class="hidden-xs hidden-s features_container">
-                        <!--<h4>Other Features</h4>-->
-                        <!--<ul id="features_container">-->
-                        <!--    <script id="features_template" type="x-tmpl-mustache/text">-->
-                        <!--        <li><a href="{{slug}}" class="contact"><i class="material-icons check_mark">check_circle</i>{{title}}</a></li>-->
-                        <!--    </script> -->
-                        <!--</ul>-->
-                    </div>
+                    <!--<div class="hidden-xs hidden-s features_container">-->
+                    <!--    <h4>Other Features</h4>-->
+                    <!--    <ul id="features_container">-->
+                    <!--        <script id="features_template" type="x-tmpl-mustache/text">-->
+                    <!--            <li><a href="{{slug}}" class="contact"><i class="material-icons check_mark">check_circle</i>{{title}}</a></li>-->
+                    <!--        </script> -->
+                    <!--    </ul>-->
+                    <!--</div>-->
                     <div class="contact_container">
                         <h3>Ready to Discuss?</h3>
                         <div class="contact_info">
