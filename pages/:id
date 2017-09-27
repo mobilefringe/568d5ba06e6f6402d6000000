@@ -3,6 +3,13 @@
         padding-bottom: 50px;
         margin-bottom: 30px;
     }
+    .newsletter_page_banner {
+    background: url(//codecloud.cdn.speedyrails.net/sites/568d5ba…/image/png/1459543447000/bg_ibeacons.png);
+    background-size: cover;
+    padding: 170px 0 227px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
 </style>
 
 <div id="default_pages">
