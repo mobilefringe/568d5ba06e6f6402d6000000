@@ -113,6 +113,7 @@
                 $('#newsletter_mm_post_title').html(data.title);
                 $('#newsletter_mm_post_author').html(data.author);
                 $('#mm_post_content').html(data.body);
+                $('#newsletter_mm_post_content').html(data.body);
                 console.log(data);
             }); 
         }
