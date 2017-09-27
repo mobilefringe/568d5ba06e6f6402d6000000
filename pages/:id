@@ -37,15 +37,16 @@
         <div class="inside_container">
             <div class="row">
                 <main class="col-md-8">
-                    <div id="main_container" class="post_content">
-                        <script id="main_template" type="x-tmpl-mustache/text">
-                            <figure class="feature_image">
-                                <img src="{{image_url}}"/>
-                            </figure>
-                            <div id="newsletter_mm_post_content"></div>  
+                    <!--<div id="main_container" class="post_content">-->
+                    <!--    <script id="main_template" type="x-tmpl-mustache/text">-->
+                    <!--        <figure class="feature_image">-->
+                    <!--            <img src="{{image_url}}"/>-->
+                    <!--        </figure>-->
+                    <!--        <div id="newsletter_mm_post_content"></div>  -->
                             
-                        </script>    
-                    </div>
+                    <!--    </script>    -->
+                    <!--</div>-->
+                    <div id="mm_post_content"></div>
                 </main>
                 <aside class="col-md-4">
                     <!--<div class="hidden-xs hidden-s features_container">-->
