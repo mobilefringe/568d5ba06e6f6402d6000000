@@ -41,14 +41,14 @@ $(document).ready(function(){
         }
     });
     
-	jQuery('.dynpost-left').addClass("hiddenAnimate").viewportChecker({
-	    classToAdd: 'visibleAnimate animated bounceInLeft',
-	    offset: 100    
-	   });
-	jQuery('.dynpost-right').addClass("hiddenAnimate").viewportChecker({
-	    classToAdd: 'visibleAnimate animated bounceInRight',
-	    offset: 100
-	});
+// 	jQuery('.dynpost-left').addClass("hiddenAnimate").viewportChecker({
+// 	    classToAdd: 'visibleAnimate animated bounceInLeft',
+// 	    offset: 100    
+// 	   });
+// 	jQuery('.dynpost-right').addClass("hiddenAnimate").viewportChecker({
+// 	    classToAdd: 'visibleAnimate animated bounceInRight',
+// 	    offset: 100
+// 	});
 	
 	var navbar = document.getElementById("header");
 	var headroom = new Headroom(navbar);
