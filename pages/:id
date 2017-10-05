@@ -36,6 +36,7 @@
         letter-spacing: 0;
         line-height: 119.64px;
         margin-top: 30px;
+        
     }
     .key_benefits .details {
         /* Simply login into yo: */
