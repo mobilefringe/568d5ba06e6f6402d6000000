@@ -103,7 +103,11 @@
             padding: 170px 0 189px 0;
         }
         #newsletter_mm_post_content_mobile{
-            
+            background: url("//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1507235711000/Deafult MM Background_large.png");
+        background-size: 100%;
+        padding: 170px 0 227px 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         }
     }
 </style>
