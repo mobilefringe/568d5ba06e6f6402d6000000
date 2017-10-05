@@ -90,12 +90,10 @@
     transition: background-color 500ms ease-out 1s;
     }
     .key_benefits .visit {
-        /* Visit our brand new Copy: */
-font-family: .SFNSDisplay;
-font-size: 30.76px;
-color: #000000;
-letter-spacing: 0;
-line-height: 90.58px;
+        font-size: 30.76px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 90.58px;
     }
 </style>
 
