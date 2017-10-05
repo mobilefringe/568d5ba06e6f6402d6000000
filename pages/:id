@@ -35,6 +35,7 @@
         color: #000000;
         letter-spacing: 0;
         line-height: 119.64px;
+            margin-top: 30px;
     }
 </style>
 
