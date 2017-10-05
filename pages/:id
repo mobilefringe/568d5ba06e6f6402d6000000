@@ -127,9 +127,9 @@
             background-attachment: fixed;
             /* DON’T HAVE MALL MAVE Copy: */
 
-                font-size: 18px;
-                color: #FFFFFF;
-                letter-spacing: 0;
+            font-size: 18px;
+            color: #FFFFFF;
+            letter-spacing: 0;
         }
     }
 </style>
