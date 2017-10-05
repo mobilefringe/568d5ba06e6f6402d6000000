@@ -70,7 +70,7 @@
         font-family: "SFNSDisplay";
         font-size: 23.93px;
         letter-spacing: 0;
-        
+        border: solid 1px #F5A623;
     }
     .newsletter_btn:active,
     .newsletter_btn:focus,
