@@ -136,6 +136,7 @@
             font-size: 18px;
             color: #FFFFFF;
             letter-spacing: 0;
+                line-height: 30px;
         }
     }
 </style>
