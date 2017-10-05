@@ -68,6 +68,10 @@
         float: none;
         text-align:left;
     }
+     #newsletter_mm_post_content_mobile .center_vertical {
+        
+        text-align:center;
+    }
     .key_benefits .row {
             margin: 40px auto;
     }
