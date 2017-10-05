@@ -55,6 +55,9 @@
         float: none;
         text-align:left;
     }
+    .key_benefits .row {
+            margin: 30px auto;
+    }
 </style>
 
 <div id="default_pages">
