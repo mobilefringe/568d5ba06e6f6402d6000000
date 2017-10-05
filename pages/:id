@@ -5,7 +5,7 @@
     }
     .newsletter_page_banner {
         background: url("//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1507228707000/Deafult MM Background_1x.png");
-        background-size: cover;
+        background-size: 100%;
         padding: 170px 0 227px 0;
         background-repeat: no-repeat;
         background-attachment: fixed;
