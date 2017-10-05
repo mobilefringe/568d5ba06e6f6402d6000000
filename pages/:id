@@ -98,6 +98,11 @@
         letter-spacing: 0;
         line-height: 90.58px;
     }
+    @media (max-width: 768px){
+        .page_banner {
+            padding: 170px 0 189px 0;
+        }
+    }
 </style>
 
 <div id="default_pages">
