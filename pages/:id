@@ -58,6 +58,9 @@
     .key_benefits .row {
             margin: 40px auto;
     }
+    .newsletter_btn_container {
+        margin: 70px auto 0;
+    }
     .newsletter_btn{
         text-align:center;
         color: #fff;
