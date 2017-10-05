@@ -16,7 +16,7 @@
         width: 100%;
     }
     .banner_div{
-        background: url("//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1507228575000/Deafult MM Background.png");
+        background: url("//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1507229266000/Banner Text.png");
         background-size: 100%;
         padding: 170px 0 227px 0;
         background-repeat: no-repeat;
