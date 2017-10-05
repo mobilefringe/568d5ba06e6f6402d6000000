@@ -76,7 +76,7 @@
     .newsletter_btn:focus,
     .newsletter_btn.active,
     .newsletter_btn:hover{
-        background-color: #000;
+        background-color: #fff;
         color: #F5A623;
         text-decoration:none;
         background-image: none;
