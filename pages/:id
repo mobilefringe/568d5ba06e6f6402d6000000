@@ -43,6 +43,7 @@
         font-size: 20px;
         color: #FFFFFF;
         letter-spacing: 0;
+        min-height:200px;
     }
     .key_benefits h2{
         /* Key Benefits:: */
