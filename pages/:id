@@ -142,7 +142,7 @@
             line-height: 30px;
         }
         .banner_div_mobile{
-            padding: 19px 0 40px 0;
+            padding: 10px 0 20px 0;
             margin-bottom: 0px;
             color:#fff;
             /* Entice users to visi: */
