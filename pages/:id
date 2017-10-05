@@ -10,7 +10,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    #newsletter_mm_post_content{
+    #newsletter_mm_post_content , #newsletter_mm_post_content_mobile{
         margin:auto;
         text-align: center;
         width: 100%;
