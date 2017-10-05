@@ -34,7 +34,7 @@
         <div class = "inside_container">
             <!--<div id="header_container">-->
               <!--   <script id="header_template" type="x-tmpl-mustache/text">-->
-                    <h2 class="text-center inside_main_header" id="newsletter_mm_post_title"></h2>
+                    <h2 class="text-center inside_main_header" id="newsletter_mm_post_title">DON'T HAVE MALL MAVERICK'S <br/> NEWSLETTER SOLUTIONS?</h2>
                     <p class="text-center desc banner_text" id="newsletter_mm_post_author"></p> 
                 <!--</script>    -->
             <!--</div>    -->
