@@ -129,11 +129,11 @@
             
         }
         /* DON’T HAVE MALL MAVE Copy: */
-            #newsletter_mm_post_title{
-                font-size: 18px;
-                color: #FFFFFF;
-                letter-spacing: 0;
-            }
+        #newsletter_mm_post_title{
+            font-size: 18px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+        }
     }
 </style>
 
