@@ -130,7 +130,7 @@
         }
         
     }
-    @media (max-width: 768px){
+    @media (max-width: 468px){
         /* DON’T HAVE MALL MAVE Copy: */
         #newsletter_mm_post_title{
             font-size: 18px;
