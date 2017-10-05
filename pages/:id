@@ -102,6 +102,9 @@
         .newsletter_page_banner {
             padding: 170px 0 189px 0;
         }
+        #newsletter_mm_post_content_mobile{
+            
+        }
     }
 </style>
 
