@@ -84,10 +84,10 @@
         outline: none;
         -webkit-box-shadow: none;
         box-shadow: none;
-        -webkit-transition:  100ms ease-out 1s;
-    -moz-transition: 100ms ease-out 1s;
-    -o-transition:  100ms ease-out 1s;
-    transition: 100ms ease-out 1s;
+        -webkit-transition:  100ms ease-out 100ms;
+    -moz-transition: 100ms ease-out 100ms;
+    -o-transition:  100ms ease-out 100ms;;
+    transition: 100ms ease-out 100ms;
     }
     .key_benefits .visit {
         font-size: 30.76px;
