@@ -30,7 +30,7 @@
     }
     .key_benefits h2{
         /* Key Benefits:: */
-        font-family: Akrobat-SemiBold;
+        font-family: "Akrobat-SemiBold";
         font-size: 36px;
         color: #000000;
         letter-spacing: 0;
