@@ -28,6 +28,9 @@
         color: #FFFFFF;
         letter-spacing: 0;
     }
+    .key_benefits{
+        
+    }
 </style>
 
 <div id="default_pages">
