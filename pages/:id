@@ -125,12 +125,7 @@
             padding: 130px 0 140px 0;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            /* DON’T HAVE MALL MAVE Copy: */
-            #newsletter_mm_post_title{
-                font-size: 18px;
-                color: #FFFFFF;
-                letter-spacing: 0;
-            }
+            
             
         }
     }
