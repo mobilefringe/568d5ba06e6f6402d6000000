@@ -44,6 +44,11 @@
         color: #000000;
         letter-spacing: 0;
     }
+    .key_benefits .row_image {
+        width: 135px;
+    height: 135px;
+}
+    }
 </style>
 
 <div id="default_pages">
