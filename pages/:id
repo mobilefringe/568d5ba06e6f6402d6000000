@@ -71,7 +71,6 @@
         box-shadow: 0 2px 2px 0 rgba(117,117,117,0.50);
         border-radius: 5.47px;
         /*font-family: "SFNSDisplay";*/
-        font-weight:normal;
         font-size: 23.93px;
         letter-spacing: 0;
         border: solid 4px #F5A623;
