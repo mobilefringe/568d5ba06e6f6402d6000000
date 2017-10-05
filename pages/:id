@@ -12,6 +12,8 @@
     }
     #newsletter_mm_post_content{
         margin:auto;
+            text-align: center;
+    width: 100%;
     }
 </style>
 
