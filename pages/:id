@@ -10,7 +10,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .newsletter_page_banner .post_content{
+    #newsletter_mm_post_content{
         margin:auto;
     }
 </style>
