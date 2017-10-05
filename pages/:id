@@ -199,7 +199,7 @@
                                 Visit our brand new newsletter design website…
                             </div>
                             <div class="newsletter_btn_container">
-                                <a class="newsletter_btn" href="" id="">
+                                <a class="newsletter_btn" href="/posts/#newsletters" id="">
                                     <label> Newsletter Designs </label>
                                 </a>
                             </div >
