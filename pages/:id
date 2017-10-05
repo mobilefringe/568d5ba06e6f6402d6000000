@@ -99,7 +99,7 @@
         line-height: 90.58px;
     }
     @media (max-width: 768px){
-        .page_banner {
+        .newsletter_page_banner {
             padding: 170px 0 189px 0;
         }
     }
