@@ -11,7 +11,7 @@
         background-attachment: fixed;
     }
     .newsletter_page_banner .post_content{
-        
+        margin:auto;
     }
 </style>
 
