@@ -39,10 +39,10 @@
     }
     .key_benefits .details {
         /* Simply login into yo: */
-font-family: .SFNSDisplay;
-font-size: 24px;
-color: #000000;
-letter-spacing: 0;
+        font-family: .SFNSDisplay;
+        font-size: 24px;
+        color: #000000;
+        letter-spacing: 0;
     }
 </style>
 
