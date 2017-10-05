@@ -143,7 +143,7 @@
         }
         .banner_div_mobile{
             padding: 19px 0 40px 0;
-            margin: 20px auto;
+            margin-bottom: 0px;
             color:#fff;
             /* Entice users to visi: */
             /*font-family: AppleSystemUIFont;*/
