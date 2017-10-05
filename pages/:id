@@ -126,10 +126,12 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             /* DON’T HAVE MALL MAVE Copy: */
-
-            font-size: 18px;
+            #newsletter_mm_post_title{
+                font-size: 18px;
             color: #FFFFFF;
             letter-spacing: 0;
+            }
+            
         }
     }
 </style>
