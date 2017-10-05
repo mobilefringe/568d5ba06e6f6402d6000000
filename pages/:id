@@ -23,7 +23,7 @@
         margin: 20px auto;
         color:#fff;
         /* Entice users to visi: */
-        font-family: "Akrobat-SemiBold";
+        font-family: Akrobat-SemiBold;
         font-size: 24px;
         color: #FFFFFF;
         letter-spacing: 0;
@@ -36,7 +36,7 @@
         margin: 20px auto;
         color:#fff;
         /* Entice users to visi: */
-        font-family: "AppleSystemUIFont";
+        font-family: AppleSystemUIFont;
         font-size: 14px;
         color: #FFFFFF;
         letter-spacing: 0;
