@@ -78,7 +78,10 @@
                         </div>
                         <div class="key_benefits">
                             <h2>Key Benefits:</h2>
-                            <div>
+                            <div class="row">
+                                <div class="col-md-1">
+                                    
+                                </div>
                                 
                             </div>
                         </div>
