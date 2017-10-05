@@ -67,7 +67,7 @@
         /* Rectangle 16: */
         background: #F5A623;
         box-shadow: 0 2px 2px 0 rgba(117,117,117,0.50);
-        border-radius: 5.47px #F5A623;;
+        border-radius: 5.47px;
         font-family: "SFNSDisplay";
         font-size: 23.93px;
         letter-spacing: 0;
