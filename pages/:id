@@ -186,7 +186,7 @@
                             <div class="details">
                                 Visit our brand new newsletter design website…
                             </div>
-                            <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
+                            <div class="template_btn_container">
                                 <a class="newsletter_btn" href="" id="">
                                     <label> Newsletter Designs </label>
                                 </a>
