@@ -154,6 +154,7 @@
             font-size: 1.1em;
             color: #FFFFFF;
             letter-spacing: 0;
+                min-height: 160px;
         }
     }
 </style>
