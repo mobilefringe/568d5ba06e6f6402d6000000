@@ -27,6 +27,8 @@
         font-size: 24px;
         color: #FFFFFF;
         letter-spacing: 0;
+            min-height: 133px;
+    min-width: 100%;
     }
     .banner_div_mobile{
         background: url("//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1507236309000/TextBanner_mobile.png");
