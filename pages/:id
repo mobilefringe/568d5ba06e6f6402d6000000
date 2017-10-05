@@ -135,6 +135,8 @@
             letter-spacing: 0;
         }
     }
+    @media (max-width: 768px){
+    }
 </style>
 
 <div id="default_pages">
