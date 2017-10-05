@@ -102,7 +102,7 @@
         .newsletter_page_banner {
             padding: 170px 0 189px 0;
         }
-        #newsletter_mm_post_content_mobile{
+        .newsletter_page_banner{
             background: url("//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1507235863000/MM Default BG_mobile.png");
             background-size: 100%;
             padding: 170px 0 227px 0;
