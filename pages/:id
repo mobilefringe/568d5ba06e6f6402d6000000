@@ -29,7 +29,12 @@
         letter-spacing: 0;
     }
     .key_benefits{
-        
+        /* Key Benefits:: */
+        font-family: Akrobat-SemiBold;
+        font-size: 36px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 119.64px;
     }
 </style>
 
