@@ -187,7 +187,7 @@
                                 Visit our brand new newsletter design website…
                             </div>
                             <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
-                                <a class="template_btn active_templ_btn" href="#premium" id="premium">
+                                <a class="newsletter_btn active_templ_btn" href="#premium" id="premium">
                                     <label> Newsletter Designs </label>
                                 </a>
                             </div >
