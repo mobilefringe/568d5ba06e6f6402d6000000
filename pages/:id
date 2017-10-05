@@ -28,7 +28,7 @@
         color: #FFFFFF;
         letter-spacing: 0;
         max-height: 150px;
-        min-height: 150px
+        min-height: 150px;
         min-width: 100%;
     }
     .banner_div_mobile{
