@@ -58,6 +58,34 @@
     .key_benefits .row {
             margin: 40px auto;
     }
+    .template_btn{
+        text-align:center;
+        background-color:#323232;
+        color: #fff;
+        font-size:16px;
+        // border-radius: 2px;
+        border-radius: 999rem;
+        padding:10px 20px;
+        // margin:10px;
+        :active{
+            background-color: #FFBE1D;
+            color:#000;
+            text-decoration:none;
+        }
+        
+    }
+    .template_btn:active,
+    .template_btn:focus,
+    .template_btn.active,
+    .template_btn:hover{
+        background-color: #FFBE1D;
+        color:#000;
+        text-decoration:none;
+        background-image: none;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
 </style>
 
 <div id="default_pages">
