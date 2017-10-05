@@ -23,14 +23,14 @@
         margin: 20px auto;
         color:#fff;
         /* Entice users to visi: */
-        font-family: "Akrobat-SemiBold";
+        font-family: Akrobat-SemiBold;
         font-size: 24px;
         color: #FFFFFF;
         letter-spacing: 0;
     }
     .key_benefits h2{
         /* Key Benefits:: */
-        font-family: "Akrobat-SemiBold";
+        font-family: Akrobat-SemiBold;
         font-size: 36px;
         color: #000000;
         letter-spacing: 0;
@@ -39,7 +39,7 @@
     }
     .key_benefits .details {
         /* Simply login into yo: */
-        font-family: "SFNSDisplay";
+        font-family: .SFNSDisplay;
         font-size: 24px;
         color: #000000;
         letter-spacing: 0;
@@ -192,7 +192,7 @@
                                 </div>
                             </div>
                             <h2>Already have our <br/>Newsletter Solution?</h2>
-                            <div class="visit">
+                            <div class="details">
                                 Visit our brand new newsletter design website…
                             </div>
                             <div class="template_btn_container">
