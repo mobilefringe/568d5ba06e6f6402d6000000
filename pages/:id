@@ -128,14 +128,15 @@
             
             
         }
+        
+    }
+    @media (max-width: 768px){
         /* DON’T HAVE MALL MAVE Copy: */
         #newsletter_mm_post_title{
             font-size: 18px;
             color: #FFFFFF;
             letter-spacing: 0;
         }
-    }
-    @media (max-width: 768px){
     }
 </style>
 
