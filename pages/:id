@@ -34,7 +34,7 @@
         font-size: 36px;
         color: #000000;
         letter-spacing: 0;
-        line-height: 119.64px;
+        line-height: 48px;
         margin-top: 30px;
     }
     .key_benefits .details {
