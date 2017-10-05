@@ -84,11 +84,10 @@
         outline: none;
         -webkit-box-shadow: none;
         box-shadow: none;
-         transition: opacity 0.5s ease-in; /* vendorless fallback */
-         -o-transition: opacity 0.5s ease-in; /* opera */
-        -ms-transition: opacity 0.5s ease-in; /* IE 10 betas, not needed in final build. */
-       -moz-transition: opacity  0.5s ease-in; /* Firefox */
-    -webkit-transition: opacity 0.5s ease-in; /*safari and chrome */
+        -webkit-transition: background-color 500ms ease-out 1s;
+    -moz-transition: background-color 500ms ease-out 1s;
+    -o-transition: background-color 500ms ease-out 1s;
+    transition: background-color 500ms ease-out 1s;
     }
 </style>
 
