@@ -58,7 +58,7 @@
     .key_benefits .row {
             margin: 40px auto;
     }
-    .template_btn{
+    .newsletter_btn{
         text-align:center;
         background-color:#323232;
         color: #fff;
@@ -74,10 +74,10 @@
         }
         
     }
-    .template_btn:active,
-    .template_btn:focus,
-    .template_btn.active,
-    .template_btn:hover{
+    .newsletter_btn:active,
+    .newsletter_btn:focus,
+    .newsletter_btn.active,
+    .newsletter_btn:hover{
         background-color: #FFBE1D;
         color:#000;
         text-decoration:none;
