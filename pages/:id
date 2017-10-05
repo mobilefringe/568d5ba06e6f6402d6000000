@@ -22,6 +22,11 @@
         background-repeat: no-repeat;
         margin: 20px auto;
         color:#fff;
+        /* Entice users to visi: */
+        font-family: Akrobat-SemiBold;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 0;
     }
 </style>
 
