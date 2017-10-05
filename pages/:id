@@ -84,12 +84,11 @@
         outline: none;
         -webkit-box-shadow: none;
         box-shadow: none;
-          -o-transition:color .2s ease-out, background 1s ease-in;
-  -ms-transition:color .2s ease-out, background 1s ease-in;
-  -moz-transition:color .2s ease-out, background 1s ease-in;
-  -webkit-transition:color .2s ease-out, background 1s ease-in;
-  /* ...and now override with proper CSS property */
-  transition:color .2s ease-out, background 1s ease-in;
+         transition: opacity 0.5s ease-in; /* vendorless fallback */
+         -o-transition: opacity 0.5s ease-in; /* opera */
+        -ms-transition: opacity 0.5s ease-in; /* IE 10 betas, not needed in final build. */
+       -moz-transition: opacity  0.5s ease-in; /* Firefox */
+    -webkit-transition: opacity 0.5s ease-in; /*safari and chrome */
     }
 </style>
 
