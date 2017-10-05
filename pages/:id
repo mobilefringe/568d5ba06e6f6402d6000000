@@ -132,9 +132,7 @@
     }
     @media (max-width: 468px){
         .newsletter_page_banner{
-            
             padding-top: 120px;
-           
         }
         /* DON’T HAVE MALL MAVE Copy: */
         #newsletter_mm_post_title{
