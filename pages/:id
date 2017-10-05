@@ -21,6 +21,7 @@
         padding: 170px 0 227px 0;
         background-repeat: no-repeat;
         margin: 20px auto;
+        color:#fff;
     }
 </style>
 
