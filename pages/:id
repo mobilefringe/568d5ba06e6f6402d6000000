@@ -71,12 +71,7 @@
         font-size: 23.93px;
         letter-spacing: 0;
         border: solid 4px #F5A623;
-          -o-transition:color .2s ease-out, background 1s ease-in;
-  -ms-transition:color .2s ease-out, background 1s ease-in;
-  -moz-transition:color .2s ease-out, background 1s ease-in;
-  -webkit-transition:color .2s ease-out, background 1s ease-in;
-  /* ...and now override with proper CSS property */
-  transition:color .2s ease-out, background 1s ease-in;
+        
     }
     .newsletter_btn:active,
     .newsletter_btn:focus,
@@ -89,6 +84,12 @@
         outline: none;
         -webkit-box-shadow: none;
         box-shadow: none;
+          -o-transition:color .2s ease-out, background 1s ease-in;
+  -ms-transition:color .2s ease-out, background 1s ease-in;
+  -moz-transition:color .2s ease-out, background 1s ease-in;
+  -webkit-transition:color .2s ease-out, background 1s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, background 1s ease-in;
     }
 </style>
 
