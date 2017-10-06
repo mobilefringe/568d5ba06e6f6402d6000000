@@ -159,7 +159,7 @@
             margin-bottom: 0px;
             color:#fff;
             /* Entice users to visi: */
-            /*font-family: AppleSystemUIFont;*/
+            font-family: "Open Sans";
             font-size: 16px;
             color: #FFFFFF;
             letter-spacing: 0;
