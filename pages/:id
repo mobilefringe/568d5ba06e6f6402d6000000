@@ -159,12 +159,7 @@
         .banner_div_mobile{
             padding: 10px 0 20px 0;
             margin-bottom: 0px;
-            color:#fff;
-            /* Entice users to visi: */
-            font-family: "Open Sans";
             font-size: 16px;
-            color: #FFFFFF;
-            letter-spacing: 0;
             min-height: 160px;
         }
         .key_benefits .details {
