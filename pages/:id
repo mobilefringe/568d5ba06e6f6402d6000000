@@ -63,7 +63,7 @@
     .key_benefits .details {
         /* Simply login into yo: */
         font-style:"Open Sans";
-        font-size: 24px;
+        font-size: 20px;
         color: #000000;
         letter-spacing: 0;
     }
