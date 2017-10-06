@@ -11,7 +11,7 @@
         background-attachment: fixed;
     }
     #newsletter_mm_post_title {
-        font-style:"Open Sans";
+        font-family:"Open Sans";
         font-weight:bold;
         font-size:32px;
     }
@@ -52,7 +52,7 @@
     }
     .key_benefits h2{
         /* Key Benefits:: */
-        font-style:"Open Sans";
+        font-family:"Open Sans";
         font-weight:bold;
         font-size:30px;
         color: #000000;
@@ -62,7 +62,7 @@
     }
     .key_benefits .details {
         /* Simply login into yo: */
-        font-style:"Open Sans";
+        font-family:"Open Sans";
         font-size: 20px;
         color: #000000;
         letter-spacing: 0;
@@ -89,7 +89,7 @@
         margin: 70px auto 0;
     }
     .newsletter_btn{
-         font-style:"Open Sans";
+         font-family:"Open Sans";
          font-weight:bold;
         text-align:center;
         color: #fff;
