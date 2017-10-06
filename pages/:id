@@ -353,7 +353,7 @@
                             </div>
                             <div class="newsletter_btn_container">
                                 <a class="newsletter_btn" href="/posts#newsletters" id="">
-                                    <label style="font-weight:normal;"> Newsletter Designs </label>
+                                    <label> Newsletter Designs </label>
                                 </a>
                             </div >
                         </div>
