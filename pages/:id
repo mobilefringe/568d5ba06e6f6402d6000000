@@ -121,12 +121,12 @@
             -o-transition:   ease-in 500ms ease-out 500ms;;
             transition:  ease-in 500ms ease-out 500ms;
     }
-    .key_benefits .visit {
-        font-size: 30.76px;
-        color: #000000;
-        letter-spacing: 0;
-        line-height: 90.58px;
-    }
+    /*.key_benefits .visit {*/
+    /*    font-size: 30.76px;*/
+    /*    color: #000000;*/
+    /*    letter-spacing: 0;*/
+    /*    line-height: 90.58px;*/
+    /*}*/
     @media (max-width: 768px){
         .newsletter_page_banner {
             padding: 170px 0 189px 0;
