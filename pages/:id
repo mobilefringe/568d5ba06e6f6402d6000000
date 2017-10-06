@@ -10,6 +10,11 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+    #newsletter_mm_post_title {
+        font-style:"Open Sans";
+        font-weight:bold;
+        font-size:32px;
+    }
     #newsletter_mm_post_content , #newsletter_mm_post_content_mobile{
         margin:auto;
         text-align: center;
