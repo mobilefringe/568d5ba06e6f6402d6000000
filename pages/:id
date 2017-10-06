@@ -90,6 +90,7 @@
     }
     .newsletter_btn{
          font-style:"Open Sans";
+         font-weight:bold;
         text-align:center;
         color: #fff;
         font-size:18px;
