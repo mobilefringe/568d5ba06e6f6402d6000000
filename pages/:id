@@ -165,6 +165,13 @@
             letter-spacing: 0;
             min-height: 160px;
         }
+        .key_benefits .details {
+            /* Simply login into yo: */
+            
+            font-size: 16px;
+            color: #000000;
+            letter-spacing: 0;
+        }
     }
 </style>
 
