@@ -171,6 +171,8 @@
         .key_benefits h2{
             font-size:18px;
         }
+        .newsletter_btn{
+        }
     }
 </style>
 
