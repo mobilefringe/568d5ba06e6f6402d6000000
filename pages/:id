@@ -89,8 +89,8 @@
         margin: 70px auto 0;
     }
     .newsletter_btn{
-         font-family:"Open Sans";
-         font-weight:bold;
+        font-family:"Open Sans";
+        font-weight:bold;
         text-align:center;
         color: #fff;
         font-size:18px;
