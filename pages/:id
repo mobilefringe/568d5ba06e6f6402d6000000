@@ -89,9 +89,10 @@
         margin: 70px auto 0;
     }
     .newsletter_btn{
+         font-style:"Open Sans";
         text-align:center;
         color: #fff;
-        font-size:16px;
+        font-size:18px;
         padding:10px 20px;
         /* Rectangle 16: */
         background: #F5A623;
