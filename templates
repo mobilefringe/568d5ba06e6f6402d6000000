@@ -188,7 +188,7 @@
         else if(window.location.href.indexOf("#landing_pages") > -1) {
             $("#landing_pages").addClass("active_templ_btn");
             $("#landing_pages").trigger("click");
-            changeNewsletterBG();
+            changeLandingPageBG();
             window.scrollTo(0, 0);
         }
         else if(window.location.href.indexOf("#newsletter") > -1) {
