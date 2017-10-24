@@ -45,7 +45,7 @@
             <!--<div class="col-sm-2 col-xs-12">-->
                 
             <!--</div>-->
-            <div class="col-sm-9">
+            <div class="col-sm-9" style="float: none;margin: auto;">
                 <div class="col-sm-3 col-xs-12 template_btn_container">
                     <a class="template_btn active_templ_btn" href="#premium" id="premium">
                     <label> Premium </label>
