@@ -363,7 +363,7 @@
         $('#custom_design_container').hide();
         $("#landing_page_container").show();
         $('#newsletter_design_container').hide();
-        $("#standard").removeClass("active_templ_btn");
+        $("#landing_pages").removeClass("active_templ_btn");
         $("#landing_pages").addClass("active_templ_btn");
         $("#premium").removeClass("active_templ_btn");
         $("#custom").removeClass("active_templ_btn");
