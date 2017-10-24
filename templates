@@ -272,6 +272,7 @@
         $('#premium_design_container').show();
         $('#standard_design_container').hide();
         $('#custom_design_container').hide();
+        $("#landing_page_container").hide();
         $('#newsletter_design_container').hide();
         $("#premium").removeClass("active_templ_btn");
         $("#premium").addClass("active_templ_btn");
