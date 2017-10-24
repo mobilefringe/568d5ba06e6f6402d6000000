@@ -278,6 +278,7 @@
         $("#premium").addClass("active_templ_btn");
         $("#standard").removeClass("active_templ_btn");
         $("#custom").removeClass("active_templ_btn");
+        $("#landing_pages").removeClass("active_templ_btn");
         $("#newsletters").removeClass("active_templ_btn");
         var x = window.pageXOffset,
             y = window.pageYOffset;
