@@ -322,6 +322,7 @@
         $("#standard").addClass("active_templ_btn");
         $("#premium").removeClass("active_templ_btn");
         $("#custom").removeClass("active_templ_btn");
+        $("#landing_pages").removeClass("active_templ_btn");
         $("#newsletters").removeClass("active_templ_btn");
         var x = window.pageXOffset,
             y = window.pageYOffset;
