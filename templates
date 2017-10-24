@@ -186,8 +186,8 @@
             window.scrollTo(0, 0);
         }
         else if(window.location.href.indexOf("#landing_pages") > -1) {
-            $("#newsletters").addClass("active_templ_btn");
-            $("#newsletters").trigger("click");
+            $("#landing_pages").addClass("active_templ_btn");
+            $("#landing_pages").trigger("click");
             changeNewsletterBG();
             window.scrollTo(0, 0);
         }
