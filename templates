@@ -46,22 +46,22 @@
                 
             <!--</div>-->
             <div class="col-sm-9" style="float: none;margin: auto;">
-                <div class="col-sm-3 col-xs-12 template_btn_container">
+                <div class="col-sm-3 col-xs-12 template_btn_container align_left">
                     <a class="template_btn active_templ_btn" href="#premium" id="premium">
                     <label> Premium </label>
                 </a>
                 </div >
-                <div class="col-sm-3 col-xs-12 template_btn_container">
+                <div class="col-sm-3 col-xs-12 template_btn_container align_left">
                     <a class="template_btn " href="#standard" id="standard" >
                     <label> Standard </label>
                 </a>
                 </div>
-                <div class="col-sm-3 col-xs-12 template_btn_container">
+                <div class="col-sm-3 col-xs-12 template_btn_container align_left">
                     <a class="template_btn " href="#custom" id="custom">
                     <label> Custom </label>
                 </a>
                 </div>
-                <div class="col-sm-3 col-xs-12 template_btn_container">
+                <div class="col-sm-3 col-xs-12 template_btn_container align_left">
                     <a class="template_btn " href="#landing_pages" id="landing_pages">
                     <label> Landing Pages </label>
                 </a>
