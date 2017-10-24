@@ -359,7 +359,7 @@
         $('#premium_design_container').hide();
         $('#standard_design_container').hide();
         $('#custom_design_container').hide();
-        $("#landing_page_container").dhow();
+        $("#landing_page_container").show();
         $('#newsletter_design_container').hide();
         $("#standard").removeClass("active_templ_btn");
         $("#standard").addClass("active_templ_btn");
