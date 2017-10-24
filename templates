@@ -365,6 +365,7 @@
         $("#premium").removeClass("active_templ_btn");
         $("#custom").removeClass("active_templ_btn");
         $("#newsletters").removeClass("active_templ_btn");
+        console.log("in landinf custom bg")
         var x = window.pageXOffset,
             y = window.pageYOffset;
         $(window).one('scroll', function () {
