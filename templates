@@ -61,8 +61,8 @@
             </a>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-12 template_btn_container">
-                <a class="template_btn " href="#newsletters" id="newsletters">
-                <label> Lading Pages </label>
+                <a class="template_btn " href="#landing_pages" id="newsletters">
+                <label> Landing Pages </label>
             </a>
             </div>
              <div class="col-md-2 col-sm-2 col-xs-12">
