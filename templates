@@ -212,7 +212,7 @@
             changeCustomBG();
         }
         else if(window.location.href.indexOf("#landing_pages") > -1) {
-            changeNewsletterBG();
+            changeLandingPageBG();
         }
         else if(window.location.href.indexOf("#newsletter") > -1) {
             changeNewsletterBG();
