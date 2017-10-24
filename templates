@@ -211,9 +211,13 @@
         else if(window.location.href.indexOf("#custom") > -1) {
             changeCustomBG();
         }
+        else if(window.location.href.indexOf("#landing_pages") > -1) {
+            changeNewsletterBG();
+        }
         else if(window.location.href.indexOf("#newsletter") > -1) {
             changeNewsletterBG();
         }
+        
 
     });
     function changePremiumBG (){
