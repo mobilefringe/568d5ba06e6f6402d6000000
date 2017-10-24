@@ -503,7 +503,7 @@
         $.each(templates, function(key, val) {
             $.each( val.tag , function( tag_key, tag ) {
                 //val.taglist = val.taglist + " " + tag;
-                if(tag == "Standard"){
+                if(tag == "Landing Page"){
                     sorted_s_templates.push(val);
                 }
                 if(tag == "is_new"){
