@@ -583,7 +583,7 @@
             changeCustomBG();
         });
         $("#landing_pages").click(function(e) {
-            changeCustomBG();
+            changeLandingPageBG();
         });
         $("#newsletters").click(function(e) {
             changeNewsletterBG();
