@@ -62,7 +62,7 @@
                 </a>
                 </div>
                 <div class="col-sm-3 col-xs-12 template_btn_container align_left">
-                    <a class="template_btn " href="#landing_pages" id="landing_pages">
+                    <a class="template_btn " href="#landing_page" id="landing_page">
                     <label> Landing Pages </label>
                 </a>
                 </div>
@@ -209,9 +209,9 @@
             changeCustomBG();
             window.scrollTo(0, 0);
         }
-        else if(window.location.href.indexOf("#landing_pages") > -1) {
-            $("#landing_pages").addClass("active_templ_btn");
-            $("#landing_pages").trigger("click");
+        else if(window.location.href.indexOf("#landing_page") > -1) {
+            $("#landing_page").addClass("active_templ_btn");
+            $("#landing_page").trigger("click");
             changeLandingPageBG();
             window.scrollTo(0, 0);
         }
@@ -235,7 +235,7 @@
         else if(window.location.href.indexOf("#custom") > -1) {
             changeCustomBG();
         }
-        else if(window.location.href.indexOf("#landing_pages") > -1) {
+        else if(window.location.href.indexOf("#landing_page") > -1) {
             changeLandingPageBG();
         }
         else if(window.location.href.indexOf("#newsletter") > -1) {
@@ -278,7 +278,7 @@
         $("#premium").addClass("active_templ_btn");
         $("#standard").removeClass("active_templ_btn");
         $("#custom").removeClass("active_templ_btn");
-        $("#landing_pages").removeClass("active_templ_btn");
+        $("#landing_page").removeClass("active_templ_btn");
         $("#newsletters").removeClass("active_templ_btn");
         var x = window.pageXOffset,
             y = window.pageYOffset;
@@ -323,7 +323,7 @@
         $("#standard").addClass("active_templ_btn");
         $("#premium").removeClass("active_templ_btn");
         $("#custom").removeClass("active_templ_btn");
-        $("#landing_pages").removeClass("active_templ_btn");
+        $("#landing_page").removeClass("active_templ_btn");
         $("#newsletters").removeClass("active_templ_btn");
         var x = window.pageXOffset,
             y = window.pageYOffset;
@@ -365,8 +365,8 @@
         $('#custom_design_container').hide();
         $("#landing_page_container").show();
         $('#newsletter_design_container').hide();
-        $("#landing_pages").removeClass("active_templ_btn");
-        $("#landing_pages").addClass("active_templ_btn");
+        $("#landing_page").removeClass("active_templ_btn");
+        $("#landing_page").addClass("active_templ_btn");
         $("#premium").removeClass("active_templ_btn");
         $("#standard").removeClass("active_templ_btn");
         $("#custom").removeClass("active_templ_btn");
@@ -432,7 +432,7 @@
         $("#custom").addClass("active_templ_btn");
         $("#premium").removeClass("active_templ_btn");
         $("#standard").removeClass("active_templ_btn");
-        $("#landing_pages").removeClass("active_templ_btn");
+        $("#landing_page").removeClass("active_templ_btn");
         $("#newsletters").removeClass("active_templ_btn");
         var x = window.pageXOffset,
             y = window.pageYOffset;
@@ -582,7 +582,7 @@
         $("#custom").click(function(e) {
             changeCustomBG();
         });
-        $("#landing_pages").click(function(e) {
+        $("#landing_page").click(function(e) {
             changeLandingPageBG();
         });
         $("#newsletters").click(function(e) {
