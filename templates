@@ -537,7 +537,7 @@
             $.each( val.tag , function( tag_key, tag ) {
                 //val.taglist = val.taglist + " " + tag;
                 if(tag == "Landing Page"){
-                    sorted_s_templates.push(val);
+                    sorted_l_templates.push(val);
                 }
                 if(tag == "is_new"){
                     val.is_new ="display:block";
