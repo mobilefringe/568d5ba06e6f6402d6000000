@@ -582,6 +582,9 @@
         $("#custom").click(function(e) {
             changeCustomBG();
         });
+        $("#landing_pages").click(function(e) {
+            changeCustomBG();
+        });
         $("#newsletters").click(function(e) {
             changeNewsletterBG();
         });
