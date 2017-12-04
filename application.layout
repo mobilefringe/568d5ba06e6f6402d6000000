@@ -178,7 +178,7 @@
                 </div>
                 <p class="pull-left hidden_phone">
                     &copy;2017 Mall Maverick. All rights reserved.
-                    <a href="http://www.mallmaverick.com/pages/home-privacy-policy" target="_blank">Privacy Policy</a>
+                    <a href="/pages/home-privacy-policy" target="_blank">Privacy Policy</a>
                 </p>
                 <p class="pull-right hidden_phone">
                     Powered by <a href="//mobilefringe.com" target="_blank" class="mm_link">Mobile Fringe</a>
