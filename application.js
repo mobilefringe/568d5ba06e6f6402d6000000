@@ -1,7 +1,9 @@
 /*Created 2015-02-28 by CodeCloud Team*/
 
 function init(){
-    
+    var current_year = moment().year();
+    $("#current_year").text(current_year);
+
     $('.menu_toggler').click(function(){
         if ($('#header').hasClass('darken')){
             $('#header').addClass('lighten');
