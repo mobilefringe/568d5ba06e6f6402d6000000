@@ -167,7 +167,7 @@
             </div>
             <div class="main_container bottom_menu_footer">
                 <div class="show_phone">
-                    <p>&copy;<span id="current_year"></span> Mall Maverick. All rights reserved.</p>
+                    <p>&copy;<span class="current_year"></span> Mall Maverick. All rights reserved.</p>
                     <p>
                         <a href="http://www.mallmaverick.com/pages/home-privacy-policy" target="_blank">Privacy Policy</a>
                     </p>
@@ -177,7 +177,7 @@
                     </p>
                 </div>
                 <p class="pull-left hidden_phone">
-                    &copy;<span id="current_year"></span> Mall Maverick. All rights reserved.
+                    &copy;<span class="current_year"></span> Mall Maverick. All rights reserved.
                     <a href="http://www.mallmaverick.com/pages/home-privacy-policy" target="_blank">Privacy Policy</a>
                 </p>
                 <p class="pull-right hidden_phone">
