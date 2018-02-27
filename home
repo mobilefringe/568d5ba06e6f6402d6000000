@@ -11,7 +11,7 @@
                         <div class="main_container hero_container" >
                             <div class="banner_text">
                                 <h2 class="banner_title">{{name}}</h2>
-                                <a class="banner_btn" href={{url}}><p>{{description}}</p></a>
+                                <a class="banner_btn button--ujarak" href={{url}}><p>{{description}}</p></a>
                             </div>
                             <div class="features">
                             
