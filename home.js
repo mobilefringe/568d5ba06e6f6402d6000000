@@ -1,5 +1,8 @@
 $(document).ready(function(){
     init();
+    var banners = getBanners();
+    renderBanner('#banner_template','#home_banner', banners);
+            
     $('.products_list').slick({
         infinite: true,
         slidesToShow: 3,
