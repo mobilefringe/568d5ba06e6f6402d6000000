@@ -1,7 +1,6 @@
 $(document).ready(function(){
     init();
-    var banners = getBanners();
-    renderBanner('#banner_template','#home_banner', banners);
+    
     $('.products_list').slick({
         infinite: true,
         slidesToShow: 3,
@@ -63,7 +62,8 @@ $(document).ready(function(){
 });
 
 function renderAll () {
-    
+    var banners = getBanners();
+    renderBanner('#banner_template','#home_banner', banners);
 }
 function renderBanner(banner_template,home_banner,banners){
     var item_list = [];
