@@ -1801,6 +1801,34 @@ hr.grey_line {
         background-repeat: no-repeat;
         padding-top: 87px;
         // z-index: -1;
+        .banner_text {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-family: 'Open Sans';
+            .banner_title {
+                color: #fff;
+                font-family: 'Open Sans';
+                text-transform : uppercase;
+                font-weight: 600;
+                font-size: 60px;
+                width: 570px;
+            }
+            .banner_btn {
+                p {
+                    background: #ffbe1d;
+                    width: 150px;
+                    height: 40px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #000;
+                    margin: auto;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    padding: 5px;
+                }
+            }
+        }
     }
     #contact-hero{
         background-image:url(//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/contact_banner.png);
