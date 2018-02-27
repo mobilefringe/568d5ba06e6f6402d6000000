@@ -1812,7 +1812,7 @@ hr.grey_line {
                 text-transform : uppercase;
                 font-weight: 600;
                 font-size: 60px;
-                width: 570px;
+                // width: 570px;
             }
             .banner_btn {
                 p {
