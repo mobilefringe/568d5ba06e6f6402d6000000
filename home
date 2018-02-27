@@ -9,7 +9,7 @@
                 
                     <div id="hero" style="background-image:url('{{image_url}}')">
                         <div class="main_container hero_container" >
-                            <div>
+                            <div class="banner_text">
                                 <h2>{{name}}</h2>
                                 <a href={{url}}><p>{{description}}</p></a>
                             </div>
