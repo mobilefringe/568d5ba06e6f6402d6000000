@@ -2502,6 +2502,9 @@ hr.grey_line {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
+            .banner_title {
+                
+            }
         }
     }
     
