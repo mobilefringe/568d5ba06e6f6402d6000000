@@ -56,16 +56,16 @@ $(document).ready(function(){
 	headroom.init();
 	
 	loadMallDataCached(renderAll); 
-	
-    $('.flexslider').flexslider({
-        animation: "slide",
-    });
-    
+
 });
 
 function renderAll () {
     var banners = getBanners().sortBy(function(o){ return o.position});
     renderBanner('#banner_template','#home_banner', banners);
+    
+    $('.flexslider').flexslider({
+        animation: "slide",
+    });
 }
 function renderBanner(banner_template,home_banner,banners){
     var item_list = [];
