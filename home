@@ -3,9 +3,9 @@
         <ul class="slides" id="home_banner">
             <script id="banner_template" type="x-tmpl-mustache/text">
                 <li>
-                    // <a href="{{url}}" {{css}} onclick="{{noLink}}">
-                    //     <div class="banner_img" style="background-image: url({{image_url}});"
-                    // </a>
+                    <!-- <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                        <div class="banner_img" style="background-image: url({{image_url}});"
+                    </a> -->
                 
                     <div id="hero" style="background-image:url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1519755344000/mm slider 1.png')">
                         <div class="main_container hero_container" >
