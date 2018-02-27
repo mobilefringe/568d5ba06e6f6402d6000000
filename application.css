@@ -2507,6 +2507,9 @@ hr.grey_line {
                 color: #fff;
                 font-family: 'Open Sans';
                 text-transform : uppercase;
+                font-weight: 500;
+                font-size: 60px;
+                width: 600px;
             }
         }
     }
