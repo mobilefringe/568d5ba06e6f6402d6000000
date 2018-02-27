@@ -2502,7 +2502,7 @@ hr.grey_line {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            font-familt: 'Open Sans';
+            font-family: 'Open Sans';
             .banner_title {
                 color: #fff;
             }
