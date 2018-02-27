@@ -25,13 +25,13 @@
                                 <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/zendesk.png" class="width_100" alt="digital directory">-->
                                 <!--</div>-->
                             </div>
-                            // <div class="scroll_hero">
-                            //     <a href="/#contact" class="scroll">
-                            //         <i class="fa fa-chevron-down"></i>
-                            //         <br />
-                            //         <span>SCROLL DOWN</span>
-                            //     </a>
-                            // </div>
+                            <!--<div class="scroll_hero">
+                                <a href="/#contact" class="scroll">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <br />
+                                    <span>SCROLL DOWN</span>
+                                </a>
+                            </div>-->
                         </div>
                     </div>
     </li>
