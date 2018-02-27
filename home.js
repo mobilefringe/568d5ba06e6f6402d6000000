@@ -55,10 +55,12 @@ $(document).ready(function(){
 	var headroom = new Headroom(navbar);
 	headroom.init();
 	
+	loadMallDataCached(renderAll); 
+	
     $('.flexslider').flexslider({
         animation: "slide",
     });
-    loadMallDataCached(renderAll); 
+    
 });
 
 function renderAll () {
