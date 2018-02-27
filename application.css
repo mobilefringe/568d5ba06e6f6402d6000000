@@ -2506,6 +2506,7 @@ hr.grey_line {
             .banner_title {
                 color: #fff;
                 font-family: 'Open Sans';
+                text-transform : uppercase;
             }
         }
     }
