@@ -2503,7 +2503,7 @@ hr.grey_line {
             top: 50%;
             transform: translateY(-50%);
             .banner_title {
-                
+                color: #fff;
             }
         }
     }
