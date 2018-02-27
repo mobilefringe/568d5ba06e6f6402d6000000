@@ -2494,6 +2494,9 @@ hr.grey_line {
         background-position: center center;
         // z-index: -1;
         // margin-top: 90px;
+        .hero_container {
+            
+        }
         .banner_text {
             position: absolute;
             top: 50%;
