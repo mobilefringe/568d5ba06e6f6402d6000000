@@ -59,8 +59,12 @@ $(document).ready(function(){
     $('.flexslider').flexslider({
         animation: "slide",
     });
+    loadMallDataCached(renderAll); 
 });
 
+function renderAll () {
+    
+}
 function renderBanner(banner_template,home_banner,banners){
     var item_list = [];
     var item_rendered = [];
