@@ -1,25 +1,37 @@
 <div id="wrapper">
-    <div id="hero" style="background-image:url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1519755344000/mm slider 1.png')">
-        <div class="main_container hero_container" >
-            <div class="features">
-                <!--<div class="col-md-4 banner_icons">-->
-                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/devices.png" class="width_100" alt="responsive website">-->
-                <!--</div>-->
-                <!--<div class="col-md-4 banner_icons">-->
-                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1494511417000/CMS.png" class="width_100" alt="apps for all devices">-->
-                <!--</div>-->
-                <!--<div class="col-md-4 banner_icons">-->
-                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/zendesk.png" class="width_100" alt="digital directory">-->
-                <!--</div>-->
-            </div>
-            <div class="scroll_hero">
-                <a href="/#contact" class="scroll">
-                    <i class="fa fa-chevron-down"></i>
-                    <br />
-                    <span>SCROLL DOWN</span>
-                </a>
-            </div>
-        </div>
+    <div class="flexslider">
+        <ul class="slides" id="home_banner">
+            <script id="banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    // <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                    //     <div class="banner_img" style="background-image: url({{image_url}});"
+                    // </a>
+                
+                    <div id="hero" style="background-image:url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1519755344000/mm slider 1.png')">
+                        <div class="main_container hero_container" >
+                            <div class="features">
+                                <!--<div class="col-md-4 banner_icons">-->
+                                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/devices.png" class="width_100" alt="responsive website">-->
+                                <!--</div>-->
+                                <!--<div class="col-md-4 banner_icons">-->
+                                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1494511417000/CMS.png" class="width_100" alt="apps for all devices">-->
+                                <!--</div>-->
+                                <!--<div class="col-md-4 banner_icons">-->
+                                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/zendesk.png" class="width_100" alt="digital directory">-->
+                                <!--</div>-->
+                            </div>
+                            <div class="scroll_hero">
+                                <a href="/#contact" class="scroll">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <br />
+                                    <span>SCROLL DOWN</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    </li>
+            </script>
+        </ul>
     </div>
     <div id="contact">
         <h2 class="heading text-center">The Best Mall Website and Digital Marketing Solution</h2>
