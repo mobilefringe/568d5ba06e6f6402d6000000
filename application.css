@@ -2511,6 +2511,20 @@ hr.grey_line {
                 font-size: 60px;
                 width: 570px;
             }
+            .banner_btn {
+                p {
+                    background: #ffbe1d;
+                width: 150px;
+                height: 40px;
+                line-height: 30px;
+                text-align: center;
+                color: #000;
+                margin: auto;
+                font-weight: 600;
+                text-transform: uppercase;
+                padding: 5px;
+                }
+            }
         }
     }
     
