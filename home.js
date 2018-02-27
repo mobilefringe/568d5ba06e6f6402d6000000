@@ -56,9 +56,10 @@ $(document).ready(function(){
 	var navbar = document.getElementById("header");
 	var headroom = new Headroom(navbar);
 	headroom.init();
+	
 	$('.flexslider').flexslider({
-                animation: "slide",
-            });
+        animation: "slide",
+    });
 });
 
 function renderBanner(banner_template,home_banner,banners){
