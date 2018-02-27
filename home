@@ -12,7 +12,7 @@
                             <div class="features">
                             <div>
                                 <h2>{{name}}</h2>
-                                <p>{{description}}</p>
+                                <a href={{url}}><p>{{description}}</p></a>
                             </div>
                                 <!--<div class="col-md-4 banner_icons">-->
                                 <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/devices.png" class="width_100" alt="responsive website">-->
