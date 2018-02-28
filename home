@@ -8,7 +8,7 @@
                     </a> -->
                 
                     <div id="hero" style="background-image:url('{{image_url}}')">
-                        <!-- <div class="main_container hero_container" > -->
+                        <div class="main_container hero_container" >
                             <div class="banner_text">
                                 <h2 class="banner_title">{{name}}</h2>
                                 <a class="banner_btn " href={{url}}><p>{{description}}</p></a>
@@ -31,8 +31,8 @@
                                     <br />
                                     <span>SCROLL DOWN</span>
                                 </a>
-                            </div>
-                        </div>-->
+                            </div>-->
+                        </div>
                     </div>
     </li>
             </script>
