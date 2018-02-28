@@ -1813,6 +1813,7 @@ hr.grey_line {
                 font-weight: 600;
                 font-size: 60px;
                 // width: 570px;
+                    text-shadow: 3px -3px #000;
             }
             .banner_btn {
                 p {
@@ -1826,7 +1827,7 @@ hr.grey_line {
                     font-weight: 600;
                     text-transform: uppercase;
                     padding: 5px;
-                        box-shadow: 1px 1px #000;
+                    box-shadow: 1px 1px #000;
                 }
             }
         }
