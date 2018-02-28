@@ -1800,6 +1800,11 @@ hr.grey_line {
         background-size:cover;
         background-repeat: no-repeat;
         padding-top: 87px;
+        position: relative;
+        min-height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center
         // z-index: -1;
         .banner_text {
             position: absolute;
