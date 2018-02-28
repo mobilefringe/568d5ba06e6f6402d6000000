@@ -1826,6 +1826,7 @@ hr.grey_line {
                     font-weight: 600;
                     text-transform: uppercase;
                     padding: 5px;
+                        box-shadow: 1px 1px #000;
                 }
             }
         }
