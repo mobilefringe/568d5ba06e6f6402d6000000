@@ -69,6 +69,7 @@ function renderAll () {
     
     if( repo !== null & repo !== undefined && repo.length > 0){
         repo_images = repo.images.sortBy(function(o){ return o.id});
+        console.log("repo", repo_images);
         // $.each( repo , function( key, val ) {
         //     // val.image_url = post_details[0].author;
         //     // image_url
