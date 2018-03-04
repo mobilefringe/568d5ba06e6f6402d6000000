@@ -63,7 +63,8 @@ function renderAll () {
     var banners = getBanners().sortBy(function(o){ return o.position});
     renderBanner('#banner_template','#home_banner', banners);
     
-    // home-mobile-bannersrepo = getRepoDetailsByName(slug).images;
+    // home-mobile-banners
+    repo = getRepoDetailsByName('home-mobile-banners').images;
     $.each( repo , function( key, val ) {
         val.type=post_details[0].author;
         if(val.type == "Newsletter") {
