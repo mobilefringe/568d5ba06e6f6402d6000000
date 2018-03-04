@@ -69,7 +69,8 @@ function renderAll () {
     if( repo !== null & repo !== undefined && repo.length > 0){
         repo_images = repo.images;
         $.each( repo , function( key, val ) {
-            val.type=post_details[0].author;
+            // val.image_url = post_details[0].author;
+            // image_url
         });
         banners = getBanners().sortBy(function(o){ return o.position});
         renderBanner('#mobile_banner_template','#mobile_home_banner', banners);
