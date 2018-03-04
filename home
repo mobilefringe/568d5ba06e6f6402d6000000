@@ -39,8 +39,8 @@
         </ul>
     </div>
     <div class="flexslider banner_slider show_phone">
-        <ul class="slides" id="home_banner">
-            <script id="banner_template" type="x-tmpl-mustache/text">
+        <ul class="slides" id="mobile_home_banner">
+            <script id="mobile_banner_template" type="x-tmpl-mustache/text">
                 <li>
                     <!-- <a href="{{url}}" {{css}} onclick="{{noLink}}">
                         <div class="banner_img" style="background-image: url({{image_url}});"
