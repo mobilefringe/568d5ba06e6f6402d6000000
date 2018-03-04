@@ -63,6 +63,10 @@ function renderAll () {
     var banners = getBanners().sortBy(function(o){ return o.position});
     renderBanner('#banner_template','#home_banner', banners);
     
+    // home-mobile-banners
+    var banners = getBanners().sortBy(function(o){ return o.position});
+    renderBanner('#banner_template','#home_banner', banners);
+    
     $('.flexslider').flexslider({
         animation: "slide",
     });
