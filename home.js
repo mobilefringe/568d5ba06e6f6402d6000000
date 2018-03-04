@@ -65,7 +65,7 @@ function renderAll () {
     
     // home-mobile-banners
     var repo_images = null;
-    repo = getRepoDetailsByName('home-mobile-banners');
+    repo = getRepoDetailsBySlug('home-mobile-banners');
     console.log("repo", repo);
     if( repo !== null & repo !== undefined && repo.length > 0){
         repo_images = repo.images.sortBy(function(o){ return o.id});
