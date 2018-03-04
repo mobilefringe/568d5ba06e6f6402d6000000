@@ -68,10 +68,10 @@ function renderAll () {
     repo = getRepoDetailsByName('home-mobile-banners').sortBy(function(o){ return o.id});
     if( repo !== null & repo !== undefined && repo.length > 0){
         repo_images = repo.images;
-        $.each( repo , function( key, val ) {
-            // val.image_url = post_details[0].author;
-            // image_url
-        });
+        // $.each( repo , function( key, val ) {
+        //     // val.image_url = post_details[0].author;
+        //     // image_url
+        // });
         renderBanner('#mobile_banner_template','#mobile_home_banner', repo_images);
     }
     
