@@ -64,7 +64,7 @@ function renderAll () {
     renderBanner('#banner_template','#home_banner', banners);
     
     // home-mobile-banners
-    var banners = getBanners().sortBy(function(o){ return o.position});
+    banners = getBanners().sortBy(function(o){ return o.position});
     renderBanner('#mobile_banner_template','#mobile_home_banner', banners);
     
     $('.flexslider').flexslider({
