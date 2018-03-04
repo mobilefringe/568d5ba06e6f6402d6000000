@@ -65,14 +65,14 @@ function renderAll () {
     
     // home-mobile-banners
     var repo_images = null;
-    repo = getRepoDetailsByName('home-mobile-banners');
+    repo = getRepoDetailsByName('home-mobile-banners').sortBy(function(o){ return o.id});
     if( repo !== null & repo !== undefined && repo.length > 0){
         repo_images = repo.images;
         $.each( repo , function( key, val ) {
             // val.image_url = post_details[0].author;
             // image_url
         });
-        banners = getBanners().sortBy(function(o){ return o.position});
+        banners = getBanners().sortBy(function(o){ return o.id});
         renderBanner('#mobile_banner_template','#mobile_home_banner', repo_images);
     }
     
