@@ -73,7 +73,7 @@ function renderAll () {
             // image_url
         });
         banners = getBanners().sortBy(function(o){ return o.position});
-        renderBanner('#mobile_banner_template','#mobile_home_banner', banners);
+        renderBanner('#mobile_banner_template','#mobile_home_banner', repo_images);
     }
     
     
