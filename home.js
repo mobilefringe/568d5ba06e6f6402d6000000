@@ -72,7 +72,6 @@ function renderAll () {
             // val.image_url = post_details[0].author;
             // image_url
         });
-        banners = getBanners().sortBy(function(o){ return o.id});
         renderBanner('#mobile_banner_template','#mobile_home_banner', repo_images);
     }
     
