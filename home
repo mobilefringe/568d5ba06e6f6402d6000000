@@ -1,5 +1,5 @@
 <div id="wrapper">
-    <div class="flexslider banner_slider">
+    <div class="flexslider banner_slider hidden_phone">
         <ul class="slides" id="home_banner">
             <script id="banner_template" type="x-tmpl-mustache/text">
                 <li>
