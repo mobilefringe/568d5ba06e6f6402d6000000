@@ -63,7 +63,25 @@ function renderAll () {
     var banners = getBanners().sortBy(function(o){ return o.position});
     renderBanner('#banner_template','#home_banner', banners);
     
-    // home-mobile-banners
+    // home-mobile-bannersrepo = getRepoDetailsByName(slug).images;
+    $.each( repo , function( key, val ) {
+        val.type=post_details[0].author;
+        if(val.type == "Newsletter") {
+            val.show_news ="display:block";
+            $("#newsletter").show();
+            $("#templates").hide();
+        }
+        else {
+            val.show_news ="display:none";
+            $("#newsletter").hide();
+            $("#templates").show();
+        }
+        if(val.photo_url_abs.indexOf("Front_Page") > -1) {
+            val.image_url=val.photo_url_abs;
+            sorted_repo.push(val);
+        }
+     
+    });
     banners = getBanners().sortBy(function(o){ return o.position});
     renderBanner('#mobile_banner_template','#mobile_home_banner', banners);
     
