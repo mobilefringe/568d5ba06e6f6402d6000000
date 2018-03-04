@@ -67,7 +67,7 @@ function renderAll () {
     var repo_images = null;
     repo = getRepoDetailsByName('Mobile Banners');
     
-    if( repo !== null & repo !== undefined && repo.length > 0){
+    if( repo !== null &7 repo !== undefined && repo.length > 0){
         repo_images = repo.images.sortBy(function(o){ return o.id});
         console.log("repo", repo_images);
         // $.each( repo , function( key, val ) {
