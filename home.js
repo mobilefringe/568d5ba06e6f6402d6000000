@@ -64,6 +64,7 @@ function renderAll () {
     renderBanner('#banner_template','#home_banner', banners);
     
     // home-mobile-banners
+    var repo_images = null;
     repo = getRepoDetailsByName('home-mobile-banners');
     if( repo !== null & repo !== undefined && repo.length > 0){
         
