@@ -178,7 +178,7 @@
                     </p>
                 </div>
                 <p class="pull-left hidden_phone">
-                    &copy;<span id="current_year" class="current_year"> Mall Maverick. All rights reserved.
+                    &copy; <span id="current_year" class="current_year"></span> Mall Maverick. All rights reserved.
                     <a href="http://mobilefringe.com/pages/mobilefringe-privacy-policy" target="_blank">Privacy Policy</a>
                 </p>
                 <p class="pull-right hidden_phone">
