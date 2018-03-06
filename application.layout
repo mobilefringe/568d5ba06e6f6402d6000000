@@ -82,7 +82,7 @@
                     
                 </div>
                 <div id="features_menu">
-                        <div class="full_width" id="feature_insider">
+                        <div class="full_width main_container" id="feature_insider">
                             <div class="row">
                                 <div class="col-md-3">
                                     <h4 class="heading menu_title">Features</h4>
