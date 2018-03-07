@@ -16,7 +16,21 @@
     </div>
 </section>
 <section>
-    
+    <div id="all_blogs_container">
+        <script id="all_blogs_template" type="x-tmpl-mustache/text">
+        <div class="col-sm-4 hidden_now" id="show_{{counter}}">
+            <!-- <img src="{{image_url}}" class="" alt=""> -->
+            <div class="blog_image" style="background-image: url({{image_url}});">
+            </div>
+            <div>
+                <p class="blog_title caps">{{title}}</p>
+                <p class="blog_date">{{publish_date}}</p>
+                <p class="blog_description">{{description_short}}</p>
+                <a href="/blog/{{slug}}"><p class="blog_read_more">Read More <i class="fa fa-angle-right"></i></p></a>
+            </div>
+        </div>
+        </script>
+    </div>
 </section>
 
 <style>
