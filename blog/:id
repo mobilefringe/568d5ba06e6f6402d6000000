@@ -48,23 +48,4 @@
             animation: "slide",
         });
     });
-
-    function load_more(num){
-        var n = parseInt(num);
-        console.log("n",n);
-        var i = 0;
-        for(i = n; i < n + 6; i++){
-            var id = i.toString();
-            $('#show_' + id ).fadeIn();
-            console.log("i", i);
-        }
-        var posts = getBlogDataBySlug("home-mall-maverick-blog").posts.sortBy(function(o){ return o.publish_date});
-        var total_posts = posts.length;
-        console.log("total_posts",total_posts, "i", i);
-        if(i >= total_posts+1){
-            $('#loaded_posts').fadeOut();
-            $('#all_loaded').show().css('display', 'inline-block');
-        }
-        $('#num_loaded').val(i);
-    }
 </script>
