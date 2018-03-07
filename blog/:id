@@ -51,6 +51,7 @@
     }
     .share_btns a:hover{
         color: #FFBE1D;
+        text-decoration: none;
     }
     
     .share_btns a .fa {
