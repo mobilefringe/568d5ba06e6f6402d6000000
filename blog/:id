@@ -34,6 +34,9 @@
     #features_menu {
         background:rgba(0,0,0,0.8);
     }
+    #all_blogs_container{
+        margin: 50px auto;
+    }
 </style>
 <script>
     $(document).ready(function(e) {
