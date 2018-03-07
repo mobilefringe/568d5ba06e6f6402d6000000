@@ -74,7 +74,7 @@ function init(){
     function renderMobileFeature(mobile_feature_container, mobile_feature_template, posts){
         var item_list = [];
         var item_rendered = [];
-        var template_html = $(feature_page_template).html();
+        var template_html = $(mobile_feature_template).html();
         $.each(posts, function(key, val) {
             var rendered = Mustache.render(template_html, val);
             item_rendered.push(rendered);
