@@ -7,6 +7,7 @@
                         <div class="main_container hero_container" >
                             <div class="banner_text">
                                 <h2 class="banner_title">{{title}}</h2>
+                                <p class="blog_date">{{author}}</p>
                                 <p class="blog_date">{{publish_date}}</p>
                             </div>
                         </div>
