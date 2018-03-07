@@ -46,7 +46,7 @@
         margin: 50px auto;
     }
     .share_btns a{
-        
+        color: #fff;
     }
 </style>
 <script>
