@@ -1,8 +1,6 @@
 $(document).ready(function(){
     init();
-    var banners = getBanners();
-    renderBanner('#banner_template','#home_banner', banners);
-            
+    
     $('.products_list').slick({
         infinite: true,
         slidesToShow: 3,
@@ -44,53 +42,46 @@ $(document).ready(function(){
         }
     });
     
-	jQuery('.dynpost-left').addClass("hiddenAnimate").viewportChecker({
-	    classToAdd: 'visibleAnimate animated bounceInLeft',
-	    offset: 100    
-	   });
-	jQuery('.dynpost-right').addClass("hiddenAnimate").viewportChecker({
-	    classToAdd: 'visibleAnimate animated bounceInRight',
-	    offset: 100
-	});
+// 	jQuery('.dynpost-left').addClass("hiddenAnimate").viewportChecker({
+// 	    classToAdd: 'visibleAnimate animated bounceInLeft',
+// 	    offset: 100    
+// 	   });
+// 	jQuery('.dynpost-right').addClass("hiddenAnimate").viewportChecker({
+// 	    classToAdd: 'visibleAnimate animated bounceInRight',
+// 	    offset: 100
+// 	});
 	
 	var navbar = document.getElementById("header");
 	var headroom = new Headroom(navbar);
 	headroom.init();
 	
-	$('.flexslider').flexslider({
-        animation: "slide",
-    });
+	loadMallDataCached(renderAll); 
+
 });
 
-function renderBanner(banner_template,home_banner,banners){
-    var item_list = [];
-    var item_rendered = [];
-    var banner_template_html = $(banner_template).html();
-    Mustache.parse(banner_template_html);   // optional, speeds up future uses
-    $.each( banners , function( key, val ) {
-        today = new Date();
-        start = new Date (val.start_date);
-        start.setDate(start.getDate());
-        if(val.url == "" || val.url === null){
-            val.css = "style=cursor:default;";
-            val.noLink = "return false";
-        }
-        if (start <= today){
-            if (val.end_date){
-                end = new Date (val.end_date);
-                end.setDate(end.getDate() + 1);
-                if (end >= today){
-                    item_list.push(val);  
-                }
-            } else {
-                item_list.push(val);
-            }
-        }
+function renderAll () {
+    var banners = getBanners().sortBy(function(o){ return o.position});
+    renderBanner('#banner_template','#home_banner', banners);
+    
+    // home-mobile-banners
+    var repo_images = null;
+    repo = getRepoDetailsByName('Mobile Banners');
+    
+    if( repo !== null && repo !== undefined){
+        repo_images = repo.images.sortBy(function(o){ return o.id});
+        console.log("repo", repo_images);
+        // $.each( repo , function( key, val ) {
+        //     // val.image_url = post_details[0].author;
+        //     // image_url
+        // });
+        renderGeneral('#mobile_home_banner', '#mobile_banner_template', repo_images);
+        $('.flexslider.banner_slider.show_phone').flexslider({
+            animation: "slide",
+        });
+    }
+    
+    
+    $('.flexslider.banner_slider').flexslider({
+        animation: "slide",
     });
-
-    $.each( item_list , function( key, val ) {
-        var repo_rendered = Mustache.render(banner_template_html,val);
-        item_rendered.push(repo_rendered);
-    });
-    $(home_banner).html(item_rendered.join(''));
 }
