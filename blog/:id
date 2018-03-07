@@ -35,7 +35,7 @@
         var slug = pathArray[pathArray.length-1];
         
         var blog_posts = getPublishedPostDetailsBySlug(slug);
-        console.log("blog_posts", blog_posts);
+        console.log("current post", blog_posts);
         renderGeneral('#blog_banner','#blog_banner_template', blog_posts);
         var all_posts = getBlogDataBySlug("home-mall-maverick-blog").posts.sortBy(function(o){ return o.publish_date})
         renderPosts('#all_blogs_container','#all_blogs_template', all_posts);
