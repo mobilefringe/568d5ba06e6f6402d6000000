@@ -210,8 +210,7 @@
             animation: "slide",
         });
     });
-    
-    
+
     function load_more(num){
         var n = parseInt(num);
         console.log("n",n);
