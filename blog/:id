@@ -45,7 +45,7 @@
     #all_blogs_container{
         margin: 50px auto;
     }
-    .share_btns{
+    .share_btns a{
         
     }
 </style>
