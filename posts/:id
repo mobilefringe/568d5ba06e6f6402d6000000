@@ -172,3 +172,62 @@
         </ul>
     </div>
 </section>
+
+<style>
+    #header {
+        background: transparent;
+    }
+    #features_menu {
+        background:rgba(0,0,0,0.8);
+    }
+</style>
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        loadMallDataCached(renderAll); 
+    });
+    function renderAll () {
+        // var banners = getBanners().sortBy(function(o){ return o.position});
+        // renderBanner('#blog_banner_template','#blog_banner', banners);
+        
+        // home-mall-maverick-blog
+        var blog_posts = getBlogDataBySlug("home-mall-maverick-blog").posts.sortBy(function(o){ return o.publish_date}).splice(0,4);
+        console.log("blog_posts", blog_posts);
+        renderGeneral('#blog_banner','#blog_banner_template', blog_posts);
+        var all_posts = getBlogDataBySlug("home-mall-maverick-blog").posts.sortBy(function(o){ return o.publish_date})
+        renderPosts('#all_blogs_container','#all_blogs_template', all_posts);
+        load_more(1);
+            
+        $('#load_more_posts').click(function(e){
+            var i = $('#num_loaded').val();
+            load_more(i);
+            e.preventDefault();
+        });
+    
+    }
+    $(window).load(function(){
+        $('.blog_banner_slider').flexslider({
+            animation: "slide",
+        });
+    });
+    
+    
+    function load_more(num){
+        var n = parseInt(num);
+        console.log("n",n);
+        var i = 0;
+        for(i = n; i < n + 6; i++){
+            var id = i.toString();
+            $('#show_' + id ).fadeIn();
+            console.log("i", i);
+        }
+        var posts = getBlogDataBySlug("home-mall-maverick-blog").posts.sortBy(function(o){ return o.publish_date});
+        var total_posts = posts.length;
+        console.log("total_posts",total_posts, "i", i);
+        if(i >= total_posts+1){
+            $('#loaded_posts').fadeOut();
+            $('#all_loaded').show().css('display', 'inline-block');
+        }
+        $('#num_loaded').val(i);
+    }
+</script>
