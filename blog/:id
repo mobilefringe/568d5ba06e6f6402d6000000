@@ -47,6 +47,7 @@
     }
     .share_btns a{
         color: #fff;
+        margi: auto 7px;
     }
     
     .share_btns a .fa {
