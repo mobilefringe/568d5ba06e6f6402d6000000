@@ -9,7 +9,7 @@
                                 <h2 class="banner_title">{{title}}</h2>
                                 <p class="blog_date">{{author}}</p>
                                 <p class="blog_date">{{publish_date}}</p>
-                                <p class=""share_btns>
+                                <p class="share_btns">
                                     <a href="https://twitter.com/home?status=@CornwallCentre //cornwallcentre.com/blog/{{slug}}" target="_blank"  data-value="Twitter">
                                         <i class="fa fa-twitter"></i>
                                     </a>
