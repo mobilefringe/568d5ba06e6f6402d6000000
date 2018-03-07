@@ -7,7 +7,6 @@
                         <div class="main_container hero_container" >
                             <div class="banner_text">
                                 <h2 class="banner_title">{{title}}</h2>
-                                <a class="banner_btn " href="/posts/{{slug}}"><p>Read Article</p></a>
                             </div>
                         </div>
                     </div>
