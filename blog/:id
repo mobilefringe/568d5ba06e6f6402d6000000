@@ -50,7 +50,7 @@
         margin: auto 7px;
     }
     .share_btns a:hover{
-        color: #fff;
+        color: #FFBE1D;
     }
     
     .share_btns a .fa {
