@@ -33,6 +33,7 @@
     function renderAll () {
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
+        
         var blog_posts = getPublishedPostDetailsBySlug("home-mall-maverick-blog").posts.sortBy(function(o){ return o.publish_date}).splice(0,4);
         console.log("blog_posts", blog_posts);
         renderGeneral('#blog_banner','#blog_banner_template', blog_posts);
