@@ -124,6 +124,7 @@ function renderGeneral(container, template, collection){
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
     });
+    console.log(item_rendered)l
     $(container).html(item_rendered.join(''));
 }
 
