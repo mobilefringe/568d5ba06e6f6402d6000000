@@ -45,6 +45,9 @@
     #all_blogs_container{
         margin: 50px auto;
     }
+    .share_btns{
+        
+    }
 </style>
 <script>
     $(document).ready(function(e) {
