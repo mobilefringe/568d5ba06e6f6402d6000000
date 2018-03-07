@@ -21,8 +21,6 @@
     <div id="all_blogs_container">
         <script id="all_blogs_template" type="x-tmpl-mustache/text">
         <div>
-            // <div class="blog_image" style="background-image: url({{image_url}});">
-            </div>
             <div>
                 <p class="blog_title caps">{{title}}</p>
                 <p class="blog_date">{{publish_date}}</p>
