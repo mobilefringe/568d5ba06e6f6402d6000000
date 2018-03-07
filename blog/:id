@@ -20,7 +20,7 @@
 <section>
     <div id="all_blogs_container">
         <script id="all_blogs_template" type="x-tmpl-mustache/text">
-        <div>
+        <div class="main_container">
             {{{html_body}}}
         </div>
         </script>
