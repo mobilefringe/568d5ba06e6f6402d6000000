@@ -13,7 +13,7 @@
                                     <a href="https://twitter.com/home?status=@CornwallCentrehttp://mallmaverick.com//posts/{{slug}}" target="_blank"  data-value="Twitter">
                                         <i class="fa fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.facebook.com/sharer.php?u=http://mallmaverick.com//blog/{{slug}}" target="_blank" data-value="Facebook">
+                                    <a href="https://www.facebook.com/sharer.php?u=http://mallmaverick.com/posts/{{slug}}" target="_blank" data-value="Facebook">
                                         <i class="fa fa-facebook"></i>
                                     </a>
                                 </p>
