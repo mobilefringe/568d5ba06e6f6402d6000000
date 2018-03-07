@@ -38,7 +38,7 @@
         console.log("current post", current_post);
         renderGeneral('#blog_banner','#blog_banner_template', current_post);
         // var all_posts = getBlogDataBySlug("home-mall-maverick-blog").posts.sortBy(function(o){ return o.publish_date})
-        renderPosts('#all_blogs_container','#all_blogs_template', current_post);
+        renderPostDetails('#all_blogs_container','#all_blogs_template', current_post);
         
     
     }
