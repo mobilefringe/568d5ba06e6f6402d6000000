@@ -21,7 +21,7 @@
     <div id="all_blogs_container">
         <script id="all_blogs_template" type="x-tmpl-mustache/text">
         <div>
-            {{body}}
+            {{{html_body}}}
         </div>
         </script>
     </div>
