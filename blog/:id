@@ -19,7 +19,6 @@
     <div id="all_blogs_container">
         <script id="all_blogs_template" type="x-tmpl-mustache/text">
         <div>
-            <!-- <img src="{{image_url}}" class="" alt=""> -->
             <div class="blog_image" style="background-image: url({{image_url}});">
             </div>
             <div>
