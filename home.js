@@ -83,5 +83,6 @@ function renderAll () {
     
     $('.flexslider.banner_slider').flexslider({
         animation: "slide",
+        slideshow: "false"
     });
 }
