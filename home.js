@@ -77,13 +77,13 @@ function renderAll () {
         renderGeneral('#mobile_home_banner', '#mobile_banner_template', repo_images);
         $('.flexslider.banner_slider.show_phone').flexslider({
             animation: "slide",
-            slideshow: "false"
+            slideshow: false
         });
     }
     
     
     $('.flexslider.banner_slider').flexslider({
         animation: "slide",
-        slideshow: "false"
+        slideshow: false
     });
 }
