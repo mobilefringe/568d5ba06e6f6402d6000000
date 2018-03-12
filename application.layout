@@ -109,9 +109,9 @@
                     <div class="col-xs-4 text-right">
                         <a href="/contact">Contact</a>
                     </div>
-                    <div>
-                        <a href="/posts">Blog</a>
-                    </div>
+                    <!--<div>-->
+                    <!--    <a href="/posts">Blog</a>-->
+                    <!--</div>-->
                     <div class="col-xs-12">
                         <ul id="mobile_feature_container" class="mobile_submenu">
                             <script id="mobile_feature_template" type="x-tmpl-mustache/text">
