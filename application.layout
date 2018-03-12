@@ -77,7 +77,7 @@
                         <li><a href="#" class="" id="open_features">Features <i class="fa fa-chevron-down"></i></a></li>
                         <li><a href="/faq">FAQ</a></li>
                         <li><a href="/contact">Contact</a></li>
-                        <li><a href="/posts">Blog</a></li>
+                        <!--<li><a href="/posts">Blog</a></li>-->
                     </ul>
                     
                 </div>
