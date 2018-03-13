@@ -70,10 +70,10 @@ function renderAll () {
     if( repo !== null && repo !== undefined){
         repo_images = repo.images.sortBy(function(o){ return o.id});
         console.log("repo", repo_images);
-        $.each( repo , function( key, val ) {
-            val.image_url = "//mallmaverick.com"+val.photo_url;
-            // image_url
-        });
+        // $.each( repo , function( key, val ) {
+        //     val.image_url = "//mallmaverixk"+val.photo_url;
+        //     // image_url
+        // });
         renderGeneral('#mobile_home_banner', '#mobile_banner_template', repo_images);
         $('.flexslider.banner_slider.show_phone').flexslider({
             animation: "slide",
