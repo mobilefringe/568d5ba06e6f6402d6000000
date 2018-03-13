@@ -46,7 +46,7 @@
                         <div class="banner_img" style="background-image: url({{image_url}});"
                     </a> -->
                 
-                    <div id="hero" style="background-image:url('{{image_url}}')">
+                    <div id="hero" style="background-image:url('{{photo_url_abs}}')">
                         <div class="main_container hero_container" >
                             <div class="banner_text">
                                 <h2 class="banner_title">{{name}}</h2>
