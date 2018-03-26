@@ -528,6 +528,7 @@
                 }
              });
         }); 
+        console.log("sorted_s_templates", sorted_s_templates);
         //console.log(sorted_templates);
         sorted_s_templates = sorted_s_templates.sortBy(function(o){ return o.publish_date }).reverse();
         renderGeneral('#standard_design_container','#standard_design_template', sorted_s_templates);
