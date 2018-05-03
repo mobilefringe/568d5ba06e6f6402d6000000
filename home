@@ -86,7 +86,7 @@
             <p class="desc">
                 Our tag line is <i>“Enter it once, and see it everywhere”</i>, meaning, all mall content will be automatically updated across all of your shopping center’s digital channels.
             </p>
-            <a href="/contact" class="contact_us">Contact Us</a>
+            <a href="/pages/home-contact" class="contact_us">Contact Us</a>
         </div>
     </div>
     <hr class="breakline show_phone">
