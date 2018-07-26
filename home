@@ -94,7 +94,7 @@
     <h2 class="heading text-center">Our Clients</h2>
         <div class="main_container text-center">
             <div class="row margin_100">
-                <div class="col-sm-6 dynpost-left">
+                <div class="col-sm-6">
                     <p class="text-left">
                         No challenge too big. No detail too small.
                         <br/>
@@ -105,7 +105,7 @@
                         Education | Architecture, Construction & Engineering | Hospitality"
                     </p>
                 </div>
-                <div class="col-sm-6 dynpost-right">
+                <div class="col-sm-6">
                     <div class="col-sm-4 client_logo_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532551688000/BentallKennedy.png"/>
                     </div>
