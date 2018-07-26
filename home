@@ -89,6 +89,7 @@
             <a href="/pages/home-contact" class="contact_us">Contact Us</a>
         </div>
     </div>
+    <hr class="breakline">
     <div id="client_section">
     <h2 class="heading text-center">Our Clients</h2>
         <div class="main_container text-center">
