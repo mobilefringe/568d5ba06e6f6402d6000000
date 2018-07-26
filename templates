@@ -1,6 +1,6 @@
 <section class="template_banner hidden_phone">
     <div class = "inside_container">
-        <h2 class="text-center inside_main_header col-sm-5 col-xs-12" id="mm_post_title">THE BEST IN SHOPPING CENTRE WEBSIDE DESIGNS</h2>
+        <h2 class="text-center inside_main_header col-sm-4 col-xs-12" id="mm_post_title">THE BEST IN SHOPPING CENTRE WEBSIDE DESIGNS</h2>
         <br/>
         <p class="text-center desc banner_text" id="mm_post_author"></p>
         <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497888964000/Pattern Asset.png" class="hidden_phone template_banner_image" alt=""/>
@@ -227,7 +227,7 @@
         $(".template_banner_image").removeClass("custom_tab");
         $(".template_banner_image").removeClass("standard_tab");
         $("#mm_post_title").removeClass("col-sm-12");
-        $("#mm_post_title").addClass("col-sm-5");
+        $("#mm_post_title").addClass("col-sm-4");
         $('.template_banner.hidden_phone #orange_line').hide();
        
         $(".hidden_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497890003000/Pattern.png')", "background-size": "100% 100%","padding": "170px 0 227px 0" });
