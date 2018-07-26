@@ -108,28 +108,28 @@
                     <div class="col-sm-4 client_logo_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532551688000/BentallKennedy.png"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 client_logo_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532551688000/Morguard.png"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 client_logo_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532551688000/Oxford.png"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 client_logo_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532551688000/Vestar.png"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 client_logo_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532551688000/Westcliff.png"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 client_logo_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532551688000/Cushman.png"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 client_logo_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532551688000/Primaris.png"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 client_logo_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532551688000/Northpark.png"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 client_logo_container">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532551688000/Fairbourne.png"/>
                     </div>
                 </div>
