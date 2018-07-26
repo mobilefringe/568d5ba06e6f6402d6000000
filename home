@@ -91,7 +91,10 @@
     </div>
     <div id="client_section">
         <div class="main_container text-center">
-            
+            <div class="row margin_100">
+                <div class="col-sm-6 dynpost-left">
+                </div>
+            </div>
         </div>
     </div>
     <hr class="breakline show_phone">
