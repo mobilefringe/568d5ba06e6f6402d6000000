@@ -2646,7 +2646,7 @@ hr.grey_line {
             float:left;
             padding: 17px;
             a{
-                color: #fff;
+                color: #000;
                 font-size:16px;
                 &:hover, &:focus{
                     text-decoration:none;
