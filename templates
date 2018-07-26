@@ -226,7 +226,7 @@
         $(".mm_post_author_m").removeAttr( 'style' );
         $(".template_banner_image").removeClass("custom_tab");
         $(".template_banner_image").removeClass("standard_tab");
-        $("#mm_post_title").removeClass("col-sm-12");
+        $("#mm_post_title").removeClass("col-md-4 col-sm-12");
         $("#mm_post_title").addClass("col-sm-5");
         $('.template_banner.hidden_phone #orange_line').hide();
        
