@@ -4,7 +4,6 @@
         <br/>
         <p class="text-center desc banner_text" id="mm_post_author"></p>
         <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497888964000/Pattern Asset.png" class="hidden_phone template_banner_image" alt="">
-            <!--<img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497888964000/Pattern Asset.png" class="show_phone template_banner_image" alt="">-->
         <img id="orange_line" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1497030625000/Orange Line.png" class="hidden_now" alt="">
     </div>
 </section>
