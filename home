@@ -90,6 +90,7 @@
         </div>
     </div>
     <div id="client_section">
+    <h2 class="heading text-center">our clients</h2>
         <div class="main_container text-center">
             <div class="row margin_100">
                 <div class="col-sm-6 dynpost-left">
