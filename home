@@ -1,0 +1,285 @@
+<div id="wrapper">
+    <div class="flexslider banner_slider hidden_phone">
+        <ul class="slides" id="home_banner">
+            <script id="banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    <!-- <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                        <div class="banner_img" style="background-image: url({{image_url}});">
+                    </a> -->
+                
+                    <div id="hero" style="background-image:url('{{image_url}}')">
+                        <div class="main_container hero_container" >
+                            <div class="banner_text">
+                                <h2 class="banner_title">{{name}}</h2>
+                                <a class="banner_btn " href={{url}}><p>{{description}}</p></a>
+                            </div>
+                            <div class="features">
+                            
+                                <!--<div class="col-md-4 banner_icons">-->
+                                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/devices.png" class="width_100" alt="responsive website">-->
+                                <!--</div>-->
+                                <!--<div class="col-md-4 banner_icons">-->
+                                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1494511417000/CMS.png" class="width_100" alt="apps for all devices">-->
+                                <!--</div>-->
+                                <!--<div class="col-md-4 banner_icons">-->
+                                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/zendesk.png" class="width_100" alt="digital directory">-->
+                                <!--</div>-->
+                            </div>
+                            <!--<div class="scroll_hero">
+                                <a href="/#contact" class="scroll">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <br />
+                                    <span>SCROLL DOWN</span>
+                                </a>
+                            </div>-->
+                        </div>
+                    </div>
+                </li>
+            </script>
+        </ul>
+    </div>
+    <div class="flexslider banner_slider show_phone">
+        <ul class="slides" id="mobile_home_banner">
+            <script id="mobile_banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    <!-- <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                        <div class="banner_img" style="background-image: url({{image_url}});"
+                    </a> -->
+                
+                    <div id="hero" style="background-image:url('{{photo_url_abs}}')">
+                        <div class="main_container hero_container" >
+                            <div class="banner_text">
+                                <h2 class="banner_title">{{name}}</h2>
+                                <a class="banner_btn " href={{url}}><p>{{description}}</p></a>
+                            </div>
+                            <div class="features">
+                            
+                                <!--<div class="col-md-4 banner_icons">-->
+                                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/devices.png" class="width_100" alt="responsive website">-->
+                                <!--</div>-->
+                                <!--<div class="col-md-4 banner_icons">-->
+                                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1494511417000/CMS.png" class="width_100" alt="apps for all devices">-->
+                                <!--</div>-->
+                                <!--<div class="col-md-4 banner_icons">-->
+                                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/zendesk.png" class="width_100" alt="digital directory">-->
+                                <!--</div>-->
+                            </div>
+                            <!--<div class="scroll_hero">
+                                <a href="/#contact" class="scroll">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <br />
+                                    <span>SCROLL DOWN</span>
+                                </a>
+                            </div>-->
+                        </div>
+                    </div>
+                </li>
+            </script>
+        </ul>
+    </div>
+    <div id="contact">
+        <h2 class="heading text-center">The Best Mall Website and Digital Marketing Solution</h2>
+        <div class="main_container text-center">
+            <p class="desc">
+                Let us design and develop your mall website using the knowledge of having 100 shopping centers currently on our Mall Maverick content management solution. With 6 years of experience in the retail industry, we have gained the expertise to understand the common problems that shopping center marketing managers face.
+            </p>
+            <p class="desc">
+                Our tag line is <i>“Enter it once, and see it everywhere”</i>, meaning, all mall content will be automatically updated across all of your shopping center’s digital channels.
+            </p>
+            <a href="/pages/home-contact" class="contact_us">Contact Us</a>
+        </div>
+    </div>
+    <div id="client_section">
+        
+    </div>
+    <hr class="breakline show_phone">
+    <div id="mall_maverick">
+        <div class="main_container">
+            <h2 class="heading2 text-center">WHY MALL MAVERICK?</h2>
+            <div class="margin_100 hidden_phone"></div>
+            <div class="row margin_100">
+                <div class="col-sm-6 dynpost-left">
+                    <h3 class="subheading">Best in Class Content Management</h3>
+                    <p class="desc2">
+                        Manage your website, mobile apps, directory boards and more all in one place with our custom built CMS. We take care of everything from hosting, 24/7 support and app store management.
+                    </p>
+                </div>
+                <div class="col-sm-6 text-center dynpost-right">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/setting.png" class="mm_img" alt="setting">
+                </div>
+            </div>
+
+            <div class="row margin_100">
+                <div class="col-sm-6 col-sm-push-6 dynpost-right">
+                    <h3 class="subheading">Your Center’s Brand Matters</h3>
+                    <p class="desc2">
+                        Have your center's brand and design front and center with custom designed websites and native apps specifically built for your centers. We work closely with you on design and brand so other apps don't define it for you.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6 text-center dynpost-left">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/paint.png" class="mm_img" alt="paint">
+                </div>
+            </div>
+            
+            <div class="row margin_100">
+                <div class="col-sm-6 dynpost-left">
+                    <h3 class="subheading">#1 in Customer Service</h3>
+                    <p class="desc2">
+                        Mall Maverick prides itself on giving peace of mind to all of our clients.  We ensure our customer support team is there to assist you every step of the way.  Being #1 in customer service is a core value for our team.
+                    </p>
+                </div>
+                <div class="col-sm-6 text-center dynpost-right">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1494446134000/CustomerServiceIcon-01.png" class="mm_img" alt="envelope">
+                </div>
+            </div>
+            
+            <div class="row margin_100">
+                <div class="col-sm-6 col-sm-push-6 dynpost-right">
+                    <h3 class="subheading">Amazing Analytics</h3>
+                    <p class="desc2">
+                        Experience an unprecedented level of analytics about who your shoppers are and what they like. Helping you understand the most successful ways to engage your users.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6 text-center dynpost-left">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/data.png" class="mm_img" alt="data">
+                </div>
+            </div>
+            
+            <div class="row margin_100">
+                <div class="col-sm-6 dynpost-left">
+                    <h3 class="subheading">Contests, Gift Cards, Loyalty Programs</h3>
+                    <p class="desc2">
+                        Create custom contests, loyalty programs and gift card programs in a snap with our online tools. Collect customer information in one place with amazing levels of demographic detail.
+                    </p>
+                </div>
+                <div class="col-sm-6 text-center dynpost-right">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/present.png" class="" alt="">
+                </div>
+            </div>
+            
+            <div class="row margin_100">
+                <div class="col-sm-6 col-sm-push-6 dynpost-right">
+                    <h3 class="subheading">Multi Center Platform</h3>
+                    <p class="desc2">
+                        Roll out features and common design templates for all your centers. Share resources, assets and campaigns easily accross all centers for amazing corporate savings.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6 text-center dynpost-left">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/undefined/responsive.png" class="mm_img" alt="responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="more_features">
+        <div class="main_container">
+            <h2 class="heading text-center special_heading">Responsive Websites, Native Mobile Applications <br />& Digital Directory Boards</h2>
+            <p class="desc">We have so many great features for your website!</p>
+            <div class="row mobile_features">
+                <div class="col-md-10 middle_align">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <ul class="features_list">
+                                <li>Update Once</li>
+                                <li>Retailer Login</li>
+                                <li>Analytics</li>
+                                <li>Multi-Center Platforms</li>
+                                <li>Loyalty & Gift Card Programs</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <ul class="features_list">
+                                <li>Live Chat</li>
+                                <li>Routing & Waypoint Finding</li>
+                                <li>Advanced Push Notifications</li>
+                                <li>Social Media Integration</li>
+                                <li>Email Newsletters & Marketing</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <ul class="features_list">
+                                <li>3rd Party Integration</li>
+                                <li>Marketing Intern</li>
+                                <li>Campaigns & Contests</li>
+                                <li>Digital Board Media</li>
+                                <li>Center Map Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div id="products">-->
+    <!--    <div class="main_container">-->
+    <!--        <h3 class="main_heading text-center">OUR LATEST PRODUCTS</h3>-->
+    <!--        <div class="products_list">-->
+    <!--            <div>-->
+    <!--                <div class="slick_insider">-->
+    <!--                    <img src="//placehold.it/300x300" />-->
+    <!--                    <h3 class="products_heading">Dixie Outlet Mall</h3>-->
+    <!--                    <h5 class="products_subheading">Responsive Website</h5>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div>-->
+    <!--                <div class="slick_insider">-->
+    <!--                    <img src="//placehold.it/300x300" />-->
+    <!--                    <h3 class="products_heading">Heartland Town Center</h3>-->
+    <!--                    <h5 class="products_subheading">Responsive Website, APP</h5>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div>-->
+    <!--                <div class="slick_insider">-->
+    <!--                    <img src="//placehold.it/300x300" />-->
+    <!--                    <h3 class="products_heading">NorthPark Center</h3>-->
+    <!--                    <h5 class="products_subheading">Responsive Website, APP</h5>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div>-->
+    <!--                <div class="slick_insider">-->
+    <!--                    <img src="//placehold.it/300x300" />-->
+    <!--                    <h3 class="products_heading">NorthPark Center</h3>-->
+    <!--                    <h5 class="products_subheading">Responsive Website, APP</h5>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div>-->
+    <!--                <div class="slick_insider">-->
+    <!--                    <img src="//placehold.it/300x300" />-->
+    <!--                    <h3 class="products_heading">NorthPark Center</h3>-->
+    <!--                    <h5 class="products_subheading">Responsive Website, APP</h5>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    <hr class="breakline">
+    <div id="subscribe">
+        <div class="main_container text-center">
+            <h2 class="heading text-center">Subscribe & Get Updates!</h2>
+            <p class="desc">Subscribe to our newsletter and get information catered to the retail property management industry and updated Mall Maverick features.</p>
+            <div class="row">
+                <div class="col-md-5 text-left middle_align">
+                    <form action="//mobilefringe.createsend.com/t/d/s/yuxz/" method="post" id="subForm">
+                    <div class="">
+                        <input type="text" name="cm-yuxz-yuxz" class="form-control custom_form_control" placeholder="Enter Email" required="">
+                    </div>
+                    <div class="submit">
+                        <span class="agree_terms_label">
+                        <!--<input type="submit" value="SUBMIT" class="submit_btn">-->
+                        <button type="submit" class="submit_btn button--ujarak">SUBMIT</button>
+                        </span>
+                        <div class="checkbox-mobile">
+                        <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
+                        <label for="agree_terms" class="confirm_label checkbox-custom-label">
+                            I agree to receive electronic mail messaging from Mall Maverick
+                        </label>
+                        <p id="success_subscribe">Thank you for subscribing our newsletter.</p>
+                    </div>
+                        
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/home.js"></script>
