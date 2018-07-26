@@ -361,7 +361,7 @@
         $('.template_banner.hidden_phone #orange_line').show();
         $(".button_bar").css({"margin-bottom": "70px"});
         
-        $(".hidden_phone.template_banner").css({"background-image":"url('')", "background-color":"#fff", "padding-bottom" :"45px"});
+        $(".hidden_phone.template_banner").css({"background-image":"url('//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/jpeg/1532552434000/CustomPage.jpg')", "background-color":"#fff", "padding-bottom" :"45px"});
         $(".template_banner_image").addClass("custom_tab");
         $(".hidden_phone.template_banner_image").attr('src', '//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1499356255000/Mockupasset.png');
         $(".custom_tab.hidden_phone.template_banner_image").css({"max-width":"250px", "left":"19%","top": "110px"});
