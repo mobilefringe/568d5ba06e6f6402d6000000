@@ -21,56 +21,27 @@
     <div class="col-md-12 ">
         <div class="inside_container template_btn_contaienr" style="text-align:center" >
             <!--<h3>Mall Maverick Provides... </h3>-->
-            <!--<div class="col-md-3 col-sm-2 col-xs-12">-->
+            <div class="col-md-3 col-sm-2 col-xs-12">
 
-            <!--</div>-->
-            <!--<div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">-->
-            <!--    <a class="template_btn active_templ_btn" href="#premium" id="premium">-->
-            <!--    <label> Premium </label>-->
-            <!--</a>-->
-            <!--</div >-->
-            <!--<div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">-->
-            <!--    <a class="template_btn " href="#standard" id="standard" >-->
-            <!--    <label> Standard </label>-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--<div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">-->
-            <!--    <a class="template_btn " href="#custom" id="custom">-->
-            <!--    <label> Custom </label>-->
-            <!--</a>-->
-            <!--</div>-->
-            <!-- <div class="col-md-3 col-sm-1 col-xs-12">-->
-
-            <!--</div>-->
-            <!--<div class="col-sm-2 col-xs-12">-->
-                
-            <!--</div>-->
-            <div class="col-md-9 col-sm-12" style="float: none;margin: auto;">
-                <div class="col-sm-3 col-xs-12 template_btn_container align_left">
-                    <a class="template_btn active_templ_btn" href="#premium" id="premium">
-                    <label> Premium </label>
-                </a>
-                </div >
-                <div class="col-sm-3 col-xs-12 template_btn_container align_left">
-                    <a class="template_btn " href="#standard" id="standard" >
-                    <label> Standard </label>
-                </a>
-                </div>
-                <div class="col-sm-3 col-xs-12 template_btn_container align_left">
-                    <a class="template_btn " href="#custom" id="custom">
-                    <label> Custom </label>
-                </a>
-                </div>
-                <!--<div class="col-sm-3 col-xs-12 template_btn_container align_left">-->
-                <!--    <a class="template_btn " href="#landing_page" id="landing_page">-->
-                <!--    <label> Landing Pages </label>-->
-                <!--</a>-->
-                <!--</div>-->
             </div>
-            
-            <!-- <div class="col-sm-2 col-xs-12">-->
-                
-            <!--</div>-->
+            <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
+                <a class="template_btn active_templ_btn" href="#premium" id="premium">
+                <label> Premium </label>
+            </a>
+            </div >
+            <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
+                <a class="template_btn " href="#standard" id="standard" >
+                <label> Standard </label>
+            </a>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-12 template_btn_container">
+                <a class="template_btn " href="#custom" id="custom">
+                <label> Custom </label>
+            </a>
+            </div>
+             <div class="col-md-3 col-sm-1 col-xs-12">
+
+            </div>
         </div>
         <div class="inside_container newsletter_btn_contaienr hidden_now" style="text-align:center" >
             <div class="col-md-2 col-sm-2 col-xs-12 template_btn_container">
