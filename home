@@ -105,15 +105,33 @@
                     </p>
                 </div>
                 <div class="col-sm-6 dynpost-right">
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                        <img src=""/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src=""/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src=""/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src=""/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src=""/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src=""/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src=""/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src=""/>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src=""/>
+                    </div>
                 </div>
             </div>
         </div>
