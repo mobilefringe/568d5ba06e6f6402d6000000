@@ -7,7 +7,7 @@
         <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532713788000/templatepageasset1.png" class="hidden_phone template_banner_image" alt=""/>
     </div>
 </section>
-<section class="button_bar">
+<section class="button_bar clearfix">
     <div class="col-md-12 ">
         <div class="inside_container template_btn_contaienr" style="text-align:center" >
             <!--<h3>Mall Maverick Provides... </h3>-->
