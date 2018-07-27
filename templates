@@ -49,7 +49,7 @@
             <div id="premium_design_container" class="clearfix">            
                 <script id="premium_design_template" type="x-tmpl-mustache/text">
                 
-                    <div class="col-md-4 design_template">
+                    <div class="col-xs-12 design_template">
                         <div class="template_padding">
                             <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template " alt="" style="{{is_new}}">
                             <a href="/templates/{{slug}}" >
