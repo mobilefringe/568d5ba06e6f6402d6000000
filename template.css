@@ -371,3 +371,6 @@
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+/* Mobile devices (768px)*/
+@media (max-width: 768px){
