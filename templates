@@ -2,7 +2,7 @@
     <div class = "inside_container clearfix">
         <h2 class="text-center inside_main_header col-md-4 col-sm-5 col-xs-12" id="template_title">THE BEST IN SHOPPING CENTRE WEBSIDE DESIGNS</h2>
         <br/>
-        <p class="text-center desc banner_text" id="mm_post_author"></p>
+        <p class="text-center desc banner_text" id="template_description"></p>
         <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497888964000/Pattern Asset.png" class="hidden_phone template_banner_image" alt=""/>
         <img id="orange_line" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1497030625000/Orange Line.png" class="hidden_now" alt="">
     </div>
