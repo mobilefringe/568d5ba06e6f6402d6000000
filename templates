@@ -8,6 +8,14 @@
         <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532713788000/templatepageasset1.png" class="template_banner_image" alt=""/>
     </div>
 </section>
+<section class="template_banner" id="custom_template_banner">
+    <div class = "inside_container clearfix">
+        <h2 class="text-center inside_main_header col-sm-5 col-xs-12" id="template_title">THE BEST IN SHOPPING CENTRE WEBSITE DESIGNS</h2>
+        <br/>
+        <p class="text-center desc banner_text" id="template_description"></p>
+        <img id="template_banner_image" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1532713788000/templatepageasset1.png" class="template_banner_image" alt=""/>
+    </div>
+</section>
 <section class="button_bar clearfix">
     <div class="col-md-12 ">
         <div class="inside_container template_btn_contaienr" style="text-align:center" >
