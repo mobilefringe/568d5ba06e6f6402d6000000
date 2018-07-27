@@ -54,7 +54,7 @@
                             <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template " alt="" style="{{is_new}}">
                             <a href="/templates/{{slug}}" >
                                 <div class="template_img_container" style="position:relative">
-                                    <img src="{{image_url}}" alt="Design Template" class="template_img"/>
+                                    <img src="//mallmaverickstaging.com/{{image_url}}" alt="Design Template" class="template_img"/>
                                     <div class="template_hover">
                                     </div>
                                     <div class="hover_see_more_btn">
