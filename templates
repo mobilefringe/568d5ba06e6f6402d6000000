@@ -1,3 +1,4 @@
+link href="../application.css" rel="stylesheet">
 <section class="template_banner">
     <div class = "inside_container clearfix">
         <h2 class="text-center inside_main_header col-md-4 col-sm-5 col-xs-12" id="template_title">THE BEST IN SHOPPING CENTRE WEBSIDE DESIGNS</h2>
