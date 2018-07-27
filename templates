@@ -70,22 +70,22 @@
             </div>
             <div id="standard_design_container"  class="hidden_now clearfix design_containers">            
                 <script id="standard_design_template" type="x-tmpl-mustache/text">
-                
-                    <div class="col-md-4 col-sm-6 design_template">
-                     <div class="template_padding">
-                <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template " alt="" style="{{is_new}}">
-                        <a href="/templates/{{slug}}">
-                            <div class="template_img_container" style="position:relative">
-                                <img src="{{image_url}}" alt="Design Template" class="template_img"/>
-                                <div class="template_hover">
+                    <div class="col-xs-12 design_template">
+                        <div class="template_padding">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template " alt="" style="{{is_new}}">
+                            <a href="/templates/{{slug}}" >
+                                <div class="template_img_container" style="position:relative">
+                                    <img src="//mallmaverickstaging.com/{{image_url}}" alt="Design Template" class="template_img"/>
+                                    <div class="template_hover">
+                                    </div>
+                                    <div class="hover_see_more_btn">
+                                        <h3 class="hover_text">View Full Design </h3>
+                                    </div>
                                 </div>
-                                <div class="hover_see_more_btn">
-                                    <h3 class="hover_text">View Full Design </h3>
-                                </div>
-                            </div>
-                            <h3 class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
-                        </a>
-                    </div>
+                                <h3 class="post_title">{{title}} </h3> 
+                            </a>
+                            
+                        </div>
                     </div>
                 </script>
             </div>
