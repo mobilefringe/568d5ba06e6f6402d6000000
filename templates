@@ -89,7 +89,7 @@
                     </div>
                 </script>
             </div>
-        <div id="custom_design_container" class="hidden_now">
+        <div id="custom_design_container" class="hidden_now clearfix design_containers">
             <img id="custom_bg_asset" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1499960436000/Mockup Copy.png" class="hidden_now" alt="">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <h4> This design process asks for creative input and offers for full customization and exclusivity on all design and development.</h4>
