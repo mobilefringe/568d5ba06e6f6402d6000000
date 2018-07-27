@@ -119,7 +119,7 @@ function renderGeneral(container, template, collection){
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
         
-        val.template_image = "//mallmaverick.com" + val.photo_url;
+        val.template_image = "//mallmaverickstaging.com" + val.photo_url;
         
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
