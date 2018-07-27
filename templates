@@ -42,3 +42,105 @@
         </div>
     </div>
 </section>
+<section id="template_content" class="margin_100">
+    <div class="inside_container">
+        <div class="row">
+            <div id="premium_design_container">            
+                <script id="premium_design_template" type="x-tmpl-mustache/text">
+                
+                    <div class="col-md-4 design_template">
+                        <div class="template_padding">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template " alt="" style="{{is_new}}">
+                            <a href="/templates/{{slug}}" >
+                                <div class="template_img_container" style="position:relative">
+                                    <img src="{{image_url}}" alt="Design Template" class="template_img"/>
+                                    <div class="template_hover">
+                                    </div>
+                                    <div class="hover_see_more_btn">
+                                        <h3 class="hover_text">View Full Design </h3>
+                                    </div>
+                                </div>
+                                <h3 class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3> 
+                            </a>
+                            
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <div id="standard_design_container"  class="hidden_now">            
+                <script id="standard_design_template" type="x-tmpl-mustache/text">
+                
+                    <div class="col-md-4 col-sm-6 design_template">
+                     <div class="template_padding">
+                <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template " alt="" style="{{is_new}}">
+                        <a href="/templates/{{slug}}">
+                            <div class="template_img_container" style="position:relative">
+                                <img src="{{image_url}}" alt="Design Template" class="template_img"/>
+                                <div class="template_hover">
+                                </div>
+                                <div class="hover_see_more_btn">
+                                    <h3 class="hover_text">View Full Design </h3>
+                                </div>
+                            </div>
+                            <h3 class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
+                        </a>
+                    </div>
+                    </div>
+                </script>
+            </div>
+            <div id="landing_page_container"  class="hidden_now">            
+                <script id="landing_page_template" type="x-tmpl-mustache/text">
+                
+                    <div class="col-md-4 col-sm-6 design_template">
+                     <div class="template_padding">
+                <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template " alt="" style="{{is_new}}">
+                        <a href="/templates/{{slug}}">
+                            <div class="template_img_container" style="position:relative">
+                                <img src="{{image_url}}" alt="Design Template" class="template_img"/>
+                                <div class="template_hover">
+                                </div>
+                                <div class="hover_see_more_btn">
+                                    <h3 class="hover_text">View Full Design </h3>
+                                </div>
+                            </div>
+                            <h3 class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
+                        </a>
+                    </div>
+                    </div>
+                </script>
+            </div>
+            <div id="custom_design_container" class="hidden_now">
+            <img id="custom_bg_asset" src="//codecloud.cdn.speedyrails.net/sites/5b5a1e166e6f64135d330000/image/png/1499960436000/Mockup Copy.png" class="hidden_now" alt="">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4> This design process asks for creative input and offers for full customization and exclusivity on all design and development.</h4>
+                     <img id="orange_line" src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497030625000/Orange Line.png" class="" alt="">
+                     <p>
+                        
+                         Projects in this space are priced out individually after a discovery meeting with the shopping centre.
+                     </p>   
+                </div>
+            </div>
+            <div id="newsletter_design_container"  class="hidden_now">            
+                <script id="newsletter_design_template" type="x-tmpl-mustache/text">
+                
+                    <div class="col-md-4 col-sm-6 design_template">
+                     <div class="template_padding">
+                <img src="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/image/png/1497284935000/New_Template_Icon.png" class="new_template " alt="" style="{{is_new}}">
+                        <a href="/templates/{{slug}}">
+                            <div class="template_img_container" style="position:relative">
+                                <img src="{{image_url}}" alt="Design Template" class="template_img""/>
+                                <div class="template_hover">
+                                </div>
+                                <div class="hover_see_more_btn">
+                                    <h3 class="hover_text">View Full Design </h3>
+                                </div>
+                            </div>
+                            <h3 class="post_title">{{title}}  <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
+                        </a>
+                    </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
