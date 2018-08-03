@@ -124,43 +124,43 @@
 }
 
 #might_like{
-        background :#F9F9F9;
-        .flex-control-nav {
-            display: none;
-        }
-        .flex-direction-nav a:before {
-            font-size: 32px;
-        }
-        /*.flexslider_like {*/
-        /*    background : #F9F9F9;*/
-        /*}*/
-        // .flex-direction-nav a.flex-next:before {
-        //   content: '';
-        // }
-        // .flex-direction-nav a{
-        //     background: url(//codecloud.cdn.speedyrails.net/sites/5807b9fc6e6f646246030000/image/png/1494597988000/bg_direction_nav.png) no-repeat scroll 0 0 transparent;
-        //     /*display:none;*/
-           
-        // }
-        .flex-direction-nav .flex-next {
-            right: 0 !important; margin-right: -40px; opacity: 1 !important; 
-            
-        }
-        .flex-direction-nav .flex-prev {
-            left: 0 !important; opacity: 1 !important; margin-left: -40px; 
-            
-        }
-        .flexslider {
-            width: 90%; margin: 0 auto; 
-            
-        }
-        h4 {
-            font-size : 18px;
-        }
-        h3 {
-            font-size : 18px;
-            margin: 10px auto;
-        }
+    background :#F9F9F9;
+    .flex-control-nav {
+        display: none;
+    }
+    .flex-direction-nav a:before {
+        font-size: 32px;
+    }
+    /*.flexslider_like {*/
+    /*    background : #F9F9F9;*/
+    /*}*/
+    // .flex-direction-nav a.flex-next:before {
+    //   content: '';
+    // }
+    // .flex-direction-nav a{
+    //     background: url(//codecloud.cdn.speedyrails.net/sites/5807b9fc6e6f646246030000/image/png/1494597988000/bg_direction_nav.png) no-repeat scroll 0 0 transparent;
+    //     /*display:none;*/
+       
+    // }
+    .flex-direction-nav .flex-next {
+        right: 0 !important; margin-right: -40px; opacity: 1 !important; 
+        
+    }
+    .flex-direction-nav .flex-prev {
+        left: 0 !important; opacity: 1 !important; margin-left: -40px; 
+        
+    }
+    .flexslider {
+        width: 90%; margin: 0 auto; 
+        
+    }
+    h4 {
+        font-size : 18px;
+    }
+    h3 {
+        font-size : 18px;
+        margin: 10px auto;
+    }
 }
 
 .template_details {
