@@ -161,6 +161,10 @@
         font-size : 18px;
         margin: 10px auto;
     }
+    .template_btn {
+        width:250px;
+        padding: 30px;
+    }
 }
 
 .template_details {
