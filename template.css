@@ -164,6 +164,7 @@
     .template_btn {
         width:250px;
         padding: 30px;
+        height: auto;
     }
 }
 
