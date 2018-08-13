@@ -74,6 +74,7 @@ function renderAll () {
             val.image_url = "//mallmaverick.com"+val.photo_url;
             // image_url
         });
+        repo_images = repo_images.sortBy(function(o){ return o.id})
         renderGeneral('#mobile_home_banner', '#mobile_banner_template', repo_images);
         $('.flexslider.banner_slider.show_phone').flexslider({
             animation: "slide",
