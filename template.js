@@ -450,7 +450,7 @@ function removeStyling () {
     $('.design_containers').hide();
     $(".template_btn").removeClass("active_templ_btn");
     $("#template_content").removeClass("custom_container");
-    $("#template_title").text("THE BEST IN SHOPPING CENTRE WEBSITE DESIGNS");
+    $("#template_title").text("THE BEST IN SHOPPING CENTER WEBSITE DESIGNS");
     $("#default_template_banner").show();
     $("#custom_template_banner").hide()
 }
