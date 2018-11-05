@@ -67,8 +67,8 @@ function renderAll () {
     
     var video_banner = {};
     video_banner.name = "Video Title"
-    video.description = "Video description goes here";
-    video.isVideo = true;
+    video_banner.description = "Video description goes here";
+    vivideo_bannerdeo.isVideo = true;
     banners.unshift(video_banner);
     // <li>
     //             <div id="hero">
