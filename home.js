@@ -61,6 +61,22 @@ $(document).ready(function(){
 
 function renderAll () {
     var banners = getBanners().sortBy(function(o){ return o.position});
+    // <li>
+    //             <div id="hero">
+    //                 <video autoplay muted loop id="banner_video">
+    //                     <source src="https://www.mallmaverick.com/system/site_images/photos/000/045/539/original/GirlWalkingMM1.mp4?1541450822"
+    //                         type="video/mp4">
+    //                 </video>
+    //                 <div class="main_container hero_container">
+    //                     <div class="banner_text">
+    //                         <h2 class="banner_title">Video Title</h2>
+    //                         <a class="banner_btn " href="/">
+    //                             <p>Video description goes here</p>
+    //                         </a>
+    //                     </div>
+    //                 </div>
+    //             </div>
+    //         </li>
     renderBanner('#banner_template','#home_banner', banners);
     
     // home-mobile-banners
@@ -74,7 +90,7 @@ function renderAll () {
             val.image_url = "//mallmaverick.com"+val.photo_url;
             // image_url
         });
-        repo_images = repo_images.sortBy(function(o){ return o.id})
+        repo_images = repo_images.sortBy(function(o){ return o.id});
         renderGeneral('#mobile_home_banner', '#mobile_banner_template', repo_images);
         $('.flexslider.banner_slider.show_phone').flexslider({
             animation: "slide",
