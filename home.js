@@ -61,7 +61,7 @@ $(document).ready(function(){
 
 function renderAll () {
     var banners = getBanners().sortBy(function(o){ return o.position});
-    banner.map(banner => {
+    banners.map(banner => {
         banner.isVideo=false;
     });
     
