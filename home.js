@@ -62,7 +62,8 @@ $(document).ready(function(){
 function renderAll () {
     var banners = getBanners().sortBy(function(o){ return o.position});
     var video_banner = {};
-    banners.unshift(video_banner)
+    video_banner.name = "Video Title"
+    banners.unshift(video_banner);
     // <li>
     //             <div id="hero">
     //                 <video autoplay muted loop id="banner_video">
