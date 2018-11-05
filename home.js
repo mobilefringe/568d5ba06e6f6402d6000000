@@ -68,6 +68,7 @@ function renderAll () {
     var video_banner = {};
     video_banner.name = "Video Title"
     video_banner.description = "Video description goes here";
+    video_banner.image_url="https://www.mallmaverick.com/system/site_images/photos/000/045/539/original/GirlWalkingMM1.mp4?1541450822";
     video_banner.url = "/";
     video_banner.isVideo = true;
     video_banner.start_date = null;
