@@ -71,7 +71,7 @@ function renderAll () {
     video_banner.url = "/";
     video_banner.isVideo = true;
     banners.unshift(video_banner);
-   console.log("banners", banners)
+    console.log("banners", banners)
     renderBanner('#banner_template','#home_banner', banners);
     
     // home-mobile-banners
@@ -80,7 +80,6 @@ function renderAll () {
     
     if( repo !== null && repo !== undefined){
         repo_images = repo.images.sortBy(function(o){ return o.id});
-        console.log("repo", repo_images);
         $.each( repo , function( key, val ) {
             val.image_url = "//mallmaverick.com"+val.photo_url;
             // image_url
