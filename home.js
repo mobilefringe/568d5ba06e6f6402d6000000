@@ -76,7 +76,7 @@ function renderAll () {
     
     console.log("banners", banners)
     renderBanner('#banner_template','#home_banner', banners);
-    
+     document.getElementById('banner_video').play();
     // home-mobile-banners
     var repo_images = null;
     repo = getRepoDetailsByName('Mobile Banners');
