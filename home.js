@@ -68,25 +68,10 @@ function renderAll () {
     var video_banner = {};
     video_banner.name = "Video Title"
     video_banner.description = "Video description goes here";
-    video.url = "/"
+    video.url = "/";
     video_banner.isVideo = true;
     banners.unshift(video_banner);
-    // <li>
-    //             <div id="hero">
-    //                 <video autoplay muted loop id="banner_video">
-    //                     <source src="https://www.mallmaverick.com/system/site_images/photos/000/045/539/original/GirlWalkingMM1.mp4?1541450822"
-    //                         type="video/mp4">
-    //                 </video>
-    //                 <div class="main_container hero_container">
-    //                     <div class="banner_text">
-    //                         <h2 class="banner_title">Video Title</h2>
-    //                         <a class="banner_btn " href="/">
-    //                             <p>Video description goes here</p>
-    //                         </a>
-    //                     </div>
-    //                 </div>
-    //             </div>
-    //         </li>
+   
     renderBanner('#banner_template','#home_banner', banners);
     
     // home-mobile-banners
