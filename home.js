@@ -71,7 +71,7 @@ function renderAll () {
     video_banner.url = "/";
     video_banner.isVideo = true;
     banners.unshift(video_banner);
-   
+   console.log("banners", banners)
     renderBanner('#banner_template','#home_banner', banners);
     
     // home-mobile-banners
