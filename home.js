@@ -70,7 +70,7 @@ function renderAll () {
     video_banner.description = "Video description goes here";
     video_banner.url = "/";
     video_banner.isVideo = true;
-    video_banner.start_date = new Date();;
+    video_banner.start_date = null;
     banners.unshift(video_banner);
     
     console.log("banners", banners)
