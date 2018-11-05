@@ -61,6 +61,9 @@ $(document).ready(function(){
 
 function renderAll () {
     var banners = getBanners().sortBy(function(o){ return o.position});
+    banner.map(banner => {
+        banner.type="image"
+    })
     var video_banner = {};
     video_banner.name = "Video Title"
     video.description = "Video description goes here"
