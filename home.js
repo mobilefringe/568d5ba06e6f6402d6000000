@@ -79,17 +79,11 @@ function renderAll () {
      
      // Show loading animation.
     //   var playPromise = document.getElementById('banner_video').play();
-    
-    //   if (playPromise !== undefined) {
-    //     playPromise.then(_ => {
-    //       // Automatic playback started!
-    //       // Show playing UI.
-    //     })
-    //     .catch(error => {
-    //       // Auto-play was prevented
-    //       // Show paused UI.
-    //     });
-    //   }
+    var video = document.getElementById('banner_video')
+    video.oncanplaythrough = function() {
+    video.muted = true;
+    video.play();
+}
     // home-mobile-banners
     var repo_images = null;
     repo = getRepoDetailsByName('Mobile Banners');
