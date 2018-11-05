@@ -76,7 +76,20 @@ function renderAll () {
     
     console.log("banners", banners)
     renderBanner('#banner_template','#home_banner', banners);
-     document.getElementById('banner_video').play();
+     
+     // Show loading animation.
+      var playPromise = document.getElementById('banner_video').play();
+    
+      if (playPromise !== undefined) {
+        playPromise.then(_ => {
+          // Automatic playback started!
+          // Show playing UI.
+        })
+        .catch(error => {
+          // Auto-play was prevented
+          // Show paused UI.
+        });
+      }
     // home-mobile-banners
     var repo_images = null;
     repo = getRepoDetailsByName('Mobile Banners');
