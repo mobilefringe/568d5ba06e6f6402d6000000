@@ -78,18 +78,18 @@ function renderAll () {
     renderBanner('#banner_template','#home_banner', banners);
      
      // Show loading animation.
-      var playPromise = document.getElementById('banner_video').play();
+    //   var playPromise = document.getElementById('banner_video').play();
     
-      if (playPromise !== undefined) {
-        playPromise.then(_ => {
-          // Automatic playback started!
-          // Show playing UI.
-        })
-        .catch(error => {
-          // Auto-play was prevented
-          // Show paused UI.
-        });
-      }
+    //   if (playPromise !== undefined) {
+    //     playPromise.then(_ => {
+    //       // Automatic playback started!
+    //       // Show playing UI.
+    //     })
+    //     .catch(error => {
+    //       // Auto-play was prevented
+    //       // Show paused UI.
+    //     });
+    //   }
     // home-mobile-banners
     var repo_images = null;
     repo = getRepoDetailsByName('Mobile Banners');
