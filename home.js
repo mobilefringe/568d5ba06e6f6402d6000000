@@ -66,6 +66,7 @@ function renderAll () {
     });
     
     var video_repo = getRepoDetailsByName('Banner Video');
+    console.log("video_repo", video_repo)
     if( video_repo && video_repo.images){
         video_repo = video_repo.images[0]
         var video_banner = {};
