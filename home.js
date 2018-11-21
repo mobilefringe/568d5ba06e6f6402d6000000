@@ -75,7 +75,7 @@ function renderAll () {
         video_banner.image_url= video_repo.image_url//"https://www.mallmaverick.com/system/site_images/photos/000/045/539/original/GirlWalkingMM1.mp4?1541450822";
         video_banner.url = "/";
         video_banner.isVideo = true;
-        banner.className=""
+        banner.className="video_banner"
         video_banner.start_date = null;
         banners.unshift(video_banner);
     }
