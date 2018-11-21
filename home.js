@@ -67,6 +67,7 @@ function renderAll () {
     
     var video_repo = getRepoDetailsByName('Banner Video');
     if( video_repo !== null && video_repo !== undefined){
+        video_repo = video_repo.images[0]
         var video_banner = {};
         video_banner.name = "Video Title"
         video_banner.description = "Learn More";
