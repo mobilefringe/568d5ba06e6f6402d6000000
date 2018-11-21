@@ -65,6 +65,9 @@ function renderAll () {
         banner.isVideo=false;
     });
     
+    var repo_images = null;
+    repo = getRepoDetailsByName('Banner Video');
+    
     var video_banner = {};
     video_banner.name = "Video Title"
     video_banner.description = "Learn More";
