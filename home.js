@@ -66,7 +66,7 @@ function renderAll () {
     });
     
     var video_repo = getRepoDetailsByName('Banner Video');
-    if( video_repo !== null && video_repo !== undefined){
+    if( video_repo && video_repo.images){
         video_repo = video_repo.images[0]
         var video_banner = {};
         video_banner.name = "Video Title"
