@@ -65,8 +65,7 @@ function renderAll () {
         banner.isVideo=false;
     });
     
-    var repo_images = null;
-    repo = getRepoDetailsByName('Banner Video');
+    var video_repo = getRepoDetailsByName('Banner Video');
     if( repo !== null && repo !== undefined){
         var video_banner = {};
         video_banner.name = "Video Title"
