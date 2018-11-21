@@ -70,7 +70,7 @@ function renderAll () {
     if( video_repo && video_repo.images){
         video_repo = video_repo.images[0]
         var video_banner = {};
-        video_banner.name = "Video Title"
+        video_banner.name = "A COMPLETE MANAGEMENT SYSTEM FOR ALL YOUR DIGITAL CHANNELS"
         video_banner.description = "Learn More";
         video_banner.image_url= video_repo.image_url//"https://www.mallmaverick.com/system/site_images/photos/000/045/539/original/GirlWalkingMM1.mp4?1541450822";
         video_banner.url = "/";
