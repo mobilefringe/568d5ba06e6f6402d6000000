@@ -9,7 +9,7 @@ $(document).ready(function(e) {
         $("#premium").trigger("click");
         window.scrollTo(0, 0);
     }
-    else if(window.location.href.indexOf("#standard") > -1) {
+    else if(window.location.href.indexOf("#express") > -1) {
         $("#standard").addClass("active_templ_btn");
         $("#standard").trigger( "click" );
         console.log("trigger click!");
@@ -44,7 +44,6 @@ $(document).ready(function(e) {
     
     
 });
-
 
 function renderAll(){
     var templates = getBlogDataBySlug("home-templates").posts;
