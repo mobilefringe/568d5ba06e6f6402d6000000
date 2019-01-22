@@ -33,9 +33,7 @@ $(document).ready(function(e) {
         window.scrollTo(0, 0);
     }
     else if(window.location.href.indexOf("#corp_designs") > -1) {
-        $("#newsletters").addClass("active_templ_btn");
-        $("#newsletters").trigger("click");
-        changeNewsletterBG();
+        changeCorpBG();
         window.scrollTo(0, 0);
     }
     else {
