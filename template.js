@@ -11,7 +11,6 @@ $(document).ready(function(e) {
     else if(window.location.href.indexOf("#express") > -1) {
         $("#standard").addClass("active_templ_btn");
         $("#standard").trigger( "click" );
-        console.log("trigger click!");
         changeStandardBG();
         window.scrollTo(0, 0);
     }
@@ -30,7 +29,6 @@ $(document).ready(function(e) {
     else if(window.location.href.indexOf("#newsletter") > -1) {
         $("#newsletters").addClass("active_templ_btn");
         $("#newsletters").trigger("click");
-        console.log("this", window);
         changeNewsletterBG();
         window.scrollTo(0, 0);
     }
