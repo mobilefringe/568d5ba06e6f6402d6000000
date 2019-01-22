@@ -32,7 +32,7 @@ $(document).ready(function(e) {
         changeNewsletterBG();
         window.scrollTo(0, 0);
     }
-    else if(window.location.href.indexOf("#corn_designs") > -1) {
+    else if(window.location.href.indexOf("#corp_designs") > -1) {
         $("#newsletters").addClass("active_templ_btn");
         $("#newsletters").trigger("click");
         changeNewsletterBG();
