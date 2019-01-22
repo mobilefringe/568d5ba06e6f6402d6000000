@@ -2,7 +2,6 @@ $(document).ready(function(e) {
     init(e);
     loadMallDataCached(renderAll); 
     window.scrollTo(0, 0);
-    console.log("newsletter",window.location.href);
     if(window.location.href.indexOf("#premium") > -1) {
         changePremiumBG();
         $("#premium").addClass("active_templ_btn");
