@@ -177,6 +177,9 @@ function changeNewsletterBG() {
     $(".newsletter_btn_contaienr").show();
     $(".template_btn_contaienr").hide()
 }
+function changeCorpBG{
+    
+}
 function removeStyling () {
     $('.design_containers').hide();
     $(".template_btn").removeClass("active_templ_btn");
