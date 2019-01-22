@@ -16,11 +16,11 @@
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-        <link href="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/1448835474000/slick.css" rel="stylesheet">
-        <link href="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/1448835474000/slick-theme.css" rel="stylesheet">
+        <link href="https://codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/1448835474000/slick.css" rel="stylesheet">
+        <link href="https://codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/1448835474000/slick-theme.css" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/undefined/animate.css" rel="stylesheet" type="text/css" />
-        <link href="//codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/undefined/demo.css" rel="stylesheet" type="text/css" />
+        <link href="https://codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/undefined/animate.css" rel="stylesheet" type="text/css" />
+        <link href="https://codecloud.cdn.speedyrails.net/sites/568d5ba06e6f6402d6000000/text/css/undefined/demo.css" rel="stylesheet" type="text/css" />
         <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css" rel="stylesheet"/>
         <link href="../application.css" rel="stylesheet">
         <link href="../modal.css" rel="stylesheet">
