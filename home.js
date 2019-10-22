@@ -84,10 +84,10 @@ function renderAll () {
      
      // Show loading animation.
     //   var playPromise = document.getElementById('banner_video').play();
-    var video = document.getElementById('banner_video')
-    video.oncanplaythrough = function() {
-    video.muted = true;
-    video.play();
+    // var video = document.getElementById('banner_video')
+    // video.oncanplaythrough = function() {
+    // video.muted = true;
+    // video.play();
 }
     // home-mobile-banners
     var repo_images = null;
